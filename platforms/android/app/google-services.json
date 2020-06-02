@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "682146743039",
+    "firebase_url": "https://rtacommonshell.firebaseio.com",
+    "project_id": "rtacommonshell",
+    "storage_bucket": "rtacommonshell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682146743039:android:8acd0ea2bde9ec8e",
+        "android_client_info": {
+          "package_name": "com.RTA_Common_Shell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682146743039-s6r21id5lcdsq9gnoce4adc2a37evv8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvwQr8dlWodHPRNOILzNxfM-jiUqh1r3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682146743039-s6r21id5lcdsq9gnoce4adc2a37evv8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,117 @@
+{
+  "_from": "cordova-plugin-mfp@>=8.0.0",
+  "_id": "cordova-plugin-mfp@8.0.2020052505",
+  "_inBundle": false,
+  "_integrity": "sha512-zsWX8P08lXaYKEyjoNdaaE4JHdxjTjjy7rRoP6HxAtDwWjSy+aVLaXl8NK100wiJqaCagn0hzLeDAIGA3mOcPA==",
+  "_location": "/cordova-plugin-mfp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-mfp@>=8.0.0",
+    "name": "cordova-plugin-mfp",
+    "escapedName": "cordova-plugin-mfp",
+    "rawSpec": ">=8.0.0",
+    "saveSpec": null,
+    "fetchSpec": ">=8.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-mfp/-/cordova-plugin-mfp-8.0.2020052505.tgz",
+  "_shasum": "a34e3ecdb2a607a02b16ae5033fe50bffa1f9758",
+  "_spec": "cordova-plugin-mfp@>=8.0.0",
+  "_where": "C:\\RTA_Common-shell_V8\\RTA-CommonShell-V8",
+  "author": {
+    "name": "IBM"
+  },
+  "bundleDependencies": [
+    "crc",
+    "ibm-strings",
+    "mfp-config-xml",
+    "elementtree",
+    "nopt",
+    "plist",
+    "shelljs",
+    "npmlog",
+    "archiver",
+    "q",
+    "rimraf",
+    "xcode",
+    "express",
+    "request",
+    "cordova-serve",
+    "jssha",
+    "promiz",
+    "sjcl"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-mfp",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "archiver": "0.20.0",
+    "cordova-serve": "^1.0.0",
+    "crc": "^3.4.0",
+    "elementtree": "0.1.6",
+    "express": "^4.14.0",
+    "ibm-strings": "~0.1.0",
+    "jssha": "2.2.0",
+    "mfp-config-xml": "0.0.3",
+    "nopt": "^3.0.6",
+    "npmlog": "0.0.6",
+    "plist": "1.1.0",
+    "promiz": "1.0.5",
+    "q": "0.9.7",
+    "request": "^2.73.0",
+    "rimraf": "2.4.4",
+    "shelljs": "0.3.0",
+    "sjcl": "1.0.3",
+    "xcode": "0.8.7"
+  },
+  "deprecated": false,
+  "description": "IBM MobileFirst Platform Foundation Cordova Plugin",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=6.1.2 <7"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.1.1 <5"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.3.2 <6"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=6.1.1 <7"
+    }
+  ],
+  "keywords": [
+    "cordova",
+    "ibm",
+    "worklight",
+    "mobilefirst",
+    "mfp",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "name": "cordova-plugin-mfp",
+  "repository": {
+    "type": "git",
+    "url": "https://git.ng.bluemix.net/ibmmfpf/cordova-plugin-mfp/tree/master"
+  },
+  "version": "8.0.2020052505"
+}

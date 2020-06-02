@@ -1,0 +1,198 @@
+#accessibilityPage * {
+	font-family: rta-regular;
+}
+
+#accessibilityPage .ui-content {
+	padding: 25px 15px 25px 15px;
+}
+
+#accessibilityPage .acc-head {
+	margin-bottom: 30px;
+}
+
+#accessibilityPage .highConstrastCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#accessibilityPage .highConstrastCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+#accessibilityPage .highConstrastCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#accessibilityPage .blackAndWhiteCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#accessibilityPage .blackAndWhiteCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+#accessibilityPage .blackAndWhiteCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#accessibilityPage .zoomCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#accessibilityPage .zoomCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+#accessibilityPage .zoomCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#accessibilityPage #openSettings {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#accessibilityPage #openSettings span {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+.container-rtl #accessibilityPage .highConstrastCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #accessibilityPage .blackAndWhiteCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #accessibilityPage .blackAndWhiteCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #accessibilityPage .highConstrastCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #accessibilityPage .zoomCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #accessibilityPage .zoomCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #accessibilityPage #openSettings span {
+	left: auto;
+	right: 10px;
+}
+
+#accessibilityPage #openSettings i {
+    position: absolute;
+    right: 18px;
+    left: auto !important;
+    font-size: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container-rtl #accessibilityPage #openSettings i {
+     left: 18px !important;
+     right: auto !important;
+     -webkit-transform: rotate(-180deg);
+}
+#accessibilityPage #resetBtn {
+
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    color: #ee0000;
+    border-radius: 30px;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-transform: translate3d(0, 0, 0);
+    font-family: rta-regular;
+    bottom:0;
+    position:absolute;
+}
+#accessibilityPage {
+    bottom: 15px;
+}
+
+
+#accessibilityPage #openSettings{
+	display:none;
+}

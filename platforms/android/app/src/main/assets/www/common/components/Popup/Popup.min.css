@@ -1,0 +1,156 @@
+#PopupContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 99999999;
+}
+
+#PopupContainer #popupBlack {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	pointer-events: all;
+	transition-duration: 300ms;
+	opacity: 0;
+	display: none;
+	text-align: center;
+	overflow-y: scroll;
+	padding: 10px;
+}
+
+#PopupContainer #popupBlack:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#PopupContainer .popup {
+	max-width: 320px;
+	width: 90%;
+	height: auto;
+	border-radius: 5px;
+	overflow: hidden;
+	transition-duration: 300ms;
+	pointer-events: all;
+	display: none;
+	vertical-align: middle;
+}
+
+#PopupContainer .popup .popupHeader {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+	z-index: 10;
+	padding: 20px 15px;
+	padding-bottom: 13px;
+}
+
+#PopupContainer .popup .popupContent {
+	position: relative;
+	text-align: center;
+	padding: 15px;
+	color: #000;
+	max-height: 420px;
+	overflow: auto;
+	font-size: 15px;
+	background: #fff;
+	z-index: 10;
+}
+
+#PopupContainer .popup .popupBtns {
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 55px;
+	overflow: hidden;
+	border-radius: 0 0 5px 5px;
+	z-index: 10;
+}
+
+#PopupContainer .popup .cancelBtn {
+	left: 0;
+	background: #fff;
+	color: #ee0000;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+	right: 50%;
+	margin-right: 10px !important;
+}
+
+#PopupContainer .popup .okBtn {
+	left: 50%;
+	background: #ee0000;
+	right: 0;
+	margin-left: 10px;
+}
+
+#PopupContainer .popup .popupBtns div {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 40px;
+	margin: 20px 20px 20px 20px;
+	width: auto;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 30px;
+	overflow: hidden;
+	/* padding-left: 25px; */
+}
+
+#PopupContainer .popup .popupBtns .cancelBtn.disabled {
+	pointer-events: none;
+	opacity: 0.3;
+}
+
+#PopupContainer .popup .okBtn.disabled {
+	pointer-events: none;
+	opacity: 0.3;
+}
+
+#PopupContainer .popup .popupBtns .okBtn.singleBtn {
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+#PopupContainer .popup .mdi-close {
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 40px;
+	color: #333;
+	background: #fff;
+	border-radius: 100%;
+	line-height: 40px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.container-rtl #PopupContainer .popup .popupBtns {
+	direction: rtl;
+}
+
+.container-rtl #PopupContainer .popup .popupBtns .okBtn {
+	/* left: 0;
+	right: 50%; */
+	/* padding-right: 50px; */
+}
+
+.container-rtl #PopupContainer .popup .popupBtns .cancelBtn {
+	/* left: 50%;
+	right: auto; */
+	/* padding-right: 50px; */
+}

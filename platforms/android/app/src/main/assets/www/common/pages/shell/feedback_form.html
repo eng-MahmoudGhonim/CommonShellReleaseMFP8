@@ -1,0 +1,54 @@
+<div id="FeedbackFormPage" data-role="page" data-class="com/views/shell/FeedbackFormPageView">
+    <div id="content" data-role="content">
+
+        <div class="feedbackHead"> %shell.feedback.head% </div>
+        <div class="fieldRow fNamePart">
+            <span class="shell-label">%shell.first.name%</span>
+            <div class="shell-input-cont" id="fnameField">
+                <input data-role="none" type="text" placeholder="%shell.registeration.placeholder.firstname%" id="firstName" disabled>
+                <span class="icon-input-error"></span>
+                <span class="errorMessage"></span>
+            </div>
+        </div>
+        <div class="fieldRow">
+            <span class="shell-label">%shell.last.name%</span>
+            <div class="shell-input-cont" id="lnameField">
+                <input data-role="none" type="text" placeholder="%shell.registeration.placeholder.lastname%" id="lastName" disabled/>
+                <span class="icon-input-error"></span>
+                <span class="errorMessage"></span>
+            </div>
+        </div>
+        <div class="fieldRow">
+            <div class="fieldLabel">%shell.email.label%</div>
+            <div class="hint">( %shell.registeration.validation.mail.required% )</div>
+            <div class="shell-input-cont" id="emailField">
+                <input id="email" data-role="none" data-role="none" type="email" placeholder="%shell.register.email.placeholder%" disabled/>
+                <span class="icon-input-error"></span>
+                <span class="errorMessage"></span>
+            </div>
+        </div>
+        <div class="fieldRow">
+            <div class="fieldLabel">%shell.feedback.form.category%</div>
+            <div class="shell-dropdown-wrapper mdi mdi-chevron-down prefix">
+                <select id="selectFeedbackChoice" data-role="none" class="shell-select">
+                    <option value="pleaseselect" selected disabled>%shell.feedback.pleaseselect%</option>
+                    <option value="Complaint">%shell.feedback.Complaint%</option>
+                    <option value="Compliment">%shell.feedback.Compliment%</option>
+                    <option value="Notification">%shell.feedback.Notification%</option>
+                    <option value="Suggestion">%shell.feedback.Suggestion%</option>
+                    <option value="TechnicalIssue">%shell.feedback.TechnicalIssue%</option>
+                </select>
+            </div>
+        </div>
+        <div class="fieldRow messageCont">
+            <div class="fieldLabel">%shell.feedback.message%</div>
+            <div class="feedbackTextWrapper">
+                <textarea name="myArea" id="feedbackText" class="" maxlength="500"></textarea>
+            </div>
+        </div>
+        <div id="captchaInfo">
+
+        </div>
+        <div id="sendFeedbackBtn" class="sendFeedbackBtn waves-effect disabled">%shell.reportproblem.send%</div>
+    </div>
+</div>

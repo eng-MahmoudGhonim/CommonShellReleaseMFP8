@@ -1,0 +1,41 @@
+<div id="NotificationsPage" data-role="page"
+	data-class="com/views/shell/NotificationsPageView">
+
+	<div id=NotificationsHeader>
+		<i class="icon-select CheckAll" id="ChckBDeleteNotification"></i> <span
+			class="NotificationsText">%shell.Notifications.Notifications%</span> <i
+			id="cancelNotifications" class="icon icon-cancel"></i>
+	</div>
+
+	<div id="NotificationsList" class="actions-cont"></div>
+	<div id="EmptyNotificationsList" class="">	
+	</div>
+	
+	<div id="RemoveNotificationsBtn">
+		<i class="icon icon-trash"></i> <span class="RemoveText1">%shell.Notifications.Remove%</span><span
+			class="RemoveCount">[0]</span> <span class="RemoveText2">%shell.Notifications.SelectedNotifications%</span>
+	</div>
+
+	<div id="NotificationTemplate" class="NotificatiomTile"
+		style="display: none" >
+		<div class="termsRow" id="">
+			<input class="CheckNotification" type="checkbox" data-role="none"
+				id="privacyAgree" name="privacyAgree"> <label
+				for="privacyAgree" class="waves-effect"></label>
+		</div>
+		<div id="Noti0" class="NotificationItem" index="0">
+			<div class="NotificationMess">
+				<i class="icon "></i> <span class="NotificationTitle"></span> <span
+					class="NotificationBody"></span>
+				<div id="notificationDateTime" style="display:none">
+				<i class="smallIcon "></i> <span class="NotificationTime"></span></div>
+			</div>
+
+			<div class="EditNotification">
+				<div class=" waves-effect removeNotification" id="">
+					<i class="icon-trash"></i> <span id="">%shell.Notifications.Remove%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

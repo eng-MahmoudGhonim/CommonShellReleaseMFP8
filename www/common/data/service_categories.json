@@ -1,0 +1,2122 @@
+{
+    "service_categories": {
+        "RTA_Drivers_And_Vehicles":[
+            {
+                "cat_id": "1",
+                "cat_name_en": "Drivers",
+                "cat_name_ar": "السائقون",
+                "cat_icon": "Icon-driver",
+                "cat_search_icon": "license-icon",
+                "cat_order": "2",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "2",
+                "cat_name_en": "Vehicles",
+                "cat_name_ar": "المركبات",
+                "cat_order": "3",
+                "cat_icon": "Icon-car",
+                "cat_search_icon": "vehicle-icon",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "3",
+                "cat_name_en": "Parking Permits",
+                "cat_name_ar": "تصاريح المواقف",
+                "cat_icon": "Icon-Park",
+                "cat_search_icon": "permits-icon",
+                "cat_order": "5",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "4",
+                "cat_name_en": "Plates",
+                "cat_name_ar": "لوحات الأرقام",
+                "cat_icon": "DXB-Plate",
+                "cat_search_icon": "plates-icon",
+                "cat_order": "4",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "5",
+                "cat_name_en": "Fines",
+                "cat_name_ar": "المخالفات",
+                "cat_icon": "Icon-fines",
+                "cat_search_icon": "fines-icon",
+                "cat_order": "6",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "6",
+                "cat_name_en": "Document Validation",
+                "cat_name_ar": "تصديق المستندات",
+                "cat_icon": "Docs-right",
+                "cat_search_icon": "fines-icon",
+                "cat_order": "7",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "30"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "7",
+                "cat_name_en": "Smart Parking",
+                "cat_name_ar": "المواقف الذكية",
+                "cat_icon": "Parking",
+                "cat_search_icon": "fines-icon",
+                "cat_order": "1",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true",
+				"cat_color":"#f89830"
+            }
+        ],
+        "RTA_Public_Transport": [
+            {
+                "cat_id": "1",
+                "cat_name_en": "nol",
+                "cat_name_ar": "نول",
+                "cat_icon": "nol-256",
+                "cat_search_icon": "nol",
+                "cat_order": "1",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "2",
+                "cat_name_en": "Bus, Metro and Tram",
+                "cat_name_ar": "الحافلات, مترو و ترام دبي",
+                "cat_icon": "Bus-metro",
+                "cat_search_icon": "Bus-metro",
+                "cat_search_icon": "bus",
+                "cat_order": "2",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "3",
+                "cat_name_en": "Marine",
+                "cat_name_ar": "النقل البحري",
+                "cat_icon": "Boat",
+                "cat_search_icon": "marine",
+                "cat_order": "3",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "4",
+                "cat_name_en": "General",
+                "cat_name_ar": "عام",
+                "cat_icon": "General",
+                "cat_search_icon": "General",
+                "cat_order": "4",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            }
+        ],
+        "RTA_Corporate_Services": [
+            {
+                "cat_id": "1",
+                "cat_name_en": "eNOC",
+                "cat_name_ar": "شهادات عدم الممانعة الإلكترونية",
+                "cat_icon": "eNOC",
+                "cat_search_icon": "ENOC",
+                "cat_order": "1",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "2",
+                "cat_name_en": "Commercial Transport Licensing",
+                "cat_name_ar": "ترخيص أنشطة نقل تجارية",
+                "cat_icon": "TransLicensing",
+                "cat_search_icon": "TransLicensing",
+                "cat_order": "2",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "3",
+                "cat_name_en": "Driver Licensing",
+                "cat_name_ar": "رخص القيادة",
+                "cat_icon": "Driver",
+                "cat_search_icon": "Driver",               
+                "cat_order": "3",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "4",
+                "cat_name_en": "Commercial Vehicle Licensing",
+                "cat_name_ar": "ترخيص المركبات التجارية",
+                "cat_icon": "VehicleLicensing",
+                "cat_search_icon": "VehicleLicensing",               
+                "cat_order": "4",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "5",
+                "cat_name_en": "Traffic and Roads",
+                "cat_name_ar": "المرور و الطرق",
+                "cat_icon": "Roads",
+                "cat_search_icon": "Roads",               
+                "cat_order": "5",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "6",
+                "cat_name_en": " Right of Way",
+                "cat_name_ar": "شغل جزء من حرم الطريق",
+                "cat_icon": "Cone",
+                "cat_search_icon": "Cone",               
+                "cat_order": "6",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "7",
+                "cat_name_en": "Public Transport",
+                "cat_name_ar": "النقل العام",
+                "cat_icon": "taxi",
+                "cat_search_icon": "taxi",               
+                "cat_order": "7",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "8",
+                "cat_name_en": "Dubai Metro and Tram",
+                "cat_name_ar": "ترام و مترو دبي",
+                "cat_icon": "tram-metro",
+                "cat_search_icon": "tram-metro",               
+                "cat_order": "8",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "9",
+                "cat_name_en": "Contracts and Purchasing",
+                "cat_name_ar": "العقود و المشتريات",
+                "cat_icon": "Contracts",
+                "cat_search_icon": "Contracts",
+                "cat_order": "9",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            },
+            {
+                "cat_id": "10",
+                "cat_name_en": "eWallet",
+                "cat_name_ar": "المحفظة الإلكترونية",
+                "cat_icon": "ewallet",
+                "cat_search_icon": "ewallet",
+                "cat_order": "10",
+                "cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                },
+                "visible": "true"
+            }
+        ],
+        "Smart_Dubai_Parking":[  
+         {  
+            "cat_id":"1",
+            "cat_name_en":"Pay Parking Fee",
+            "cat_name_ar":"دفع رسوم مواقف السيارات",
+            "cat_icon":"Parking",
+            "cat_order":"1",
+            "cat_idos_id":"283",
+            "cat_icon_size":{  
+               "w":"30",
+               "h":"26"
+            },
+            "visible":"true"
+         },
+         {  
+            "cat_id":"2",
+            "cat_name_en":"Multi-storey Parking Availability",
+            "cat_name_ar":"المواقف الشاغرة - مباني المواقف متعددة الطوابق",
+            "cat_icon":"Multipark",
+            "cat_order":"2",
+            "cat_idos_id":"28400",
+            "cat_icon_size":{  
+               "w":"30",
+               "h":"30"
+            },
+            "visible":"true"
+         },
+         {  
+            "cat_id":"3",
+            "cat_name_en":"Public Parking Availability",
+            "cat_name_ar":"المواقف الشاغرة – المواقف العامة",
+            "cat_icon":"ParkSpace",
+            "cat_order":"3",
+            "cat_idos_id":"28401",
+            "cat_icon_size":{  
+               "w":"30",
+               "h":"30"
+            },
+            "visible":"true"
+         },
+         {  
+            "cat_id":"4",
+            "cat_name_en":"Dubai Mall Parking Availability",
+            "cat_name_ar":"المواقف الشاغرة – دبي مول",
+            "cat_icon":"dmall_logo256",
+            "cat_order":"4",
+            "cat_idos_id":"28402",
+            "cat_icon_size":{  
+               "w":"30",
+               "h":"30"
+            },
+            "visible":"true"
+         }
+      ]
+    },
+    "services_sub_categories": {
+        "RTA_Drivers_And_Vehicles": [
+            {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "sub_name_en": "Drivers License",
+                "sub_name_ar": "رخصة القيادة",
+				"sub_category_order":"1",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "sub_name_en": "Learning Permit",
+                "sub_name_ar": "تصريح تعلُّم",
+				"sub_category_order":"2",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "3",
+				"sub_category_order":"3",
+                "sub_name_en": "Professional Driver Permit",
+                "sub_name_ar": "تصريح سائق محترف",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "sub_name_en": "Vehicle Registration",
+                "sub_name_ar": "تسجيل المركبة",
+				"sub_category_order":"1",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "2",
+				"sub_category_order":"2",
+                "sub_name_en": "Vehicle Export",
+                "sub_name_ar": "تصدير مركبة",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "3",
+				"sub_category_order":"3",
+                "sub_name_en": "Vehicle Possession",
+                "sub_name_ar": "حيازة مركبة",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "1",
+				"sub_category_order":"1",
+                "sub_name_en": "Disabled Parking Permit",
+                "sub_name_ar": "تصريح مواقف  لذوي الاحتياجات الخاصة",
+                "visible": "true",
+                "sub_cat_icon": "disabled-icon",
+                "sub_cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                }
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "2",
+				"sub_category_order":"2",
+                "sub_name_en": "Senior Citizen Parking Permit",
+                "sub_name_ar": "تصريح مواقف لكبار السن",
+                "visible": "true",
+                "sub_cat_icon": "senior-citizen-icon",
+                "sub_cat_icon_size": {
+                    "w": "30",
+                    "h": "26"
+                }
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "3",
+				"sub_category_order":"3",
+                "sub_name_en": "Seasonal Parking Permit",
+                "sub_name_ar": "بطاقة مواقف موسمية",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "1",
+				"sub_category_order":"1",
+                "sub_name_en": "Registered Plates",
+                "sub_name_ar": "لوحات أرقام مسجّلة",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "2",
+				"sub_category_order":"2",
+                "sub_name_en": "Distinguished Plates",
+                "sub_name_ar": "لوحات مميزة",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "3",
+				"sub_category_order":"3",
+                "sub_name_en": "Auction Plates",
+                "sub_name_ar": "لوحات المزاد",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "4",
+				"sub_category_order":"4",
+                "sub_name_en": "Reserved Plates",
+                "sub_name_ar": "لوحات محجوزة",
+                "visible": "true",
+                "sub_cat_icon": "",
+                "sub_cat_icon_size": ""
+            }
+        ]
+    },
+    "services_ids": {
+        "RTA_Drivers_And_Vehicles":[
+            {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "206",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "New License",
+                "service_name_ar": "رخصة جديدة"
+            },
+         {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "1075",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew License",
+                "service_name_ar": "تجديد رخصة"
+            },
+              {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "185",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace License",
+                "service_name_ar": "إستبدال رخصة"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "205",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Foreign License",
+                "service_name_ar": "نقل رخصة أجنبية"
+            },    
+            {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "189",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer License from other Emirates",
+                "service_name_ar": "نقل رخصة من إمارة أخرى"
+            },
+             {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "191",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer License to Another Emirate",
+                "service_name_ar": "نقل رخصة لإمارة أخرى"
+            },
+           {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "188",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "International License",
+                "service_name_ar": "رخصة دولية"
+            },
+              {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "211",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Driver Experience Certificate",
+                "service_name_ar": "شهادة خبرة سائق"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "1",
+                "service_id": "203",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Non Holding Driving License Certificate",
+                "service_name_ar": "شهادة عدم امتلاك رخصة القيادة"
+            },
+             {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "192",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+               "serv_url": "drivers_and_vehicles/issue_learning_permit/issue_learning_permit_temp_landing.html",
+                "service_name_en": "New Learning Permit",
+                "service_name_ar": "تصريح جديد للتعلّم"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "193",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Learning Permit",
+                "service_name_ar": "تجديد تصريح التعلّم"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "1201",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Learning Permit",
+                "service_name_ar": "استبدال تصريح التعلّم"
+            },
+             {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "187",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Amend Learning Permit",
+                "service_name_ar": "تعديل تصريح التعلم"
+            },
+           {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "195",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Learning File between Institutes",
+                "service_name_ar": "نقل ملف التعلّم بين المعاهد"
+            },
+          
+            {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "1061",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Learning File between Emirates",
+                "service_name_ar": "نقل ملف التعلّم بين إمارتين"
+            },
+              {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "208",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Purchase Training Manual",
+                "service_name_ar": "شراء كتيبات التدريب"
+            },           
+            
+            {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "1007",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Ladies Training Permission for Male Instructor",
+                "service_name_ar": "إذن قيام مدرب رجل بتدريب سيدات"
+            },
+             {
+                "cat_id": "1",
+                "sub_cat_id": "2",
+                "service_id": "1106",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Book Theory and Road Test Appointment",
+                "service_name_ar": "حجز موعد الفحص النظري واختبار القيادة على الطريق"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "3",
+                "service_id": "1172",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Book Test Appointment for Franchised Taxi and Limousine",
+                "service_name_ar": "حجز موعد فحص لسائقي وكالات التاكسي، والليموزين، وحافلات المدارس"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "3",
+                "service_id": "220",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "New Vehicle Possesion Certificate",
+                "service_name_ar": "شهادة حيازة مركبة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "226",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "New Registration",
+                "service_name_ar": "تسجيل مركبة جديدة"
+            },
+           {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "227",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Registration",
+                "service_name_ar": "تجديد تسجيل المركبة"
+            },
+             {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "222",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Registration Card",
+                "service_name_ar": "استبدال ملكية مركبة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "1111",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Amend Vehicle Information",
+                "service_name_ar": "تعديل معلومات المركبة"
+            },
+             {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "1043",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Vehicle Ownership",
+                "service_name_ar": "تحويل ملكية مركبة"
+            },    
+              {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "1083",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Vehicle Ownership or Non-Ownership Certificate",
+                "service_name_ar": "شهادة امتلاك مركبة أو عدم امتلاك مركبة"
+            },
+             {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "1046",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Vehicle Clearance Certificate",
+                "service_name_ar": "شهادة براءة ذمة المركبة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "240",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Insurance Refund on Sold Vehicles",
+                "service_name_ar": "إعادة مبلغ التأمين عن المركبات المباعة"
+            },
+           
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "232",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Vehicle Tourist Certificate",
+                "service_name_ar": "شهادة سياحة للمركبة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "1",
+                "service_id": "233",
+				"service_order":"10",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Return from Tour Certificate",
+                "service_name_ar": "شهادة عودة من السياحة"
+            }, 
+            {
+                "cat_id": "2",
+                "sub_cat_id": "2",
+                "service_id": "228",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Vehicle Registration",
+                "service_name_ar": "شهادة تحويل مركبة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "2",
+                "service_id": "230",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Vehicle Export or Transfer Certificate",
+                "service_name_ar": "استبدال شهادة تصدير أو نقل المركبة"
+            },
+              {
+                "cat_id": "2",
+                "sub_cat_id": "2",
+                "service_id": "229",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Export Vehicle to another Country",
+                "service_name_ar": "شهادة تصدير مركبة للخارج"
+            },
+              {
+                "cat_id": "2",
+                "sub_cat_id": "3",
+                "service_id": "221",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Vehicle Possession Certificate",
+                "service_name_ar": "استبدال شهادة حيازة مركبة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "2",
+                "service_id": "1029",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Parking Permit",
+                "service_name_ar": "تجديد تصريح المواقف"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "1",
+                "service_id": "1025",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Permanent Disabled Parking Permit",
+                "service_name_ar": "تجديد تصريح دائم لمواقف المعاقين"
+            },
+           
+              {
+                "cat_id": "3",
+                "sub_cat_id": "1",
+                "service_id": "1049",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Amend Parking Permit",
+                "service_name_ar": "تعديل تصريح المواقف"
+            },
+           
+            {
+                "cat_id": "3",
+                "sub_cat_id": "3",
+                "service_id": "285",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Seasonal Parking Permit",
+                "service_name_ar": "إصدار بطاقات المواقف الموسمية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "2",
+                "service_id": "1022",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "New Parking Permit",
+                "service_name_ar": "تصريح مواقف جديد"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "1",
+                "service_id": "1018",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "New Parking Permit",
+                "service_name_ar": "تصريح جديد للمواقف"
+            },
+          
+             {
+                "cat_id": "3",
+                "sub_cat_id": "2",
+                "service_id": "564",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Parking Permit",
+                "service_name_ar": "استبدال تصريح المواقف"
+            },
+            
+           
+            {
+                "cat_id": "3",
+                "sub_cat_id": "1",
+                "service_id": "566",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Parking Permit",
+                "service_name_ar": "استبدال تصريح المواقف"
+            },
+			{
+                "cat_id": "4",
+                "sub_cat_id": "3",
+                "service_id": "9876",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Deposit Insurance for Plate Auction",
+                "service_name_ar": "ايداع تامين لمزاد الارقام"
+            },
+                                     {
+                "cat_id": "4",
+                "sub_cat_id": "3",
+                "service_id": "239",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Register for Plate Auction",
+                "service_name_ar": "إشتراك في المزاد"
+            },
+              {
+                "cat_id": "4",
+                "sub_cat_id": "3",
+                "service_id": "1117",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Buy Auction Plate",
+                "service_name_ar": "شراء لوحة بالمزاد"
+            },           
+            {
+                "cat_id": "4",
+                "sub_cat_id": "2",
+                "service_id": "234",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Buy Distinguished Plate",
+                "service_name_ar": "شراء لوحة مميزة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "1",
+                "service_id": "241",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Change Plate Number",
+                "service_name_ar": "تغيير رقم اللوحة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "2",
+                "service_id": "238",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Distinguished Plate Certificate",
+                "service_name_ar": "استبدال شهادة اللوحة المميزة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "1",
+                "service_id": "242",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Plate Number",
+                "service_name_ar": "إستبدال اللوحة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "4",
+                "service_id": "236",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Extend Plate Reservation",
+                "service_name_ar": "تمديد حجز اللوحة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "1",
+                "service_id": "562",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Adding Brand Dubai logo on Vehicle Plate",
+                "service_name_ar": "لوحات المركبات المميزة بعلامة دبي"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "1",
+                "service_id": "1118",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Luxury Front Plate",
+                "service_name_ar": "لوحة الأرقام الأمامية الفخمة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "2",
+                "service_id": "237",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Transfer Ownership of Distinguished Plate",
+                "service_name_ar": "نقل ملكية اللوحة المميزة"
+            },
+              {
+                "cat_id": "5",
+                "sub_cat_id": null,
+                "service_id": "1060",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Inquire and Pay Fines",
+                "service_name_ar": "الإستعلام ودفع المخالفات المرورية"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": null,
+                "service_id": "636363",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Document Validation Service",
+                "service_name_ar": "خدمة تدقيق الشهادة"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": null,
+                "service_id": "283",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Pay Parking Fee",
+                "service_name_ar": "دفع رسوم مواقف السيارات"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": null,
+                "service_id": "28400",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Multi-storey Parking Availability",
+                "service_name_ar": "المواقف الشاغرة - مباني المواقف متعددة الطوابق"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": null,
+                "service_id": "28401",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Public Parking Availability",
+                "service_name_ar": "المواقف الشاغرة – المواقف العامة"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": null,
+                "service_id": "28402",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Dubai Mall Parking Availability",
+                "service_name_ar": "المواقف الشاغرة – دبي مول"
+            }
+        ],
+        "RTA_Public_Transport": [
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "172",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Top Up nol Card",
+                "service_name_ar": "إعادة تعبئة بطاقة نول"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1052",
+				"service_order":"2",
+                "service_name_en": "View nol Balance",
+                "service_name_ar": "عرض رصيد بطاقه نول"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "171",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Personalized nol Card",
+                "service_name_ar": "اصدار بطاقة نول الشخصية"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1174",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Personalize nol Silver or Gold Cards",
+                "service_name_ar": "تحويل بطاقة نول الفضية/الذهبية إلى بطاقة شخصية"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "174",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View nol Transaction History",
+                "service_name_ar": "الاطلاع على المعاملات السابقة لبطاقة نول"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1177",
+				"service_order":"6",
+                "service_name_en": "Report Lost nol Card",
+                "service_name_ar": "الابلاغ عن بطاقة نول المفقودة"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "560",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Travel Pass",
+                "service_name_ar": "تجديد تصريح التنقل"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "561",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Add a nol Card ",
+                "service_name_ar": "اضافة بطاقة نول"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "559",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Inquire about Sale of nol Card",
+                "service_name_ar": "الاستفسار عن بيع بطاقات نول"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1163",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Using Dubai Bus",
+                "service_name_ar": "موقع دبي باص"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1097",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Using Dubai Metro",
+                "service_name_ar": "استخدام مترو دبي"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "6666",
+				"service_order":"3",
+                "service_name_en": "Inquire Metro Travel Times and Other Information",
+                "service_name_ar": "مواعيد رحلات المترو"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1098",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Metro Fines and Appeals",
+                "service_name_ar": "الاستعلام عن مخالفات المترو والاعتراض عليها"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "576",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Using Dubai Tram",
+                "service_name_ar": "استخدام ترام دبي"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "6674",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Dubai Tram Fines and Appeals",
+                "service_name_ar": "مخالفات الترام والاعتراض عليها"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1191",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Using Marine Transport",
+                "service_name_ar": "الاستفسار عن خدمات النقل البحري"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1066",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Book or Rent a Water Taxi",
+                "service_name_ar": "حجز أو تأجير التاكسي المائي"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1067",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Book Ferry Dubai",
+                "service_name_ar": "تأجير فيري دبي"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1193",
+				"service_order":"4",
+                "service_name_en": "Rent Ferry Dubai (Without Chairs)",
+                "service_name_ar": "تأجير فيري دبي بلا كراسي"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1187",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Rent a Water Bus",
+                "service_name_ar": "تأجير الباص المائي"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "338",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Abra Maintenance",
+                "service_name_ar": "إصدار تصريح صيانة عبرة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "339",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue and Renew Permit for Abra Annual Operation",
+                "service_name_ar": "إصدار/ تجديد تصريح تشغيل سنوي للعبرة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "1051",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Lost and Found",
+                "service_name_ar": "الإبلاغ عن المفقودات واستلام المعثورات"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "579",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Public Transport Fines",
+                "service_name_ar": "الغرامات"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "6670",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Disabled Services",
+                "service_name_ar": "ذوي الاحتياجات الخاصة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+				"service_order":"4",
+                "service_id": "undefined",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View Green Points",
+                "service_name_ar": "النقاط الخضراء"
+            }
+        ],
+        "RTA_Corporate_Services": [
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "undefined",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue No Objection Certificate (NOC)",
+                "service_name_ar": ""
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1087",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Construction (House Utilities, Networks, Infrastructure Work)",
+                "service_name_ar": "عدم ممانعة للتنفيذ (للتوصيلات المنزلية أو الشبكات أو أية أعمال بنية تحتية أخرى)"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1090",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Final Clearance",
+                "service_name_ar": "شهادة الإنجاز النهائي"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1085",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Information",
+                "service_name_ar": "عدم ممانعة معلوماتية"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1091",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Modification or Cancellation",
+                "service_name_ar": "تعديل أو إلغاء شهادة عدم الممانعة"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1084",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Project Design / Drawings",
+                "service_name_ar": "عدم ممانعة للتصميم الابتدائي أو النهائي"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1107",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Trial Trenches",
+                "service_name_ar": "عدم ممانعة للحفر الاستكشافية"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "1089",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Revalidate Previously Issued NOC",
+                "service_name_ar": "تجديد فترة صلاحية شهادة عدم الممانعة التي سبق وأن تم إصدارها"
+            },
+            {
+                "cat_id": "1",
+                "sub_cat_id": "",
+                "service_id": "326",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Certifying the As Built Drawing for RTA Spare Ducts of Road Projects",
+                "service_name_ar": "اعتماد مخططات الوصلات الاحتياطية الخاصة بالهيئة والمنفذة ضمن مشاريع الطرق"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "551",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC to Renew Commercial Transport Activity License ",
+                "service_name_ar": "طلب شهادة عدم ممانعة لتجديد رخصة نقل تجارية"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "550",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for New Commercial Transport Activity License",
+                "service_name_ar": "طلب شهادة عدم ممانعة جديدة لرخصة نقل تجارية"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "552",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC to Cancel Commercial Transport Activity License ",
+                "service_name_ar": "طلب شهادة عدم ممانعة لإلغاء رخصة نقل تجارية"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "553",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Commercial Transport Activity License ",
+                "service_name_ar": "عدم ممانعة إصدار وثيقة بدل فاقد/ تالف لترخيص نقل تجاري"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "555",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC to Add / Change Manager on Commercial Transport Activity License",
+                "service_name_ar": "إصدار شهادة عدم ممانعة إدخال/ تغيير مدير"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "554",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Training on Vehicle Rental System ",
+                "service_name_ar": "طلب التدريب على نظام المعلومات لمكاتب تأجير السيارات"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1195",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Passenger Transporting in Luxury Vehicles",
+                "service_name_ar": "تصريح لمزاولة نشاط نقل الركاب بالسيارات الفخمة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1185",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Passenger Transporting in Luxury Vehicles - Dubai Airport Only",
+                "service_name_ar": "تصريح لمزاولة نشاط نقل الركاب بالسيارات الفخمة من وإلى مطارات دبي والإمارات الأخرى"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1194",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Register Vehicles Under Limousine Company",
+                "service_name_ar": "تسجيل مركبات للمنشآت العاملة بنشاط نقل الركاب بالسيارات الفخمة والخصوصية"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1190",
+				"service_order":"10",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Cancel Trade License for Limousine Company",
+                "service_name_ar": "إلغاء الرخصة التجارية لنشاط نقل الركاب بالسيارات الفخمة"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "262",
+				"service_order":"11",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Adding or Removal of a Partner to the Trade License",
+                "service_name_ar": ""
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1179",
+				"service_order":"12",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Unify Luxury Vehicles under Code L Plate Numbers",
+                "service_name_ar": "توحيد لوحات المركبات الفخمة كود L"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1171",
+				"service_order":"13",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC addressed to Ministry of Labor for Passenger Transporting in Luxury Vehicle",
+                "service_name_ar": "إصدار شهادة لوزارة العمل"
+            },
+            {
+                "cat_id": "2",
+                "sub_cat_id": "",
+                "service_id": "1133",
+				"service_order":"14",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC to Issue / Renew Trade License for International Bus Services ",
+                "service_name_ar": "إصدار/ تجديد عدم ممانعة من ممارسة نشاط نقل الركاب بالحافلات على الخطوط الدولية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "214",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Driving Instructor/ Lecturer Permit",
+                "service_name_ar": "تجديد تصريح مدرب قيادة/ محاضر"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "213",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Driver's Instructor Permit",
+                "service_name_ar": "إصدار تصريح مدرب قيادة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "215",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Driving Instructor/ Lecturer Permit",
+                "service_name_ar": "بدل فاقد/ تالف تصريح مدرب/ محاضر"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "216",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Add a New Category to an Existing Instructor Training Permit",
+                "service_name_ar": "إضافة صنف لتصريح مدرب"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1071",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Safari Driving License",
+                "service_name_ar": "إصدار رخصة القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1006",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Safari Driving  License",
+                "service_name_ar": "تجديد رخصة القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1054",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Safari Driving License",
+                "service_name_ar": "إصدار بدل فاقد/ تالف لرخصة القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "196",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Safari Drivers' Learning Permit",
+                "service_name_ar": "تصريح تعلم القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "197",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Safari Drivers' Learning Permit",
+                "service_name_ar": "تجديد تصريح تعلم القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "199",
+				"service_order":"10",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Safari Drivers' Learning Permit",
+                "service_name_ar": "بدل فاقد/ تالف تصريح تعلم القيادة الصحراوية"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1055",
+				"service_order":"11",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Site Driving License",
+                "service_name_ar": "إصدار رخصة قيادة للأعمال ذات الطبيعة الخاصة (تصريح مقر العمل)"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1056",
+				"service_order":"12",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Site Driving License",
+                "service_name_ar": "جديد تصريح قيادة للأعمال ذات الطبيعة الخاصة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "200",
+				"service_order":"13",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Learning Permit for Site Driving License",
+                "service_name_ar": "تصريح تعلم القيادة للأعمال ذات الطبيعة الخاصة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "201",
+				"service_order":"14",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Site Driving License Permit",
+                "service_name_ar": "تجديد تصريح تعلم القيادة للأعمال ذات الطبيعة الخاصة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "210",
+				"service_order":"15",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Site Driving License Permit",
+                "service_name_ar": "تصريح قيادة بدل فاقد/ تالف للأعمال ذات الطبيعة الخاصة"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "1068",
+				"service_order":"16",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Request for Site Inspection to Issue Site Driving License",
+                "service_name_ar": "معاينة موقع (مقر عمل)"
+            },
+            {
+                "cat_id": "3",
+                "sub_cat_id": "",
+                "service_id": "202",
+				"service_order":"17",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Site Learning Permit",
+                "service_name_ar": "بدل فاقد/ تالف تصريح تعلم القيادة للأعمال ذات الطبيعة الخاصة"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "244",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Commercial Plate Number",
+                "service_name_ar": "تجديد ملكية لوحات تجارية"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "243",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Commercial Plate Number",
+                "service_name_ar": "إصدار لوحة تجارية"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "245",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Cancel Ownership of Commercial License Plate",
+                "service_name_ar": "إلغاء ملكية لوحات تجارية"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "1204",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Training Vehicle Registration",
+                "service_name_ar": "تسجيل مركبات تدريب"
+            },
+            {
+                "cat_id": "4",
+                "sub_cat_id": "",
+                "service_id": "1034",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost or Damaged Training Number Plate",
+                "service_name_ar": "بدل فاقد/ تالف لوحة تعليم"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "340",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue and Renew Permit for Advertising on Commercial / Promotional Vehicles",
+                "service_name_ar": "إصدار وتجديد التصاريح الإعلانية على المركبات التجارية/ الترويجية/ المتحركة الإعلانية"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "341",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue and Renew Permit for Advertising Signs in Right of Way",
+                "service_name_ar": "إصدار وتجديد التصاريح الإعلانية في حرم الطريق"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1203",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Request for Sand Fill",
+                "service_name_ar": "توفير رمل دفان"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "271",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Traffic Road Signs and Markings",
+                "service_name_ar": "طلب تركيب الإشارات واللوحات المرورية والعلامات الأرضية"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "270",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Directional Sign Boards",
+                "service_name_ar": "توفير اللوحات والإشارات"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "272",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Building or House Number",
+                "service_name_ar": "طلب ترقيم المنازل والمباني"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1130",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for Organizing Safety Awareness Events",
+                "service_name_ar": "المشاركة في فعاليات توعوية"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1129",
+				"service_order":"8",
+                "service_name_en": "Issue NOC for Road Safety Lectures and Workshops",
+                "service_name_ar": "محاضرات توعوية و ورش تدريبية"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "300",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Road Closure for Public Event",
+                "service_name_ar": "تصريح إغلاق شارع لمناسبة عامة"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "303",
+				"service_order":"10",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Traffic Survey / Count",
+                "service_name_ar": "تصريح تعداد مركبات"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1143",
+				"service_order":"11",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Footpath Route Changes (Public Traffic)",
+                "service_name_ar": "خدمات الطرق العامة (خدمات مرورية للجمهور) بناء وتعديل رصيف"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "337",
+				"service_order":"12",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Using Private Land as Paid Parking Lot",
+                "service_name_ar": "استغلال الأراضي الخاصة كمواقف مدفوعة للجمهور"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "334",
+				"service_order":"13",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Utilizing of Pavements and External Lots (Restaurants and Coffee Shops Only)",
+                "service_name_ar": "إشغال أرصفة أو جزء من حرم الطريق للمطاعم والمقاهي فقط"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1161",
+				"service_order":"14",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Parking Permits for a Villa (Type V)",
+                "service_name_ar": "(الفئة V) تصريح استخدام المواقف المدفوعة للفلل"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "298",
+				"service_order":"15",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Permit for Utility Lines Protection",
+                "service_name_ar": "تصريح أعمال حماية خطوط المرافق"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "336",
+				"service_order":"16",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Utilization of Pavements for Promotional Campaign",
+                "service_name_ar": "حجز أرصفة بغرض العروض التجارية"
+            },
+            {
+                "cat_id": "5",
+                "sub_cat_id": "",
+                "service_id": "1159",
+				"service_order":"17",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View Gate Level Information for Buildings",
+                "service_name_ar": " إصدار المنسوب المرجعي للمباني"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "328",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Inquire about Fines and Warning due to Partially Blocking Road / Sidewalk / Right of Way",
+                "service_name_ar": "الاستفسار عن المخالفات والإنذارات في حرم الطريق"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "296",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Minor Road Diversions",
+                "service_name_ar": "تحويلات الشوارع والتقاطعات الفرعية"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "1165",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Major Road Diversions",
+                "service_name_ar": "تصريح تحويلات الشوارع والتقاطعات الرئيسية"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "333",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Mobility of Vehicles with Extra Load (Weight or Dimensions)",
+                "service_name_ar": "تصريح لنقل الاحجام الكبيرة (الأوزان الكبيرة أو المقاسات الكبيرة)"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "329",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Request for Fencing Approval Occupying Right of Way",
+                "service_name_ar": "استغلال جزء من حرم الطريق"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "297",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Partially Blocking Road / Sidewalk / Right of Way",
+                "service_name_ar": "شغل جزء من حرم الطريق"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "301",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Mobility Outside Permitted Hours / Roads",
+                "service_name_ar": "تصريح تنقل دخول/ خروج مناطق/ أوقات الحظر"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "299",
+				"service_order":"8",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Temporary Access to Construction Sites",
+                "service_name_ar": "تصريح منافذ مؤقتة لمواقع الإنشاءات (إنشاء مداخل ومخارج مؤقته لمواقع الإنشاءات) /مداخل ومخارج مؤقته للمواقع الإنشائية"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "302",
+				"service_order":"9",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for Mobility of Heavy Construction Vehicles / Cranes",
+                "service_name_ar": "تصريح سير المركبات الإنشائية والرافعات الثقيلة"
+            },
+            {
+                "cat_id": "6",
+                "sub_cat_id": "",
+                "service_id": "332",
+				"service_order":"10",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Permit for a Building Demolition / Construction",
+                "service_name_ar": "إصدار تصريح هدم مبنى/ إنشاء وتشييد مبنى"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1180",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Renew Driving Practice Permit for Franchise Taxi and Limousine",
+                "service_name_ar": "تجديد تصريح مزاولة المهنة لسائقي سيارات الأجرة والليموزين وحافلات النقل المدرسي"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1176",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue Driving Practice Permit for Taxi and Limousine",
+                "service_name_ar": "تصريح جديد لمزاولة المهنة لسائقي شركات سيارات الامتياز والسيارات الفخمة والنقل المدرسي ومرشدي النقل المدرسي"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1188",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Replace Lost / Damaged Driving Practice Permit for Franchise Taxi and Limousine",
+                "service_name_ar": "إصدار بدل فاقد/ تالف لتصريح مزاولة المهنة لسائقي سيارات الأجرة والليموزين وحافلات النقل المدرسي"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "180",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Rent a Bus",
+                "service_name_ar": "طلب استئجار حافلة"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1166",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Issue NOC for School Transportation",
+                "service_name_ar": "عدم ممانعة للنقل المدرسي"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1178",
+				"service_order":"6",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View Financial Systems for Taxi and Limousine Companies",
+                "service_name_ar": "النظام المالي لشركات السيارات الفخمة وسيارات الامتياز"
+            },
+            {
+                "cat_id": "7",
+                "sub_cat_id": "",
+                "service_id": "1168",
+				"service_order":"7",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Decommission of Vehicles",
+                "service_name_ar": "خدمات إحلال المركبات"
+            },
+            {
+                "cat_id": "8",
+                "sub_cat_id": "",
+                "service_id": "1093",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Lease Metro Retail Outlets",
+                "service_name_ar": "استئجار منافذ التجزئة في محطات المترو"
+            },
+            {
+                "cat_id": "8",
+                "sub_cat_id": "",
+                "service_id": "1092",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Request for Metro Advertising",
+                "service_name_ar": "بدون رسوم"
+            },
+            {
+                "cat_id": "8",
+                "sub_cat_id": "",
+                "service_id": "575",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Leasing ATM and Vending Machines at Tram Stations",
+                "service_name_ar": "تأجير أجهزة الصراف الألي والبيع بمحطات الترام"
+            },
+            {
+                "cat_id": "8",
+                "sub_cat_id": "",
+                "service_id": "577",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Request for Advertisement in Dubai Tram",
+                "service_name_ar": "طلب إعلانات في ترام دبى"
+            },
+            {
+                "cat_id": "9",
+                "sub_cat_id": "",
+                "service_id": "344",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View Tendering Procedures",
+                "service_name_ar": "الاطلاع على إجراءات العطاءات"
+            },
+            {
+                "cat_id": "9",
+                "sub_cat_id": "",
+                "service_id": "347",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View Current and Future Tenders News",
+                "service_name_ar": "الاطلاع على المناقصات الحالية والمستقبلية"
+            },
+            {
+                "cat_id": "9",
+                "sub_cat_id": "",
+                "service_id": "345",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Apply for Vendor Pre-Qualification",
+                "service_name_ar": "تأهيل مورد"
+            },
+            {
+                "cat_id": "9",
+                "sub_cat_id": "",
+				"service_order":"4",
+                "service_id": "572",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Track Invoice",
+                "service_name_ar": ""
+            },
+            {
+                "cat_id": "10",
+                "sub_cat_id": "",
+                "service_id": "567",
+				"service_order":"1",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Create and Link eWallet Account",
+                "service_name_ar": "انشاء حساب المحفظة الإلكترونية"
+            },
+            {
+                "cat_id": "10",
+                "sub_cat_id": "",
+                "service_id": "568",
+				"service_order":"2",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Manage eWallet Account",
+                "service_name_ar": "إدارة حساب المحفظة الإلكترونية"
+            },
+            {
+                "cat_id": "10",
+                "sub_cat_id": "",
+                "service_id": "569",
+				"service_order":"3",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Top up eWallet Account",
+                "service_name_ar": "إعادة تعبئة المحفظة الالكترونية"
+            },
+            {
+                "cat_id": "10",
+                "sub_cat_id": "",
+                "service_id": "570",
+				"service_order":"4",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "View eWallet Transactions",
+                "service_name_ar": "الاطلاع على سجل المعاملات"
+            },
+            {
+                "cat_id": "10",
+                "sub_cat_id": "",
+                "service_id": "571",
+				"service_order":"5",
+                "serv_url": "shell/commonShellExamples.html",
+                "service_name_en": "Cancel eWallet Account",
+                "service_name_ar": "إلغاء حساب المحفظة الإلكترونية"
+            }
+        ],
+         "Smart_Dubai_Parking":[  
+         {  
+            "cat_id":"1",
+            "sub_cat_id":"",
+            "service_id":"283",
+            "service_order":"1",
+            "serv_url":"shell/commonShellExamples.html",
+            "service_name_en":"Pay Parking Fee",
+            "service_name_ar":"دفع رسوم مواقف السيارات"
+         },
+         {  
+            "cat_id":"2",
+            "sub_cat_id":"",
+            "service_id":"28400",
+            "service_order":"1",
+            "serv_url":"shell/commonShellExamples.html",
+            "service_name_en":"Multi-storey Parking Availability",
+            "service_name_ar":"المواقف الشاغرة - مباني المواقف متعددة الطوابق"
+         },
+         {  
+            "cat_id":"3",
+            "sub_cat_id":"",
+            "service_id":"28401",
+            "service_order":"1",
+            "serv_url":"shell/commonShellExamples.html",
+            "service_name_en":"Public Parking Availability",
+            "service_name_ar":"المواقف الشاغرة – المواقف العامة"
+         },
+         {  
+            "cat_id":"4",
+            "sub_cat_id":"",
+            "service_id":"28402",
+            "service_order":"1",
+            "serv_url":"shell/commonShellExamples.html",
+            "service_name_en":"Dubai Mall Parking Availability",
+            "service_name_ar":"المواقف الشاغرة – دبي مول"
+         }
+      ]
+    }
+}

@@ -1,0 +1,66 @@
+
+/* Stylesheet content from css/shell/incidents.css in folder common */
+
+/* Stylesheet content from css/shell/incidents.css in folder common */
+
+#IncidentUser #googleMapLocation {
+   position: fixed !important;
+   display: block;
+   width: 100%;
+   height: 377px !important;
+   background: gray;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+#IncidentUser .servicesList {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    top: 300px;
+    bottom: 0;
+    /* padding-top: 17px; */
+    z-index: 30;
+    overflow: visible;
+}
+
+#IncidentUser .servicesList .listScroller {
+    position: relative;
+    margin-top: 17px;
+    background: #eee;
+    overflow: scroll;
+    padding-top: 13px;
+    height: 100%;
+}
+
+#IncidentUser .serviceItem {
+    width: 90%;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    color: #777;
+    position: relative;
+    border-radius: 3px;
+    /* height: 68px; */
+    /* text-align: center; */
+    min-height: 50px;
+}
+
+
+#IncidentUser .serviceItem .serviceTitle {
+  font-weight: bold;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #000;
+  position: absolute;
+  height: 18px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}

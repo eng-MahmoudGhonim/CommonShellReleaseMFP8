@@ -1,0 +1,203 @@
+<div id="ProfilePage" data-role="page"
+	data-class="com/views/shell/ProfilePageView">
+
+	<div data-role="content" class="tabsCont">
+		<div class="tabsHead">
+
+			<div id="contatDetailsId" class="head waves-effect">%shell.profile.MyContactDetails%</div>
+			<div id="profileDetailsId" class="head waves-effect">%shell.Profile.MyProfileDetails%</div>
+			<div class="bar"></div>
+		</div>
+		<div id="tabsContent" class="tabsContent guestSidePanel">
+			<div id="MyContactDetails" class="tabContent">
+
+				<div class="headLabel">%shell.profile.mycontactdetailsHeader%</div>
+
+				<div class="desc">%shell.profile.modifymobilemail%</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.email.label%</span> <input
+						id="email" class="shell-input disabled" data-role="none"
+						type="email"> <span class="icon-edit editBtn waves-effect"
+						id="editMail"></span>
+				</div>
+
+				<div class="fieldRow mobileRow">
+					<span class="shell-label">%shell.register2.mobile%</span>
+
+					<div
+						class="shell-dropdown-wrapper mdi mdi-chevron-down countryCode">
+						<select data-role="none" class="shell-select disabled">
+							<option value="971">+971</option>
+						</select>
+					</div>
+
+					<input class="shell-input phoneNumber disabled" data-role="none"
+						id="mbileNumberSuffix" type="number"> <span
+						class="icon-edit editBtn waves-effect" id="editPhone"></span>
+				</div>
+
+				<div class="OtherNumbers">
+					<span class="OtherNumbersheader">%shell.Profile.OthernumbersSalik%
+					</span> <span class="OtherNumberDesc">%shell.Profile.SelectingPhoneNumber%</span>
+					<span class="OtherNumberOTP"> %shell.Profile.SendOTP% </span>
+					<div id="addedNewMobile"></div>
+
+					<div id="AddNewNumberBtn" class="waves-effect btn">%shell.Profile.AddNewNumber%</div>
+
+				</div>
+
+
+			</div>
+			<div id="continueProfilebtn" class="waves-effect btn">%shell.Profile.Continue%</div>
+			<div id="MyProfileDetails" class="tabContent">
+
+				<div class="headLabel">%shell.profile.myprofiledetails%</div>
+
+				<div class="fieldRow">
+					<div class="fNamePart titleCont">
+						<span class="shell-label">%shell.registeration.label1%</span>
+						<div class="shell-dropdown-wrapper mdi mdi-chevron-down">
+							<select id="title" data-role="none" class="shell-select">
+								<option value="" selected="" class="ui-disabled" disabled="">%shell.registeration.select.caption.select%</option>
+								<option value="1">%shell.option.mr%</option>
+								<option value="2">%shell.option.mrs%</option>
+								<option value="3">%shell.option.miss%</option>
+								<option value="4">%shell.option.dr%</option>
+							</select>
+						</div>
+					</div>
+					<div class="fNamePart fNameCont">
+						<span class="shell-label">%shell.first.name%</span>
+						<div class="shell-input-cont" id="fnameField">
+							<input data-role="none" type="text"
+								placeholder="%shell.registeration.placeholder.firstname%"
+								id="firstName" /> <span class="icon-input-error"></span> <span
+								class="errorMessage"></span>
+						</div>
+						<!-- <input id="firstName" class="shell-input" data-role="none" type="text"> -->
+					</div>
+				</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.last.name%</span>
+					<div class="shell-input-cont" id="lnameField">
+						<input data-role="none" type="text"
+							placeholder="%shell.registeration.placeholder.lastname%"
+							id="lastName" /> <span class="icon-input-error"></span> <span
+							class="errorMessage"></span>
+					</div>
+					<!-- <input id="lastName" class="shell-input" data-role="none" type="text"> -->
+				</div>
+
+				<div class="fieldRow nationalityRow">
+					<span class="shell-label">%shell.nationality.label%</span>
+					<div class="shell-dropdown-wrapper mdi mdi-chevron-down prefix">
+						<select id="countries" data-role="none" class="shell-select">
+							<option value="" selected="" class="ui-disabled">%shell.registeration.select.caption.select%</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="fieldRow langRow">
+					<span class="shell-label preferedCommunication">%shell.communications.label%</span>
+					<div class="radio-toolbar">
+						<input type="radio" id="radio3" name="radios1" value="Email"
+							data-role="none" checked> <label for="radio3"
+							class="waves-effect">%shell.Profile.Email%</label> <input
+							type="radio" id="radio4" name="radios1" value="SMS"
+							data-role="none"> <label for="radio4"
+							class="waves-effect">%shell.Profile.SMS%</label>
+					</div>
+				</div>
+
+				<div class="fieldRow langRow">
+					<span class="shell-label preferedCommunication">%shell.register2.preferredLang%</span>
+					<div class="radio-toolbar">
+						<input type="radio" id="radio1" name="radios" value="en"
+							data-role="none" checked> <label for="radio1"
+							class="waves-effect">%shell.Profile.English%</label> <input
+							type="radio" id="radio2" name="radios" value="ar"
+							data-role="none"> <label for="radio2"
+							class="waves-effect">%shell.Profile.Arabic%</label>
+					</div>
+				</div>
+
+				
+			</div>
+
+            <div class="saveBtn waves-effect disabled" id="updateProfileBtn">%shell.profile.save%</div>
+			<div id="editFieldsCont">
+				<span class="icon-cancel" id="cancelEditFields"></span>
+				<div id="changeMailCont">
+					<div class="title">
+						<span class="icon-email"></span> %shell.profile.changeyourmail%
+					</div>
+					<div class="fieldRow">
+						<span class="profileHeader">%shell.profile.changeProfileMail%</span>
+						<!-- <input id="editEmail" class="shell-input" data-role="none" type="email"> -->
+						<span class="shell-label">%shell.register2.mobile%</span>
+						<div class="shell-input-cont" id="editEmailField">
+							<input id="editEmailInput" data-role="none" data-role="none"
+								type="email" placeholder="%shell.register.email.placeholder%" />
+							<span class="icon-input-error"></span> <span class="errorMessage"></span>
+						</div>
+					</div>
+					<div id="updateEmailBtn" class="waves-effect btn disabled">%shell.profile.save%</div>
+					<div id="cancelEmailBtn" class="waves-effect btn">%shell.mstore.alert.cancel%</div>
+				</div>
+				<div id="changeMobileCont">
+					<div class="title">
+						<span class="icon-mobile"></span> %shell.profile.changeyourmobile%
+					</div>
+
+					<div class="fieldRow mobileRow">
+						<span class="profileHeader" style="margin-bottom: 8px;">%shell.profile.changeProfileMobile%</span>
+						<div
+							class="shell-dropdown-wrapper mdi mdi-chevron-down countryCode">
+							<select data-role="none" class="shell-select disabled">
+								<option value="971">+971</option>
+							</select>
+						</div>
+
+						<div class="shell-input-cont" id="mbileEditField">
+
+							<input data-role="none" data-role="none" id="mbileEditInput"
+								type="number" /> <span class="icon-input-error"></span> <span
+								class="errorMessage"></span>
+						</div>
+						<!-- <input class="shell-input phoneNumber" data-role="none" id="mbileNumberSuffix" type="number"> -->
+					</div>
+
+					<div id="updatePhoneBtn" class="waves-effect btn disabled">%shell.profile.save%</div>
+					<div id="cancelPhoneBtn" class="waves-effect btn">%shell.mstore.alert.cancel%</div>
+				</div>
+
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	<div id="mobileRowTemplate" class="fieldRow mobileRow "
+		style="display: none">
+		<span class="shell-label"></span>
+
+		<div class="shell-dropdown-wrapper mdi mdi-chevron-down countryCode">
+			<select data-role="none"
+				class="shell-select disabled countryCodeTemp">
+				<option></option>
+			</select>
+		</div>
+
+		<input class="shell-input phoneNumber disabled" data-role="none"
+			type="number"> <span
+			class="icon-edit editSalikNumberBtn waves-effect"></span> <span
+			class="icon-trash deleteSalikNumberBtn waves-effect"></span>
+	</div>
+	<!-- id="mbileNumberSuffixTemplate" -->
+
+</div>

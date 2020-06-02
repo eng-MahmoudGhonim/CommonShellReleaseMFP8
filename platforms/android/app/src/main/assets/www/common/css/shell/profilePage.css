@@ -1,0 +1,850 @@
+#ProfilePage * {
+	font-family: rta-regular;
+}
+
+#ProfilePage .profileImage {
+	display: block;
+	position: relative;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+#ProfilePage .profileImage span {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	display: block;
+	margin: 12px auto;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 100%;
+	line-height: 57px;
+	color: #ee0000;
+}
+
+#ProfilePage .profileImage div {
+	height: 25px;
+	line-height: 27px;
+	font-weight: bold;
+	color: #ee0000;
+	width: 100%;
+	border-radius: 20px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+#ProfilePage #userName {
+	position: relative;
+	display: block;
+	height: 40px;
+	background: #ccc;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	color: #666;
+	border-radius: 40px;
+}
+
+#ProfilePage .ui-content {
+	padding: 10px 20px;
+	bottom: 50px !important;
+}
+
+#ProfilePage .changePassBtn {
+	position: relative;
+	display: block;
+	height: 40px;
+	background: #fff;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	border-radius: 40px;
+	color: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#ProfilePage .touchIdCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+#ProfilePage .touchIdCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	font-weight: bold;
+	color: #666;
+}
+
+#ProfilePage .touchIdCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#ProfilePage .headLabel {
+	margin: 5px auto;
+	margin-left: 3px;
+	font-size: 18px;
+}
+
+#ProfilePage .desc {
+	color: #171c8f;
+	margin: 10px 0px 0px 0px;
+	margin-left: 3px;
+}
+
+#ProfilePage .fieldRow {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 76px !important;
+	/* margin: 5px auto; */
+}
+
+#ProfilePage .fieldRow .shell-label {
+	position: absolute;
+	left: 3px;
+	top: 0px;
+	margin-top: 17px;
+}
+
+#ProfilePage #MyProfileDetails .shell-label {
+	left: 3px;
+	top: 0px;
+	margin-top: 2px;
+}
+
+#ProfilePage .fieldRow input {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	margin: 0;
+	right: 0;
+	display: block;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box !important;
+	padding-right: 10px;
+	border-radius: 2px;
+	color: #53565a;
+}
+
+#ProfilePage .fieldRow .icon-edit {
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 37px;
+	color: #ee0000;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	border: 1px solid #eee;
+}
+
+#ProfilePage .fieldRow #email {
+	width: calc(100% - 48px);
+}
+
+#ProfilePage .mobileRow .countryCode {
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	width: 20%;
+	/* margin: 2px;
+     */
+}
+
+#ProfilePage .mobileRow .prefix {
+	position: absolute;
+	left: 23%;
+	bottom: 2px;
+	width: 22%;
+}
+
+#ProfilePage .mobileRow input {
+	left: calc(20% + 10px);
+	width: calc(77% - 48px);
+}
+
+#ProfilePage .addNumberBtn {
+	position: relative;
+	display: block;
+	height: 40px;
+	background: #fff;
+	width: 100%;
+	margin: 17px auto;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	border-radius: 40px;
+	color: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#ProfilePage .fNamePart {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+#ProfilePage .titleCont {
+	left: 0;
+	width: 30%;
+}
+
+#ProfilePage .fNameCont {
+	left: 31%;
+	right: 0;
+}
+
+#ProfilePage .fNamePart .shell-label {
+	/* position: relative; */
+	/* display: block; */
+	/* margin-bottom: 1px; */
+	
+}
+
+#ProfilePage .fNamePart .shell-dropdown-wrapper {
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	top: 25px;
+}
+
+#ProfilePage .nationalityRow .shell-label {
+	position: relative;
+	margin-bottom: 1px;
+}
+
+#ProfilePage .nationalityRow .shell-dropdown-wrapper {
+	width: 100%;
+	border: 1px solid #aaa;
+}
+
+/* #ProfilePage .radio-toolbar input[type='radio'] {
+	display: none;
+}
+ */
+#ProfilePage .radio-toolbar input[type="radio"]:checked+label {
+	background: #ee0000;
+	color: #fff;
+	border: 0px !important;
+}
+
+#ProfilePage .radio-toolbar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 38px;
+	white-space: nowrap;
+	color: black !important;
+	width: 100%;
+	font-size: 0;
+}
+
+#ProfilePage .radio-toolbar label {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+	position: relative;
+	transition-duration: 300ms;
+	color: black;
+	border: 1px solid #aaa;
+	white-space: normal;
+	font-size: 16px;
+}
+
+#ProfilePage .radio-toolbar input[type='radio'] {
+	display: none;
+}
+
+#ProfilePage .radio-toolbar input[type="radio"]:checked+label:before {
+	content: "\ea05";
+	font-family: 'icomoon' !important;
+	position: absolute;
+	left: 10px;
+}
+
+#ProfilePage .saveBtn {
+	left: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	height: 50px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	line-height: 54px;
+	font-weight: bold;
+	background: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+
+#ProfilePage .commRow .shell-label {
+	color: #999;
+	font-size: 12px;
+	top: 1px;
+}
+
+#ProfilePage .disabled {
+	background: #ccc;
+	pointer-events: none;
+	color: #53565a;
+}
+
+.container-rtl #ProfilePage {
+	direction: rtl;
+}
+
+.container-rtl #ProfilePage .touchIdCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #ProfilePage .touchIdCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #ProfilePage .fieldRow .shell-label {
+	left: auto;
+	right: 4px;
+}
+
+.container-rtl #ProfilePage .fieldRow .icon-edit {
+	right: auto;
+	left: 2px;
+}
+
+.container-rtl #ProfilePage .mobileRow .countryCode {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #ProfilePage .mobileRow .prefix {
+	left: auto;
+	right: 23%;
+}
+
+.container-rtl #ProfilePage .mobileRow input {
+	left: auto;
+	right: 23%;
+}
+
+.container-rtl #ProfilePage .titleCont {
+	right: 0;
+	left: auto;
+}
+
+.container-rtl #ProfilePage .fNameCont {
+	left: 0;
+	right: 31%;
+}
+
+#ProfilePage #editFieldsCont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #e5e6e8;
+	padding: 20px;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+	-webkit-transform: translate3d(0, 100%, 0);
+}
+
+#ProfilePage #editFieldsCont .icon-cancel {
+	position: absolute;
+	right: 8px;
+	/* top: 0;
+     */
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.container-rtl #ProfilePage #editFieldsCont .icon-cancel {
+	right: 87%;
+	left: auto;
+}
+
+#ProfilePage #editFieldsCont #changeMobileCont {
+	position: absolute;
+	top: 34px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+}
+
+#ProfilePage #editFieldsCont .title {
+	color: #ee0000;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-family: rta-regular;
+	/* top: -4px;
+     */
+	margin-left: 5px;
+}
+
+#ProfilePage #editFieldsCont .title span {
+	margin-right: 10px;
+}
+
+#ProfilePage #editFieldsCont .phoneNumber {
+	width: 54%;
+}
+
+#ProfilePage #editFieldsCont .btn {
+	bottom: 0;
+	display: block;
+	vertical-align: top;
+	width: 48%;
+	background: #ee0000;
+	position: absolute;
+	height: 40px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	border-radius: 40px;
+	color: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+
+#ProfilePage #editFieldsCont #updatePhoneBtn {
+	right: 0;
+}
+
+#ProfilePage #editFieldsCont #cancelPhoneBtn {
+	background: #fff;
+	color: #ee0000;
+}
+
+#ProfilePage #editFieldsCont #changeMailCont {
+	position: absolute;
+	top: 34px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+}
+
+#ProfilePage #editFieldsCont .editMail {
+	width: 100%;
+}
+
+#ProfilePage #editFieldsCont #updateEmailBtn {
+	right: 0;
+}
+
+#ProfilePage #editFieldsCont #cancelEmailBtn {
+	background: #fff;
+	color: #ee0000;
+}
+
+#ProfilePage .fieldRow .shell-input-cont {
+	margin: 0;
+	height: auto;
+	top: 25px;
+}
+
+#ProfilePage .fieldRow .shell-input-cont input {
+	position: relative;
+	height: 36px;
+	top: 0;
+	bottom: 0;
+	border: 1px solid #b6b6b6;
+	border-radius: 2px;
+}
+
+#ProfilePage #editFieldsCont #updateEmailBtn.disabled {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+#ProfilePage #mbileEditField {
+	left: 24%;
+	right: 0;
+	width: auto;
+	top: 18px;
+}
+
+#ProfilePage #mbileEditField input {
+	/* position: absolute;
+     */
+	left: 0;
+	right: 0;
+	width: 76%;
+}
+
+#ProfilePage #changeMobileCont .mobileRow .countryCode {
+	top: 18px;
+}
+
+#ProfilePage #changeMobileCont .mobileRow .prefix {
+	top: 16px;
+}
+
+#ProfilePage #updatePhoneBtn.disabled {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+#ProfilePage .saveBtn.disabled {
+	background: #FAB2B2;
+	/* opacity: 0.3; */
+	color: #fff;
+	pointer-events: none;
+	font-weight: bold;
+}
+
+#ProfilePage #userprofileImg {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	display: block;
+	margin: 12px auto;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 100%;
+	line-height: 57px;
+}
+
+#ProfilePage .fieldRow .icon-edit.disabled {
+	pointer-events: none;
+	color: rgba(255, 0, 0, 0.5);
+}
+
+#ProfilePage .radio-toolbar.disabled {
+	background: none;
+}
+
+.container-rtl #ProfilePage #changeMobileCont .mobileRow .countryCode {
+	left: 0 !important;
+	right: auto !important;
+}
+
+.container-rtl #ProfilePage #changeMobileCont .mobileRow .prefix {
+	right: auto;
+	left: 23%;
+}
+
+.container-rtl #ProfilePage #editFieldsCont #updatePhoneBtn {
+	left: 0;
+	right: auto;
+}
+
+.container-rtl #ProfilePage #editFieldsCont #updateEmailBtn {
+	left: 0;
+	right: auto;
+}
+
+.container-rtl #ProfilePage #editFieldsCont .title span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+#ProfilePage .tabContent {
+	background: #fff;
+	padding: 20px 15px 0px 15px;
+}
+
+#ProfilePage #tabsContent #MyContactDetails {
+	overflow-y: scroll !important;
+}
+
+#ProfilePage #MyContactDetails .OtherNumbers {
+	/* left: 20px;
+     */
+	/* width: 90%;
+     */
+	/* top:0px;
+     */
+	position: relative;
+	/* height: auto;
+     */
+	/* bottom: 50px;
+     */
+}
+
+#ProfilePage #MyContactDetails .OtherNumbersheader {
+	font-size: 18px;
+	display: block;
+	margin-top: 35px;
+	margin-left: 3px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+#ProfilePage #MyContactDetails .OtherNumberDesc {
+	margin-left: 3px;
+	display: block;
+	color: #53565a;
+	/* width:80%;
+     */
+}
+
+#ProfilePage #MyContactDetails .OtherNumberOTP {
+	display: block;
+	color: #171c8f;
+	margin: 20px;
+	margin-left: 3px;
+	margin-bottom: -8px;
+}
+
+.container-rtl  #ProfilePage #MyContactDetails .OtherNumberOTP {
+	margin-right: 5px;
+}
+
+#ProfilePage .OtherNumbers #AddNewNumberBtn {
+	color: #ee0000;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	/* position: absolute;
+     */
+	height: 40px;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	border-radius: 40px;
+	border: 1px solid #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	/* margin-bottom: 50px !important; */
+}
+
+#ProfilePage #continueProfilebtn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 50px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	line-height: 54px;
+	font-weight: bold;
+	background: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+
+#ProfilePage .shell-select {
+	color: #53565a;
+}
+
+#ProfilePage .fieldRow.nationalityRow {
+	height: 69px !important;
+}
+
+#ProfilePage #addedNewMobile {
+	margin-bottom: 20px
+}
+
+#ProfilePage .deleteSalikNumberBtn {
+	position: absolute;
+	right: 48px;
+	bottom: 2px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 37px;
+	color: #ee0000;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	border: 1px solid #eee;
+	/*It will be block after delete work*/
+	display: none;
+}
+
+.container-rtl #ProfilePage .deleteSalikNumberBtn {
+	right: 260px !important;
+}
+
+.container-rtl #ProfilePage .deleteSalikNumberBtn {
+	right: 268px;
+}
+
+#ProfilePage #addedNewMobile .mobileRow input {
+	left: calc(20% + 10px);
+	/*it will active after delete work*/
+	/* width: calc(77% - 95px); */
+}
+
+#deleteNumberHeader {
+	font-family: rta-regular;
+	padding: 5px;
+	font-size: 14px;
+	height: 50px;
+}
+
+#DeleteSalikNumber #deleteNumberHeader i {
+	font-family: rta-regular;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#DeleteSalikNumber #deleteNumberHeader span {
+	font-family: rta-regular;
+	color: #ee0000;
+}
+/* change salik number popup */
+#changeSalikNumber_popup .changeHeader .changeHeader1 {
+	font-family: rta-regular;
+	/* margin-left: 30px; */
+	text-align: center;
+	display: block;
+}
+
+.container-rtl #changeSalikNumber_popup .changeHeader .changeHeader1 {
+	text-align: center;
+	direction: rtl;
+}
+
+#changeSalikNumber_popup .changeHeader .changeHeader1 i {
+	color: #ee0000;
+	font-family: rta-regular;
+	font-size: 16px;
+}
+
+#changeSalikNumber_popup .changeHeader .changeHeader2 {
+	font-family: rta-regular;
+	margin-left: 45px;
+	padding-right: 20px;
+	text-align: left !important;
+	display: block;
+}
+
+.container-rtl #changeSalikNumber_popup .changeHeader .changeHeader2 {
+	margin-right: 45px;
+	text-align: right !important;
+	direction: rtl !important;
+}
+
+#changeSalikNumber_popup .changeHeader .changeHeader2 i {
+	color: #ee0000;
+	font-family: rta-regular;
+	font-size: 16px;
+}
+
+#changeSalikNumber_popup .changeQues .quesPart1 {
+	font-family: rta-regular;
+	margin-right: 22px;
+	text-align: left;
+}
+
+.container-rtl #changeSalikNumber_popup .changeQues .quesPart1 {
+	margin-right: 30px;
+	display: block;
+	text-align: center;
+}
+
+#changeSalikNumber_popup .changeQues .quespart2 {
+	font-family: rta-regular;
+	text-align: center;
+	margin-right: 14px;
+}
+
+.container-rtl #changeSalikNumber_popup .changeQues .quespart2 {
+	font-family: rta-regular;
+	margin-right: 30px;
+	text-align: left;
+}
+
+.container-rtl #changeSalikNumber_popup .changeQues .quespart2 {
+	font-family: rta-regular;
+	text-align: right;
+}
+
+#changeSalikNumber_popup .changeQues .quespart3 {
+	font-family: rta-regular;
+	text-align: left;
+	display: block;
+	text-align: center;
+}
+
+.container-rtl #changeSalikNumber_popup .changeQues .quespart3 {
+	text-align: right;
+}
+/*end popup*/
+#ProfilePage #addedNewMobile .defaultSalik .shell-label {
+	margin-top: -20px !important;
+}
+
+#ProfilePage #addedNewMobile .defaultSalik {
+	height: 100px !important;
+	border-bottom: 1px solid #eee;
+}
+
+#ProfilePage #addedNewMobile .defaultSalik * {
+	top: 50px !important;
+}
+
+#ProfilePage #editFieldsCont .profileHeader {
+	position: absolute;
+	font-size: 15px;
+	font-family: rta-regular;
+	bottom: 52px;
+	left: 5px;
+}
+
+.container-rtl #ProfilePage #editFieldsCont .profileHeader {
+	right: 3px
+}
+
+#ProfilePage #MyProfileDetails .preferedCommunication {
+	left: 3px !important;
+	top: 0px !important;
+	margin-top: 17px !important;
+}
+
+#ProfilePage #MyContactDetails {
+	height: calc(100% - 50px);
+	padding-bottom: 20px;
+	/* padding-bottom: 75px !important; */
+}
+
+.container-rtl #ProfilePage #updateProfileBtn {
+	right: 100% !important;
+	left: 0 !important;
+}
+
+
+#ProfilePage #MyProfileDetails {
+	height: calc(100% - 50px);
+	padding-bottom: 20px;
+}

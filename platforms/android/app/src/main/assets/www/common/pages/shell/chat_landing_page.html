@@ -1,0 +1,44 @@
+<html lang="en">
+ 
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Redirecting ...</title>
+</head>
+ 
+<body>
+    <p style="text-align:center;">Redirecting ...</p>
+    <form id="CHATFORM" method="post" >
+       <input type="hidden" name="mobile" id="mobile" value="">
+        <input type="hidden" name="lang" id="lang" value="">
+        <input type="hidden" name="name" id="name" value="">
+        <input type="hidden" name="email" id="email" value="">
+        <input type="hidden" name="phone" id="phone" value="">
+        <input type="hidden" name="skill" id="skill" value="">
+         <input type="hidden" name="appname" id="appname" value="">
+        <input type="hidden" name="ver" id="ver" value=""> 
+     <!--   <input type="hidden" name="color" id="color" value="3c8438"> 
+       -->
+    </form>
+    <script>
+                    try {
+                        var urlData = location.search.substring(1);
+                        console.log(urlData);
+                        var ChatOptions = JSON.parse('{"'
+                                + decodeURI(urlData.replace(/&/g, "\",\"")
+                                        .replace(/=/g, "\":\"")) + '"}');
+                        document.forms["CHATFORM"].action = ChatOptions["URL"];
+                        for (input in ChatOptions) {
+                            if (ChatOptions.hasOwnProperty(input)
+                                    && input != "URL") {
+                                document.getElementById(input).value = ChatOptions[input];
+                            }
+                        }
+                    } catch (e) {
+                    }
+ 
+                    document.forms["CHATFORM"].submit();
+                </script>
+</body>
+ 
+</html>
+ 

@@ -1,0 +1,16 @@
+<div id="directoryPage" data-role="page" data-class="com/views/shell/DirectoryPageView">
+    <div data-role="content" data-tab-name="directory" id="content" class="_1_0Animated fadeIn">
+        <fieldset id="radioSwitcher" data-role="controlgroup" data-type="horizontal">
+            <label id="services_supported_lbl" for="services_supported">%shell.directory.services.supported%</label>
+            <input type="radio" id="services_supported" name="services_type" value="services_supported" checked="checked" />
+            <label id="services_all_lbl" for="services_all">%shell.directory.services.all%</label>
+            <input type="radio" id="services_all" name="services_type" value="services_all" /> </fieldset>
+        <input data-type="search" placeholder="" data-lastval="" id="searchInputTextField" />
+        <div id="futureHeader"></div>
+        <ul id="serviceslist" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="" data-input="#searchInputTextField" class="message-item referenceItem service-list-style"></ul>
+        <div id="futureServiceslist" data-role="collapsible-set" class="hidden" data-iconpos="right" data-filter="true" data-filter-placeholder="" data-children="> div, > div div ul li" data-inset="true" data-input="#searchInputTextField"> </div>
+        <div id="webServiceslist" data-role="collapsible-set" class="hidden" data-iconpos="right" data-filter="true" data-filter-placeholder="" data-children="> div, > div div ul li" data-inset="true" data-input="#searchInputTextField"></div>
+        <div id="webFutureServiceslist" data-role="collapsible-set" class="hidden" data-iconpos="right" data-filter="true" data-filter-placeholder="" data-children="> div, > div div ul li" data-inset="true" data-input="#searchInputTextField"> </div>
+    </div>
+    <div id="futureHeader"></div>
+</div>

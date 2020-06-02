@@ -1,0 +1,100 @@
+<div id="ContactRtaPage" data-role="page" data-class="com/views/shell/ContactRtaPageView">
+	<div data-role="content" id="content">
+		<div id="templates" style="display: none;">
+			<div class="serviceItem">
+				<div class="serviceTitle"> %shell.contactRta.rtaCenterslist% </div>
+				<div class="services">Services: All</div>
+				<div class="workHrs"> %shell.contactRta.telWorkingTime% </div>
+				<div class="phoneNum"> <span class="icon icon-call"></span>
+					<div class="number">8004559</div>
+				</div>
+				<div class="distanceCont"> <span class="icon-pin"></span>
+					<div class="distance"></div>
+				</div>
+			</div>
+			<div class="serviceItem gateItem">
+				<div class="serviceTitle"></div>
+				<div class="distanceCont"> <span class="icon-pin"></span>
+					<div class="distance"></div>
+				</div>
+			</div>
+		</div>
+		<div class="tabsCont">
+			<div class="tabsHead">
+				<div class="head waves-effect">%shell.contactRta.headoffice% </div>
+				<div class="head waves-effect kiosksServiceMap">%shell.contactRta.locations%</div>
+				<div class="head waves-effect">%shell.contactRta.salikGates%</div>
+				<div class="bar"></div>
+			</div>
+			<div id="tabsContent" class="tabsContent guestSidePanel">
+				<div class="tabContent">
+					<div class="map"></div>
+					<div class="headOfficeContactInfo">
+						<div class="infoCont">
+							<div class="headOfficeTite"> <span class="icon-RTA-logo" style="display: block;"></span>
+								<div class="titleName">%shell.contactRta.headTitle%</div>
+								<div class="distance"> <span class="icon-pin"></span> <span id="headOfficeDistance"></span> </div>
+							</div>
+							<div class="infoItem"> <span class="icon icon-pin"></span> <span style="color: black;" class="infoText">%shell.contactRta.officeAddr%
+								</span> </div>
+							<div class="infoItem"> <span class="icon icon-clock"></span> <span class="infoText">%shell.contactRta.telWorkingTime%</span> </div>
+							<div class="infoItem"> <span class="icon icon-call"></span> <span class="infoText">%shell.home.rta%  
+									:<i style="color: black;direction: ltr;display: inline-block;" class="contactRTANumber">00971 4 284 4444</i></span> <span class="infoText">%shell.homepage.AppName.Salik%
+									:<i style="color: black;direction: ltr;display: inline-block;" class="contactSalikNumber" >800 72545</i></span> </div>
+							<div class="infoItem"> <span class="icon icon-fax"></span> <span class="infoText">%shell.home.rta%
+									:<i style="color: black;direction: ltr;display: inline-block;" class="contactSalikNumber2">00971 4 206 5555</i></span> <span class="infoText" style="color: black;"><i style="color: #666;">%shell.homepage.AppName.Salik%</i>
+									:<i style="direction: ltr;display: inline-block;" class="contactSalikNumber3">00971 4 233 5121 </i><i style="color: #666;direction: ltr;display: inline-block;margin-right: 5px;margin-left: 5px;"> %shell.contactrta.or% </i><i style="direction: ltr;display: inline-block;" class="contactSalikNumber4"> 00971 4 233 5l80</i></span> </div>
+							<div class="infoItem"> <span class="icon icon-email"></span> <span class="infoText">%shell.home.rta%
+									:<i style="color: black;">ask@rta.ae</i></span> <span class="infoText">%shell.homepage.AppName.Salik%
+									:<i style="color: black;">customerservice@salik.ae</i></span> </div>
+							<div class="infoItem"> <span class="icon icon-mailbox"></span> <span class="infoText">%shell.contactRta.POBox%
+									:<i style="color: black;">118899</i></span> </div>
+							<div class="socialCont"> <span id="facebookBtn" class="socicon-facebook waves-effect"></span> <span id="twitterBtn" class="socicon-twitter waves-effect"></span> <span id="instagramBtn" class="socicon-instagram waves-effect"></span> <span id="linkedinBtn" class="socicon-linkedin waves-effect"></span> <span id="youtubeBtn" class="socicon-youtube waves-effect"></span> </div>
+							<div class="callsCont">
+								<div id="emergency" class="callItem waves-effect"> <span class="icon icon-call"></span> <span class="label">%shell.contactRta.emergency.callCenter%</span>
+									<div class="number">04-2905000</div>
+								</div>
+								<div id="tollfree" class="callItem waves-effect"> <span class="icon icon-call"></span> <span class="label">%shell.contactRta.freeline%</span>
+									<div class="number" style="direction: ltr;display: inline-block;">800 9090</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tabContent ">
+					<div class="map">
+						<div class="servicesMap"></div>
+						<div class=" KiosksMap"></div>
+					</div>
+					<div class="radio-toolbar" style="display: none"> <input type="radio" id="radio1" name="radios" value="services" data-role="none" checked=""> <label for="radio1" class="waves-effect">%shell.service_category_info.serviceCenter%</label> <input type="radio" id="radio2" name="radios" value="kiosks" data-role="none"> <label for="radio2" class="waves-effect">%shell.service_category_info.Kiosks%</label> </div>
+					<div class="servicesList">
+						<div class="searchCont"> <input data-role="none" type="search" placeholder="%shell.searchPage.search.placeHolder%" id="searchServices" /> <span class="icon-menu-search"></span> </div>
+						<div class="listScroller" id="RTAServicesList"></div>
+						<div class="listScroller" id="RTAKiosksList"></div>
+					</div>
+				</div>
+				<div class="tabContent">
+					<div class="map"></div>
+					<div class="servicesList">
+						<div class="searchCont"> <input data-role="none" type="search" placeholder="%shell.searchPage.search.placeHolder%" id="salikSearchInput" /> <span class="icon-menu-search"></span> </div>
+						<div class="listScroller" id="SalikGatesList"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sheetCover"></div>
+		<div id="centerSheet" class="sheet"> <span class="icon-cancel closeSheet"></span>
+			<div class="sheetTitle"></div>
+			<div class="distanceDetails"></div>
+			<div class="sheetHours"></div>
+			<div class="salikNol"></div>
+			<div class="waves-effect getDirections">%shell.RTACustomerService.GetDirections.button.label%</div>
+		</div>
+		<div id="salikSheet" class="sheet"> <span class="icon-cancel closeSheet"></span>
+			<div class="gateName "></div>
+			<div class="distanceDetails "></div>
+			<div class="tollCharge "> <span>%shell.contactRta.tollFeeTitle%</span><span>%shell.contactRta.tollFee%</span> </div>
+			<div class="Worktimes "></div>
+		</div>
+	</div>
+</div>

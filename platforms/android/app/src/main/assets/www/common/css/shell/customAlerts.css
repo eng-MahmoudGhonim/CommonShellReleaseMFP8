@@ -1,0 +1,146 @@
+
+#customAlertsPage * {
+    font-family: rta-regular;
+}
+#customAlertsPage #customAlertsPageContent{
+    padding: 25px 25px 25px 10px;
+    overflow: hidden;
+}
+
+#customAlertsPage .incid-head {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+}
+
+#customAlertsPage .incid-head span {
+    font-size: 16px;
+    font-family: rta-bold;
+    display: block;
+}
+
+.container-rtl  #customAlertsPage .incid-head  {
+	   direction: rtl;
+}
+
+#customAlertsPage .notificationsSetting {
+    width: 100%;
+    height: 60px;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#customAlertsPage .notificationsSetting .title {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    height: 20px;
+    margin: auto;
+    color: #666;
+}
+
+.container-rtl #customAlertsPage .notificationsSetting .title {
+    left: auto;
+    right: 10px;
+    direction: rtl;
+}
+
+#customAlertsPage .Description {
+    color: #666;
+    font-family: rta-regular;
+    font-size: 10px;
+}
+
+#customAlertsPage #showAllAlerts {
+    font-size: 13px;
+    color: #ee0000;
+    position: absolute;
+    right: 34px;
+    left: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 11px;
+    margin: auto;
+}
+.container-rtl #customAlertsPage #showAllAlerts {
+    left:35px;
+    right:auto;
+}
+#customAlertsPage .notificationsSetting .shell-switch {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 30px;
+}
+
+.container-rtl #customAlertsPage .notificationsSetting .shell-switch {
+    right: auto;
+    left: 10px;
+}
+
+#customAlertsPage .notificationsSetting i {
+    font-size: 30px;
+    color: black;
+}
+
+#customAlertsPage .standardAlertActions {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 5%;
+    height: 100%;
+}
+
+#customAlertsPage #resetCustomAlerts {
+    right: auto!important;
+    left: 0px;
+    background: #fff;
+    position: absolute;
+    bottom: 44%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    width: 150px;
+    font-family: rta-bold;
+    color: #ee0000;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.container-rtl #customAlertsPage #resetCustomAlerts {
+    left: calc(50% + 5PX);
+}
+
+#customAlertsPage #saveSCustomAlerts {
+    position: absolute;
+    left: calc(50% + 5PX);
+    bottom: 44%;
+    color: #fff;
+    background: #ee0000;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    width: 150px;
+    font-family: rta-bold;
+    display: inline-block;
+    right: auto!important;
+    border-radius: 20px;
+}
+
+.container-rtl #customAlertsPage #saveSCustomAlerts {
+    left: 0;
+    right: auto;
+}
+
+.container-rtl #customAlertsPage .mdi.mdi-chevron-right:before {
+    content: "\F141";
+}

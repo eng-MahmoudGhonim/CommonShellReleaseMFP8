@@ -1,0 +1,26 @@
+#sidepanel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    left: auto !important;
+    width: 315px;
+    bottom: 0;
+    overflow: hidden !important;
+    z-index: 10000010 !important;
+}
+
+#sidepanel .sideNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 297px;
+    background: #fff;
+    -webkit-transform: translate3d(0,0,0);
+    overflow: hidden;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.6);
+}
+
+#sideNavBlack{
+	display:none;
+}

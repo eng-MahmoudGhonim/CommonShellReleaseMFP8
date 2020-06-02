@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.RTA_Common_Shell" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>RTA_Common_Shell</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
+    <feature name="WLSplashScreen">
+        <param name="ios-package" value="WLSplashPlugin" />
+    </feature>
+    <feature name="LoggerPlugin">
+        <param name="ios-package" value="LoggerPlugin" />
+    </feature>
+    <feature name="DeviceAuth">
+        <param name="ios-package" value="DeviceAuthPlugin" />
+    </feature>
+    <feature name="WLDirectUpdatePlugin">
+        <param name="ios-package" value="WLDirectUpdatePlugin" />
+    </feature>
+    <feature name="WLApp">
+        <param name="ios-package" value="WLApp" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UIControls">
+        <param name="ios-package" value="UIControls" />
+    </feature>
+    <feature name="NetworkDetector">
+        <param name="ios-package" value="NetworkDetector" />
+    </feature>
+    <feature name="NativePage">
+        <param name="ios-package" value="NativePage" />
+    </feature>
+    <feature name="SecurityPlugin">
+        <param name="ios-package" value="SecurityPlugin" />
+    </feature>
+    <feature name="StoragePlugin">
+        <param name="ios-package" value="StoragePlugin" />
+    </feature>
+    <feature name="FIPSHttpPlugin">
+        <param name="ios-package" value="FIPSHttpPlugin" />
+    </feature>
+    <feature name="Badge">
+        <param name="ios-package" value="Badge" />
+    </feature>
+    <feature name="NotificationEx">
+        <param name="ios-package" value="NotificationEx" />
+    </feature>
+    <feature name="WifiPlugin">
+        <param name="ios-package" value="WifiPlugin" />
+    </feature>
+    <feature name="WLNativeXHRPlugin">
+        <param name="ios-package" value="WLNativeXHRPlugin" />
+    </feature>
+    <feature name="WLActionSenderPlugin">
+        <param name="ios-package" value="WLActionSenderPlugin" />
+    </feature>
+    <feature name="WLAuthorizationManagerPlugin">
+        <param name="ios-package" value="WLAuthorizationManagerPlugin" />
+    </feature>
+    <feature name="WLCertificatePinningPlugin">
+        <param name="ios-package" value="WLCertificatePinningPlugin" />
+    </feature>
+    <feature name="MFPPushPlugin">
+        <param name="ios-package" value="CDVMFPPush" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppAvailability">
+        <param name="ios-package" value="AppAvailability" />
+    </feature>
+</widget>

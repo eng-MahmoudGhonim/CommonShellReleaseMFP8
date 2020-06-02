@@ -1,0 +1,95 @@
+.CorporateApp #dashboardPage .serviceTileCont .serviceLogo .logo {
+	background: transparent;
+	color: #FC4A4F;
+	line-height: 55px;
+	font-size: 34px;
+}
+
+.CorporateApp #dashboardPage .serviceTileCont .serviceLogo {
+	background: transparent !important;
+}
+
+.CorporateApp #dashboardPage .serviceTileCont .serviceTitle {
+	color: #FC4A4F;
+	margin-left: 37px;
+	font-family: rta-bold;
+	font-size: 11px;
+}
+
+.CorporateApp #dashboardPage .serviceTileCont .expandButton {
+	background: #FC4A4F !important;
+}
+
+.CorporateApp #dashboardPage #favServicesCont .favService div {
+	color: #186CE1;
+}
+
+.CorporateApp #dashboardPage .serviceTileCont .serviceLogo .icon-mStore
+	{
+	color: inherit;
+	font-size: inherit;
+	position: inherit;
+	left: inherit;
+	margin: inherit;
+	height: inherit;
+	width: inherit;
+	right: inherit;
+}
+
+.CorporateApp #dashboardPage .loginInfo {
+	margin-top: 15px;
+	font-family: rta;
+}
+
+.CorporateApp #LoginPopup .popupContent {
+	height: 300px;
+}
+
+.CorporateApp #LoginPopup .tabsContent {
+	top: 0px;
+}
+
+.CorporateApp #LoginPopup .tabsHead {
+	display: none;
+}
+
+.CorporateApp #dashboardPage .serviceTileCont .reloadCont {
+	left: 25px;
+}
+
+.container-rtl #dashboardPage .serviceTileCont .reloadCont {
+	left: 0;
+	right: 25px;
+}
+
+.container-rtl.CorporateApp #dashboardPage .serviceTileCont .serviceTitle
+	{
+	margin-left: 0;
+	margin-right: 37px;
+}
+
+.CorporateApp #ProfilePage .changePassBtn {
+	display: none;
+}
+
+.CorporateApp #dashboardPage #vehiclesTile .expandButton {
+	opacity: 0.4;
+}
+
+.CorporateApp #dashboardPage #platesTileCorporate .expandButton {
+	opacity: 0.4;
+}
+
+.CorporateApp #dashboardPage #favServicesCont .serviceCont .serviceIcon{
+    color: #ee0000; 
+}
+
+.CorporateApp #dashboardPage #favServicesCont .serviceCont .favServiceTitle{
+    color: #333; 
+}
+.CorporateApp #sidepanel #loginBtn:before {
+ 	right: 200px !important;
+}
+.CorporateApp #dashboardPage #finesTile .expandButton {
+	opacity: 0.4;
+}

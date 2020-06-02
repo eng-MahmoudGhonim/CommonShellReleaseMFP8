@@ -1,0 +1,9 @@
+{
+    "AudioToolbox.framework": 1,
+    "libz.tbd": 1,
+    "libc++.tbd": 1,
+    "Security.framework": 1,
+    "WebKit.framework": 1,
+    "SystemConfiguration.framework": 2,
+    "CoreTelephony.framework": 1
+}

@@ -1,0 +1,239 @@
+#dashboardPage.personalize {
+	top: 0 !important;
+	bottom: 0 !important;
+	z-index: 1000000;
+	left: 0 !important;
+	background: #eee;
+	right: 0 !important;
+	height: auto;
+	display: block;
+}
+
+#dashboardPage.personalize .head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 55px;
+}
+
+#dashboardPage.personalize .head .pageTitle {
+	text-align: center;
+	line-height: 56px;
+	color: #ee0000;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: rta-bold !important;
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#dashboardPage.personalize .content {
+	position: absolute;
+	top: 55px;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	right: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#dashboardPage.personalize .icon.icon-cancel {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 55px;
+	text-align: center;
+	line-height: 55px;
+	color: #ee0000;
+}
+
+#dashboardPage.personalize .tileTitle {
+	position: relative;
+	width: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+	padding: 0;
+}
+
+#dashboardPage.personalize .serviceTile {
+	position: relative;
+	width: 100%;
+	display: block;
+	height: 80px;
+	background: #fff;
+	margin: 15px 0;
+}
+
+#dashboardPage.personalize .logoCont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 67px;
+	display: block;
+}
+
+#dashboardPage.personalize .logoCont .title {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-size: 11px;
+}
+
+#dashboardPage.personalize .logoCont .icon-vehicles {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	background: #ee0000;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #fff;
+}
+
+#dashboardPage.personalize .logoCont .icon-dots-v {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 17px;
+	margin: auto;
+}
+
+#dashboardPage.personalize .tileContent {
+	position: absolute;
+	top: 0;
+	left: 67px;
+	bottom: 0;
+	right: 0;
+}
+
+#dashboardPage.personalize .dashboardTile {
+	transition-delay: 0ms;
+	transition-duration: 300ms;
+	transform: translate3d(0px, 0px, 0px);
+	-webkit-filter: grayscale();
+}
+
+#dashboardPage.personalize .overlayCont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+}
+
+#dashboardPage.personalize .blurCont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	box-shadow: -50px 0 70px 20px rgba(255, 255, 255, 0.9);
+	transition-duration: 300ms;
+	-webkit-transform: translate3d(0, 0, 0);
+	background: rgba(255, 255, 255, 0.9);
+}
+
+#dashboardPage.personalize .tileCont.active .dashboardTile {
+	box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+	-webkit-filter: none;
+}
+
+#dashboardPage.personalize .tileCont.active .blurCont {
+	-webkit-transform: translate3d(100%, 0, 0);
+}
+
+#dashboardPage.personalize .tileCont {
+	position: relative;
+	display: block;
+	width: 95%;
+	overflow: visible;
+	margin-left: 2.5%;
+}
+
+#dashboardPage.personalize .tileCont .icon-add {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -8px;
+	width: 25px;
+	height: 25px;
+	background: #00B154;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	margin: auto;
+	transition-duration: 300ms;
+	-webkit-transform: scale(1);
+	will-change: transform;
+}
+
+#dashboardPage.personalize .tileCont .iconRemove {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: -8px;
+	width: 25px;
+	height: 25px;
+	background: #ee0000;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	line-height: 27px;
+	margin: auto;
+	transition-duration: 300ms;
+	-webkit-transform: scale(0);
+	will-change: transform;
+	z-index: 11111111111;
+}
+
+#dashboardPage.personalize .tileCont.active .iconRemove {
+	-webkit-transform: scale(1);
+}
+
+#dashboardPage.personalize .tileCont.active .icon-add {
+	-webkit-transform: scale(0);
+}
+
+.container-rtl #dashboardPage.personalize .tileCont.active .blurCont {
+	-webkit-transform: translate3d(-100%, 0, 0);
+}
+
+.container-rtl #dashboardPage.personalize .blurCont {
+	box-shadow: 50px 0 70px 20px rgba(255, 255, 255, 0.9);
+}
+
+.container-rtl #dashboardPage.personalize .tileCont .icon-add {
+	left: auto !important;
+	right: -8px;
+}
+
+.container-rtl #dashboardPage.personalize .tileCont .iconRemove {
+	right: auto;
+	left: -8px;
+}
+
+.container-rtl #dashboardPage.personalize .icon.icon-cancel {
+	left: 0;
+	right: auto;
+}
+
+#dashboardPage.personalize #simpleList {
+	/* height: calc(100% - 16px); */
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+/* 	margin-left: 1.5%;
+ */}

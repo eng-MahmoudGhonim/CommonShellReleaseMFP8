@@ -1,0 +1,184 @@
+/*--------------------------shell Form-------------------------*/
+#formsPage .stepperComponent .pagesCont .page:first-child {
+	padding: 10px;
+}
+
+/*--------------------------shell Button-------------------------*/
+.shell-button {
+	height: 40px;
+	background: #ee0000;
+	line-height: 44px;
+	text-align: center;
+	/* width: 90%; */
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	-webkit-transform: translateX(0%);
+}
+/*--------------------------shell Label-------------------------*/
+.shell-label {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	line-height: initial;
+}
+/*--------------------------shell Select List-------------------------*/
+.shell-select {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+	display: inline-block;
+	-webkit-appearance: none;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: white;
+	padding-right: 15%;
+}
+
+.shell-select-wrapper:before {
+	right: 7px;
+	position: absolute;
+	line-height: 36px;
+	color: rgb(83, 86, 90);
+	pointer-events: none;
+}
+
+.shell-select-wrapper {
+	display: inline-block !important;
+	width: 45%;
+	height: 36px;
+	position: relative;
+}
+
+/*--------------------------shell Dropdown List-------------------------*/
+.shell-dropdown {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+	display: inline-block;
+	-webkit-appearance: none;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: white;
+	padding-right: 15%;
+}
+
+.shell-dropdown-wrapper:before {
+	right: 7px;
+	position: absolute;
+	line-height: 36px;
+	color: rgb(83, 86, 90);
+	pointer-events: none;
+}
+
+.container-rtl
+ .shell-dropdown-wrapper:before {
+	right: auto;
+	left: 7px;
+}
+
+.shell-dropdown-wrapper {
+	display: inline-block !important;
+	width: 100%;
+	height: 36px;
+	position: relative;
+}
+
+/*--------------------------shell Button 2-------------------------*/
+.shell-button-wrapper {
+	-webkit-transform: translateX(0%);
+	border-radius: 30px;
+	background: blue;
+	overflow: hidden;
+	height: 40px;
+	width: 90%;
+	display: block;
+	margin: 10px auto;
+}
+
+.shell-button2 {
+	height: 40px;
+	background: #ee0000;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+}
+/*--------------------------shell Input-------------------------*/
+.shell-input {
+	height: 36px;
+	position: relative;
+	border: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+/*--------------------------shell switch-------------------------*/
+.shell-switch {
+	height: 40px;
+	margin: 10px auto;
+	overflow: hidden;
+	display: inline-block;
+	right: 0;
+	position: relative;
+}
+
+.shell-checkbox {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.shell-lever {
+	content: "";
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 23px;
+	border-radius: 15px;
+	margin-right: 10px;
+	transition: background 100ms linear;
+	vertical-align: middle;
+	margin: 0 2px;
+	background-color: #818181;
+	line-height: 23px;
+}
+
+.shell-lever:after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background-color: #F1F1F1;
+	border-radius: 21px;
+	top: 1px;
+	transition: right 100ms linear;
+	transition-duration: 100ms;
+	right: 18px;
+}
+
+.shell-lever-active:after {
+	right: 1px;
+}
+
+.shell-lever-active {
+	background-color: #ee0000 !important;
+}
+.container-rtl .shell-input-cont input {
+    text-align: right;
+}
+.container-rtl .shell-select {
+    padding-right: 10px;
+    padding-left: 27px;
+    direction: rtl;
+}

@@ -1,0 +1,3622 @@
+
+/* Stylesheet content from css/shell/dashboard.css in folder common */
+
+@-webkit-keyframes tic {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#dashboardPage * {
+	box-sizing: initial;
+	font-family: rta-regular;
+}
+
+#dashboardPage div{
+    will-change: transform;
+}
+
+#dashboardPage .ui-content {
+	overflow: hidden !important;
+}
+
+#dashboardPage .homeContent {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #e5e6e8;
+	direction: ltr;
+}
+
+#dashboardPage .notification {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background: #ee0000;
+	display: none;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-family: rta-regular;
+}
+
+#dashboardPage #vehicleTile .expandButton.active i {
+	color: #fff !important;
+}
+
+/* #dashboardPage .dashboardTile:nth-child(1) {
+    transition-duration: 400ms;
+    transition-delay: 550ms;
+    -webkit-transform: translate3d(120%, 0, 0);
+}
+#dashboardPage .dashboardTile:nth-child(2) {
+    transition-duration: 400ms;
+    transition-delay: 700ms;
+    -webkit-transform: translate3d(120%, 0, 0);
+}
+#dashboardPage .dashboardTile:nth-child(3) {
+    transition-duration: 300ms;
+    transition-delay: 850ms;
+    -webkit-transform: translate3d(120%, 0, 0);
+}
+#dashboardPage .dashboardTile:nth-child(4) {
+    transition-duration: 300ms;
+    transition-delay: 1000ms;
+    -webkit-transform: translate3d(120%, 0, 0);
+}
+#dashboardPage .dashboardTile:nth-child(5) {
+    transition-duration: 300ms;
+    transition-delay: 1150ms;
+    -webkit-transform: translate3d(120%, 0, 0);
+}
+*/
+
+#dashboardPage .outTransform {
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .sensitiveTransform {
+	-webkit-transform: translate3d(0, 0, 0) !important;
+}
+
+#dashboardPage .dashboardTilechild0 {
+	transition-duration: 400ms;
+	transition-delay: 550ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild1 {
+	transition-duration: 400ms;
+	transition-delay: 700ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild2 {
+	transition-duration: 300ms;
+	transition-delay: 850ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild3 {
+	transition-duration: 300ms;
+	transition-delay: 1000ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild4 {
+	transition-duration: 300ms;
+	transition-delay: 1150ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild5 {
+	transition-duration: 300ms;
+	transition-delay: 1300ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild6 {
+	transition-duration: 300ms;
+	transition-delay: 1450ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild7 {
+	transition-duration: 300ms;
+	transition-delay: 1600ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild8 {
+	transition-duration: 300ms;
+	transition-delay: 1700ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild9 {
+	transition-duration: 300ms;
+	transition-delay: 1850ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild10 {
+	transition-duration: 300ms;
+	transition-delay: 2000ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .dashboardTilechild11 {
+	transition-duration: 300ms;
+	transition-delay: 2150ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .sliderHead {
+	transition-duration: 600ms;
+	-webkit-transform: translate3d(0, 0, 0) !important;
+}
+
+#dashboardPage .tileTitle {
+	margin-bottom: 10px;
+	transition-duration: 400ms;
+	transition-delay: 350ms;
+	color: #555;
+	font-size: 13px;
+	padding: 0 15px;
+}
+
+#dashboardPage #vehicleTile .icon-import-vehicle {
+	display: block;
+	font-size: 30px;
+	color: #ee0000;
+	width: 35px;
+	margin: 2px auto;
+	margin-bottom: 0px;
+}
+
+#dashboardPage #vehicleTile .desc {
+	text-align: center;
+	font-size: 13px;
+}
+
+#dashboardPage #vehicleTile .loginButton {
+	width: 110px;
+	background: #d00000;
+	color: #fff;
+	border-radius: 30px;
+	margin: 0px auto;
+	font-size: 13px;
+	height: 25px;
+	line-height: 27px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+}
+
+#dashboardPage .btn {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	width: 100px !important;
+	font-size: 11px;
+	border-radius: 30px;
+	height: 23px !important;
+	line-height: 27px;
+	color: #fff;
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	/* display: block;
+    */
+	overflow: hidden;
+	font-family: rta-bold;
+}
+
+#dashboardPage .payfineBtn {
+	background: #171c8f;
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage .clickParkBtn {
+	background: #025ee1;
+}
+
+#dashboardPage .topupSalikBtn {
+	background: #8031c8;
+}
+
+#dashboardPage #salikTile .rechargeBtn {
+	background: rgb(128, 49, 200);
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage #salikTile .loggedIn:before {
+	content: "" !important;
+	display: none;
+}
+
+#dashboardPage #salikTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	color: rgb(23, 27, 143);
+}
+
+#dashboardPage #salikTile .loggedIn .currency {
+	display: block;
+	margin-top: 19px;
+	font-size: 12px;
+}
+
+#dashboardPage #salikTile .loggedIn #amount {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 25px;
+	font-family: rta-bold !important;
+}
+
+#dashboardPage #salikTile .loggedIn .accDesc {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+#dashboardPage .neerstZone {
+	font-size: 12px;
+	padding: 0 15px;
+	margin-top: 16px;
+}
+
+#dashboardPage #dashboardCont {
+	padding: 15px 0;
+}
+
+#dashboardPage #serviceTiles {
+	padding: 0 15px;
+}
+
+#dashboardPage .zoneCont {
+	font-size: 11px;
+	background: darkorange;
+	width: 38px;
+	text-align: center;
+	height: 24px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 3px;
+	margin-top: 3px;
+	direction: ltr;
+}
+
+#dashboardPage .distanceTime {
+	margin-left: 15px;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+
+#dashboardPage .mstoreTitle {
+	font-size: 13px;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #555;
+}
+
+#dashboardPage .icon-mStore {
+	font-size: 50px;
+	color: #53585a;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	bottom: 0;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+}
+
+#dashboardPage #mStore .tileDataCont {
+	border-left: 1px solid #eee;
+}
+
+#dashboardPage #mStore .loginInfo {
+	color: #555;
+}
+
+#dashboardPage .scanNow {
+	background: #ee0000;
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage #driveMode {
+	height: auto;
+	transition-duration: 300ms;
+	transition-delay: 1300ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage #driveMode .driveModeTitle {
+	text-align: center;
+	color: #171b8f;
+	margin-top: 10px;
+	font-weight: bold;
+	height: 30px;
+	vertical-align: top;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+#dashboardPage #driveMode .driveModeTitle i {
+	font-size: 22px;
+	display: inline-block;
+	height: 30px;
+	vertical-align: top;
+	line-height: 25px;
+}
+
+#dashboardPage #driveMode .driveModeTitle span {
+	height: 100%;
+	line-height: 29px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: rta-regular;
+	font-size: 15px;
+}
+
+#dashboardPage #driveMode img {
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+}
+
+#dashboardPage #driveMode #map-container {
+	width: 95%;
+	height: 170px;
+	display: block;
+	margin: 0 auto;
+}
+
+#dashboardPage #driveMode .driveModeAsk {
+	text-align: center;
+	margin-top: 15px;
+	width: 125px;
+	margin: 10px auto;
+	display: block;
+	word-wrap: break-word;
+	white-space: normal;
+	font-size: 15px;
+	font-family: rta-regular;
+}
+
+#dashboardPage #driveMode .driveModeCats {
+	width: 100%;
+	height: 100px;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+}
+
+#dashboardPage #driveMode .driveModeCats .item {
+	display: inline-block;
+	width: 33.333333333%;
+	height: 100%;
+	vertical-align: top;
+	border-right: 1px solid #eee;
+}
+
+#dashboardPage #driveMode .driveModeCats .item i {
+	display: block;
+	font-size: 23px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	border-radius: 100%;
+	margin: 10px auto;
+}
+
+#dashboardPage #driveMode .driveModeCats .item span {
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	font-family: rta-regular;
+}
+
+#dashboardPage #editDash {
+	display: block;
+	margin: 30px auto;
+	margin-bottom: 20px !important;
+}
+
+#dashboardPage #editDash i {
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background: #ee0000;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#dashboardPage #editDash span {
+	text-align: center;
+	display: block;
+	margin-top: 7px;
+	color: #ee0000;
+}
+
+#vehicleTile .entryTemp span {
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: auto;
+	color: #333;
+}
+
+#vehicleTile .entryTemp i {
+	left: 0;
+	right: 0;
+}
+
+#dashboardPage .serviceTileCont .tileDataCont .guestTempOffline {
+	width: auto;
+	margin: auto;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	text-align: left;
+}
+
+#dashboardPage .serviceTileCont .tileDataCont .guestTempOffline:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#dashboardPage .serviceTileCont .tileDataCont .Temp {
+	width: auto;
+	margin: auto;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#dashboardPage .serviceTileCont .tileDataCont .Temp:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#dashboardPage .searchCont {
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border-radius: 30px;
+	position: relative;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	transition-duration: 300ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .searchCont input {
+	position: absolute;
+	left: 45px;
+	top: 0;
+	bottom: 0;
+	right: 45px;
+	width: 75%;
+	display: block;
+	max-width: 100%;
+	-webkit-appearance: none;
+	border: none;
+	font-size: 15px;
+	padding-top: 4px;
+}
+
+#dashboardPage .searchCont input::-webkit-search-decoration, #dashboardPage .searchCont input::-webkit-search-cancel-button, #dashboardPage .searchCont input::-webkit-search-results-button, #dashboardPage .searchCont input::-webkit-search-results-decoration {
+	display: none;
+}
+
+#dashboardPage .searchCont i {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	color: #ee0000;
+}
+
+#dashboardPage .servicesCount {
+	color: #555;
+	font-size: 13px;
+	transition-duration: 300ms;
+	transition-delay: 150ms;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage .servicesScroller {
+	position: absolute;
+	top: 95px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+#dashboardPage #servicesCont .collapseHead i {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	bottom: 0;
+	font-size: 35px;
+	width: 35px;
+	height: 35px;
+	color: #ee0000;
+	margin: auto;
+	transition-duration: 300ms;
+}
+
+#dashboardPage #servicesCont .collapseHead .serviceTitle {
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 83%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#dashboardPage #servicesCont .collapseHead .count {
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	color: #ee0000;
+	transition-duration: 300ms;
+}
+
+#dashboardPage #servicesCont .collapseHead .subCats {
+	margin-left: 65px;
+	font-size: 12px;
+	margin-top: 2px;
+	color: #555;
+	width: 65%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition-duration: 300ms;
+}
+
+#dashboardPage #servicesCont .collapseHead .mdi-chevron-down {
+	left: auto;
+	right: 15px;
+	color: #000;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	transition-duration: 300ms;
+}
+
+#dashboardPage #servicesCont .collapseBody .item {
+	height: 45px;
+	line-height: 49px;
+	font-size: 12px;
+	padding-left: 0px;
+	color: #555;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+}
+
+#dashboardPage .collapseHead.active {
+	background-color: #ee0000;
+}
+
+#dashboardPage .collapseHead.active i {
+	color: #fff !important;
+}
+
+#dashboardPage .collapseBody.active {
+	border: 1px solid #ee0000;
+}
+
+#dashboardPage .collapseHead.active .subCats {
+	opacity: 0;
+}
+
+#dashboardPage .collapseHead.active .mdi.mdi-chevron-down {
+	-webkit-transform: rotateZ(180deg);
+}
+
+#dashboardPage #servicesCont .collapseHead .serviceDescCont {
+	position: relative;
+	width: 70%;
+	height: 18px;
+	margin-top: 19px;
+	margin-left: 65px;
+	transition-duration: 300ms;
+}
+
+#dashboardPage .collapseHead.active .serviceDescCont {
+	color: #fff !important;
+	-webkit-transform: translate3d(-30px, 5px, 0) scale(0.8);
+}
+
+#dashboardPage .collapseHead.active .count {
+	color: #fff !important;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .blackCover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #ffdb00;
+	opacity: 0.5;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .userImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .scoreCont {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	width: 70px;
+	display: none;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .userImg i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	color: #ee0000;
+	background: #eee;
+	border-radius: 100%;
+	margin: auto;
+	line-height: 55px;
+	font-size: 34px;
+}
+
+#dashboardPage #welcomeItem .loginButton {
+	background: #fff;
+	color: #ee0000;
+	font-family: rta-bold;
+}
+
+#dashboardPage .sliderWrabber #greenpointItem {
+	background: #00b154
+}
+
+#dashboardPage .sliderWrabber #greenpointItem .greenImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+}
+
+#dashboardPage .sliderWrabber #greenpointItem .greenImg i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	color: #00b154;
+	background: #fff;
+	border-radius: 100%;
+	margin: auto;
+	line-height: 55px;
+	font-size: 20px;
+}
+
+#dashboardPage .sliderWrabber .greeting {
+	position: absolute;
+	left: 75px;
+	font-size: 12px;
+	top: 0;
+	right: 120px;
+	width: auto;
+	bottom: 0;
+	margin: auto;
+	font-weight: bold;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	text-align: left;
+	font-family: rta;
+}
+
+#dashboardPage .sliderWrabber .greeting:before {
+	content: '\200B';
+	display: inline-block;
+	/* height: 100%;
+    */
+	vertical-align: middle;
+}
+
+#dashboardPage .sliderWrabber .greeting span {
+	display: inline-block;
+	/* font-weight: bold;
+    */
+	vertical-align: middle;
+	margin-top: 8px;
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#dashboardPage #greenpointItem .loginButton {
+	background: #fff;
+	color: #00b154;
+	border-color: #00b154;
+	border: 1px solid;
+	font-family: rta-bold;
+	padding: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 85px;
+}
+
+#dashboardPage .sliderWrabber #licensesItem {
+	background: #fff;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .greenImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 75px;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .greenImg i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	color: #fff;
+	background: #ee0000;
+	border-radius: 100%;
+	margin: auto;
+	line-height: 55px;
+	font-size: 30px;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .greeting {
+	color: #ee0000;
+}
+
+#dashboardPage #licensesItem .loginButton {
+	background: #fff;
+	color: #ee0000;
+	border-color: #ee0000;
+	border: 1px solid;
+	font-family: rta-bold;
+	padding: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 85px;
+}
+
+#dashboardPage #parkingTile .guestTempOffline div {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#dashboardPage #parkingBalance .currency {
+	display: block;
+	margin-top: 19px;
+	font-size: 12px;
+}
+
+#dashboardPage #parkingBalance .accDesc {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+#dashboardPage #parkingBalance #amount {
+	font-weight: bold;
+	/* text-align: left;
+    */
+	margin-top: 0px;
+	height: 22px;
+	font-size: 25px;
+	font-family: rta-bold !important;
+}
+
+#dashboardPage #parkingBalance .clickPark {
+	background: rgb(2, 94, 225);
+	position: absolute;
+	margin: auto !important;
+}
+
+#dashboardPage .activeTicket .remainingText {
+	display: block;
+	margin-top: 12px;
+	font-size: 12px;
+}
+
+#dashboardPage .activeTicket .timeCont {
+	display: block;
+	height: 23px;
+	margin-bottom: 5px;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+#dashboardPage .activeTicket .timeCont .colun {
+	/*-webkit-animation: tic 1000ms linear infinite;
+   */
+}
+
+#dashboardPage .activeTicket .timeCont * {
+	font-family: rta-bold !important;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+#dashboardPage .platCont {
+	display: inline-block;
+	/* margin-left: 10px;
+    */
+	height: 25px;
+	width: 95px;
+	border: 1px solid #333;
+	overflow: hidden;
+	vertical-align: top;
+	border-radius: 3px;
+	position: relative;
+	text-align: center;
+	line-height: 24px;
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+	background: #fff;
+}
+
+#dashboardPage .activeTicket {
+	direction: ltr;
+}
+
+#dashboardPage .activeTicket .zoneCont {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	direction: ltr;
+}
+
+#dashboardPage .platCont .plateCode {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	font-family: Helvetica-Conth;
+}
+
+#dashboardPage .platCont .plateSource {
+	position: absolute;
+	left: 22px;
+	right: 50px;
+	height: 15px;
+	top: -3px;
+	bottom: 0;
+	display: block;
+	margin: auto 0;
+}
+
+#dashboardPage .platCont .plateNo {
+	position: absolute;
+	left: 45px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-family: Helvetica-Conth;
+}
+
+#dashboardPage .activeTicket .extendBtn {
+	background: rgb(2, 94, 225);
+	position: absolute;
+	margin: auto !important;
+}
+
+#dashboardPage .platCont * {
+	font-weight: bold;
+}
+
+#dashboardPage .zoneCont .zoneNo {
+	width: 21px;
+	text-align: left;
+}
+
+#dashboardPage .zoneCont span {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	font-weight: bold;
+}
+
+/*-------------------------- Driver Licesence Tile-------------------------*/
+
+#dashboardPage .driverlicenses {
+	position: absolute;
+	/* left: 75px; */
+	top: 20px;
+	/* color: rgb(26, 28, 136); */
+	text-align: left;
+	overflow: hidden;
+	/* font-size: 15px; */
+}
+
+#dashboardPage .driverlicenses span:first-child {
+	display: block;
+	width: auto;
+	font-size: 11px;
+	margin-bottom: 3px;
+}
+
+#dashboardPage .driverlicenses span:nth-of-type(2) {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#dashboardPage .blackpoints {
+	position: absolute;
+	/* left: 75px; */
+	bottom: 11px;
+	/* color: rgb(26, 28, 136); */
+	font-size: 11px;
+}
+
+#dashboardPage .blackpoints span:nth-of-type(1) {
+	font-size: 15px;
+	font-weight: bold;
+	position: absolute;
+}
+
+#dashboardPage .expirydate {
+	position: absolute;
+	bottom: 10px;
+	/* color: black; */
+	font-size: 12px;
+	right: 0px;
+}
+
+#dashboardPage .expirydate span:nth-of-type(1) {
+	right: 10px;
+	display: block;
+	position: relative;
+	bottom: 0px;
+	width: auto;
+	text-align: right;
+	color: #999;
+}
+
+#dashboardPage .expirydate span:nth-of-type(2) {
+	font-size: 13px;
+	font-weight: bold;
+	/* color: rgb(26, 28, 136); */
+	right: 10px;
+	bottom: 0px;
+	position: relative;
+	display: block;
+	width: auto;
+}
+
+#dashboardPage .blackpoints span:nth-of-type(2) {
+	padding-left: 18px;
+	line-height: 18px;
+	color: #999;
+}
+
+.container-rtl #dashboardPage .blackpoints span:nth-of-type(2) {
+	padding-left: 0px;
+	padding-right: 24px;
+	line-height: 18px;
+}
+
+/*-------------------------- Welcome Tile-------------------------*/
+
+#dashboardPage .sliderWrabber .greeting.welUsername {
+	padding-top: 25px;
+	text-align: center;
+}
+
+/*-------------------------- Green Points Tile-------------------------*/
+
+#dashboardPage .sliderWrabber #greenpointsCont {
+	position: absolute;
+	left: 75px;
+	font-size: 11px;
+	top: 40%;
+	width: auto;
+	margin: auto;
+	font-weight: bold;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#dashboardPage .sliderWrabber #greenpointsCont #greenPointsNumbers {
+	font-size: 15px;
+	color: #fff;
+	margin: 3px;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .greeting {
+	text-align: center;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .login-greeting {
+	left: 0 !important;
+	right: 0 !important;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #greenpointItem {
+	direction: rtl;
+}
+
+/*--------------------------Quick Calls Tile -------------------------*/
+
+#dashboardPage #quickCalls {
+	width: calc(100% - 30px);
+	background: #fff;
+	height: 120px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: block;
+}
+
+#dashboardPage #quickCalls .waves-effect {
+	width: 32.333333%;
+	padding-top: 10px;
+	display: inline-block;
+	/* padding-bottom: 10px;
+    */
+	overflow: hidden;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+#dashboardPage #quickCalls div span {
+	display: block;
+	font-family: rta-regular;
+	font-size: 12px;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#dashboardPage #quickCalls div span:nth-of-type(1) {
+	height: 30px;
+}
+
+#dashboardPage #quickCalls div span:nth-of-type(4) {
+	height: 30px;
+	font-size: 10px !important;
+}
+
+#dashboardPage #quickCalls span:nth-of-type(1) i:nth-of-type(1) {
+	color: #f30000;
+	font-size: 25px;
+}
+
+#dashboardPage #quickCalls span:nth-of-type(4) i:nth-of-type(1) {
+	color: #f30000;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#dashboardPage #quickCalls .quickCallsNumbers {
+	font-size: 15px !important;
+	height: 15px !important;
+	padding-top: 5px;
+}
+
+.container-rtl #dashboardPage #quickCalls .quickCallsTexts {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.container-rtl #dashboardPage #quickCalls {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .expirydate {
+	right: auto;
+	left: 0px;
+}
+
+.container-rtl #dashboardPage .blackpoints {
+	/* left: auto; */
+	/* right: 75px; */
+	right: 10px;
+}
+
+.container-rtl #dashboardPage .loginCont {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .driverlicenses {
+	/* left: auto; */
+	/* right: 0; */
+	text-align: right;
+	right: 10px;
+}
+
+.container-rtl #dashboardPage .expirydate span:nth-of-type(1) {
+	right: auto;
+	left: 10px;
+	text-align: right;
+}
+
+.container-rtl #dashboardPage .expirydate span:nth-of-type(2) {
+	right: auto;
+	left: 10px;
+	padding-top: 3px;
+}
+
+/*-------------------------- services Search Tile-------------------------*/
+
+#dashboardPage .servicesSearchTile {
+	width: calc(100% - 30px);
+	display: block;
+	background: #fff;
+	height: 90px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileIcon {
+	display: inline-block;
+	padding: 0px;
+	margin: 0;
+	top: 20px;
+	left: 20px;
+	position: absolute;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileIcon span {
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border: 2px solid;
+	display: block;
+	color: #f30000;
+	text-align: center;
+	line-height: 25px;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileIcon span i {
+	line-height: 25px;
+	font-size: 12px;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent {
+	display: inline-block;
+	width: auto;
+	text-align: left;
+	position: absolute;
+	left: 49px;
+	padding-left: 10px;
+	margin: auto;
+	height: 90px;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span {
+	display: block;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(1) {
+	color: #53565a;
+	margin-top: 20px;
+	font-family: rta-regular;
+	font-size: 12px;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(2) {
+	font-size: 20px;
+	font-family: rta-regular;
+	margin-bottom: 5px;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(2) i {
+	font-size: 20px;
+	font-family: rta-regular;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(3) {
+	font-family: rta-bold;
+	color: #f30000;
+	text-transform: uppercase;
+	font-size: 12px;
+	position: relative;
+	width: auto;
+	display: block;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(3) i:nth-of-type(1) {
+	font-family: rta-bold;
+	color: #f30000;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: inline-block;
+}
+
+#dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(3) i:nth-of-type(2) {
+	font-size: 9px;
+	top: 0px;
+	left: 0px;
+	margin: 0 3px;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileIcon {
+	left: auto;
+	right: 20px;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileContent {
+	left: auto;
+	right: 49px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(1) {
+	text-align: right;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(2) {
+	text-align: right;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(3) {
+	text-align: right;
+}
+
+/*-------------------------- Tiles-------------------------*/
+
+.container-rtl .serviceTileCont {
+	direction: rtl;
+}
+
+.container-rtl .serviceTileCont .expandButton {
+	left: auto !important;
+	right: 0;
+}
+
+.container-rtl .serviceTileCont .tileDataCont {
+	left: 0;
+	right: 80px;
+	text-align: right;
+}
+
+.container-rtl .serviceLogo {
+	right: 0;
+	left: auto !important;
+}
+
+.container-rtl .serviceTileCont .serviceLogo .logo {
+	left: 0;
+	right: auto;
+}
+
+.container-rtl .serviceTileCont .scrollArrow {
+	right: auto;
+	left: 0;
+}
+
+.container-rtl #dashboardPage #parkingTile .guestTempOffline div {
+	text-align: right;
+}
+
+.container-rtl .serviceTileCont .serviceLogo .serviceTitle {
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.container-rtl .serviceTileCont .serviceListCtrl {
+	-webkit-transform: translate3d(100%, 0, 0);
+}
+
+.serviceTileCont .serviceList {
+	-webkit-transform: translate3d(500px, 0, 0);
+}
+
+/*-------------------------- Others-------------------------*/
+
+.container-rtl #dashboardPage #servicesCont .collapseHead i {
+	left: auto;
+	right: 20px;
+}
+
+.container-rtl #dashboardPage #servicesCont .collapseHead .mdi-chevron-down {
+	left: 20px !important;
+	right: auto !important;
+}
+
+.container-rtl #dashboardPage #servicesCont .collapseHead .serviceDescCont {
+	margin-left: 0;
+	margin-right: 65px !important;
+}
+
+.container-rtl #dashboardPage #servicesCont .collapseHead .subCats {
+	margin-left: 0 !important;
+	margin-right: 65px;
+}
+
+.container-rtl #dashboardPage #servicesCont .collapseBody .item {
+	direction: rtl;
+	padding-right: 0px !important;
+	padding-left: 0px;
+}
+
+.container-rtl #dashboardPage .btn {
+	left: 10px;
+	right: auto;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #welcomeItem .userImg {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #greenpointItem .greenImg {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #licensesItem .greenImg {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #dashboardPage .sliderWrabber .greeting {
+	right: 75px;
+	left: 120px;
+	text-align: right;
+}
+
+#dashboardPage .tileTitle i.icon.icon-personalise {
+	position: absolute;
+	right: 15px;
+	width: 18px;
+	height: 18px;
+	text-align: left;
+	line-height: 18px;
+}
+
+.container-rtl #dashboardPage .tileTitle i.icon.icon-personalise {
+	right: auto;
+	left: 15px;
+}
+
+.container-rtl #dashboardPage #driveMode {
+	direction: rtl;
+}
+
+.container-rtl #mStore.serviceTileCont {
+	direction: rtl;
+}
+
+.container-rtl #mStore.serviceTileCont .tileDataCont {
+	left: auto;
+	right: 80px;
+}
+
+.container-rtl #mStore.serviceTileCont i.icon.icon-mStore {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #mStore .mstoreTitle {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.container-rtl #dashboardPage #mStore .tileDataCont {
+	border-left: none;
+	border-right: 1px solid #eee;
+}
+
+.container-rtl #dashboardPage .collapseHead.active .serviceDescCont {
+	-webkit-transform: translate3d(30px, 5px, 0) scale(0.8);
+}
+
+.container-rtl #dashboardPage .searchCont input {
+	text-align: right;
+}
+
+.container-rtl #dashboardPage .searchCont i {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #dashboardPage .collapseBody {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .servicesSearchTile .servicesSearchTileContent span:nth-of-type(3) i:nth-of-type(2) {
+	transform: rotate(180deg);
+	display: inline-block;
+}
+
+#dashboardPage .loggedInNoFines .congrats {
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+
+#dashboardPage .loggedInNoFines {
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+#dashboardPage .loggedInNoFines .moreScore {
+	font-size: 9px;
+	font-weight: bold;
+	display: none;
+}
+
+#dashboardPage .loggedInNoFines .moreScore span {
+	font-size: 18px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#dashboardPage .loggedInNoFines .payfineBtn.btn {
+	width: 100px;
+}
+
+#dashboardPage .loggedInFines {
+	font-size: 13px;
+	padding: 0 10px;
+}
+
+#dashboardPage .loggedInFines .currency {
+	display: block;
+	margin-top: 19px;
+	font-size: 12px;
+}
+
+#dashboardPage .loggedInFines #amount {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 25px;
+	font-family: rta-bold !important;
+}
+
+#dashboardPage .loggedInFines .accDesc {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.container-rtl #dashboardPage .loggedInNoFines {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+#dashboardPage .slide {
+	padding: 0 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #greenpointsCont {
+	left: auto;
+	right: 75px;
+}
+
+.container-rtl #dashboardPage .activeTicket {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .servicesCount {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .searchCont {
+	direction: rtl;
+}
+
+#dashboardPage #favServicesCont .searchCont {
+	box-shadow: none;
+	border: 1px solid #ddd;
+	margin: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 35px;
+}
+
+#dashboardPage #favServicesCont {
+	padding: 0px;
+}
+
+#dashboardPage #favServicesCont .favHint {
+	/* width: 100%; */
+	background: #eee;
+	color: black;
+	font-size: 12px;
+	text-align: left;
+	overflow: hidden;
+	/* box-sizing: border-box; */
+	/* margin-top: 0; */
+	/* height: 50px; */
+	/* position: relative; */
+	/* display: block; */
+	/* flex-direction: row;
+    */
+	/* height: 70px; */
+	/* align-items: center;
+    */
+	position: relative;
+	padding: 15px 5px 15px 5px;
+}
+
+#dashboardPage #favServicesCont .favHint .icon-info-circle-filled {
+	/* display: block;
+    */
+	/* padding-top: 24px;
+    */
+	/* width: 30px;
+    */
+	height: calc(100%);
+	font-size: 18px;
+	display: inline;
+	/* line-height: calc(100%); */
+	/* margin: auto;
+    */
+	position: absolute;
+	/* top: 16px; */
+	left: 20px;
+	color: #555;
+	/* width: 10%;
+    */
+	/* flex-direction: row;
+    */
+	/* justify-content: right;
+    */
+	/* align-items: right;
+    */
+	/* flex: 1;
+    */
+	margin: auto;
+	top: calc(50% - 10px);
+}
+
+#dashboardPage #favServicesCont .serviceCont {
+	background: #fff;
+	margin: 10px 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+#dashboardPage #favServicesCont .serviceCont .serviceIcon {
+	font-size: 35px;
+	display: block;
+	width: 35px;
+	/* color: #ee0000;
+    */
+	position: relative !important;
+	height: auto !important;
+	left: auto !important;
+	top: auto !important;
+	margin: 0 !important;
+}
+
+#dashboardPage #favServicesCont .serviceCont .favServiceTitle {
+	position: absolute;
+	left: 63px;
+	top: 22px;
+	font-family: rta-regular;
+	font-size: 20px;
+	/* color: #333;
+    */
+}
+
+#dashboardPage #favServicesCont .serviceCont .favServicesCont {
+	margin-top: 10px;
+}
+
+#dashboardPage #favServicesCont .favService {
+	border-top: 1px solid #ddd;
+	padding-top: 5px;
+	padding: 0 5px;
+	position: relative;
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+}
+
+#dashboardPage #favServicesCont .favService .icon-service-right-arrow {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+	font-size: 13px;
+	width: 13px;
+	height: 13px;
+	margin: auto;
+	color: #ee0000;
+}
+
+#dashboardPage #favServicesCont .favService div {
+	font-family: rta-regular;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 80%;
+	white-space: nowrap;
+}
+
+#dashboardPage #favServicesCont .whiteBg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	padding: 5px 20px;
+	padding-bottom: 15px;
+	display: none;
+}
+
+#dashboardPage #favScroller {
+	position: relative;
+	padding: 20px;
+}
+
+.container-rtl #dashboardPage #favServicesCont .serviceCont {
+	direction: rtl;
+	text-align: right;
+}
+
+.container-rtl #dashboardPage #favServicesCont .serviceCont .favServiceTitle {
+	left: auto;
+	right: 63px;
+}
+
+.container-rtl #dashboardPage #favServicesCont .favService .icon-service-right-arrow {
+	right: auto;
+	left: 10px;
+	-webkit-transform: rotate(180deg);
+}
+
+#dashboardPage #favServicesCont .searchCont i {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+#dashboardPage #dashboardRanker {
+	height: 4px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 2px;
+	position: absolute;
+	left: 75px;
+	top: 40%;
+	bottom: 0;
+	margin: auto;
+	text-align: left;
+	width: 170px !important;
+	overflow: hidden;
+}
+
+.container-rtl #dashboardRankerFill {
+	transform: translate3d(200%, 0, 0);
+}
+
+#dashboardPage #dashboardRankerFill {
+	height: 4px;
+	width: 100%;
+	background: #fff;
+	position: absolute;
+	z-index: 111;
+	display: inline-block;
+	border-radius: 2px;
+	transition: 300ms;
+	transform: translate3d(-100%, 0, 0);
+}
+
+.container-rtl #dashboardPage #dashboardRanker {
+	right: 75px;
+	left: auto;
+}
+
+.container-rtl #dashboardPage #dashboardRanker {
+	right: 75px;
+	left: auto;
+}
+
+#dashboardPage #noFavorites {
+	text-align: center;
+	color: #888;
+	font-size: 13px;
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+}
+
+#dashboardPage .loggedInTFN .carLogo {
+	width: 70px;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	display: none;
+}
+
+#dashboardPage .loggedInTFN .carName {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555;
+	font-family: rta;
+}
+
+#dashboardPage .loggedInTFN .expiryCont {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #999;
+	text-align: right;
+}
+
+#dashboardPage .loggedInTFN .platCont {
+	position: absolute;
+	left: 24px;
+	bottom: 17px;
+	-webkit-transform: scale(1.2);
+}
+
+#dashboardPage .loggedInTFN .expiryCont div {
+	font-size: 16px;
+	color: rgb(23, 27, 143);
+}
+
+#dashboardPage .loggedInTFN .expiryCont span {
+	font-size: 12px;
+	color: #999;
+}
+
+#dashboardPage #vehicleTile .loggedInNoVehicles .loginInfo {
+	width: 100% !important;
+}
+
+#dashboardPage .tempElCont {
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#dashboardPage .tempElCont:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#dashboardPage .tempElCont .loginInfo {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: calc(100% - 110px);
+	max-height: 60px;
+}
+
+#dashboardPage #finesTile .guestTemp {
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#dashboardPage #finesTile .guestTemp:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#dashboardPage #finesTile .guestTemp .loginInfo {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: calc(100% - 110px);
+}
+
+#dashboardPage #docsTile .loginInfo {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: calc(100% - 110px);
+}
+
+#dashboardPage #mStore .tileDataCont {
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#dashboardPage #mStore .tileDataCont:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#dashboardPage #mStore .tileDataCont .loginInfo {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: calc(100% - 110px);
+}
+
+#dashboardPage #vehicleTile .payfineBtn {
+	background: rgb(1, 176, 185);
+}
+
+#dashboardPage .sliderWrabber .btn {
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
+#dashboardPage #parkingTile .guestTempOnline .btn {
+	position: absolute;
+	display: block;
+	margin: auto;
+}
+
+#dashboardPage #vehicleTile .loggedInNoTFN {
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#dashboardPage #vehicleTile .loggedInNoTFN:before {
+	content: '\200B';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.container-rtl #dashboardPage .loggedInTFN .carLogo {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #dashboardPage .loggedInTFN .carName {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #dashboardPage .loggedInTFN .platCont {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #dashboardPage .loggedInTFN .expiryCont {
+	right: auto;
+	text-align: left;
+	left: 15px;
+}
+
+#dashboardPage #platesTile .platCont {
+	position: absolute;
+	left: 15px;
+	margin: auto;
+	background: #fff;
+	direction: ltr;
+}
+
+#dashboardPage #platesTile .platCont:nth-of-type(1) {
+	top: 13px;
+	bottom: 50%;
+}
+
+#dashboardPage #platesTile .platCont:nth-of-type(2) {
+	top: 50%;
+	bottom: 13px;
+}
+
+#dashboardPage #platesTile .platesBtn {
+	position: absolute;
+	margin: auto;
+	background: rgb(208, 0, 174);
+}
+
+.container-rtl #dashboardPage #platesTile .platCont {
+	left: auto;
+	right: 15px;
+}
+
+#dashboardPage .applyMcert {
+	background: rgb(255, 113, 0);
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage #parkingTile .guestTempOnline:before {
+	content: none;
+}
+
+#dashboardPage #finesTile .loggedInNoFines:before {
+	content: none;
+}
+
+#dashboardPage #finesTile .loggedInFines:before {
+	content: none;
+}
+
+#dashboardPage .TFNTEXT {
+	position: absolute;
+	left: 75px;
+	top: 0px;
+	bottom: 0;
+	color: black;
+	text-align: left;
+	overflow: hidden;
+	font-size: 15px !important;
+	display: inline-flex;
+	width: 35%;
+}
+
+.container-rtl #dashboardPage .TFNTEXT {
+	text-align: right;
+	right: 75px;
+	left: auto;
+}
+
+#dashboardPage .TFNTEXT span {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0;
+	margin: auto 0;
+}
+
+#dashboardPage .NoLicenceTEXT {
+	position: absolute;
+	left: 75px;
+	color: black;
+	text-align: left;
+	height: 100%;
+}
+
+.container-rtl #dashboardPage .NoLicenceTEXT {
+	text-align: right;
+	right: 75px;
+	left: auto;
+}
+
+#dashboardPage .NoLicenceTEXT span {
+	font-size: 12px;
+	line-height: 89px;
+}
+
+#dashboardPage .linkLicenseButton {
+	background: #fff;
+	color: #ee0000;
+	border-color: #ee0000;
+	border: 1px solid;
+	font-family: rta-bold;
+	padding: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 85px;
+}
+
+#dashboardPage #myDocsTile .expandButton {
+	display: none;
+}
+
+#dashboardPage #myDocsTile .serviceTitle {
+	color: #555;
+}
+
+#dashboardPage #myDocsTile .logo {
+	color: #ee0000;
+	background: #fff;
+	pointer-events: none;
+	bottom: 5px;
+	right: 5px;
+}
+
+#dashboardPage #myDocsTile .serviceLogo {
+	border-right: 1px solid #eee;
+}
+
+#dashboardPage #myDocsTile .tileDataCont {
+	color: #555 !important;
+}
+
+#dashboardPage #myDocsTile .tileLoader {
+	background: #555 !important;
+}
+
+.container-rtl #dashboardPage #myDocsTile .serviceLogo {
+	border-right: 0;
+	border-left: 1px solid #eee;
+}
+
+#dashboardPage #myDocsTile .storing {
+	position: absolute;
+	left: 15px;
+	top: 22px;
+	font-size: 12px;
+}
+
+#dashboardPage #myDocsTile .documents {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	font-size: 15px;
+	height: 15px;
+	left: 15px;
+	margin: auto;
+	color: #000;
+}
+
+#dashboardPage #myDocsTile .documents span {
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.container-rtl #dashboardPage #myDocsTile .storing {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #dashboardPage #myDocsTile .documents {
+	right: 15px;
+	left: auto;
+	direction: rtl;
+	text-align: right;
+}
+
+.container-rtl #dashboardPage #myDocsTile .documents span {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#dashboardPage #parkingTile .loggedIn {
+	color: rgb(23, 27, 143);
+}
+
+#dashboardPage #platesTile .tempElCont:before {
+	content: none !important;
+}
+
+#dashboardPage #platesTile .tempElCont .textContent {
+	font-size: 12px;
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: calc(100% - 110px);
+	display: block;
+	color: rgb(23, 27, 143);
+}
+
+#dashboardPage #platesTile .plateSource {
+	left: 20px;
+	width: auto;
+}
+
+.container-rtl #dashboardPage #myDocsTile .logo {
+	right: auto !important;
+	left: 5px !important;
+}
+
+#dashboardPage #finesTile .loggedInNonPayableFines .loginInfo {
+	width: 100%;
+	color: #ee0000;
+	font-weight: bold;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .guestCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .loginCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .loginwitoutTFNCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #licensesItem .loginwitoutLicenseCont {
+	height: 100%;
+}
+
+#dashboardPage .platCont img.plateCode {
+	margin: auto;
+	height: 15px;
+	left: 3px;
+	width: auto;
+}
+
+#dashboardPage #noServiceResult {
+	position: absolute;
+	top: 165px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	color: #777;
+	display: none;
+}
+
+#dashboardPage #userprofileImgDash {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	color: #ee0000;
+	background: #eee;
+	border-radius: 100%;
+	margin: auto;
+	line-height: 55px;
+	font-size: 34px;
+}
+
+#dashboardPage .corporateTileBtn {
+	background: #FC4A4F;
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage #eNocTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #eNocTile .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #eNocTile .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #eNocTile .loggedIn .enocLastMonths {
+	display: block;
+	/* margin-top: 6px;
+    */
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #eNocTile .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #eNocTile .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #eNocTile .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #eWalletTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #eWalletTile .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #eWalletTile .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #eWalletTile .loggedIn .enocLastMonths {
+	display: block;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #eWalletTile .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #eWalletTile .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #eWalletTile .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #commercialTransportTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #commercialTransportTile .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #commercialTransportTile .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #commercialTransportTile .loggedIn .enocLastMonths {
+	display: block;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #commercialTransportTile .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #commercialTransportTile .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #commercialTransportTile .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage .loggedIn .expiryCont {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #999;
+	text-align: right;
+}
+
+#dashboardPage .loggedIn .expiryCont div {
+	font-size: 16px;
+	color: rgb(23, 27, 143);
+}
+
+#dashboardPage .loggedIn .expiryCont span {
+	font-size: 12px;
+	color: #999;
+}
+
+.container-rtl #dashboardPage .loggedIn .expiryCont {
+	right: auto;
+	text-align: left;
+	left: 15px;
+}
+
+#dashboardPage #commercialTransportTile .loggedIn .expiryCont {
+	-webkit-transform: translate3d(0px, 50px, 0px);
+	transform: translate3d(0px, 50px, 0px);
+	transition-duration: 300ms;
+}
+
+#dashboardPage #vehiclesTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #vehiclesTile .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #vehiclesTile .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #vehiclesTile .loggedIn .enocLastMonths {
+	display: block;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #vehiclesTile .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #vehiclesTile .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #vehiclesTile .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #vehiclesTile .loggedIn .expiryCont {
+	-webkit-transform: translate3d(0px, 50px, 0px);
+	transform: translate3d(0px, 50px, 0px);
+	transition-duration: 300ms;
+}
+
+#dashboardPage #platesTileCorporate .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #platesTileCorporate .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #platesTileCorporate .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #platesTileCorporate .loggedIn .enocLastMonths {
+	display: block;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #platesTileCorporate .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #platesTileCorporate .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #platesTileCorporate .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #platesTileCorporate .loggedIn .expiryCont {
+	-webkit-transform: translate3d(0px, 50px, 0px);
+	transform: translate3d(0px, 50px, 0px);
+	transition-duration: 300ms;
+}
+
+#dashboardPage .sliderWrabber #finesItem {
+	background: #fff;
+}
+
+#dashboardPage #finesItem .loginButton {
+	background: #fff;
+	color: #ee0000;
+	border-color: #ee0000;
+	border: 1px solid;
+	font-family: rta-bold;
+	padding: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 85px;
+}
+
+#dashboardPage .sliderWrabber #finesItem .greenImg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 75px;
+}
+
+#dashboardPage .sliderWrabber #finesItem .greenImg i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	color: #fff;
+	background: #ee0000;
+	border-radius: 100%;
+	margin: auto;
+	line-height: 55px;
+	font-size: 30px;
+}
+
+#dashboardPage .sliderWrabber #finesItem .greeting {
+	color: #ee0000;
+}
+
+#dashboardPage .sliderWrabber #finesItem .guestCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #finesItem .loginCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #finesItem .loginwitoutTFNCont {
+	height: 100%;
+}
+
+#dashboardPage .sliderWrabber #finesItem .loginwitoutLicenseCont {
+	height: 100%;
+}
+
+#dashboardPage #finesItem .driverlicenses span:nth-child(3) {
+	font-size: 11px;
+	margin: 0 3px;
+}
+
+.container-rtl #dashboardPage .sliderWrabber #finesItem .greenImg {
+	left: auto;
+	right: 0;
+}
+
+#dashboardPage #finesItem .loginwitoutfines .greeting {
+	left: 75px;
+	right: 0px;
+}
+
+.container-rtl #dashboardPage #finesItem .loginwitoutfines .greeting {
+	right: 75px;
+	left: 0px;
+	direction: rtl;
+}
+
+#dashboardPage .platCont .plateSource.newDubaiLogo {
+	left: 15px;
+	right: 55px;
+}
+
+.container-rtl #dashboardPage .platCont .plateSource.newDubaiLogo {
+	right: 45px;
+}
+
+#dashboardPage .platCont .plateSource.newTwoLetterPlate {
+	left: 4px;
+	top: 1px;
+	height: 11px;
+	bottom: auto;
+}
+
+#dashboardPage .platCont .plateCode.newTwoLetterPlate {
+	bottom: 0;
+	top: 6px;
+	font-size: 12px;
+	left: 4px;
+}
+
+#dashboardPage .platCont .plateNo.newTwoLetterPlate {
+	left: 25px;
+}
+
+.container-rtl #dashboardPage .platCont .plateSource.newTwoLetterPlate {
+	right: auto;
+}
+
+.collapseHead.Parking-Head.active {
+	background-color: #186CE1 !important;
+}
+
+.collapseHead.Drivers-Head.active {
+	background: #00BB00 !important;
+}
+
+.collapseHead.My-Vehicles-Head.active {
+	background: #01B0B9 !important;
+}
+
+.collapseHead.Salik-Head.active {
+	background: #8031C8 !important;
+}
+
+.collapseHead.Plates-Head.active {
+	background: #D000AE !important;
+}
+
+.collapseHead.Parking-Permits-Head.active {
+	background: #186CE1 !important;
+}
+
+.collapseHead.My-Fines-Head.active {
+	background: #171B8F !important;
+}
+
+.collapseHead.Docs-Validation-Head.active {
+	background: #FF7100 !important;
+}
+
+.collapseBody.Parking-Body.active {
+	border: 1px solid #186CE1 !important;
+}
+
+.collapseBody.Drivers-Body.active {
+	border: 1px solid #00BB00 !important;
+}
+
+.collapseBody.My-Vehicles-Body.active {
+	border: 1px solid #01B0B9 !important;
+}
+
+.collapseBody.Salik-Body.active {
+	border: 1px solid #8031C8 !important;
+}
+
+.collapseBody.Plates-Body.active {
+	border: 1px solid #D000AE !important;
+}
+
+.collapseBody.Parking-Permits-Body.active {
+	border: 1px solid #186CE1 !important;
+}
+
+.collapseBody.My-Fines-Body.active {
+	border: 1px solid #171B8F !important;
+}
+
+.collapseBody.Docs-Validation-Body.active {
+	border: 1px solid #FF7100 !important;
+}
+
+#dashboardPage .sliderWrabber #welcomeItem .greeting:before {
+	height: 100%;
+}
+
+#dashboardPage #favServicesCont .favHintContent {
+	font-size: 14px;
+	margin: auto;
+	/* color: #555; */
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	/* height: 50px; */
+	/* padding: 10px; */
+	padding-left: 58px;
+	padding-right: 20px;
+	display: block;
+	/* padding-top: 8.5px; */
+}
+
+.container-rtl #dashboardPage #favServicesCont .favHintContent {
+	text-align: right;
+	direction: rtl;
+	padding-right: 58px;
+	padding-left: 20px;
+}
+
+.container-rtl #dashboardPage #favServicesCont .favHint .icon-info-circle-filled {
+	right: 20px;
+	left: auto;
+}
+
+#dashboardPage #servicesCont .collapseBody .item.require-linking {
+	color: #999999 !important;
+	padding-right: 80px;
+}
+
+#dashboardPage #servicesCont .collapseBody .item.require-login {
+	color: #999999 !important;
+	padding-right: 80px;
+}
+
+.container-rtl #dashboardPage #servicesCont .collapseBody .item.require-login {
+	color: #999999 !important;
+	padding-left: 80px;
+	padding-right: 0px;
+}
+
+#dashboardPage .linkingBtn-servicelist {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	height: 25px;
+	width: 110px;
+	border-radius: 60px;
+	border: 1px solid #eee;
+	line-height: 27px;
+	font-size: 11px;
+	padding: 0 10px;
+	margin: auto;
+	pointer-events: all;
+	display: block;
+	color: #ee0000;
+	border-color: #ee0000;
+}
+
+.container-rtl #dashboardPage .linkingBtn-servicelist {
+	left: 0px;
+	right: auto;
+}
+
+#dashboardPage .linkingBtn-servicelist i.icon.icon-lock {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	line-height: 25px;
+}
+
+.container-rtl #dashboardPage .linkingBtn-servicelist i.icon.icon-lock {
+	left: 10px;
+	right: auto;
+}
+
+#dashboardPage .loginBtn-servicelist {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	height: 25px;
+	width: 45px;
+	border-radius: 60px;
+	border: 1px solid #eee;
+	line-height: 27px;
+	font-size: 11px;
+	padding: 0 10px;
+	margin: auto;
+	pointer-events: all;
+	display: block;
+	color: #ee0000;
+	border-color: #ee0000;
+}
+
+.container-rtl #dashboardPage .loginBtn-servicelist {
+	left: 0px;
+	right: auto;
+}
+
+#dashboardPage .loginBtn-servicelist i.icon.icon-lock {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	line-height: 25px;
+}
+
+.container-rtl #dashboardPage .loginBtn-servicelist i.icon.icon-lock {
+	left: 10px;
+	right: auto;
+}
+
+#dashboardPage .collapseHead.active .serviceDescCont .serviceTitle {
+	color: #fff !important;
+}
+
+/******Salik Tile******/
+
+#dashboardPage .salikDispute .disputeNumberText {
+	display: block;
+	margin-top: 19px;
+	font-size: 12px;
+}
+
+#dashboardPage .salikDispute .disputeNumber {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 20px;
+	font-family: rta-bold !important;
+	width: calc(100% - 110px);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#dashboardPage .salikDispute .timeCont * {
+	font-family: rta-bold !important;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+#dashboardPage .salikDispute {
+	direction: ltr;
+}
+
+#dashboardPage .salikDispute .zoneCont {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	direction: ltr;
+}
+
+#dashboardPage .salikDispute .viewDisputeBtn {
+	background: rgb(128, 49, 200);
+	position: absolute;
+	margin: auto !important;
+}
+
+#dashboardPage #salikTile .loggedIn {
+	color: rgb(128, 49, 200);
+}
+
+#dashboardPage #salikTile .loggedIn .disputeDateText #disputeDate {
+	color: rgb(128, 49, 200);
+}
+
+#dashboardPage #salikTile .loggedIn .disputeDateText {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #555;
+}
+
+#dashboardPage .salikViolation .salikViolationNumberText {
+	display: block;
+	margin-top: 13px;
+	font-size: 12px;
+}
+
+#dashboardPage .salikViolation .salikViolationNumber {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 20px;
+	font-family: rta-bold !important;
+}
+
+#dashboardPage .salikViolation .timeCont * {
+	font-family: rta-bold !important;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+#dashboardPage .salikViolation {
+	direction: ltr;
+}
+
+#dashboardPage .salikViolation .zoneCont {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	direction: ltr;
+}
+
+#dashboardPage .salikViolation .viewViolationBtn {
+	background: rgb(128, 49, 200);
+	position: absolute;
+	margin: auto !important;
+}
+
+#dashboardPage #salikTile .platCont {
+	margin-top: 5px;
+	/* position: absolute;
+    left: 15px;
+    margin: auto;
+    background: #fff;
+    direction: ltr;
+    */
+}
+
+#dashboardPage #salikTile .AmountCont {
+	margin-top: 8px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+	text-align: center;
+	line-height: 24px;
+	color: #333;
+	font-family: rta-bold !important;
+}
+
+#dashboardPage #salikTile .AmountCont span {
+	font-weight: bold;
+	color: rgb(128, 49, 200);
+	font-family: rta-bold !important;
+}
+
+#dashboardPage #salikTile #salikViolationAmount {
+	padding-left: 3px;
+}
+
+.container-rtl #dashboardPage .salikDispute {
+	direction: rtl;
+}
+
+.container-rtl #dashboardPage .salikViolation {
+	direction: rtl;
+}
+
+#dashboardPage #dashboardCont .BannerMess {
+	position: relative;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	width: 100%;
+	background: #fffcd0;
+	bottom: 15px;
+	height: 160px;
+	font-family: rta-regular;
+}
+
+div#DashboardBanner {}
+
+#dashboardPage  .BannerMess .BannerTitle {
+	position: absolute;
+	left: 10px !important;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	font-size: 13px;
+	font-family: rta-bold !important;
+	top: 6px;
+	width: 50%;
+}
+
+.container-rtl #dashboardPage .BannerMess .BannerTitle {
+    position: absolute;
+    left: calc(50% - 10px) !important;
+}
+
+#dashboardPage  .BannerMess .bannerBody {
+	position: absolute;
+	width: 94%;
+	left: 10px;
+	right: 10px;
+	display: block;
+	top: 42px;
+	font-size: 14px;
+	overflow: hidden;
+	bottom: 5px;
+}
+
+.container-rtl #dashboardPage  .BannerMess .bannerBody {
+	direction: rtl;
+	left: 10px;
+	right: 0px;
+}
+
+#dashboardPage .BannerMess #BannerDateTime {
+	position: absolute;
+	font-size: 8px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	/* color: #333; */
+	margin: 9px 28px 18px 20px;
+	display: inline-block;
+	width: 31%;
+}
+#dashboardPage .BannerMess #BannerDateTime #BannerEventDate{position: absolute;left: 14px;/* right: 81px; */font-size: 7px;}
+.container-rtl #dashboardPage .BannerMess #BannerDateTime #BannerEventDate{left: 0px;}
+
+.container-rtl #dashboardPage .BannerMess #BannerDateTime {
+	left: 8px;
+	right: auto;
+	width: 30%;
+}
+
+.container-rtl #dashboardPage .BannerMess #BannerDateTime .icon-calendar{
+	position:absolute;
+	right: 10px;
+	/* left: calc(100% - 74px); */
+}
+
+#dashboardPage  .BannerMess #BannerCancel {
+	position: absolute;
+	font-size: 11px;
+	top: 8px;
+	bottom: 0px;
+	right: 0px;
+	height: 40px;
+	width: 30px;
+	color: #333;
+	/* margin: 9px 8px 20px 20px; */
+}
+
+.container-rtl #dashboardPage  .BannerMess #BannerCancel {
+	right: calc(100% - 23px) !important;
+}
+
+
+#dashboardPage  .BannerMess .BannerAction{
+         position: absolute;
+         height: 40px;
+         width: 100%;
+         display: block;
+         bottom: 0px;
+         font-family: rta-regular;
+         line-height: 40px;
+         }
+.container-rtl #dashboardPage  .BannerMess .BannerAction{
+	direction:rtl;
+	text-align:right;
+	height: 40px;
+	font-family: rta-regular;
+	line-height: 40px !important;
+}
+
+       
+#dashboardPage  .BannerMess .Bannerbtn{
+	position: absolute;
+	width: 100px !important;
+	font-size: 11px;
+	border-radius: 30px;
+	height: 30px !important;
+	line-height: 32px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+.container-rtl #dashboardPage  .BannerMess .Bannerbtn{
+	left: 16px;
+}
+
+#dashboardPage  .BannerMess #BannerTwitter{
+	background-color:white !important;
+	color: #00a8f9;
+	width: 140px !important;
+	right: 125px;
+	border: 1px solid #00a8f9;
+	}
+	#dashboardPage  .BannerMess  .BannerIcon{
+		
+	}
+.container-rtl #dashboardPage  .BannerMess  .BannerIcon{
+	
+	}
+	
+.container-rtl #dashboardPage  .BannerMess #BannerTwitter{
+	left: 125px;
+	right:auto;
+	width: 110px !important;
+}
+
+
+
+
+#dashboardPage  .BannerMess #BannerExternal{
+	background: #ee0000;
+	color:white;
+}
+
+
+#dashboardPage #dashboardCont .NotificationMess {
+	position: relative;
+	height: 80px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	width: 100%;
+	background: #ffffff;
+	bottom: 15px;
+}
+
+#dashboardPage #dashboardCont .NotificationMess .icon {
+	position: absolute;
+	right: calc(100% - 55px);
+	font-size: 40px;
+	top: 30%;
+	font-size: 25px;
+	border-radius: 60px;
+	background: #ffffff;
+	border: 1px solid #e5dede;
+	padding: 3px;
+}
+
+.container-rtl #dashboardPage #dashboardCont .NotificationMess .icon {
+	left: calc(95% - 38px);
+	right: auto;
+}
+
+#dashboardPage #dashboardCont .NotificationMess .NotificationTitle {
+	position: absolute;
+	left: 75px !important;
+	color: white;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	top: 10px;
+	font-size: 14px;
+	font-family: rta-bold !important;
+}
+
+.container-rtl #dashboardPage #dashboardCont .NotificationMess .NotificationTitle {
+	right: 18%;
+}
+
+#dashboardPage #dashboardCont .NotificationMess .NotificationBody {
+	position: absolute;
+	width: 70%;
+	left: 75px;
+	right: 0px;
+	color: white;
+	display: block;
+	top: 33px;
+	font-size: 12px;
+	overflow: hidden;
+	/* height: 28px; */
+}
+
+.container-rtl #dashboardPage #dashboardCont .NotificationMess .NotificationBody {
+	direction: rtl;
+	left: 12%;
+	right: 0px;
+}
+
+#dashboardPage #dashboardCont .NotificationMess #CancelDashNotification {
+	position: absolute;
+	font-size: 14px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	color: #333;
+	margin: 15px 15px 20px 20px;
+}
+
+.container-rtl #dashboardPage #dashboardCont .NotificationMess #CancelDashNotification {
+	right: calc(100% - 31px) !important;
+	left: 0px;
+}
+
+#dashboardPage .NotificationMess #notifDateTime {
+	position: relative;
+	width: 250px;
+	color: black;
+	font-size: 10px;
+	left: 88px;
+	top: calc(100% - 22px);
+	display: block;
+}
+
+.container-rtl #dashboardPage .NotificationMess #notifDateTime {
+	direction: rtl;
+	left: calc(100% - 330px);
+	padding-right: 15px;
+}
+
+#dashboardPage .NotificationMess #notifDateTime {
+	left: 75px;
+	padding-right: 15px;
+}
+
+#dashboardPage .NotificationMess #notifDateTime .smallIcon {
+	position: absolute;
+	top: 0px;
+	font-size: 11px;
+}
+
+.container-rtl #dashboardPage .NotificationMess #notifDateTime .smallIcon {
+	position: absolute;
+	right: 4px;
+	bottom: 2px;
+}
+
+#dashboardPage .NotificationMess #notifDateTime .NotificationTime {
+	position: absolute;
+	left: 18px;
+}
+
+.container-rtl #dashboardPage .NotificationMess #notifDateTime .NotificationTime {
+	right: 24px;
+	left: auto;
+}
+
+#dashboardPage #vipEnquiryTile {
+	margin: 15px 15px 15px 15px;
+	width: auto;
+	position: relative;
+}
+
+#dashboardPage .vipEnquireBtn {
+	background: #FFB700;
+	position: absolute;
+	margin: auto;
+}
+
+/* #dashboardPage #vipTilesTitleDash {
+    margin-bottom: 10px;
+	transition-duration: 400ms;
+	transition-delay: 350ms;
+	color: #555;
+	font-size: 13px;
+	padding: 0 15px;
+} */
+
+#dashboardPage #vipTileTitle {
+	margin-bottom: 10px;
+	transition-duration: 400ms;
+	transition-delay: 150ms;
+	color: #555;
+	font-size: 13px;
+	padding: 0 15px;
+	-webkit-transform: translate3d(120%, 0, 0);
+}
+
+#dashboardPage i.icon.icon-new-service {
+	font-size: 16px;
+	color: red;
+}
+
+#dashboardPage .serviceListItem i.icon.icon-new-service {
+	display: none;
+}
+
+#dashboardPage #servicesCont .subCats i.icon.icon-new-service {
+	display: none;
+}
+
+.container-rtl #dashboardPage #vipEnquiryTile .serviceTitle {
+	width: 80px;
+	margin-top: 5px !important;
+}
+
+/*loyalty */
+
+#dashboardPage #loyaltyId {
+	width: 100px !important;
+	right: 0px !important;
+	padding-left: 0px !important;
+	background: #ffffff;
+	border-radius: 0px 2px 2px 0px;
+}
+
+.container-rtl #dashboardPage #loyaltyId {
+	direction: rtl;
+	right: auto;
+	left: 0;
+}
+
+#dashboardPage .loyaltyIcon {
+	font-size: 60px;
+	text-align: center;
+}
+
+#dashboardPage .loyaltyBalance {
+	position: absolute;
+	color: #171c8f;
+	bottom: 10px;
+	font-size: 12px;
+	line-height: 8px;
+	left: 0px;
+	right: 0px;
+}
+
+.container-rtl #dashboardPage .loyaltyBalance {
+	right: 0px;
+	left: 0px;
+}
+
+.container-rtl #dashboardPage .loyaltyBalance {
+	right: 0px;
+}
+
+#dashboardPage .loyaltyBalance span {
+	display: block;
+	font-family: rta-regular;
+	margin: 10px;
+}
+
+#dashboardPage .loyaltyBalance i {
+	display: inline-block;
+	font-family: rta-regular;
+	font-family: rta-bold;
+}
+
+/* loyalty popup*/
+
+#loyaltyPopup .popupHeader {
+	font-size: 16px !important;
+}
+
+#loyaltyPopup .nolPlusContent {
+	font-size: 13px;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#loyaltyEnrolPopup .nolPlusEnrolContent {
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	padding: 15px;
+}
+
+.container-rtl #loyaltyEnrolPopup .nolPlusEnrolContent {
+	direction: rtl;
+}
+
+.container-rtl #loyaltyPopup .nolPlusContent {
+	margin-bottom: 5px;
+	direction: rtl;
+}
+
+#loyaltyNotAvailablePopup .popupContent .retrieveNol {
+	display: block;
+	font-size: 14px !important;
+	margin-bottom: 15px;
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.container-rtl #loyaltyNotAvailablePopup .popupContent .retrieveNol {
+	direction: rtl;
+	margin-right: 9px;
+}
+
+#loyaltyNotAvailablePopup .popupContent .tryRefresh {
+	display: block;
+	font-size: 14px !important;
+	text-align: center;
+}
+
+.container-rtl #loyaltyNotAvailablePopup .popupContent .tryRefresh {
+	direction: rtl;
+}
+
+#dashboardPage #loyaltyId .loyaltyLoader {
+	top: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	background: #000;
+	border-radius: 100%;
+	width: 4px;
+	height: 4px;
+	margin: auto;
+	display: none;
+	-webkit-animation: 1.7s infinite linear loadingBefore;
+}
+
+#dashboardPage .linkBtn {
+	position: absolute;
+	margin: auto;
+}
+
+#dashboardPage #driverTile .linkBtn {
+	background: rgb(0, 187, 0);
+}
+
+#dashboardPage #driverTile .loggedInNoLicenseNoPermit .loginInfo {
+	width: 100% !important;
+}
+
+#dashboardPage #driverTile .permitClass {
+	position: absolute;
+	/* left: 75px; */
+	bottom: 11px;
+	/* color: rgb(26, 28, 136); */
+	font-size: 11px;
+}
+
+.container-rtl #dashboardPage #driverTile .permitClass {
+	right: 10px;
+}
+
+.container-rtl #dashboardPage .blackpoints span:nth-of-type(1) {
+	right: 10px;
+}
+
+#dashboardPage #finesTile .loggedIn {
+	font-size: 13px;
+	padding: 0 10px;
+	padding-top: 10px;
+}
+
+#dashboardPage #finesTile .loggedIn .total-apps {
+	display: block;
+	margin-top: 19px;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #finesTile .loggedIn #apps-count {
+	font-weight: bold;
+	margin-top: 0px;
+	height: 22px;
+	font-size: 21px;
+	font-family: rta-bold !important;
+	display: inline-block;
+	color: rgb(26, 28, 136);
+}
+
+#dashboardPage #finesTile .loggedIn .enocLastMonths {
+	display: block;
+	font-size: 10px;
+	color: rgb(26, 28, 136);
+	font-family: rta;
+}
+
+#dashboardPage #finesTile .loggedIn:before {
+	content: none;
+}
+
+#dashboardPage #finesTile .NoNOCs .loginInfo {
+	width: 100%;
+}
+
+#dashboardPage #finesTile .NotAuthorized .loginInfo {
+	width: 100%;
+}
+
+
+#dashboardPage .platCont .plateSourceDubai {
+ 	position:absolute;
+ 	font-size:22px;
+ 	left:4px;
+ 	bottom:8px;
+ 	font-family: rta-bold;
+ 	font-weight: normal;
+}
+
+#dashboardPage .platCont .plateCodeDubai {
+    left: 6px;
+    top: 6px;
+    font-size:12px;
+} 
+
+
+
+
+
+#dashboardPage .platCont .plateSourceMotorcycle {
+	right: auto;
+	left: 6px;
+	bottom: 4px;
+	height:12px;
+	font-size: 14px;
+	text-align: right;
+	position: absolute;
+}
+
+#dashboardPage .platCont .plateCodeMotorcycle {
+    position: absolute;
+    left: 8px;
+    font-size: 8px;
+    width:10px;
+    bottom: 8px;
+    top:auto;
+}
+
+#dashboardPage .platCont .plateNoMotorcycle {left: auto;right: 10px;top: 5px;font-size: 14px;}
+
+#dashboardPage .platCont .motorcycleIcon{
+	position: absolute;
+	left: auto;
+	right: 17px;
+	font-size: 18px;
+	bottom: 9px;
+}
+
+#dashboardPage .platCont .plateSourceOthers {
+	position:absolute;
+	font-size: 18px;
+	left: 26px;
+	bottom: 4px;
+}
+
+
+#dashboardPage .platCont .plateNoGCC {
+    position: absolute;
+    left: 0;
+    right: 0px;
+    top: 3px;
+    bottom: 0;
+    font-family: rta-bold;
+}
+
+#dashboardPage .platCont .plateSourceGCC {
+	position:absolute;
+	font-size: 18px;
+	left: auto;
+	right:2px;
+	bottom: 4px;
+}
+
+
+#dashboardPage .platCont .plateCodeBahrain {
+    position: absolute;
+    left: 3px;
+    right: auto;
+    height: 14px;
+    top: 0;
+    width: 21px;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+}
+
+#dashboardPage .platCont .plateCodeKuwait {
+    position: absolute;
+    right:auto;
+    left: 30px;
+    top: 3px;
+    bottom: 0;
+    width: 20px;
+    font-family: rta-bold;
+}
+#dashboardPage .platCont .plateSourceKuwait {
+    position: absolute;
+    font-size: 18px;
+    left: 4px;
+    bottom: 2px;
+    font-family: rta-bold;
+}
+
+

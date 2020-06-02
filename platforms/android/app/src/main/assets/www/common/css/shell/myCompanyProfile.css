@@ -1,0 +1,444 @@
+
+/* Stylesheet content from css/shell/myCompanyProfile.css in folder common */
+#MyCompanyProfilePage * {
+	font-family: rta-regular;
+}
+
+#MyCompanyProfilePage  input {
+	background: #d8dadc;
+	pointer-events: none;
+	color: #53565a;
+}
+
+#MyCompanyProfilePage .disabled {
+	
+	background:#d8dadc;
+	pointer-events: none;
+	color: #53565a;
+}
+
+
+#MyCompanyProfilePage #userName {
+	position: relative;
+	display: block;
+	height: 40px;
+	
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+	color: #666;
+	border-radius: 40px;
+}
+
+#MyCompanyProfilePage .ui-content {
+	padding: 10px 20px;
+	bottom: 50px !important;
+}
+
+#MyCompanyProfilePage .touchIdCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+#MyCompanyProfilePage .touchIdCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	font-weight: bold;
+	color: #666;
+}
+
+#MyCompanyProfilePage .touchIdCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#MyCompanyProfilePage .headLabel {
+	margin: 5px auto;
+	margin-left: 3px;
+	font-size: 20px;
+}
+
+#MyCompanyProfilePage .desc {
+	color: #171c8f;
+	margin: 10px 0px 0px 0px;
+	margin-left: 3px;
+}
+
+#MyCompanyProfilePage .fieldRow {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 76px !important;
+	/* margin: 5px auto; */
+}
+
+#MyCompanyProfilePage .fieldRow .shell-label {
+	position: absolute;
+	left: 3px;
+	top: 7px;
+}
+
+#MyCompanyProfilePage #MyProfileDetails .shell-label {
+	left: 3px;
+	top: 0px;
+	margin-top: 2px;
+}
+
+#MyCompanyProfilePage .fieldRow input {
+	position: absolute;
+	bottom: 2px;
+	margin: 0;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box !important;
+	padding-right: 10px;
+	border-radius: 2px;
+	color: #53565a;
+}
+
+
+#MyCompanyProfilePage .fieldRow #email {
+	/* width: calc(100% - 48px); */
+}
+
+#MyCompanyProfilePage .mobileRow .countryCode {
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	width: 20%;
+	
+}
+
+#MyCompanyProfilePage .mobileRow .prefix {
+	position: absolute;
+	left: 23%;
+	bottom: 2px;
+	width: 22%;
+}
+
+#MyCompanyProfilePage .mobileRow input {
+	left: calc(20% + 10px);
+	/* width: calc(77% - 48px); */
+}
+
+
+#MyCompanyProfilePage .fNamePart {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+#MyCompanyProfilePage .titleCont {
+	left: 0;
+	width: 30%;
+}
+
+#MyCompanyProfilePage .fNameCont {
+	left: 31%;
+	right: 0;
+}
+
+
+#MyCompanyProfilePage .fNamePart .shell-dropdown-wrapper {
+	/* border: 1px solid #aaa; */
+	border-radius: 2px;
+	top: 23px;
+}
+
+#MyCompanyProfilePage .nationalityRow .shell-label {
+	position: relative;
+	margin-bottom: 1px;
+}
+
+#MyCompanyProfilePage .nationalityRow .shell-dropdown-wrapper {
+	width: 100%;
+	/* border: 1px solid #aaa; */
+}
+
+#MyCompanyProfilePage .radio-toolbar input[type="radio"]:checked+label {
+	background: #ee0000;
+	color: #fff;
+	/* border: 0px!important; 
+	border: 1px solid #ee0000 !important;*/
+}
+
+#MyCompanyProfilePage .radio-toolbar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 38px;
+	white-space: nowrap;
+	color: black !important;
+	width: 100%;
+	font-size: 0;
+}
+
+#MyCompanyProfilePage .radio-toolbar label {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	/* background: #fff; */
+	position: relative;
+	transition-duration: 300ms;
+	color: black;
+	/* border: 1px solid #aaa; */
+	white-space: normal;
+	font-size: 16px;
+}
+
+#MyCompanyProfilePage .radio-toolbar input[type='radio'] {
+	display: none;
+}
+
+#MyCompanyProfilePage .radio-toolbar input[type="radio"]:checked+label:before {
+	content: "\ea05";
+	font-family: 'icomoon' !important;
+	position: absolute;
+	left: 10px;
+}
+
+
+
+#MyCompanyProfilePage .commRow .shell-label {
+	color: #999;
+	font-size: 12px;
+	top: 1px;
+}
+
+
+
+.container-rtl #MyCompanyProfilePage {
+	direction: rtl;
+}
+
+.container-rtl #MyCompanyProfilePage .touchIdCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #MyCompanyProfilePage .touchIdCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #MyCompanyProfilePage .fieldRow .shell-label {
+	left: auto;
+	right: 4px;
+}
+
+.container-rtl #MyCompanyProfilePage .fieldRow .icon-edit {
+	right: auto;
+	left: 2px;
+}
+
+.container-rtl #MyCompanyProfilePage .mobileRow .countryCode {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #MyCompanyProfilePage .mobileRow .prefix {
+	left: auto;
+	right: 23%;
+}
+
+.container-rtl #MyCompanyProfilePage .mobileRow input {
+	left: auto;
+	right: 23%;
+}
+
+.container-rtl #MyCompanyProfilePage .titleCont {
+	right: 0;
+	left: auto;
+}
+
+.container-rtl #MyCompanyProfilePage .fNameCont {
+	left: 0;
+	right: 31%;
+}
+
+#MyCompanyProfilePage #editFieldsCont .title {
+	color: #ee0000;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-family: rta-regular;
+	/* top: -4px;
+     */
+	margin-left: 5px;
+}
+#MyCompanyProfilePage .fieldRow .shell-input-cont {
+	margin: 0;
+	/* height: auto; */
+	top: 25px;
+	bottom: 0;
+	display: block;
+}
+
+#MyCompanyProfilePage .fieldRow .shell-input-cont input {
+	position: relative;
+	height: 36px;
+	/* border: 1px solid #b6b6b6; */
+	border-radius: 2px;
+}
+
+#MyCompanyProfilePage #changeMobileCont .mobileRow .countryCode {
+	top: 18px;
+}
+
+
+#MyCompanyProfilePage .radio-toolbar.disabled {
+	background: none;
+}
+
+
+#MyCompanyProfilePage .tabContent {
+	background: #fff;
+	padding: 20px 15px 20px 15px;
+     padding-bottom: 50px !important;
+}
+
+#MyCompanyProfilePage #tabsContent #MyContactDetails {
+	overflow-y: scroll !important;
+}
+
+
+#MyCompanyProfilePage .shell-select {
+	color: #53565a;
+}
+
+#MyCompanyProfilePage .fieldRow.nationalityRow {
+	height: 69px !important;
+}
+
+.container-rtl #changeSalikNumber_popup .changeHeader .changeHeader2 {
+	margin-right: 45px;
+	text-align: right !important;
+	direction: rtl !important;
+}
+
+#changeSalikNumber_popup .changeHeader .changeHeader2 i {
+	color: #ee0000;
+	font-family: rta-regular;
+	font-size: 16px;
+}
+
+
+.container-rtl #changeSalikNumber_popup .changeQues .quespart2 {
+	font-family: rta-regular;
+	margin-right: 30px;
+	text-align: left;
+}
+#MyCompanyProfilePage #MyProfileDetails .preferedCommunication {
+	left: 3px !important;
+	top: 0px !important;
+	margin-top: 17px !important;
+}
+
+#MyCompanyProfilePage #MyContactDetails {
+	padding-bottom: 50px !important;
+}
+/* 
+#MyCompanyProfilePage .IssueExpireDate{
+	
+	display:inline;
+} */
+
+#MyCompanyProfilePage .IssueDateContent{
+	  left: 0;
+	  width: 48%;
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+}
+
+.container-rtl #MyCompanyProfilePage .IssueDateContent{
+	right:0
+}
+#MyCompanyProfilePage .ExpireDateContent{
+	left: 51%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+.container-rtl #MyCompanyProfilePage .ExpireDateContent{
+left:0;
+right:51%;
+}
+#MyCompanyProfilePage .langRow{
+	/* margin-bottom:50px */
+}
+#MyCompanyProfilePage .OfficeLabel{
+	margin-top: 20px;
+	margin-left: 3px;
+	font-size: 18px;
+}
+#MyCompanyProfilePage .shell-dropdown-wrapper {
+     width: 91%; 
+}
+
+#MyCompanyProfilePage .MobileNumberContent{
+	  /* position: absolute; */
+	  /* bottom: 0; */
+	  overflow: hidden;
+}
+#MyCompanyProfilePage .CountryCodeNumber{
+	 width: 20%;
+	 position: absolute!important;
+	 display: inline-block;
+	 left: 0;
+	 /* right: -52%; */
+	 /* width: auto; */
+	 top: 0;
+}
+
+.container-rtl #MyCompanyProfilePage .CountryCodeNumber{
+	width:20%;
+	right:0%;
+	left: auto;
+}
+
+#MyCompanyProfilePage .AdminMobileNumber
+{
+	left: 23%;
+	display: inline-block;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute!important;
+}
+.container-rtl #MyCompanyProfilePage .AdminMobileNumber
+{
+	
+	right: 24%;
+	top: 0;
+	bottom: 0;
+	position: absolute!important;
+}
+.container-rtl #MyCompanyProfilePage .MobileNumberdetails
+{
+right:23% ;
+width:80% ;
+}
+#MyCompanyProfilePage .MobileNumberContent{
+	
+/* margin-top: 10px; */
+	
+top: 40px!important;
+}

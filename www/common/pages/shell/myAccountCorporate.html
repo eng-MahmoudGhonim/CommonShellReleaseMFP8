@@ -1,0 +1,103 @@
+<div id="MyAccountCorporatePage" data-role="page"
+	data-class="com/views/shell/MyAccountCorporatePageView">
+	<div class="tabsCont">
+		<div class="tabsHead">
+
+			<div class="head waves-effect">%shell.myAccountCorporate.ManageProfile%</div>
+			<div class="head waves-effect opticianCenters">%shell.myAccountCorporate.MyNOCs%</div>
+			<div class="bar"></div>
+		</div>
+		<div id="tabsContent" class="tabsContent guestSidePanel">
+			<div id="ManageProfile" class="tabContent">
+				<div class="profileDetails">
+					<span class="icon icon-user " id="templateProfileImage"></span> <img
+						id="userprofileImg" src="" style="display: none"></img>
+					<div id="ProfileUserName"></div>
+
+					<div id="userprofilebutton" class="editProfilePicBtn waves-effect">
+						<i class="icon-camera"></i>%shell.profile.editprofilepicture%
+					</div>
+					<div class="UserName">
+						<span class="UserNameHeader">%shell.myAccountCorporate.UserName%</span>
+						<span class="usernameValue" id="AccountUserName"> </span>
+					</div>
+					<div class="CompanyName">
+						<span class="UserNameHeader">%shell.myAccountCorporate.CompanyName%</span>
+						<span class="usernameValue" id="AccountCompanyName"> </span>
+					</div>
+					<!-- <div class="shell-button waves-effect" id="changePassBtn">%shell.myAccountCorporate.changepassword%</div> -->
+				</div>
+				<div id="userProfileLinks">
+
+
+					<div id="profileDetails" class="action-btn" >
+						<span class="action-title">%shell.myAccountCorporate.MyCompanyProfile%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myTransactionsCorporate" class="action-btn"
+						style="display: none">
+						<span class="action-title">%shell.myAccountCorporate.MyTransactions%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="MyVehiclesCorporate" class="action-btn" >
+						<span class="action-title">%shell.myAccountCorporate.MyVehicles%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+			<div id="LinkedAccounts" class="tabContent">
+				<div id="LinkedAccountHeader"><i></i> %shell.myAccountCorporate.NOCApplicationsUpdateDate%</div>
+					<div class="NocDetails">
+						<div class="NocBox"  id="TemporarilySaved">
+						<span class="NocBoxHeader">%shell.myAccountCorporate.TemporarilySaved%</span>
+						<span class="NocBoxValue" style="color: #afb2b8">0</span>
+						</div>
+						<div class="NocBox"  id="PendingDocs">
+						<span class="NocBoxHeader">%shell.myAccountCorporate.PendingDocs%</span>
+						<span class="NocBoxValue" style="color:#ffa100">0</span>
+						</div>
+						<div class="NocBox"  id="ProcessApproved">
+						<span class="NocBoxHeader ">%shell.myAccountCorporate.InProcessApproved%</span>
+						<span class="NocBoxValue  InProcessApprove" style="color:#00b000" >0</span>
+						</div>
+						<div class="NocBox" id="DueForRevalidation">
+						<span class="NocBoxHeader">%shell.myAccountCorporate.DueForRevalidation%</span>
+						<span class="NocBoxValue" style="color:#ff0000">0</span>
+						</div>
+						<div class="NocBox"  id="CancelledObjected">
+						<span class="NocBoxHeader">%shell.myAccountCorporate.CancelledObjected%</span>
+						<span class="NocBoxValue" style="color:#ff0000">0</span>
+						</div>
+						<div class="NocBox"  id="Commented">
+						<span class="NocBoxHeader">%shell.myAccountCorporate.Commented%</span>
+						<span class="NocBoxValue" style="color:#ffa100">0</span>
+						</div>
+					</div>
+
+
+				<div class="NOCActions">
+					<div class="shell-button waves-effect" id="CreateNewNOCBTn">%shell.myAccountCorporate.CreateNewNOC%
+						</div>
+					<div class="shell-button waves-effect" id="ManageNOCBtn">%shell.myAccountCorporate.ManageNOCs%</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="ManageProfileTemplate" class="action-btn"
+		style="display: none">
+		<span class="action-title"></span> <i class="mdi mdi-chevron-right"></i>
+	</div>
+
+
+
+
+</div>

@@ -1,0 +1,268 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLSplashScreen\"><param name=\"ios-package\" value=\"WLSplashPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"LoggerPlugin\"><param name=\"ios-package\" value=\"LoggerPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"DeviceAuth\"><param name=\"ios-package\" value=\"DeviceAuthPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLDirectUpdatePlugin\"><param name=\"ios-package\" value=\"WLDirectUpdatePlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLApp\"><param name=\"ios-package\" value=\"WLApp\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"UIControls\"><param name=\"ios-package\" value=\"UIControls\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NetworkDetector\"><param name=\"ios-package\" value=\"NetworkDetector\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NativePage\"><param name=\"ios-package\" value=\"NativePage\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SecurityPlugin\"><param name=\"ios-package\" value=\"SecurityPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StoragePlugin\"><param name=\"ios-package\" value=\"StoragePlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"FIPSHttpPlugin\"><param name=\"ios-package\" value=\"FIPSHttpPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Badge\"><param name=\"ios-package\" value=\"Badge\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NotificationEx\"><param name=\"ios-package\" value=\"NotificationEx\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WifiPlugin\"><param name=\"ios-package\" value=\"WifiPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLNativeXHRPlugin\"><param name=\"ios-package\" value=\"WLNativeXHRPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLActionSenderPlugin\"><param name=\"ios-package\" value=\"WLActionSenderPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLAuthorizationManagerPlugin\"><param name=\"ios-package\" value=\"WLAuthorizationManagerPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"WLCertificatePinningPlugin\"><param name=\"ios-package\" value=\"WLCertificatePinningPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"MFPPushPlugin\"><param name=\"ios-package\" value=\"CDVMFPPush\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"AppAvailability\"><param name=\"ios-package\" value=\"AppAvailability\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Debug.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>development</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Release.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>production</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-mfp": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-mfp-push": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-appavailability": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "id": "cordova-plugin-dialogs.notification",
+      "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+      "pluginId": "cordova-plugin-dialogs",
+      "merges": [
+        "navigator.notification"
+      ]
+    },
+    {
+      "id": "cordova-plugin-globalization.GlobalizationError",
+      "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+      "pluginId": "cordova-plugin-globalization",
+      "clobbers": [
+        "window.GlobalizationError"
+      ]
+    },
+    {
+      "id": "cordova-plugin-globalization.globalization",
+      "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+      "pluginId": "cordova-plugin-globalization",
+      "clobbers": [
+        "navigator.globalization"
+      ]
+    },
+    {
+      "id": "cordova-plugin-mfp.mfp",
+      "file": "plugins/cordova-plugin-mfp/bootstrap.js",
+      "pluginId": "cordova-plugin-mfp",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-mfp-push.MFPPush",
+      "file": "plugins/cordova-plugin-mfp-push/www/MFPPush.js",
+      "pluginId": "cordova-plugin-mfp-push",
+      "clobbers": [
+        "MFPPush"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.network",
+      "file": "plugins/cordova-plugin-network-information/www/network.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "navigator.connection",
+        "navigator.network.connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-network-information.Connection",
+      "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+      "pluginId": "cordova-plugin-network-information",
+      "clobbers": [
+        "Connection"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-appavailability.AppAvailability",
+      "file": "plugins/cordova-plugin-appavailability/www/AppAvailability.js",
+      "pluginId": "cordova-plugin-appavailability",
+      "clobbers": [
+        "appAvailability"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-device": "2.0.3",
+    "cordova-plugin-dialogs": "2.0.2",
+    "cordova-plugin-globalization": "1.11.0",
+    "cordova-plugin-mfp": "8.0.2020052505",
+    "cordova-plugin-mfp-push": "8.0.2020052609",
+    "cordova-plugin-network-information": "2.0.2",
+    "cordova-plugin-splashscreen": "5.0.3",
+    "cordova-plugin-appavailability": "0.4.2"
+  }
+}

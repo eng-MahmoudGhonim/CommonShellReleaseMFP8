@@ -1,0 +1,67 @@
+<div id="FeedbackFormPage" data-role="page"
+	data-class="com/views/shell/ReportProblemPageView">
+
+	<div class="_1_0Animated fadeIn" data-role="content" id="content">
+
+		<div class="headerBackground">
+			<section id="feedbackFormHeader" class="headerBoldTextStyle">%shell.reportproblem.description%</section>
+		</div>
+
+		<div class="feedbackSection">
+			<ul data-role="listview" class="ulListContainer">
+
+				<li class="sectionBg"><div class="alignLeft">%shell.reportproblem.to%</div>
+					<div class="editForm">
+						<label id="toLbl" class="emailCustom alignLeft">%shell.reportproblem.mailto%</label>
+					</div></li>
+				<li class="grayListBg"><label class="alignLeft">%shell.reportproblem.subject%</label>
+					<div class="reportProblemtextField alignRight">
+						<input id="subjectLbl" class="regularInputText" type="text"
+							maxlength="25" />
+					</div></li>
+			</ul>
+		</div>
+
+
+
+		<textarea id="problemText" placeholder="" maxlength="500"
+			data-role="none" rows="4"></textarea>
+		<div>
+			<span id="charNum">500</span>%shell.feedback.ofCharLeft%
+		</div>
+		<div>
+			<table>
+				<tr>
+					<td>%shell.reportproblem.device%</td>
+					<td id="device"></td>
+				</tr>
+				<tr>
+					<td>%shell.reportproblem.os%</td>
+					<td id="os"></td>
+				</tr>
+				<tr>
+					<td>%shell.reportproblem.version%</td>
+					<td><label id="version"></label></td>
+				</tr>
+				<tr>
+					<td>%shell.reportproblem.appversion%</td>
+					<td id="appVersion"></td>
+				</tr>
+			</table>
+		</div>
+		<!-- 			<input id="sendBtn" type="submit" value=%shell.reportproblem.send% />
+ -->
+	</div>
+
+	<div class="ui-grid-a" id="footerButtons">
+		<div class="ui-block-a">
+			<button id="cancelSendFormBtn" class="ui-secondary-btn">%shell.login.forget.cancel%</button>
+		</div>
+		<div class="ui-block-b">
+			<button id="sendFormBtn" class="ui-normal-btn">%shell.reportproblem.send%
+			</button>
+		</div>
+	</div>
+
+</div>
+

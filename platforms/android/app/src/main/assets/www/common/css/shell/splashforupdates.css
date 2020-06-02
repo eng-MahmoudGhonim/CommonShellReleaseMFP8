@@ -1,0 +1,108 @@
+#SplashPageView * {
+	font-family: rta-regular;
+}
+
+#SplashPageView {
+	top: 0 !important;
+	bottom: 0 !important;
+	z-index: 1000;
+}
+
+#SplashPageView .logoCont {
+	height: 56px;
+	overflow: hidden;
+	background: #fff;
+}
+
+#SplashPageView .logoCont img {
+	height: 100%;
+	margin: auto;
+	display: block;
+}
+
+#SplashPageView .tcimage {
+	overflow: hidden;
+	background: #fff;
+}
+
+#SplashPageView .tcimage img {
+	height: 100%;
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+
+#SplashPageView .tcCont {
+	margin: 15px;
+}
+
+#SplashPageView .tcCont span {
+	display: block;
+	margin-bottom: 10px;
+	color: #53565a;
+	font-size: 13px;
+}
+
+#SplashPageView .tcCont .tctitle {
+	margin-bottom: 15px;
+	color: #000;
+	font-size: 18px;
+}
+
+#SplashPageView #readtcbtn {
+	background: #fff;
+	position: relative;
+	font-size: 15px;
+	color: #53565a;
+	height: 50px;
+	margin-top: 20px;
+}
+
+#SplashPageView #readtcbtn .text {
+	display: inline-block !important;
+	line-height: 50px;
+	margin: 0px !important;
+	height: 100% !important;
+	width: 90%;
+	padding-left: 10px;
+}
+
+#SplashPageView span.icon-arrow-right {
+	width: 8% !important;
+	display: inline-block !important;
+	line-height: 50px;
+	margin: 0px !important;
+	height: 100% !important;
+}
+#SplashPageView #tcBtn {
+	height: 40px;
+	background: #ee0000;
+	line-height: 44px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	font-size: 13px;
+	font-family: rta-bold;
+}
+.container-rtl #SplashPageView .tcCont {
+    direction: rtl;
+}
+
+.container-rtl #SplashPageView #readtcbtn .text {
+    padding-right: 10px;
+    padding-left: 0px!important;
+}
+
+.container-rtl #SplashPageView .icon-arrow-right:before {
+    content: "\e9c2";
+}

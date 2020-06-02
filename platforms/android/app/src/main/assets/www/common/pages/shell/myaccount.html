@@ -1,0 +1,161 @@
+<div id="MyAccountPage" data-role="page"
+	data-class="com/views/shell/MyAccountPageView">
+	<div class="tabsCont">
+		<div class="tabsHead">
+			<!-- <div class="head waves-effect">%shell.myAccount.DriverScore%</div> -->
+			<div class="head waves-effect">%shell.myAccount.ManageProfile%</div>
+			<div class="head waves-effect ">%shell.myAccount.LinkedAccounts%</div>
+			<div class="bar"></div>
+		</div>
+		<div id="tabsContent" class="tabsContent guestSidePanel">
+			<!-- <div id="DriverScore" class="tabContent"></div> -->
+			<div id="ManageProfile" class="tabContent">
+				<div class="profileDetails">
+					<span class="icon icon-user " id="templateProfileImage"></span> <img
+						id="userprofileImg" src="" style="display: none"></img>
+					<div id="ProfileUserName"></div>
+
+					<div id="userprofilebutton" class="editProfilePicBtn waves-effect">
+						<i class="icon-camera"></i>%shell.profile.editprofilepicture%
+					</div>
+					<div class="UserName">
+						<span class="UserNameHeader">%shell.myAccount.UserName%</span> <span
+							class="usernameValue"> </span>
+					</div>
+					<div class="changePassBtn waves-effect" id="changePassBtn">%shell.myAccount.changepassword%</div>
+				</div>
+				<div id="userProfileLinks">
+
+
+					<div id="profileDetails" class="action-btn" >
+						<span class="action-title">%shell.myAccount.MyProfileDetails%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myTransactions" class="action-btn" >
+						<span class="action-title">%shell.myAccount.MyTransactions%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myDriveLicense" class="action-btn" >
+						<span class="action-title">%shell.myAccount.MyDrivingLicense%</span>
+						<i class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myVehicles" class="action-btn" >
+						<span class="action-title">%shell.myAccount.MyVehicles%</span> <i
+							class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myDocs" class="action-btn" >
+						<span class="action-title">%shell.myAccount. MyDocs%</span> <i
+							class="mdi mdi-chevron-right"></i>
+					</div>
+					<div id="myPlaces" class="action-btn" >
+						<span class="action-title">%shell.myAccount.MyPlaces%</span> <i
+							class="mdi mdi-chevron-right"></i>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div id="LinkedAccounts" class="tabContent">
+
+				<span id="linkedHeader">%shell.myAccount.LinkedHeader%</span> <span
+					id="linkedTitle">%shell.myAccount.LinkedTitle%</span>
+				<!-- <div id="LinkedAccountsList" class="actions-cont"></div> -->
+				<div id="LinkedAccountsList" class="actions-cont">
+
+					<div class="linked-action">
+						<i class="icon icon-traffic-file"></i> <span class="action-title">%shell.myAccount.TrafficFileNumber%</span>
+						<span id="TrafficFileNumberValue" class="AccountNumberValue"></span>
+						<div class="add-btn waves-effect" id="AddTrafficFileNumber">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+					
+					<div class="ContainerItems">
+
+						<div class="linked-action " id="SalikNumberCont">
+							<i class="icon icon-service-salik"></i> <span
+								class="action-title">%shell.myAccount.LinkSalikAccount%</span> <span
+								id="SalikAccountNumberValue" class="AccountNumberValue"></span>
+							<div class="add-btn waves-effect" id="AddSalikAccountNumber">
+								<i class="icon-add"></i> <span class="add-text">%shell.myAccount.Add%</span>
+							</div>
+
+						</div>
+						<div class="EditLinkOptions" id="UpdateSalikAccountNumber">
+							
+							<div class=" waves-effect " id=DeleteSalikAccountNumber>
+								<i class="icon-delink"></i> <span id=""> %shell.MYAccount.DELINK%</span>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="LinkedNolProfile" style="display: none">
+						<i class="icon icon-nol"></i> <span class="action-title">%shell.myAccount.LinkNolAccount%</span>
+						<span id="NolNumberValue" class="AccountNumberValue"></span>
+						<div class="add-btn waves-effect" id="AddNolNumber">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+					<div class="linked-action" id="LinkedParkingAccount">
+						<i class="icon icon-service-parking"></i> <span
+							class="action-title">%shell.myAccount.ParkingAccount%</span> <span
+							id="ParkingAccountNumberValue" class="AccountNumberValue"></span>
+						<div class="add-btn waves-effect" id="AddParkingAccountNumber">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+
+					<div class="linkSocial" style="display: none">
+						<i class="icon "></i> <span class="action-title">%shell.myAccount.LinkSocialAccounts%</span>
+						<div class="add-btn waves-effect" style="display: none;">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+					<div class="linked-action" style="display: none">
+						<i class="icon icon-facebook"></i> <span class="action-title">%shell.myAccount.Facebook%</span>
+						<div class="add-btn waves-effect">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+					<div class="linked-action" style="display: none">
+						<i class="icon icon-twitter"></i> <span class="action-title">%shell.myAccount.Twitter%</span>
+						<div class="add-btn waves-effect">
+							<i class="icon-add"></i> <span class="add-text">
+								%shell.myAccount.Add%</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="ManageProfileTemplate" class="action-btn"
+		style="display: none">
+		<span class="action-title"></span> <i class="mdi mdi-chevron-right"></i>
+	</div>
+
+
+	<div id="LinkedAccountsTemplate" class="linked-action"
+		style="display: none">
+		<i class="icon "></i> <span class="action-title"></span>
+		<div class="add-btn waves-effect">
+			<i class="icon-add"></i> <span class="add-text">
+				%shell.myAccount.Add%</span>
+		</div>
+	</div>
+
+</div>

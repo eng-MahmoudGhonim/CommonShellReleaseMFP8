@@ -1,0 +1,248 @@
+#NotificationsSettingsPage * {
+	font-family: rta-regular;
+}
+
+#NotificationsSettingsPage .ui-content {
+	padding: 25px 15px 25px 15px;
+}
+
+#NotificationsSettingsPage .acc-head {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.container-rtl #NotificationsSettingsPage .acc-head{
+	direction:rtl;
+}
+#NotificationsSettingsPage .notificationsSetting {
+	width: 100%;
+	height: 70px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#NotificationsSettingsPage .notificationsSetting .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 30px;
+	margin: auto;
+	color: #666;
+	font-size: 15px;
+}
+
+.container-rtl #NotificationsSettingsPage .notificationsSetting .title{
+	left:auto;
+	right:10px;
+	direction:rtl;
+}
+
+#NotificationsSettingsPage .notificationsSetting .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 24px;
+}
+#NotificationsSettingsPage .notificationsSetting  i{
+	 font-size: 30px;
+	 color: black;
+}
+  .container-rtl #NotificationsSettingsPage .notificationsSetting  i{
+   	left: 10px !important;
+    right: auto !important;
+   }
+.container-rtl #NotificationsSettingsPage  .mdi.mdi-chevron-right:before
+	{
+	content: "\F141";
+}
+/* #NotificationsSettingsPage .personalNotificationsSetting {
+	width: 100%;
+	height: 70px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#NotificationsSettingsPage .personalNotificationsSetting .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 30px;
+	margin: auto;
+	color: #666;
+}
+
+#NotificationsSettingsPage .personalNotificationsSetting .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+} */
+
+#NotificationsSettingsPage .zoomCont {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#NotificationsSettingsPage .zoomCont .title {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+#NotificationsSettingsPage .zoomCont .shell-switch {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+
+#NotificationsSettingsPage #openSettings {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#NotificationsSettingsPage #openSettings span {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	height: 13px;
+	margin: auto;
+	color: #666;
+}
+
+/* .container-rtl #NotificationsSettingsPage .notificationsSetting .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #NotificationsSettingsPage .personalNotificationsSetting .shell-switch {
+	right: auto;
+	left: 10px;
+} */
+
+/* .container-rtl #NotificationsSettingsPage .personalNotificationsSetting .title {
+	left: auto;
+	right: 10px;
+} */
+
+.container-rtl #NotificationsSettingsPage .notificationsSetting .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #NotificationsSettingsPage .zoomCont .title {
+	left: auto;
+	right: 10px;
+}
+
+.container-rtl #NotificationsSettingsPage .zoomCont .shell-switch {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #NotificationsSettingsPage #openSettings span {
+	left: auto;
+	right: 10px;
+}
+
+#NotificationsSettingsPage #openSettings i {
+    position: absolute;
+    right: 18px;
+    left: auto !important;
+    font-size: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container-rtl #NotificationsSettingsPage #openSettings i {
+     left: 18px !important;
+     right: auto !important;
+     -webkit-transform: rotate(-180deg);
+}
+#NotificationsSettingsPage #resetBtn {
+
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    color: #ee0000;
+    border-radius: 30px;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-transform: translate3d(0, 0, 0);
+    font-family: rta-regular;
+    bottom:0;
+    position:absolute;
+    display:none;
+}
+#NotificationsSettingsPage {
+    bottom: 15px;
+}
+
+#NotificationsSettingsPage  .Description{
+	color:#666;
+	font-family: rta-regular;
+	font-size:10px;
+}
+
+#NotificationsSettingsPage  .NotificationTile{
+	width: 100%;
+	height: 70px;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 10px;
+}
+#NotificationsSettingsPage #showAllAlerts{
+	font-size: 13px;
+	color:#ee0000;
+	position: absolute;
+	right: 34px;
+	left: auto;
+	bottom: 0;
+	 top: 0; 
+	margin: auto;
+	height: 8px;
+}
+
+.container-rtl #NotificationsSettingsPage #showAllAlerts{
+	left:40px;
+	right:auto;
+	direction: rtl;
+}

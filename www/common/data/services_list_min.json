@@ -1,0 +1,2692 @@
+﻿[
+    {
+        "serviceID": 171,
+        "serviceName_EN": "Issue Personalized nol Card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "https://www.nol.ae/RtaPortal/Portal.portal?_nfpb=true&_pageLabel=home_get_range_blue_apply&lang=en&_nfls=false",
+        "serviceName_AR": "اصدار بطاقة نول الشخصية",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 172,
+        "serviceName_EN": "Top- Up NOL Card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae/RtaPortal/Portal.portal?_nfpb=true&_pageLabel=home_nolEServices_topUpCard_page",
+        "serviceName_AR": "إعادة تعبئة بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 173,
+        "serviceName_EN": "Refund NOL Balance",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استرداد الرصيد المتبقي في بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 174,
+        "serviceName_EN": "View nol Transaction History",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "الاطلاع على المعاملات السابقة لبطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 177,
+        "serviceName_EN": "Wojhati",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "http://www.rta.ae",
+        "serviceName_AR": "(وجهتي) مخطط الرحلات (وجهتي) مخطط الرحلات",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 178,
+        "serviceName_EN": "Book a Taxi",
+        "serviceGroupID": "16",
+        "serviceGroupName_EN": "Franchising & Limousine services",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مركبة أجرة",
+        "serviceGroupName_AR": "خدمات شركات الامتياز والنقل الفخم",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 179,
+        "serviceName_EN": "Rent a Taxi",
+        "serviceGroupID": "16",
+        "serviceGroupName_EN": "Franchising & Limousine services",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استئجار مركبة أجرة (خدمة تأجير المركبات)",
+        "serviceGroupName_AR": "خدمات شركات الامتياز والنقل الفخم",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 180,
+        "serviceName_EN": "Rent a Bus",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "http://www.tajeer.rta.ae",
+        "serviceName_AR": "طلب استئجار حافلة",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 185,
+        "serviceName_EN": "Replace Lost or Damaged Driver's License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/public-access.do?&SwitchToLatestLocale=true",
+        "serviceName_AR": "إصدار بدل فاقد/ تالف لرخصة قيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 187,
+        "serviceName_EN": "Amend Driver's License Type",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تعديل صنف رخصة القيادة  في استمارة التعلم والعكس",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 188,
+        "serviceName_EN": "Issue International Driver's License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار رخصة القيادة الدولية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 189,
+        "serviceName_EN": "Transfer a Driver’s License to Dubai",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تحويل رخصة قيادة صادرة من إمارات أخرى إلى إمارة دبي",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 191,
+        "serviceName_EN": "Apply for transferring a driving license issued from Dubai to other emirates",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/public-access.do?&SwitchToLatestLocale=true",
+        "serviceName_AR": "طلب تحويل رخصة قيادة صادرة من إمارة دبي إلى إمارة أخرى",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 192,
+        "serviceName_EN": "Issue Driver's Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تعلم القيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 193,
+        "serviceName_EN": "Renew Driver's Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح التعلم",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 195,
+        "serviceName_EN": "Transfer Trainee Driver File to another Institute",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "نقل ملف متدرب من معهد إلى آخر",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 196,
+        "serviceName_EN": "Issue Safari Driver's Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تعلم القيادة الصحراوية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 197,
+        "serviceName_EN": "Renew safari learning permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح تعلم القيادة الصحراوية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 198,
+        "serviceName_EN": "Add Light Bus Category to Driver’s License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إضافة صنف (باص خفيف) لرخصة القيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 199,
+        "serviceName_EN": "Replace Lost or Damaged Safari Driver's Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدارتصريح  تعلم القيادة الصحراوية بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 200,
+        "serviceName_EN": "Issue Learning Permit for Site Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تعلم القيادة للأعمال ذات الطبيعة الخاصة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 201,
+        "serviceName_EN": "Renew Site Driving License Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح تعلم القيادة للأعمال ذات الطبيعة الخاصة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 202,
+        "serviceName_EN": "Replace Lost or Damaged Site Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدارتصريح بدل فاقد/ تالف  تعلم القيادة للأعمال ذات الطبيعة الخاصة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 203,
+        "serviceName_EN": "Drivers Non experience Certificate",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة لمن يهمه الأمر",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 204,
+        "serviceName_EN": "Issue a New Driver’s License Category (for Transferrable Foreign Licenses)",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إضافة صنف جديد لرخصة القيادة (بموجب إستبدال).",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 205,
+        "serviceName_EN": "Issue a Dubai Driver’s License  (for Transferrable Foreign Licenses)",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار رخصة قيادة جديدة (بموجب استبدال).",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 206,
+        "serviceName_EN": "Issue Dubai Driver's License after Clearing Road Test",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار رخصة قيادة جديدة (بموجب فحص)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 207,
+        "serviceName_EN": "Add a New Category to a Dubai Driver’s License based on a Road Test",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إضافة صنف جديد لرخصة القيادة (بموجب فحص)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 208,
+        "serviceName_EN": "Purchase a Training Manual",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شراء كتيبات التدريب",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 210,
+        "serviceName_EN": "Replace Lost or Damaged Site Driving License Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح قيادة بدل فاقد/ تالف للأعمال ذات الطبيعة الخاصة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 211,
+        "serviceName_EN": "Issue Driver Experience Certificate",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة خبرة للسائقين",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 213,
+        "serviceName_EN": "Issue Driver's Instructor Permit",
+        "serviceGroupID": "8",
+        "serviceGroupName_EN": "Trainers Licensing",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح مدرب قيادة",
+        "serviceGroupName_AR": "ترخيص المدربين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 214,
+        "serviceName_EN": "Renew Driving Instructor/ Lecturer Permit",
+        "serviceGroupID": "8",
+        "serviceGroupName_EN": "Trainers Licensing",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح مدرب قيادة/ محاضر",
+        "serviceGroupName_AR": "ترخيص المدربين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 215,
+        "serviceName_EN": "Replace Lost or Damaged Driving Instructor/ Lecturer Permit",
+        "serviceGroupID": "8",
+        "serviceGroupName_EN": "Trainers Licensing",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدارتصريح مدرب/ محاضر بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص المدربين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 216,
+        "serviceName_EN": "Add a New Category to an Existing Instructor Training Permit",
+        "serviceGroupID": "8",
+        "serviceGroupName_EN": "Trainers Licensing",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إضافة صنف لتصريح مدرب",
+        "serviceGroupName_AR": "ترخيص المدربين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 218,
+        "serviceName_EN": "Issue Disabled Organization Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (مركبات الرعاية والتأهيل)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 220,
+        "serviceName_EN": "Issue Vehicle Possession Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/public-access.do?&SwitchToLatestLocale=true",
+        "serviceName_AR": "إصدار شهادة حيازة مركبة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 221,
+        "serviceName_EN": "Replace Lost or Damaged Vehicle Possession Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "حيازة بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 222,
+        "serviceName_EN": "Replace Lost or Damaged Vehicle Registration Card",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "ملكية مركبة بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 223,
+        "serviceName_EN": "Renew Vehicle Registration and Change Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تجديد ملكية مع تغيير رقم اللوحة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 225,
+        "serviceName_EN": "Update Vehicle Registration Information (for modifications)",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تعديل بيانات ملكية مركبة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 226,
+        "serviceName_EN": "Register your Vehicle",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تسجيل مركبة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 227,
+        "serviceName_EN": "Renew Vehicle Registration",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/public-request-service-info.do?entityId=-1&serviceCode=204",
+        "serviceName_AR": "تجديد ملكية مركبة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 228,
+        "serviceName_EN": "Transfer Vehicle Registration to Another Emirate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تحويل مركبة داخلي",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 229,
+        "serviceName_EN": "Issue Permit to Export Vehicle outside the U.A.E",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تسفير مركبة للخارج",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 230,
+        "serviceName_EN": "Replace Lost or Damaged Vehicle Export Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تسفير بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 232,
+        "serviceName_EN": "Issue Tourist certificate - to Drive Vehicles outside the UAE",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة سياحية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 233,
+        "serviceName_EN": "Issue a Return from Tour Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة عودة من السياحة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 234,
+        "serviceName_EN": "Buy Distinguished Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "شراء رقم مميز",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 235,
+        "serviceName_EN": "Request a Distinguished Plate Number through Customer Service",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "تخصيص رقم مميز",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 236,
+        "serviceName_EN": "Renew Reservation for Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد حفظ الرقم",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 237,
+        "serviceName_EN": "Transfer ownership of a Distinguished Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "نقل ملكية رقم مركبة مميز",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 238,
+        "serviceName_EN": "Replace Lost or Damaged Distinguished  Plate Number Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار بدل فاقد أو تالف لشهادة ملكية رقم مميز",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 239,
+        "serviceName_EN": "Participate in Plate Number Auctions",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "الاشتراك في المزاد العلني والإلكتروني للأرقام",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 240,
+        "serviceName_EN": "Issue Insurance Refund Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "طلب إعادة تأمين",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 241,
+        "serviceName_EN": "Change Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تغيير رقم اللوحة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 242,
+        "serviceName_EN": "Replace Lost or Damaged Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "لوحات بدل فاقد/ تالف",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 243,
+        "serviceName_EN": "Issue Commercial Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار لوحة تجارية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 244,
+        "serviceName_EN": "Renew Commercial Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد ملكية لوحات تجارية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 245,
+        "serviceName_EN": "Cancel Ownership of Commercial License Plate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إلغاء ملكية لوحات تجارية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 248,
+        "serviceName_EN": "Apply for Training on Vehicle Rental System",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "التدريب على نظام المعلومات لمكاتب تأجير السيارات",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 251,
+        "serviceName_EN": "Apply for Collecting Taxi Plate Numbers",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استلام لوحات أجرة جديدة",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 252,
+        "serviceName_EN": "Issue Ownership Certificate of Taxi Plate Numbers",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة ملكية رقم أجرة",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 253,
+        "serviceName_EN": "Apply to Modify Owners Bank Account Details for Taxi Plate Numbers",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تغيير جهة تحويل الريع الشهري لرقم الأجرة",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 257,
+        "serviceName_EN": "Apply for NOC to request new trade license of commercial transport activities",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم الممانعة لإصدار رخصة أنشطة نقل تجارية جديدة",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 258,
+        "serviceName_EN": "Apply for NOC to renew a license of commercial transport activities",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب تجديد شهادة عدم الممانعة لرخصة أنشطة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 260,
+        "serviceName_EN": "Issue NOC to Cancel Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة عدم ممانعة لإلغاء رخصة أنشطة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 261,
+        "serviceName_EN": "Apply for NOC to request changing an activity type of a company of a commercial transport activity.",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم ممانعة من تغيير نشاط نقل تجاري",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 263,
+        "serviceName_EN": "Replace Lost or Damaged Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار عدم ممانعة إصدار وثيقة بدل فاقد/ تالف لترخيص نقل تجاري",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 264,
+        "serviceName_EN": "Apply for NOC to request adding commercial activity to an existing commercial license",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم ممانعة لإضافة نشاط في رخصة قائمة",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 267,
+        "serviceName_EN": "Apply for NOC to request adding branch of a commercial company of commercial transport activities",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم ممانعة لفتح فرع لشركة نقل تجاري",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 268,
+        "serviceName_EN": "Apply for NOC to  change trade name of a commercial transportation license.",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم ممانعة لتغيير الإسم التجاري لشركة نقل تجاري.",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 270,
+        "serviceName_EN": "Apply for Directional Sign Boards",
+        "serviceGroupID": "11",
+        "serviceGroupName_EN": "Signs and Signals",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب توفير اللوحات والإشارات",
+        "serviceGroupName_AR": "اللوحات والاشارات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 271,
+        "serviceName_EN": "Request traffic road signs and marking",
+        "serviceGroupID": "11",
+        "serviceGroupName_EN": "Signs and Signals",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب تركيب الإشارات واللوحات المرورية والعلامات الأرضية",
+        "serviceGroupName_AR": "اللوحات والاشارات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 272,
+        "serviceName_EN": "Apply for Building or House Number",
+        "serviceGroupID": "11",
+        "serviceGroupName_EN": "Signs and Signals",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب ترقيم المنازل والمباني",
+        "serviceGroupName_AR": "اللوحات والاشارات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 274,
+        "serviceName_EN": "Salik tag registration (activation)",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.gov.ae/",
+        "serviceName_AR": "تسجيل (تفعيل) بطاقة سالك",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 275,
+        "serviceName_EN": "Recharge Salik account using ePay/mPay",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.gov.ae/",
+        "serviceName_AR": "إعادة تعبئة رصيد سالك باستخدام epay/ mPay",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 276,
+        "serviceName_EN": "Request Salik monthly account statement",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.ae",
+        "serviceName_AR": "كشف حساب سالك الشهري",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 277,
+        "serviceName_EN": "Request exemption from Salik fees",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب الإعفاء من دفع رسوم سالك",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 279,
+        "serviceName_EN": "Disputation on Salik violation",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.ae",
+        "serviceName_AR": "الاعتراض على مخالفات سالك",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 280,
+        "serviceName_EN": "Salik account update",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تعديل بيانات حساب سالك الخاص بالعميل",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 283,
+        "serviceName_EN": "Pay Parking Fees",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "https://www.mpark.rta.ae",
+        "serviceName_AR": "ادفع رسوم المواقف",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 284,
+        "serviceName_EN": "Register for mParking",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "http://www.mpark.rta.ae",
+        "serviceName_AR": "التسجيل في خدمة المواقف الذكية",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 285,
+        "serviceName_EN": "Issue Seasonal Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/public-request-service-info.do?entityId=-1&serviceCode=601",
+        "serviceName_AR": "اصدار بطاقات المواقف الموسمية",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 290,
+        "serviceName_EN": "Issue Parking Permits for UAE nationals",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف المدفوعة للمواطنين",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 296,
+        "serviceName_EN": "Issue Permit for Minor Road Diversions",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تحويلات الشوارع والتقاطعات الفرعية",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 297,
+        "serviceName_EN": "Permit for utilizing part of the right of way Issue Permit for Partially Blocking Road / Sidewalk / Right of Way",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصرسح شغل جزء من حرم الطريق",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 298,
+        "serviceName_EN": "Permit for utility lines protection",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح أعمال حماية خطوط المرافق",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 299,
+        "serviceName_EN": "Issue Permit for Temporary Access to Construction Sites",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح منافذ مؤقتة لمواقع الإنشاءات (مداخل ومخارج مؤقته للمواقع الإنشائية)",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 300,
+        "serviceName_EN": "Issue Permit for Road Closure for Public Event",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح إغلاق شارع لمناسبة عامة",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 301,
+        "serviceName_EN": "Issue Permit for Mobility Outside Permitted Hours / Roads",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تنقل دخول/ خروج مناطق/ أوقات الحظر",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 302,
+        "serviceName_EN": "Issue Permit for Mobility of Heavy Construction Vehicles / Cranes",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح سير المركبات الإنشائية والرافعات الثقيلة",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 303,
+        "serviceName_EN": "Issue Permit for Traffic Survey / Count",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح تعداد مركبات",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 305,
+        "serviceName_EN": "Apply for Public Traffic Services",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب خدمات الطرق العامة (خدمات مرورية للجمهور)",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 326,
+        "serviceName_EN": "Apply for Certifying the As Built Drawing for RTA Spare Ducts of Road Projects",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "",
+        "serviceName_AR": "اعتماد مخططات الوصلات الاحتياطية الخاصة بالهيئة والمنفذة ضمن مشاريع الطرق",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 328,
+        "serviceName_EN": "Inquire about Fines and Warning due to Partially Blocking road / Sidewalk / Right of Way",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "http://www.rta.ae",
+        "serviceName_AR": "الاستفسار عن المخالفات والإنذارات في حرم الطريق",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 329,
+        "serviceName_EN": "Issue Fencing Approval Occupying Right of Way Request for Fencing Approval Occupying Right of Way",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استغلال جزء من حرم الطريق",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 332,
+        "serviceName_EN": "Issue Building Demolition or Construction Permit",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "إصدار تصريح هدم مبنى/ إنشاء وتشييد مبنى",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 333,
+        "serviceName_EN": "Issue Permit for Mobility of Vehicles with Extra Load (Weight or Dimensions)",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://www.rta.ae/wpsv5/wps/myportal/NewTrafficService?SwitchToLatestLocale=true",
+        "serviceName_AR": "إصدار تصريح لنقل الاحجام الكبيرة (الأوزان الكبيرة أو المقاسات الكبيرة)",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 334,
+        "serviceName_EN": "Apply for Utilizing of Pavements and External Lots (Restaurants and Coffee Shops Only)",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إشغال أرصفة أو جزء من حرم الطريق للمطاعم والمقاهي فقط",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 335,
+        "serviceName_EN": "Reserve a Parking",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مواقف",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 336,
+        "serviceName_EN": "Reserve Pavement for Promotional Displays",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز أرصفة بغرض العروض التجارية",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 337,
+        "serviceName_EN": "Apply for Using Private Land as Paid Parking Lot",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استغلال الأراضي الخاصة كمواقف مدفوعة للجمهور",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 338,
+        "serviceName_EN": "Issue Permit for Abra Maintenance",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح صيانة عبرة",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 339,
+        "serviceName_EN": "Issue and Renew Permit for Abra Annual Operation",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار/ تجديد تصريح تشغيل سنوي للعبرة",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 340,
+        "serviceName_EN": "Issue and Renew Permit for Adverting on Commercial / Promotional Vehicles",
+        "serviceGroupID": "20",
+        "serviceGroupName_EN": "Advertisement",
+        "onlineServiceLink": "http://www.rta.ae",
+        "serviceName_AR": "إصدار وتجديد التصاريح الإعلانية على المركبات التجارية/ الترويجية/ المتحركة الإعلانية",
+        "serviceGroupName_AR": "الاعلانات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 341,
+        "serviceName_EN": "Issue and Renew Permit for Advertising Signs in Right of Way",
+        "serviceGroupID": "20",
+        "serviceGroupName_EN": "Advertisement",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار وتجديد التصاريح الإعلانية في حرم الطريق",
+        "serviceGroupName_AR": "الاعلانات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 344,
+        "serviceName_EN": "View Tendering Procedures",
+        "serviceGroupID": "21",
+        "serviceGroupName_EN": "Tendering and Vendors Affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاطلاع على إجراءات العطاءات",
+        "serviceGroupName_AR": "المناقصات و شؤون الموردين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 345,
+        "serviceName_EN": "Apply for Vendor Pre-Qualification",
+        "serviceGroupID": "21",
+        "serviceGroupName_EN": "Tendering and Vendors Affairs",
+        "onlineServiceLink": "http://www.rta.ae/wpsv5/wps/portal/e-Prequalification?SwitchToLatestLocale=true",
+        "serviceName_AR": "تأهيل مورد",
+        "serviceGroupName_AR": "المناقصات و شؤون الموردين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 346,
+        "serviceName_EN": "Apply for Registering Supplies in RTA Purchasing System",
+        "serviceGroupID": "21",
+        "serviceGroupName_EN": "Tendering and Vendors Affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تسجيل مزود في نظام المشتريات",
+        "serviceGroupName_AR": "المناقصات و شؤون الموردين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 347,
+        "serviceName_EN": "View Current and Future Tender News",
+        "serviceGroupID": "21",
+        "serviceGroupName_EN": "Tendering and Vendors Affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاطلاع على المناقصات الحالية والمستقبلية",
+        "serviceGroupName_AR": "المناقصات و شؤون الموردين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 539,
+        "serviceName_EN": "Recharge of Salik Account by scratch card",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.gov.ae",
+        "serviceName_AR": "تعبئة رصيد سالك باستخدام بطاقة إضافة رصيد سالك, وإعادة تعبئة حساب صديق",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 540,
+        "serviceName_EN": "Adding vehicle to existent account",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "http://www.salik.gov.ae/en/contact-us/customer-service-centres",
+        "serviceName_AR": "إضافة مركبة جديدة على حساب مسجل",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 546,
+        "serviceName_EN": "Applay for NOC to requst new trade license commercial transport activities ( new company / branch )",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب اصدار شهادة عدم ممانعة لرخصة انشطة نقل تجارية ( جديدة / فرع )",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 547,
+        "serviceName_EN": "Apply for NOC to request new trade license of commercial transport activities (new company / branch)",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب إصدار شهادة عدم الممانعة لإصدار رخصة أنشطة نقل تجارية جديدة ( شركة جديده / فرع )",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 550,
+        "serviceName_EN": "Issue NOC for New Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب شهادة عدم ممانعة جديدة لرخصة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 551,
+        "serviceName_EN": "Issue NOC to Renew Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "https://www.rta.ae",
+        "serviceName_AR": "طلب شهادة عدم ممانعة لتجديد رخصة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 552,
+        "serviceName_EN": "Issue NOC to Cancel Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب شهادة عدم ممانعة لإلغاء رخصة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 553,
+        "serviceName_EN": "Replace Lost or Damaged Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب شهادة عدم ممانعة بدل فاقد / تالف لرخصة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 554,
+        "serviceName_EN": "Apply for Training on Vehicle Rental System",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب التدريب على نظام المعلومات لمكاتب تأجير السيارات",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 555,
+        "serviceName_EN": "Issue NOC to Add/Change Member on Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب شهادة عدم ممانعة لإضافة / حذف مدير لرخصة نقل تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 556,
+        "serviceName_EN": "NOC to amend Trade license Name for trade license",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شهادة عدم الممانعة لتعديل الاسم التجاري لرخصة تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 557,
+        "serviceName_EN": "NOC to add or remove Activity for trade license",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شهادة عدم الممنعة لإضافة او حذف نشاط لرخصة تجارية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 558,
+        "serviceName_EN": "Add nol card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إضافة بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 559,
+        "serviceName_EN": "Inquire About Sale of nol Cards",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "الاستفسار عن بيع بطاقات نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 560,
+        "serviceName_EN": "Renew Travel Pass",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح التنقل",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 561,
+        "serviceName_EN": "Add a nol Card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "اضافة بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 562,
+        "serviceName_EN": "Issue Dubai Brand Vehicle Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "لوحات المركبات المميزة بعلامة دبي",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 563,
+        "serviceName_EN": "Renewal special needs parking permit (permanent)",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد  لتصريح المواقف لذوي الاحتياجات الخاصة (دائم)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 564,
+        "serviceName_EN": "Replace Lost or Damaged Senior Citizen Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد/ تالف لتصريح المواقف لذوي الاحتياجات الخاصة (كبار السن)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 565,
+        "serviceName_EN": "Renew Permanent Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح المواقف لذوي الاحتياجات الخاصة (دائم)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 566,
+        "serviceName_EN": "Replace Lost or Damaged Permanent Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد أو تالف لتصريح المواقف لذوي الاحتياجات الخاصة (دائم)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 567,
+        "serviceName_EN": "Register for RTA eWallet",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "التسجيل للحصول على حساب المحفظة الالكترونية لهيئة الطرق والمواصلات",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 568,
+        "serviceName_EN": "Manage RTA eWallet Account",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "التحكم بملفك الشخصي",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 569,
+        "serviceName_EN": "Top up RTA eWallet Account",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "إعادة تعبئة المحفظة الالكترونية",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 570,
+        "serviceName_EN": "View RTA eWallet Transactions",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "الاطلاع على سجل المعاملات",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 571,
+        "serviceName_EN": "Cancel RTA eWallet Account",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "الغاء حساب المحفظة الالكترونية",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 572,
+        "serviceName_EN": "Track Invoice Service",
+        "serviceGroupID": "21",
+        "serviceGroupName_EN": "Tendering and Vendors Affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمة متابعة الفواتير",
+        "serviceGroupName_AR": "المناقصات و شؤون الموردين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 574,
+        "serviceName_EN": "leasing ATM and Vending Machines",
+        "serviceGroupID": "4",
+        "serviceGroupName_EN": "General Information",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تأجير أجهزة الصراف الآلي والبيع",
+        "serviceGroupName_AR": "معلومات عامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 575,
+        "serviceName_EN": "Leasing ATM and Vending Machines at Tram Stations",
+        "serviceGroupID": "4",
+        "serviceGroupName_EN": "General Information",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تأجير أجهزة الصراف الآلي والبيع بمحطات الترام",
+        "serviceGroupName_AR": "معلومات عامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 576,
+        "serviceName_EN": "Dubai Tram",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "http://dubaitram.rta.ae/",
+        "serviceName_AR": "ترام دبي",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 577,
+        "serviceName_EN": "Request for Advertisement in Dubai Tram",
+        "serviceGroupID": "20",
+        "serviceGroupName_EN": "Advertisement",
+        "onlineServiceLink": "http://www.choueirigroup.com/",
+        "serviceName_AR": "طلب إعلانات في ترام دبي",
+        "serviceGroupName_AR": "الاعلانات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 578,
+        "serviceName_EN": "Tram Fines and appeals",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاستعلام عن مخالفات الترام والاعتراض عليها",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 579,
+        "serviceName_EN": "View Public Transport Fines",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "",
+        "serviceName_AR": "عرض مخالفات استخدام وسائل المواصلات العامة",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 580,
+        "serviceName_EN": "View Public Transport Disabled Services",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "http://www.rta.ae/wpsv5/wps/portal/special_needs?SwitchToLatestLocale=true",
+        "serviceName_AR": "عرض خدمات المواصلات العامة لذوي الإعاقة",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 581,
+        "serviceName_EN": "View Green Points",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "",
+        "serviceName_AR": "عرض النقاط الخضراء",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 582,
+        "serviceName_EN": "Request NOC for information",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "طلب شهادة عدم ممانعة معلوماتية",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 583,
+        "serviceName_EN": "Short leasing Bus",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "http://www.tajeer.rta.ae",
+        "serviceName_AR": "تأجير الحافلات قصير الأمد",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 584,
+        "serviceName_EN": "View nol Balance Service",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "https://www.nol.ae",
+        "serviceName_AR": "خدمة الاطلاع على رصيد بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1002,
+        "serviceName_EN": "Issue NOC to Add/Change Manager on Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة عدم ممانعة إدخال/ تغير مدير",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1003,
+        "serviceName_EN": "nol Top Up",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "إعادة تعبئة بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1005,
+        "serviceName_EN": "Issue 30 Day Pass",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "اصدار استخدام المواصلات العامة لمدة 30 يوما",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1006,
+        "serviceName_EN": "Renew Safari Driving  License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد رخصة القيادة الصحراوية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1007,
+        "serviceName_EN": "Issue Permit for Female Trainees to be taught by a Male Instructor",
+        "serviceGroupID": "",
+        "serviceGroupName_EN": "",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تدريب متدربة من طرف مدرب",
+        "serviceGroupName_AR": "",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1018,
+        "serviceName_EN": "Issue Permanent Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (دائم).",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1019,
+        "serviceName_EN": "Issue Temporary Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (مؤقت)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1020,
+        "serviceName_EN": "Issue Tourist Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (السياح وزائري الإمارة)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1021,
+        "serviceName_EN": "Issue Chronic Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (الأمراض المزمنة)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1022,
+        "serviceName_EN": "Issue Senior Citizen Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار تصريح المواقف لذوي الاعاقة (كبار السن)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1023,
+        "serviceName_EN": "Apply for a new special needs parking permit (Tourist Bus Permit).",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب اصدار تصريح المواقف لذوي الاحتياجات الخاصة (الحافلات السياحية).",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1025,
+        "serviceName_EN": "Renew or Replace Permanent Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد/ إصدار بدل فاقد/ بدل تالف لتصريح المواقف لذوي الاعاقة (دائم)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1026,
+        "serviceName_EN": "Replace Lost or Damaged Temporary Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد أو تالف لتصريح المواقف لذوي الاحتياجات الخاصة (مؤقت)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1027,
+        "serviceName_EN": "Replace Lost or Damaged Tourist Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد أو تالف لتصريح المواقف لذوي الاحتياجات الخاصة (السياح وزائري الإمارة)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1028,
+        "serviceName_EN": "Replace Lost or Damaged Chronic Disabled Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد أو تالف لتصريح المواقف لذوي الاحتياجات الخاصة (الأمراض المزمنة)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1029,
+        "serviceName_EN": "Renew Senior Citizen Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد/ إصدار بدل فاقد/ تالف لتصريح المواقف لذوي الاعاقة (كبار السن).",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1030,
+        "serviceName_EN": "Apply for a special needs parking permit renewal/lost / damage (Tourist Bus Permit).",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب تجديد/بدل فاقد /بدل تالف لتصريح المواقف لذوي الاحتياجات الخاصة (تصاريح الحافلات السياحية)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1031,
+        "serviceName_EN": "Replace Lost or Damaged Disabled Organization Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد أو تالف لتصريح المواقف لذوي الاحتياجات الخاصة (مركبات مراكز الرعاية والتأهيل)",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1034,
+        "serviceName_EN": "Replace Lost or Damaged Training Number Plate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "بدل فاقد/ تالف لوحة تعليم",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1037,
+        "serviceName_EN": "Request for Information / Status Certificate for Taxi Plate Numbers",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة لمن يهمه الامر بخصوص أرقام الأجرة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1042,
+        "serviceName_EN": "Purchasing Salik tag",
+        "serviceGroupID": "12",
+        "serviceGroupName_EN": "Salik",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شراء بطاقات سالك",
+        "serviceGroupName_AR": "سالك",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1043,
+        "serviceName_EN": "Transfer Registered Vehicle",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "نقل ملكية مركبة مسجلة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1046,
+        "serviceName_EN": "Issue Vehicle Clearance Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شهادة براءة ذمة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1049,
+        "serviceName_EN": "Amend Disabled or Senior Citizen Parking Permit",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تعديل البيانات لتصريح موقف ذوي الاعاقة",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1051,
+        "serviceName_EN": "Lost and Found",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الإبلاغ عن المفقودات واستلام المعثورات",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1054,
+        "serviceName_EN": "Replace Lost or Damaged Safari Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار بدل فاقد/ تالف لرخصة القيادة الصحراوية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1055,
+        "serviceName_EN": "Issue Site Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار رخصة قيادة للأعمال ذات الطبيعة الخاصة (تصريح مقر العمل)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1056,
+        "serviceName_EN": "Renew Site Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح قيادة للأعمال ذات الطبيعة الخاصة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1058,
+        "serviceName_EN": "Book Road Test Appointment",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "موعد فحص قيادة مركبة (فحص المدينة)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1059,
+        "serviceName_EN": "Book Road test for withdrawn/cancelled Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إعادة الفحص بعد سحب الرخصة أو إلغائها",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1060,
+        "serviceName_EN": "View or Pay for Traffic Fines",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "http://traffic.rta.ae/trfesrv/public_resources/ffu/fines-payment.do?switchLanguage=en&noCache=1341882650660",
+        "serviceName_AR": "الاستعلام ودفع المخالفات المرورية",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1061,
+        "serviceName_EN": "Issue NOC to transfer a Learning File from Dubai to another Emirate or vice versa",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "عدم ممانعة من نقل ملف فحص من إمارة دبي إلى إمارة أخرى أو العكس",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1063,
+        "serviceName_EN": "Transfer Vehicle Registration from Dubai to another Emirate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تحويل ملكية مركبة داخل الدولة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1064,
+        "serviceName_EN": "Issue a Carpooling Permit",
+        "serviceGroupID": "15",
+        "serviceGroupName_EN": "Private Vehicle Transportation",
+        "onlineServiceLink": "http://www.sharekni.ae",
+        "serviceName_AR": "تصريح نقل جماعي في المركبة الخاصة (شاركني)",
+        "serviceGroupName_AR": "التنقل الجماعي بالمركبة الخاصة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1066,
+        "serviceName_EN": "Book or Rent a Water Taxi",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز أو تأجير التاكسي المائي",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1067,
+        "serviceName_EN": "Book Ferry Dubai",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تأجير فيري دبي",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1068,
+        "serviceName_EN": "Request for Site Inspection to Issue Site Driving License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "معاينة موقع (مقر عمل)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1069,
+        "serviceName_EN": "Issue for NOC for New Commercial Transport Activity License",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "عدم ممانعة لترخيص معهد سياقة",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1071,
+        "serviceName_EN": "Issue Safari Driving License",
+        "serviceGroupID": "8",
+        "serviceGroupName_EN": "Trainers Licensing",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار رخصة القيادة الصحراوية",
+        "serviceGroupName_AR": "ترخيص المدربين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1072,
+        "serviceName_EN": "Amend Driver's License Information",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تعديل بيانات رخصة القيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1075,
+        "serviceName_EN": "Renew Driver's License",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد رخصة قيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1083,
+        "serviceName_EN": "Issue Vehicle Ownership or Non-ownership Certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة امتلاك أو عدم امتلاك مركبة",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1084,
+        "serviceName_EN": "Issue NOC for Project Design / Drawings",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "شهادة عدم ممانعة للتصميم الابتدائي أو النهائي",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1085,
+        "serviceName_EN": "Request for Project / Construction Information",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "http://e-noc.rta.ae/ENOC/login.jsp",
+        "serviceName_AR": "عدم ممانعة معلوماتية",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1087,
+        "serviceName_EN": "Issue NOC for Construction (House Utilities, Networks, Infrastructure Work)",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "شهادة عدم ممانعة للتنفيذ (للتوصيلات المنزلية أو الشبكات أو أية أعمال بنية تحتية أخرى)",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1088,
+        "serviceName_EN": "Issue NOC for Special Infrastructure Works",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "عدم ممانعة لأعمال بنية تحتية متفرقة ذات طبيعة خاصة",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1089,
+        "serviceName_EN": "Revalidate Previously Issued NOC",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "تجديد فترة صلاحية شهادة عدم الممانعة التي سبق وأن تم إصدارها",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1090,
+        "serviceName_EN": "Issue NOC for Final Clearance",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "شهادة الإنجاز النهائي",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1091,
+        "serviceName_EN": "Issue NOC for Modification or Cancellation",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "تعديل أو إلغاء شهادة عدم الممانعة",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1092,
+        "serviceName_EN": "Request for Metro Advertising",
+        "serviceGroupID": "20",
+        "serviceGroupName_EN": "Advertisement",
+        "onlineServiceLink": "http://www.kassabmedia.com",
+        "serviceName_AR": "الاستفسارات المتعلقة بإعلانات المترو التجارية",
+        "serviceGroupName_AR": "الاعلانات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1093,
+        "serviceName_EN": "Lease Metro Retail Outlets",
+        "serviceGroupID": "490",
+        "serviceGroupName_EN": "Marketing and corporate communication",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استئجار منافذ التجزئة في محطات المترو",
+        "serviceGroupName_AR": "إدارة التسويق والاتصال المؤسسي",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1096,
+        "serviceName_EN": "Inquire about metro fines and fine appeal",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاستعلام عن قوانين وغرامات المترو ودفع المخالفات المستحقة والاعتراض عليها",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1097,
+        "serviceName_EN": "Using Dubai Metro",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "http://www.rta.ae/dubai_metro/english/home.html",
+        "serviceName_AR": "استخدام مترو دبي",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1098,
+        "serviceName_EN": "Metro Fines and Appeals",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاستعلام عن مخالفات المترو والاعتراض عليها",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1106,
+        "serviceName_EN": "Book a Test Appointment (Road Test, Theory Test)",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "موعد فحص القيادة او تغيير الموعد (فحص المدينة, فحص نظري)",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1107,
+        "serviceName_EN": "Issue NOC for Trial Trenches",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "https://noc.rta.ae/RTAeNOC/Webpages/common/login/login.aspx",
+        "serviceName_AR": "عدم ممانعة للحفر الاستكشافية",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1109,
+        "serviceName_EN": "Issue Medical Evaluation Certificate",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شهادة تحويل إلى الطبيب",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1111,
+        "serviceName_EN": "Amend Vehicle Information",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تعديل بيانات ملكية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1117,
+        "serviceName_EN": "Purchase a Distinguished Plate Number issued in Dubai",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شراء رقم مميز من المزادات (البيع المباشر)",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1118,
+        "serviceName_EN": "Issue Luxury Front Plate Number",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "لوحة فخمة أمامية",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1128,
+        "serviceName_EN": "To Whom It May Concern permit",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح لمن يهمه الامر",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1129,
+        "serviceName_EN": "Issue NOC for Road Safety Lectures and Workshops",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "محاضرات توعوية و ورش تدريبية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1130,
+        "serviceName_EN": "Issue NOC for Organizing Safety Awareness Events",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "المشاركة في فعاليات توعوية",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1133,
+        "serviceName_EN": "Issue NOC to Issue / Renew Trade License for International Bus Services",
+        "serviceGroupID": "",
+        "serviceGroupName_EN": "",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار/ تجديد عدم ممانعة من ممارسة نشاط نقل الركاب بالحافلات على الخطوط الدولية",
+        "serviceGroupName_AR": "",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1143,
+        "serviceName_EN": "Apply for Footpath Route Changes (Public Traffic)",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمات الطرق العامة (خدمات مرورية للجمهور) بناء وتعديل رصيف",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1144,
+        "serviceName_EN": "Apply for Wedding / Consolation Tents (Public Traffic)",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمات الطرق العامة (خدمات مرورية للجمهور): خيم أعراس/ عزاء",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1145,
+        "serviceName_EN": "Apply for Booking Parking for Events (Public Traffic)",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمات الطرق العامة (خدمات مرورية للجمهور): إقامة خيم الجمعيات الخيرية/ حجز موقف",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1147,
+        "serviceName_EN": "Apply for Road Hatching (Public Traffic)",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمات الطرق العامة (خدمات مرورية للجمهور): تهشير ودهانات طرق",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1154,
+        "serviceName_EN": "Renew Driving Instructor/ Lecturer Permit",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح محاضر",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1155,
+        "serviceName_EN": "Vehicle Number Plate Trading",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار مزاولة نشاط تجارة أرقام المركبات",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1156,
+        "serviceName_EN": "Apply for Theory Test for Translator / Reader",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح مترجم/ قارئ مادة فحص المعرفة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1157,
+        "serviceName_EN": "Report Parking Meter Faults",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الإبلاغ عن أعطال أجهزة دفع رسوم المواقف",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1158,
+        "serviceName_EN": "Parking Fines and Penalties",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "أنواع مخالفات المواقف وقيمها",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1159,
+        "serviceName_EN": "View Gate Level Information for Buildings",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "http://www.rta.ae/gatelevel",
+        "serviceName_AR": "إصدار المنسوب المرجعي للمباني",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1160,
+        "serviceName_EN": "Multi-storey Vehicle Parking",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "مباني المواقف متعددة الطوابق",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1161,
+        "serviceName_EN": "Parking Permits for a Villa (type V)",
+        "serviceGroupID": "13",
+        "serviceGroupName_EN": "Parking",
+        "onlineServiceLink": "",
+        "serviceName_AR": "(الفئة V) تصريح استخدام المواقف المدفوعة للفلل",
+        "serviceGroupName_AR": "المواقف",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1162,
+        "serviceName_EN": "Request for Landscape Permission",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "",
+        "serviceName_AR": "طلب تصريح زراعة تجميلية",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1163,
+        "serviceName_EN": "Using Dubai Bus",
+        "serviceGroupID": "1",
+        "serviceGroupName_EN": "Public Transportation Users",
+        "onlineServiceLink": "http://www.rta.ae",
+        "serviceName_AR": "موقع دبي باص",
+        "serviceGroupName_AR": "مستخدمو المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1164,
+        "serviceName_EN": "M-Bus timings SMS service",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاستعلام عن مواعيد الحافلات عن طريق الرسائل النصية M-Bus",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1165,
+        "serviceName_EN": "Issue Permit for Major Road Diversions",
+        "serviceGroupID": "17",
+        "serviceGroupName_EN": "Traffic",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح تحويلات الشوارع والتقاطعات الرئيسية",
+        "serviceGroupName_AR": "المرور",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1166,
+        "serviceName_EN": "Issue NOC for School Transportation",
+        "serviceGroupID": "3",
+        "serviceGroupName_EN": "NOC and Permits",
+        "onlineServiceLink": "http://www.rta.ae",
+        "serviceName_AR": "عدم ممانعة للنقل المدرسي",
+        "serviceGroupName_AR": "شهادات وتصاريح عدم الممانعة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1167,
+        "serviceName_EN": "(Wojhati) Dubai Journey Planner Smart Application",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تطبيق وجهتي على الهواتف الذكية",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1168,
+        "serviceName_EN": "Decommission of Vehicles",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمات إحلال المركبات",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1171,
+        "serviceName_EN": "Issue NOC addressed to Ministry of Labor for Passenger Transporting in Luxury Vehicle",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار شهادة لوزارة العمل",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1172,
+        "serviceName_EN": "Book a Test Appointment for Taxi and Limousine",
+        "serviceGroupID": "488",
+        "serviceGroupName_EN": "Drivers affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز موعد فحص سائقي سيارات الأجرة والليموزين",
+        "serviceGroupName_AR": "إدارة شؤون السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1174,
+        "serviceName_EN": "Personalize nol Silver or Gold Cards",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "تحويل بطاقة نول الفضية/الذهبية إلى بطاقة شخصية",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1175,
+        "serviceName_EN": "Apply for adding or removal of a partner to the trade license",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "اضافة أوانسحاب شريك من الرخصة التجارية",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1176,
+        "serviceName_EN": "Issue Driving Practice Permit for Taxi and Limousine",
+        "serviceGroupID": "488",
+        "serviceGroupName_EN": "Drivers affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح جديد لمزاولة المهنة لسائقي شركات سيارات الامتياز والسيارات الفخمة والنقل المدرسي ومرشدي النقل المدرسي",
+        "serviceGroupName_AR": "إدارة شؤون السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1177,
+        "serviceName_EN": "Block nol Card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "ايقاف عمل بطاقة نول",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1178,
+        "serviceName_EN": "View Financial Systems for Taxi and Limousine Companies",
+        "serviceGroupID": "16",
+        "serviceGroupName_EN": "Franchising & Limousine services",
+        "onlineServiceLink": "",
+        "serviceName_AR": "النظام المالي لشركات السيارات الفخمة وسيارات الامتياز",
+        "serviceGroupName_AR": "خدمات شركات الامتياز والنقل الفخم",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1179,
+        "serviceName_EN": "Unify Luxury Vehicles under Code L Plate Numbers",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "توحيد لوحات مركبات الفخمة كود L",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1180,
+        "serviceName_EN": "Renew Driving Practice Permit for Taxi, Limousine and School Bus",
+        "serviceGroupID": "488",
+        "serviceGroupName_EN": "Drivers affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تجديد تصريح مزاولة المهنة لسائقي سيارات الأجرة والليموزين وحافلات النقل المدرسي",
+        "serviceGroupName_AR": "إدارة شؤون السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1184,
+        "serviceName_EN": "Issue Special Design nol Card",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "http://www.nol.ae",
+        "serviceName_AR": "إصدار نول ذات التصاميم المميزة",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1185,
+        "serviceName_EN": "Issue Permit for Passenger Transporting in Luxury Vehicles  Dubai Airport Only",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح لمزاولة نشاط نقل الركاب بالسيارات الفخمة من وإلى مطارات دبي والإمارات الأخرى",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1187,
+        "serviceName_EN": "Rent a Water Bus",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تأجير الباص المائي",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1188,
+        "serviceName_EN": "Replace Driving Practice Permit for Taxi, Limousine and School Bus",
+        "serviceGroupID": "488",
+        "serviceGroupName_EN": "Drivers affairs",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار بدل فاقد/ تالف لتصريح مزاولة المهنة لسائقي سيارات الأجرة والليموزين وحافلات النقل المدرسي",
+        "serviceGroupName_AR": "إدارة شؤون السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1189,
+        "serviceName_EN": "RTA e-wallet",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "المحفظة الإلكترونية لهيئة الطرق والمواصلات",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1190,
+        "serviceName_EN": "Cancelling a trade license of limousine passenger company",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إلغاء الرخصة التجارية لنشاط نقل الركاب بالسيارات الفخمة",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1191,
+        "serviceName_EN": "Using Marine Transport",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الاستفسار عن خدمات النقل البحري",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1192,
+        "serviceName_EN": "Enquire about fines related to unauthorized passenger pickups and luxury vehicle category violations",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "مخالفات تهريب الركاب ومخالفات المركبات الفخمة ودفع قيمتها",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1193,
+        "serviceName_EN": "Rent Ferry Dubai (without chairs)",
+        "serviceGroupID": "489",
+        "serviceGroupName_EN": "Marine Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تأجير فيري دبي بلا كراسي",
+        "serviceGroupName_AR": "النقل البحري",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1194,
+        "serviceName_EN": "Register Vehicles Under Limousine Company",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تسجيل مركبات للمنشآت العاملة بنشاط نقل الركاب بالسيارات الفخمة والخصوصية",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1195,
+        "serviceName_EN": "Issue Permit for Passenger Transporting in Luxury Vehicles",
+        "serviceGroupID": "10",
+        "serviceGroupName_EN": "Commercial Licensing and Transportation",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تصريح لمزاولة نشاط نقل الركاب بالسيارات الفخمة",
+        "serviceGroupName_AR": "الترخيص التجاري ووسائل النقل التجارية",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1196,
+        "serviceName_EN": "NOL service on intercity bus",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمة نول على حافلات عبر المدن",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1197,
+        "serviceName_EN": "M (Metro) train timings SMS service",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "التعرف على مواعيد رحلات المترو باستخدام الرسائل النصية",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1200,
+        "serviceName_EN": "nol NFC service",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمة نول للتواصل قريب المدى",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1201,
+        "serviceName_EN": "Replace Lost or Damaged Learning Permit",
+        "serviceGroupID": "7",
+        "serviceGroupName_EN": "Drivers Licensing and Training",
+        "onlineServiceLink": "",
+        "serviceName_AR": "إصدار بدل فاقد/ تالف لتصريح تعلم القيادة",
+        "serviceGroupName_AR": "ترخيص  وتدريب السائقين",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1202,
+        "serviceName_EN": "nol mPAY service",
+        "serviceGroupID": "5",
+        "serviceGroupName_EN": "NOL Cards",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمة تعبئة بطاقة نول من خلال تطبيق بوابة حكومة دبي الالكترونية (mPay)",
+        "serviceGroupName_AR": "بطاقات التنقل (نول)",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1203,
+        "serviceName_EN": "Request for Sand Fill",
+        "serviceGroupID": "18",
+        "serviceGroupName_EN": "Right of Way",
+        "onlineServiceLink": "",
+        "serviceName_AR": "توفير رمل دفان",
+        "serviceGroupName_AR": "حرم الطريق",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1204,
+        "serviceName_EN": "Issue NOC for Training Vehicle Registration",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "تسجيل مركبات تدريب",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1207,
+        "serviceName_EN": "Taxi booking via SMS",
+        "serviceGroupID": "16",
+        "serviceGroupName_EN": "Franchising & Limousine services",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الحجز عن طريق الرسائل النصية (SMS Booking )",
+        "serviceGroupName_AR": "خدمات شركات الامتياز والنقل الفخم",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1208,
+        "serviceName_EN": "Taxi booking via SMS in assembly points",
+        "serviceGroupID": "16",
+        "serviceGroupName_EN": "Franchising & Limousine services",
+        "onlineServiceLink": "",
+        "serviceName_AR": "الحجز عن طريق الرسائل النصية في نقاط تجمع التاكسي",
+        "serviceGroupName_AR": "خدمات شركات الامتياز والنقل الفخم",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1209,
+        "serviceName_EN": "Booking Taxi In Safe Hands",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مركبات أجرة تاكسي الأيدي الأمينة",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1210,
+        "serviceName_EN": "Booking a VIP taxi service",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مركبات أجرة خدمة كبار الشخصيات",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1211,
+        "serviceName_EN": "Booking taxi for strategic partners from government and private establishments",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مركبة أجرة تأجير المركبات للشركاء الاستراتيجيين والجهات الحكومية والخاصة",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1212,
+        "serviceName_EN": "Booking VIP taxi with a driver",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز مركبة أجرة كبار الشخصيات مع سائق",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1213,
+        "serviceName_EN": "Book a driver",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "حجز سائق مشاوير",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1215,
+        "serviceName_EN": "Booking a taxi online for hotels or special needs service",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "خدمة حجز مركبة أجرة إلكترونياًً عبر الموقع الإلكتروني لحجوزات الفنادق أو ذوي الاحتياجات الخاصة",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1216,
+        "serviceName_EN": "Renting a public taxi, by hour",
+        "serviceGroupID": "6",
+        "serviceGroupName_EN": "Using Public Transport",
+        "onlineServiceLink": "",
+        "serviceName_AR": "استئجار مركبة أجرة عامة بالساعة",
+        "serviceGroupName_AR": "استخدام المواصلات العامة",
+        "mobileWebLink": ""
+    },
+    {
+        "serviceID": 1217,
+        "serviceName_EN": "Issuing To Whom it May Concern certificate",
+        "serviceGroupID": "9",
+        "serviceGroupName_EN": "Vehicles Licensing and Registration",
+        "onlineServiceLink": "",
+        "serviceName_AR": "شهادة لمن يهمه الأمر/ مركبات",
+        "serviceGroupName_AR": "ترخيص وتسجيل المركبات",
+        "mobileWebLink": ""
+    }
+]

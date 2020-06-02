@@ -1,0 +1,516 @@
+#RegisterPage {
+	bottom: 0px !important;
+}
+
+#RegisterPage .page {
+	overflow: hidden;
+}
+
+#RegisterPage .page * {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#RegisterPage .title {
+	font-size: 18px;
+	color: #666;
+}
+
+#RegisterPage .allRequired {
+	font-weight: normal;
+	color: #aaa;
+	margin-top: 3px;
+	margin-bottom: 15px;
+}
+
+#RegisterPage .fieldRow {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 69px;
+	margin: 6px auto;
+}
+
+#RegisterPage .fieldLabel {
+	text-transform: uppercase;
+}
+
+#RegisterPage .fieldRow .shell-label, #RegisterPage .fieldLabel {
+	position: relative;
+	display: inline-block;
+	left: 0px;
+	top: 0;
+	margin: 0;
+	padding: 0 5px;
+	text-transform: capitalize;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+}
+
+#RegisterPage .hint {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 9px;
+	color: #aaa;
+}
+
+#RegisterPage .fieldRow .shell-input-cont {
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+}
+
+#RegisterPage .fieldRow input {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	margin: 0;
+	right: 0;
+	width: 100%;
+	display: block;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box !important;
+	padding-right: 10px;
+}
+
+#RegisterPage .fieldRow .shell-input-cont input {
+	position: relative;
+	height: 36px;
+	top: 0;
+	bottom: 0;
+}
+
+#RegisterPage #mbileEditField input {
+	/* position: absolute; */
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+#RegisterPage .mobileRow .countryCode {
+	top: 16px;
+}
+
+#RegisterPage .mobileRow .prefix {
+	top: 16px;
+}
+
+#RegisterPage .mobileRow .countryCode {
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	width: 22%;
+	margin: 0;
+}
+
+#RegisterPage .mobileRow .prefix {
+	position: absolute;
+	left: 23%;
+	bottom: 2px;
+	width: 22%;
+}
+
+#RegisterPage #mbileEditField {
+	left: 46%;
+	right: 0;
+	
+	top: 16px;
+	width: calc(100% - 46%) ;
+}
+
+#RegisterPage #passwordHintBtn {
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 16px;
+	color: #666;
+	margin: auto;
+}
+
+#RegisterPage .continueBtn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	height: 50px;
+	color: #fff;
+	width: 100%;
+	text-align: center !important;
+	line-height: 54px;
+	font-weight: bold;
+	background: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#RegisterPage .continueBtn.disabled {
+	background: #aaa;
+	opacity: 0.5;
+	color: #333;
+	pointer-events: none;
+	font-weight: bold;
+}
+
+#RegisterPage .continueBtn .icon-service-right-arrow {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	height: 12px;
+	margin: auto;
+	font-weight: normal;
+}
+
+#RegisterPage .stepper {
+	height: 30px;
+	margin-bottom: 0;
+}
+
+#RegisterPage .stepper-item {
+	margin-top: 5px;
+}
+
+#RegisterPage #userIdLoader {
+	position: absolute;
+	top: 15px;
+	bottom: 16px;
+	width: 15px;
+	height: 15px;
+	right: 10px;
+	margin: auto;
+	display: none;
+}
+
+#RegisterPage #userIdValid {
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+	color: green;
+	right: 10px;
+	top: 15px;
+	bottom: 16px;
+	position: absolute;
+	margin: auto;
+	display: none;
+}
+
+#RegisterPage #userIdInvalid {
+	width: 15px;
+	height: 15px;
+	font-size: 15px !important;
+	color: #ee0000;
+	right: 10px;
+	top: 15px;
+	bottom: 16px;
+	position: absolute;
+	margin: auto;
+	display: none;
+}
+
+#RegisterPage .fNamePart {
+	
+}
+
+#RegisterPage .titleCont {
+	left: 0;
+	width: 30%;
+}
+
+#RegisterPage .fNameCont {
+	left: 31%;
+	right: 0;
+}
+
+#RegisterPage .fNamePart .shell-label {
+	position: relative;
+	display: block;
+	margin-bottom: 2px;
+	text-transform: capitalize;
+}
+
+#RegisterPage .fNamePart  .shell-dropdown-wrapper {
+	width: 100%;
+}
+
+#RegisterPage .nationalityRow .shell-label {
+	position: relative;
+	margin-bottom: 1px;
+}
+
+#RegisterPage .nationalityRow .shell-dropdown-wrapper {
+	width: 100%;
+}
+
+#RegisterPage .radio-toolbar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 38px;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+#RegisterPage .radio-toolbar label {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+}
+
+#RegisterPage .radio-toolbar input[type='radio'] {
+	display: none;
+}
+
+#RegisterPage .radio-toolbar input[type="radio"]:checked+label {
+	/* background: #ee0000; */
+	border: 1px solid #ee0000;
+	color: #ee0000;
+}
+
+#RegisterPage .radio-toolbar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 38px;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+#RegisterPage .radio-toolbar label {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: center !important;
+	line-height: 40px;
+	background: #fff;
+	position: relative;
+	transition-duration: 300ms;
+}
+
+#RegisterPage .radio-toolbar input[type='radio'] {
+	display: none;
+}
+
+#RegisterPage .radio-toolbar input[type="radio"]:checked+label:before {
+	content: "\ea05";
+	font-family: 'icomoon' !important;
+	position: absolute;
+	left: 10px;
+}
+
+#RegisterPage #privacy-policy-link {
+	color: #ee0000;
+	font-weight: bolder;
+}
+
+#RegisterPage .titlePart {
+	width: 50%;
+	margin: 6px 0;
+}
+
+#RegisterPage .stepperComponent .pagesCont {
+	top: 30px;
+}
+
+#RegisterPage .page .scroller {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	overflow: auto;
+	padding: 15px;
+	padding-top: 20px;
+}
+
+#RegisterPage .langRow {
+	height: 53px;
+	margin-bottom: 21px;
+}
+
+#RegisterPage .termsRow input[type='checkbox'] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	padding: 0;
+	margin: 0;
+	visibility: hidden;
+}
+
+#RegisterPage .termsRow {
+	height: 45px;
+}
+
+#RegisterPage .termsRow input[type="checkbox"]:checked+label {
+	background: #ee0000;
+	color: #fff;
+}
+
+#RegisterPage .termsRow label {
+	background: #ee0000;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition-duration: 300ms;
+}
+
+#RegisterPage .termsRow input[type="checkbox"]:checked+label:before {
+	content: "\ea05";
+	font-family: 'icomoon' !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	line-height: 20px;
+}
+
+#RegisterPage .termsRow .termsText {
+	position: absolute;
+	left: 25px;
+	line-height: 20px;
+	margin: auto;
+	padding: 4px 4px 4px 0px;
+}
+
+#RegisterPage .confirmationCard {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	background: #fff;
+	text-align: center !important;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+}
+
+#RegisterPage .confirmationCard .icon-tick {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 15px auto;
+	line-height: 60px;
+	font-size: 20px;
+	color: #fff;
+	background: green;
+	border-radius: 100%;
+}
+
+#RegisterPage .confirmationCard .congrats {
+	font-size: 17px;
+	text-align: center !important;
+}
+
+#RegisterPage .confirmationCard .message {
+	margin: 15px auto;
+	width: 70%;
+	color: #888;
+}
+
+#RegisterPage .confirmationCard .message span {
+	color: #ee0000;
+}
+
+#RegisterPage .confirmationCard #successLoginBtn {
+	width: 50%;
+	height: 30px;
+	border-radius: 30px;
+	background: #ee0000;
+	line-height: 33px;
+	color: #fff;
+	margin: 10px auto;
+	margin-bottom: 25px;
+}
+
+.container-rtl #RegisterPage .hint {
+	right: auto;
+	left: 0;
+}
+
+.container-rtl #RegisterPage .page * {
+	/* 	text-align: right; */
+	direction: rtl;
+}
+
+.container-rtl #RegisterPage .page select {
+	direction: rtl;
+}
+
+.container-rtl #RegisterPage .continueBtn .icon-service-right-arrow {
+	right: auto;
+	left: 10px;
+	-webkit-transform: rotate(180deg);
+}
+
+.container-rtl #RegisterPage #userIdLoader {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #RegisterPage #userIdValid {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #RegisterPage #userIdInvalid {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #RegisterPage .termsRow input[type='checkbox'] {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #RegisterPage .termsRow label {
+	left: auto;
+	right: 0;
+}
+
+.container-rtl #RegisterPage .termsRow .termsText {
+	left: auto;
+	right: 25px;
+}
+
+.container-rtl #RegisterPage .radio-toolbar input[type="radio"]:checked+label:before
+	{
+	left: auto !important;
+	right: 10px;
+}
+
+#RegisterPage .confirmationCard * {
+	text-align: center !important;
+}
+/* 
+#RegisterPage #newPasswordField {
+	padding-top: 4px;
+} */
+#RegisterPage #newPasswordField .errorMessage {
+	display: none !important;
+}
+
+#RegisterPage #rePasswordField .errorMessage {
+	display: none !important;
+}
+
+#RegisterPage #averageTextId {
+	color: black;
+	left: calc(50% - 25px);
+}
+
+
+#mbileEditField .errorMessage {
+    -webkit-transform: translate3d(-200%, 0, 0);
+}

@@ -1,0 +1,82 @@
+
+/* Stylesheet content from css/shell/connenctionError.css in folder common */
+
+#connenctionErrorElement * {
+   
+    font-family: rta-regular;
+}
+#connenctionErrorElement {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 5;
+    z-index: 222;
+    background: rgba(0, 0, 0, 0.8);
+}
+#ErrorConnectionBody{
+	position:absolute;
+	top: 12%;
+	left:20px;
+	width: 90%;
+	height: 67%;
+	padding: 15px;
+	color: #000;
+	overflow: auto;
+	font-size: 15px;
+	background: #fff;
+	z-index: 10;
+	border-radius: 2px;
+}
+#connenctionErrorElement .mdi{
+     /* font-family: rtA; */
+     position:absolute;
+     font-size: 25px;
+     color: #fff;
+     margin: auto;
+     margin-top: 79px;
+     right: 0;
+     left: 0;
+     margin: auto;
+     bottom: 50px;
+     color: #333;
+     background: #fff;
+     border-radius: 100%;
+     height: 45px;
+     width: 45px;
+     /* text-align:  center; */
+     /* padding: 9px; */
+     line-height: 45px;
+     text-align: center;
+}
+#ErrorConnectionBody .iconSocket{
+    position:absolute;
+	top:80px;
+	font-size:150px;
+	left:90px;
+	color: #000;
+    opacity: .30;
+}
+
+#ErrorConnectionBody .errorHeader{
+    position:absolute;
+	top:270px;
+	font-size:18px;
+	left:150px;
+	color:#ee0000;
+}
+#ErrorConnectionBody .errorDescript{
+	  position:absolute;
+	  top:300px;
+	  left:25px;
+}
+.container-rtl #ErrorConnectionBody .errorDescript{
+	direction:rtl;
+	text-align:center;
+	right:25px;
+}
+#ErrorConnectionBody .tryagain
+{position: absolute;bottom: 65px;left: 109px;right: 0;display: block;height: 30px;color: #fff;width: 36%;text-align: center !important;line-height: 30px;font-weight: bold;background: #ee0000;border-radius: 20px;font-size: 11px;}	

@@ -1,0 +1,88 @@
+#footer {
+	background: black;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 56px;
+	z-index: 5;
+	
+}
+#footer.animate {
+	transition-duration: 600ms;
+	-webkit-transform: translate3d(0, 56px, 0);
+	transition-delay: 500ms;
+}
+#footer .item {
+	color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	font-size: 23px;
+	width: 20%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#footer .item.active {
+	border-bottom: 5px solid white;
+}
+
+#footer .active {
+	width: 20%;
+	height: 2px;
+	display: block;
+	background: white;
+	bottom: 0;
+	position: absolute;
+	transition-duration: 300ms;
+	-webkit-transform: translate(0, 0);
+}
+
+#footer .footer-text {
+	font-size: 11px;
+	display: block;
+	margin-top: 7px;
+	color: white;
+	font-weight: normal;
+	font-family: rta-regular !important;
+}
+
+#footer #favourites{
+	left: 20%;
+}
+#footer #helpCenter{
+	left: 40%;
+}
+#footer #driveMode,#footer #myApps{
+	left: 60%;
+}
+#footer #hapinessMeter{
+	left: 80%;
+}
+.container-rtl #footer{
+	direction:rtl;
+}
+
+
+.container-rtl #footer .item {
+    right: 0;
+    left: initial !important;
+}
+
+.container-rtl #footer #favourites {
+    right: 20%;
+}
+
+.container-rtl #footer #helpCenter {
+    right: 40%;
+}
+
+.container-rtl #footer #driveMode ,.container-rtl #footer #myApps{
+    right: 60%;
+}
+
+.container-rtl #footer #hapinessMeter {
+    right: 80%;
+}

@@ -1,0 +1,133 @@
+#FeedbackFormPage .feedbackHead {
+	background: #eee;
+	text-align: left;
+	padding: 10px;
+	font-family: rta-regular;
+	margin-bottom: 10px;
+}
+
+#FeedbackFormPage #sendFeedbackBtn {
+	height: 40px;
+	background: #ee0000;
+	border: 2px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	font-family: rta-regular;
+}
+
+#FeedbackFormPage #sendFeedbackBtn.disabled {
+	background: #aaa;
+	opacity: 0.5;
+	color: #333;
+	pointer-events: none;
+	border: 0px;
+	font-weight: bold;
+}
+
+.container-rtl #FeedbackFormPage {
+	direction: rtl;
+}
+
+.container-rtl #FeedbackFormPage .feedbackHead {
+	text-align: right;
+}
+
+#shareFeedback #facebookImg {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: -10px;
+}
+
+#shareFeedback #shareFeedback {
+	display: block;
+	position: relative;
+	height: 30px;
+	overflow: hidden;
+}
+
+#shareFeedback #twitterImg {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: -10px;
+}
+
+#shareFeedback span {
+	display: inline-block;
+}
+
+.container-rtl #successFeedbackPopup {
+	direction: rtl;
+}
+
+#FeedbackFormPage .fieldRow {
+	margin-left: 5%;
+	margin-right: 5%;
+	color: black;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 69px;
+}
+
+#FeedbackFormPage #feedbackText {
+	height: 100px !important;
+	box-shadow: 0 0 transparent !important;
+	background: #fff !important;
+}
+
+#FeedbackFormPage .fieldLabel {
+	text-transform: uppercase;
+}
+
+#FeedbackFormPage .fieldRow .shell-label, #FeedbackFormPage .fieldLabel
+	{
+	position: relative;
+	display: inline-block;
+	left: 0px;
+	top: 0;
+	margin: 0;
+	padding: 0 5px;
+	text-transform: capitalize;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+}
+
+#FeedbackFormPage .hint {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 9px;
+	color: #aaa;
+}
+
+#FeedbackFormPage .fieldRow.messageCont {
+	height: auto !important;
+}
+
+.container-rtl #FeedbackFormPage .hint {
+	right: auto;
+	left: 0;
+}
+
+#FeedbackFormPage #captchaInfo {
+	
+	margin: 15px ;
+	font-family: rta-bold ;
+	color: #999999;
+	font-size:14px;
+}

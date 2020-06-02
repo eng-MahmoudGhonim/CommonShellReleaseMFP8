@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Redirecting ...</title>
+</head>
+<style>
+    .loadingHappiness {
+        background: url(../../common/images/shell/dashboard/gray-loading.gif) no-repeat;
+        background-size: 12%;
+        background-position: 50% 50%;
+        width: 100%;
+        height: 100%;
+        margin-top: -9px;
+    }
+</style>
+
+<body style="height: 100%;">
+
+    <div class="loadingHappiness"></div>
+
+    <form method="post" action="https://happinessmeterqa.dubai.gov.ae/MobileSubmitFeedback">
+        <input type="hidden" name="json_payload" id="json_payload" value="" />
+        <input type="hidden" name="client_id" id="client_id" value="" />
+        <input type="hidden" name="signature" id="signature" value="" />
+        <input type="hidden" name="lang" id="lang" value="" />
+        <input type="hidden" name="random" id="random" value="" />
+        <input type="hidden" name="timestamp" id="timestamp" value="" />
+        <input type="hidden" name="nonce" id="nonce" value="" />
+    </form>
+
+    <script>
+        try {
+            var urlData = location.search.substring(1);
+            console.log(urlData);
+            var happinessOptions = JSON.parse('{"' + decodeURI(urlData.replace(/&/g, "\",\"").replace(/=/g, "\":\"")) + '"}');
+            for (input in happinessOptions) {
+                if (happinessOptions.hasOwnProperty(input)) {
+                    document.getElementById(input).value = happinessOptions[input];
+                }
+            }
+        } catch (e) {}
+        document.forms[0].submit();
+    </script>
+</body>
+
+</html>

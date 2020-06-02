@@ -1,0 +1,228 @@
+<div id="RegisterPage" data-role="page" data-class="com/views/shell/RegisterPageView">
+	<div data-role="content">
+		<div id="formStepper" class="stepperComponent">
+			<div class="stepper">
+				<div class="stepper-item active" id="registerStep1">
+					<span class="stepper-title">%shell.register2.accdetails%</span>
+					<span class="stepper-number circle">
+					<i class="icon icon-tick"></i>
+					<i>1</i>
+					</span>
+				</div>
+				<div class="stepper-item" id="registerStep2">
+					<span class="stepper-title">%shell.register2.personaldetails%</span>
+					<span class="stepper-number circle">
+					<i class="icon icon-tick"></i>
+					<i>2</i>
+					</span>
+				</div>
+				<div class="stepper-item">
+					<span class="stepper-title">%shell.myfines.done%</span>
+					<span class="stepper-number circle">
+					<i class="icon icon-tick"></i>
+					<i>3</i>
+					</span>
+				</div>
+			</div>
+			<div class="pagesCont">
+			<div class="page">
+				<div class="scroller">
+					<div class="title">%shell.register2.accdetails%</div>
+					<div class="allRequired">%shell.registeration.label.allRequiredField%</div>
+		             	
+		             	<div class="fieldRow">
+		             		<div class="fieldLabel">%shell.username%</div>
+		             		<div class="hint">( %shell.registeration.validation.username.required% )</div>
+		             		<div class="shell-input-cont" id="userNameField">
+						        <input data-role="none" type="text" placeholder="%shell.registeration.placeholder.username%" id="userNameInput"/>
+						        <span class="icon-input-error"></span>
+						        <span class="errorMessage"></span>
+						    </div>
+		             		<div id="userIdLoader" class="googleLoader">
+			             		<svg class="circular" viewBox="25 25 50 50">
+			             			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle>
+			             		</svg>
+			             	</div>
+		             		<i id="userIdValid" class="mdi mdi-check"></i>
+		             		<i id="userIdInvalid" class="mdi mdi-close"></i>
+		             	</div>
+		             	<div class="fieldRow">
+		             		<div class="fieldLabel">%shell.email.label%</div>
+		             		<div class="hint">( %shell.registeration.validation.mail.required% )</div>
+		             		<div class="shell-input-cont" id="emailField">
+							     <input id="email" data-role="none" data-role="none" type="email" placeholder="%shell.register.email.placeholder%"/>
+							     <span class="icon-input-error"></span>
+							     <span class="errorMessage"></span>
+							</div>
+		             	</div>
+		             	<div class="fieldRow mobileRow">
+							<span class="shell-label">%shell.register2.mobile%</span>
+							
+							<div class="shell-dropdown-wrapper mdi mdi-chevron-down countryCode">
+								<select data-role="none" class="shell-select">
+									<option value="971">+971</option>
+								</select>
+							</div>
+							<div class="shell-dropdown-wrapper mdi mdi-chevron-down prefix">
+								<select id="editMobilePrefix" data-role="none" class="shell-select">
+									<option value="50">50</option>
+					             	<option value="52">52</option>
+					             	<option value="54">54</option>
+					             	<option value="55">55</option>
+					             	<option value="56">56</option>
+					             	<option value="58">58</option>
+								</select>
+							</div>
+							<div class="shell-input-cont" id="mbileEditField">
+							     <input data-role="none" data-role="none" id="mbileEditInput" type="number"/>
+							     <span class="icon-input-error"></span>
+							     <span class="errorMessage"></span>
+							</div>
+							<!-- <input class="shell-input phoneNumber" data-role="none" id="mbileNumberSuffix" type="number"> --> 
+						</div>
+						
+			<div id="passInfo">
+			<div class="strengthPoints">
+				<div class="strength-item" id="averageStrength">
+					<span class="icon-dot-active" id="averageId"></span> <span
+						class="strength-title" id="averageTextId">%Shell.StrengthPassword.Average%</span>
+				</div>
+				<div class="strength-item" id="goodStrength">
+					<span class="icon-dot-active" id="goodId"></span> <span
+						class="strength-title" id="averageTextId">%Shell.StrengthPassword.Good%</span>
+				</div>
+				<div class="strength-item" id="strongStrength">
+					<span class="icon-dot-active" id="strongId"></span> <span
+						class="strength-title" id="averageTextId">%Shell.StrengthPassword.Strong%</span>
+				</div>
+				<div class="line line1"></div>
+				<div class="line line2"></div>
+			</div>
+			<div id="strengthMsg"></div>
+		</div>
+						
+		             	<div class="fieldRow">
+							<div class="fieldLabel">%shell.password.label%</div>
+							
+							<div class="shell-input-cont" id="newPasswordField">
+								<input data-role="none" type="password" id="newPasswordInput" placeholder="%shell.registeration.placeholder.password%"/> <span
+									class="icon-input-error"></span> <span class="icon-checked"></span> <span class="errorMessage"></span>
+							</div>
+						</div>
+						<div class="fieldRow">
+							<div class="fieldLabel">%shell.register2.confirmpassword%</div>
+							<div class="shell-input-cont" id="rePasswordField">
+								<input data-role="none" type="password" id="rePassword" placeholder="%shell.registeration.placeholder.confirmpassword%"/> <span
+									class="icon-input-error"></span> <span class="icon-checked"></span> <span class="errorMessage"></span>
+							</div>
+						</div>
+						
+							
+						
+					</div>
+	             	<div id="continueBtn" class="continueBtn waves-effect disabled">
+		             	%shell.label.continue%
+		             	<span class="icon-service-right-arrow"></span>
+	             	</div>
+			</div>
+		 	<div class="page">
+		 		<div class="scroller">
+			 		<div class="title">%shell.register2.personaldetails%</div>
+			 		<div class="allRequired">%shell.registeration.label.allRequiredField%</div>
+		             	
+				             <div class="fieldRow titlePart">
+								<span class="shell-label">%shell.registeration.label1%</span>
+								<div class="shell-dropdown-wrapper mdi mdi-chevron-down">
+									<select id="title" data-role="none" class="shell-select">
+										<option value="" selected="" class="ui-disabled" disabled="">%shell.registeration.select.caption.select%</option>
+										<option value="1">%shell.option.mr%</option>
+										<option value="2">%shell.option.mrs%</option>
+										<option value="3">%shell.option.miss%</option>
+										<option value="4">%shell.option.dr%</option>
+									</select>
+								</div>
+								
+							</div>
+							
+							<div class="fieldRow fNamePart">
+								<span class="shell-label">%shell.first.name%</span>
+								<div class="shell-input-cont" id="fnameField">
+									<input data-role="none" type="text" placeholder="%shell.registeration.placeholder.firstname%" id="firstName">
+									<span class="icon-input-error"></span>
+									<span class="errorMessage"></span>
+								</div>
+							</div>
+							<div class="fieldRow">
+								<span class="shell-label">%shell.last.name%</span>
+								<div class="shell-input-cont" id="lnameField">
+								     <input data-role="none" type="text" placeholder="%shell.registeration.placeholder.lastname%" id="lastName"/>
+								     <span class="icon-input-error"></span>
+								     <span class="errorMessage"></span>
+								</div>
+								<!-- <input id="lastName" class="shell-input" data-role="none" type="text"> -->
+							</div>
+							
+							<div class="fieldRow nationalityRow">
+								<span class="shell-label">%shell.nationality.label%</span>
+								<div class="shell-dropdown-wrapper mdi mdi-chevron-down prefix">
+									<select id="countries" data-role="none" class="shell-select">
+										<option value="" selected="" class="ui-disabled" disabled="">%shell.registeration.select.caption.select%</option>
+									</select>
+								</div>
+							</div>
+							
+						<!-- 	
+							<div class="fieldRow langRow">
+								<span class="shell-label">%shell.communications.label%</span>
+								<div class="radio-toolbar">
+									<input type="radio" id="radio3" name="radios1" value="E-Mail" data-role="none" checked>
+							    	<label for="radio3" class="waves-effect">E-Mail</label>
+									<input type="radio" id="radio4" name="radios1" value="SMS" data-role="none">
+									<label for="radio4" class="waves-effect">SMS</label>
+								</div>
+							</div>
+						 -->
+						 
+							<div class="fieldRow langRow">
+								<span class="shell-label">%shell.register2.preferredLang%</span>
+								<div class="radio-toolbar">
+									<input type="radio" id="radio1" name="radios" value="en" data-role="none" checked>
+							    	<label for="radio1" class="waves-effect">English</label>
+									<input type="radio" id="radio2" name="radios"value="ar" data-role="none">
+									<label for="radio2" class="waves-effect">عربي</label>
+								</div>
+							</div>
+							<div class="fieldRow termsRow" id="termsRow">
+								<input type="checkbox" data-role="none" id="privacyAgree" name="privacyAgree">
+								<label for="privacyAgree" class="waves-effect"></label>
+								<div class="termsText">
+									%shell.register2.disclaimer1% <a
+										id="privacy-policy-link" href="#">%shell.register2.privacy%</a>
+									%shell.register2.disclaimer2%
+								</div>
+							</div>
+							<div id="captchaInfo">
+		
+	                       	</div>
+		 		</div>
+		 		<div id="registerContBtn" class="continueBtn waves-effect disabled">%shell.register.link%</div>
+		 	</div>
+		 	<div class="page">
+		 		<div class="confirmationCard">
+		 			<i class="icon icon-tick"></i>
+		 			<div class="congrats">%shell.registerSuccess.title%!</div>
+		 			<div class="message">
+		 				%shell.register.done.msg1%<span>%shell.register.done.msg2%</span>%shell.register.done.msg3%<span id="usernameSpan"></span>
+		 				
+		 			</div>
+		 			<div class="message">
+		 				%shell.register.done.msg4%
+		 			</div>
+		 			<div id="successLoginBtn" class="waves-effect">%shell.login.title%</div>
+		 		</div>
+		 	</div>
+	    </div>
+		</div>
+		
+	 </div>
+</div>

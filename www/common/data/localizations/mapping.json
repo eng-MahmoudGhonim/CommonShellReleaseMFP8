@@ -1,0 +1,12 @@
+﻿{
+
+	"en" : {
+		"language" : "common/data/localizations/languages/en.json"
+	},
+
+    "ar" : {
+    	"culture" : "common/data/localizations/cultures/globalize.culture_ar.js",
+    	"language" : "common/data/localizations/languages/ar.json"
+    }
+
+}

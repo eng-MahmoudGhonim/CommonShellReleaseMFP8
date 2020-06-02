@@ -1,0 +1,797 @@
+#greenpoints_main * {
+	font-family: rta-regular;
+}
+
+#greenpoints_main .tabsCont .tabsHead {
+	background: #fff;
+	height: 40px;
+}
+
+#greenpoints_main .head.waves-effect.active {
+	color: #ee0000;
+	font-family: rta-regular;
+}
+
+#greenpoints_main .head.waves-effect {
+	color: #333;
+	font-family: rta-regular;
+	line-height: 42px !important;
+}
+
+#greenpoints_main .greenpointsCalc {
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#greenpoints_main .calcContTitle {
+	color: #53565a;
+	padding: 10px;
+	font-family: rta-regular;
+}
+
+#greenpoints_main .calcContTitle i:nth-of-type(1) {
+	color: #ee0000;
+	font-family: rta-regular;
+}
+
+#greenpoints_main .calcContTitle i:nth-of-type(2) {
+	color: #00b154;
+	font-family: rta-regular;
+}
+
+#greenpoints_main .calcCont {
+	display: block;
+	position: relative;
+	height: 120px;
+	width: 204px;
+	margin: auto;
+}
+
+#greenpoints_main .calcInputsCont {
+	position: absolute;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	width: 68px;
+	height: 100px;
+	padding: 10px;
+}
+
+#greenpoints_main .calcContBus {
+	
+}
+
+#greenpoints_main .calcContMetro {
+	left: 68px;
+}
+
+#greenpoints_main .calcContTram {
+	left: 136px;
+}
+
+#greenpoints_main .calcContBus i {
+	display: block;
+	color: #171c8f;
+	font-size: 25px;
+}
+
+#greenpoints_main .calcContMetro i {
+	display: block;
+	color: #171c8f;
+	font-size: 25px;
+}
+
+#greenpoints_main .calcContTram i {
+	display: block;
+	color: #171c8f;
+	font-size: 25px;
+}
+
+#greenpoints_main .calcContBus input {
+	display: block;
+	border: 2px solid #eee;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#greenpoints_main .calcContMetro input {
+	display: block;
+	border: 2px solid #eee;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#greenpoints_main .calcContTram input {
+	display: block;
+	border: 2px solid #eee;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#greenpoints_main .calcContBus span:nth-of-type(1) {
+	display: block;
+	color: #171c8f;
+	font-family: rta-regular;
+	padding: 2px;
+}
+
+#greenpoints_main .calcContMetro span:nth-of-type(1) {
+	display: block;
+	color: #171c8f;
+	font-family: rta-regular;
+	padding: 2px;
+}
+
+#greenpoints_main .calcContTram span:nth-of-type(1) {
+	display: block;
+	color: #171c8f;
+	font-family: rta-regular;
+	padding: 2px;
+}
+
+#greenpoints_main .calcContBus span:nth-of-type(2) {
+	display: block;
+	color: #53565a;
+	font-family: rta-regular;
+	padding: 5px;
+}
+
+#greenpoints_main .calcContMetro span:nth-of-type(2) {
+	display: block;
+	color: #53565a;
+	font-family: rta-regular;
+	padding: 5px;
+}
+
+#greenpoints_main .calcContTram span:nth-of-type(2) {
+	display: block;
+	color: #53565a;
+	font-family: rta-regular;
+	padding: 5px;
+}
+
+#greenpoints_main .line {
+	height: 1px;
+	width: 90%;
+	background: #eee;
+	margin: auto;
+}
+
+#greenpoints_main .calcContTitle2 {
+	color: #53565a;
+	margin: 10px;
+	font-family: rta-regular;
+	text-align: center;
+}
+
+#greenpoints_main .calcContTitle3 {
+	color: #53565a;
+	margin: 10px;
+	font-family: rta-regular;
+	text-align: center;
+}
+
+#greenpoints_main .calcContTitle4 {
+	color: black;
+	font-family: rta-bold;
+	font-size: 15px;
+	text-align: center;
+	transform: scale(0);
+	transition: all 300ms ease-in-out;
+	display: block;
+	position: relative;
+}
+
+#greenpoints_main .calcContTitle5 {
+	color: #53565a;
+	margin: 10px;
+	font-family: rta-regular;
+	font-size: 12px;
+	text-align: center;
+	transform: translate3d(0, 30px, 0);
+	/* transition-duration: 300ms; */
+	transition: all 300ms ease-in-out;
+	/* transition-delay: 300ms; */
+}
+
+#greenpoints_main .calcContTitle5 i {
+	color: #00b154;
+	font-family: rta-bold;
+	font-size: 12px;
+	text-align: center;
+}
+
+#greenpoints_main .tabsCont .tabsContent .calcContTitle6 {
+	text-align: center;
+	color: #53565a;
+	margin: 10px;
+	font-family: rta-regular;
+	font-size: 12px;
+}
+
+#greenpoints_main .tabsCont .tabsContent .calcContTitle6 i {
+	text-align: center;
+	color: #53565a;
+	font-family: rta-regular;
+	font-size: 15px;
+}
+
+#greenpoints_main .calcGreenPointsCont {
+	display: block;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	height: 130px;
+	overflow: hidden;
+}
+
+#greenpoints_main .EmissionSavings {
+	position: absolute;
+	left: 10px;
+	padding-top: 30px;
+	width: 25%;
+	font-size: 11px;
+}
+
+#greenpoints_main .tabsCont .tabsContent .greenpointsCalc.EstimatedGreenScore
+	{
+	display: inline-block;
+	width: 50%;
+}
+
+#greenpoints_main .CostSavings {
+	width: 21%;
+	height: 120px;
+	position: absolute;
+	right: 10px;
+	margin: auto;
+	padding-top: 30px;
+	font-size: 11px;
+}
+
+#greenpoints_main .EmissionSavings span:nth-of-type(1) {
+	color: #53565a;
+	font-family: rta-regular;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .EmissionSavings span:nth-of-type(2) {
+	color: #00b154;
+	font-family: rta-bold;
+	font-size: 15px;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .EmissionSavings span:nth-of-type(3) {
+	color: #00b154;
+	font-family: rta-regular;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .CostSavings span:nth-of-type(1) {
+	color: #53565a;
+	font-family: rta-regular;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .CostSavings span:nth-of-type(2) {
+	color: #00b154;
+	font-family: rta-bold;
+	font-size: 15px;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .CostSavings span:nth-of-type(3) {
+	color: #00b154;
+	font-family: rta-regular;
+	text-align: left;
+	display: block;
+}
+
+#greenpoints_main .EstimatedGreenScore {
+	background: #00b154;
+	border-radius: 100%;
+	height: 120px;
+	overflow: hidden;
+	width: 120px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: absolute;
+	margin: auto;
+	padding: 13px;
+	font-size: 10px;
+	padding-top: 25px;
+}
+
+#greenpoints_main .EstimatedGreenScore i {
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	display: block;
+	text-align: center;
+}
+
+#greenpoints_main .EstimatedGreenScore span:nth-of-type(1) {
+	color: #fff;
+	font-family: rta-regular;
+	text-align: center;
+	display: block;
+}
+
+#greenpoints_main .EstimatedGreenScore span:nth-of-type(2) {
+	color: #fff;
+	font-family: rta-bold;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+}
+
+#greenpoints_main .EstimatedGreenScore span:nth-of-type(3) {
+	color: #fff;
+	font-family: rta-regular;
+	text-align: center;
+	display: block;
+}
+
+#greenpoints_main .EstimatedGreenScoreCont {
+	height: 100%;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+#greenpoints_main .gpSlider {
+	margin: 15px;
+	position: relative;
+	height: 20px;
+}
+
+#greenpoints_main .whiteIcon {
+	position: absolute;
+	font-size: 26px;
+	height: 26px;
+	width: 26px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#greenpoints_main .greenIcon {
+	position: absolute;
+	font-size: 26px;
+	height: 26px;
+	width: 26px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#greenpoints_main .gpSlider .rankerCont {
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	height: 26px;
+	line-height: 26px;
+	color: gainsboro;
+}
+
+#greenpoints_main #pointsBar {
+	width: 100%;
+	background: -webkit-linear-gradient(left, #ee0000, orange, #00b154);
+	height: 5px;
+	position: absolute;
+	top: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	bottom: 0;
+	margin: auto;
+	transform: none !important;
+}
+
+#greenpoints_main #ranker {
+	width: 18px;
+	background: #fff;
+	border-radius: 100%;
+	height: 18px;
+	border: 2px solid #171c8f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto; .: 0
+	transition-duration: 1000ms;
+	right: auto;
+	transition-duration: 1000ms;
+}
+
+#greenpoints_main .greenIcon i {
+	font-family: 'icomoon' !important;
+	speak: none !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	line-height: 1 !important;
+	-webkit-font-smoothing: antialiased !important;
+	font-size: 26px !important;
+	white-space: normal !important;
+	font-style: normal !important;
+	display: table-cell;
+}
+
+#greenpoints_main .titleicons {
+	width: 110px;
+	margin: auto;
+	height: 15px;
+	font-size: 15px;
+	color: #53565a;
+	position: relative;
+}
+
+#greenpoints_main .titleicons span:nth-of-type(1) {
+	width: 48%;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+#greenpoints_main .titleicons span:nth-of-type(2) {
+	width: 48%;
+	display: inline-block;
+	text-align: right;
+	position: relative;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScoreCont {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScore {
+	background: #00b154;
+	border-radius: 100%;
+	height: 120px;
+	overflow: hidden;
+	width: 120px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: relative;
+	margin: auto;
+	padding: 13px;
+	font-size: 10px;
+	padding-top: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScore i.icon.icon-green-points {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScoreCont span.gpicon {
+	color: #00b154;
+	position: absolute;
+	display: block;
+	margin: auto;
+	text-align: center;
+	top: 65px;
+	font-size: 30px;
+	left: 24%;
+	overflow: hidden;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScoreCont span.gpicon2 {
+	color: #00b154;
+	position: absolute;
+	display: block;
+	margin: auto;
+	text-align: center;
+	top: 65px;
+	font-size: 30px;
+	left: 67%;
+	overflow: hidden;
+}
+
+#greenpoints_main .LogedinEstimatedGreenScore span {
+	display: block;
+}
+
+#greenpoints_main #LogedinEstimatedGreenScore {
+	font-size: 16px;
+	font-family: rta-bold;
+}
+
+#greenpoints_main .gpdetails {
+	width: 100%;
+	background: #fff;
+	padding: 10px;
+	margin: 10px 0;
+	position: relative;
+}
+
+#greenpoints_main .gpdetails span:nth-of-type(1) {
+	color: #53565a;
+	font-family: rta-regular;
+	display: block;
+}
+
+#greenpoints_main .gpdetails span:nth-of-type(2) {
+	right: 10px;
+	text-align: right;
+	font-family: rta-regular;
+	position: absolute;
+	display: inline-block;
+	color: #00b154;
+	top: 0;
+	bottom: 0;
+	height: 14px;
+	margin: auto;
+}
+
+#greenpoints_main .gpdetails span:nth-of-type(2) i {
+	font-size: 15px;
+	font-family: rta-bold;
+}
+
+#greenpoints_main .tabContent {
+	padding: 15px;
+	font-size: 13px;
+	padding-bottom: 0;
+}
+
+#greenpoints_main #tabsContent {
+	top: 40px;
+}
+
+#greenpoints_howitworks .viewmygreenpoints {
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	z-index: 1;
+	margin: auto;
+}
+
+#greenpoints_howitworks .viewmygreenpoints .viewGPButton {
+	background: #00b154;
+	color: #fff;
+	font-family: rta-regular;
+	width: 130px;
+	height: 20px;
+	font-size: 11px;
+	border-radius: 30px;
+	margin: auto;
+	line-height: 20px;
+	margin-top: 5px;
+	padding: 2.5px;
+}
+
+#greenpoints_howitworks .collapseHead i {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	bottom: 0;
+	font-size: 15px;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	transition-duration: 300ms;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+#greenpoints_howitworks .collapseHead.active i {
+	/* line-height: 15px; */
+	-webkit-transform: rotateZ(180deg);
+	top: -12.5px;
+}
+
+#greenpoints_howitworks .collapseHead i:before {
+	content: "+";
+	font-family: 'icomoon' !important;
+	content: "\e936";
+}
+
+#greenpoints_howitworks .collapseHead.active i:before {
+	content: "-";
+	font-family: 'icomoon' !important;
+	content: "\e936";
+}
+
+#greenpoints_howitworks .collapseHead .serviceTitle {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: rta-regular;
+	display: block;
+	color: black;
+	position: absolute;
+	right: 60px;
+	left: 15px;
+	bottom: 0;
+	top: 0;
+	height: 16px;
+	margin: auto;
+}
+
+#greenpoints_howitworks .collapseHead .count {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	color: #ee0000;
+	transition-duration: 300ms;
+}
+
+#greenpoints_howitworks .collapseHead .subCats {
+	margin-left: 65px;
+	font-size: 10px;
+	margin-top: 2px;
+	color: #999;
+	font-weight: bold;
+	width: 65%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition-duration: 300ms;
+}
+
+#greenpoints_howitworks .collapseHead .mdi-chevron-down {
+	left: auto;
+	right: 20px;
+	color: #000;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	transition-duration: 300ms;
+}
+
+#greenpoints_howitworks .collapseBody .item {
+	color: #666;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px;
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#greenpoints_howitworks .collapseHead.active .serviceTitle {
+	color: #171c8f;
+}
+
+#greenpoints_howitworks #whatsnewList.collapseBody .item {
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+}
+
+#greenpoints_howitworks .collapseCont {
+	/* padding-bottom: 15px; */
+	/* top: 25px; */
+	height: 100% !important;
+	/* position: absolute; */
+	/* top: 0; */
+	/* bottom: 0; */
+	overflow: auto;
+}
+
+#greenpoints_howitworks * {
+	font-family: rta-regular !important;
+}
+
+#greenpoints_howitworks #table {
+	border-bottom: 0.25px solid #666;
+}
+
+#greenpoints_howitworks #table td {
+	border: 0.25px solid #666;
+	border-bottom: 0px;
+	padding: 5px;
+}
+
+#greenpoints_howitworks #table td:nth-of-type(2) {
+	border-left: 0px;
+}
+
+.container-rtl #greenpoints_main .gpdetails span:nth-of-type(2) {
+	text-align: left;
+	left: 10px;
+}
+
+.container-rtl #greenpoints_main .titleicons span:nth-of-type(1) {
+	text-align: right;
+}
+
+.container-rtl #greenpoints_main .titleicons span:nth-of-type(2) {
+	text-align: left;
+}
+
+.container-rtl #greenpoints_main .calcContMetro {
+	right: 68px;
+	left: auto;
+}
+
+.container-rtl #greenpoints_main .calcContTram {
+	right: 136px;
+	left: auto;
+}
+
+.container-rtl #greenpoints_main .gpSlider .greenIcon {
+	direction: ltr;
+	left: 0;
+	right: auto;
+}
+
+.container-rtl #greenpoints_main #pointsBar {
+	background: -webkit-linear-gradient(left, #00b154, orange, #ee0000);
+}
+
+.container-rtl #ranker {
+	right: 0 !important;
+	left: auto !important;
+}
+
+.container-rtl #greenpoints_howitworks .collapseHead i {
+	left: 20px;
+	right: auto;
+}
+
+.container-rtl #greenpoints_howitworks .collapseHead .serviceTitle {
+	right: 15px;
+	left: 60px;
+}
+
+.container-rtl #greenpoints_howitworks #table td:nth-of-type(2) {
+	border-left: 0.25px solid #666;
+	border-right: 0px;
+}
+
+.container-rtl  #greenpoints_howitworks #table {
+	direction: rtl;
+	text-align: right;
+}
+
+.container-rtl #greenpoints_howitworks {
+	direction: rtl;
+}
+
+#greenpoints_howitworks .ui-content {
+	overflow: hidden !important;
+}
+
+#greenpoints_howitworks .gphowitwork {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#greenpoints_howitworks .gphowitworkCont {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 30px;
+	white-space: nowrap;
+	overflow: visible;
+	font-size: 0px;
+}

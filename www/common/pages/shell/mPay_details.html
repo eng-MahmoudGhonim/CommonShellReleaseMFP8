@@ -1,0 +1,67 @@
+<div id="MPayDetailsPage" data-role="page" class="mpay-code-page"
+	data-class="com/views/shell/MPayDetailsPageView">
+
+	<div data-role="content" id="content">
+
+	
+		<div id="mpayStepper" class="stepperComponent">
+			<div class="stepper">
+				<div class="stepper-item active">
+					<span class="stepper-title">%shell.mpay.username%</span> <span
+						class="stepper-number circle"> <i class="icon icon-tick"></i>
+						<i>1</i>
+					</span>
+				</div>
+				<div class="stepper-item">
+					<span class="stepper-title">%shell.mpay.confirm%</span> <span
+						class="stepper-number circle"> <i class="icon icon-tick"></i>
+						<i>2</i>
+					</span>
+				</div>
+
+			</div>
+			<div class="mPayContent">
+						<img class="mPayLogo"> 
+						<span class ="mPayDescription">%shell.mpay.text%</span>
+						<div class="mPayAmountDetails">
+							<span class="mPayAmountTitle" >%shell.mpay.topupamount%</span> 
+							<i>
+							<span class="mPayCurrency">%shell.mpay.AED%</span>
+							<span class="mPayAmount"></span>
+							</i>
+						</div>
+			</div>
+			<div class="pagesCont">
+				<div class="page">
+					<span class="shell-label">%shell.mpay.yourmPayusername%</span> 
+					
+					<div class="shell-input-cont" id="userNameField">
+						        <input data-role="none" type="text" id="username_input"/>
+						        <span class="icon-input-error"></span>
+						        <span class="errorMessage"></span>
+					</div>
+					<div id="OTPButton" class="shell-button waves-effect disabled">%shell.mpay.Continue%</div>
+					<div id="RegistermPayButton" class="shell-button waves-effect">%shell.mpay.RegisterformPay%</div>
+				</div>
+				<div class="page">
+					 <span class="shell-label">%shell.mpay.mPayOTP%</span> 			 
+					<div id= "mpayPinInput" class= "pin-input-wrapper" >
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder="."> 
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder="."> 
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder="."> 
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder=".">	
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder="."> 
+						<input class="pin-input" data-role="none" type="number" maxlength="1" size="1" placeholder=".">	
+					</div>	
+					
+					<div id="PayButton" class="shell-button waves-effect disabled">%shell.mpay.Pay%</div>
+					<div id="ResendOTPButton" class="shell-button waves-effect">%shell.mpay.ResendOTP%</div>
+				
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- /content -->
+</div>
+<!-- /page -->

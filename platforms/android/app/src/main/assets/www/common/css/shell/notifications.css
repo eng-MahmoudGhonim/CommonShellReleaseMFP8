@@ -1,0 +1,454 @@
+
+/* Stylesheet content from css/shell/notifications.css in folder common */
+.container-rtl #NotificationsPage {
+	direction: rtl;
+}
+
+#NotificationsPage * {
+	font-family: rta-regular;
+}
+
+#NotificationsPage .actions-cont {
+	margin: 15px;
+	height: 88%;
+	overflow-y: scroll;
+	position: relative;
+	overflow-x: hidden;
+	padding-bottom: 41px;
+}
+
+#NotificationsPage .NotificatiomTile {
+	position: relative;
+	width: 100%;
+	left: auto;
+	overflow-x: hidden;
+}
+
+.container-rtl #NotificationsPage .NotificatiomTile {
+	right: auto;
+}
+
+.container-rtl #NotificationsPage .NotificatiomTile {
+	position: relative;
+	width: 100%;
+	right: 0px;
+	direction: rtl;
+	height: 88px;
+	/* margin-bottom: 10px; */
+}
+
+#NotificationsPage .NotificationMess {
+	height: 80px;
+	background-color: #fff;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	width: calc(100% - 0px);
+	position: absolute;
+}
+
+#NotificationsPage .NotificationItem {
+	position: relative;
+	/* height: 80px; */
+	background: white;
+	margin-bottom: 10px;
+}
+
+#NotificationsPage .NotificationMess .icon {
+	position: absolute;
+	left: 15px;
+	font-size: 25px;
+	color: #ee0000;
+	top: 49%;
+	transform: translateY(-50%);
+	border-radius: 60px;
+	background: #ffffff;
+	border: 1px solid #e5dede;
+	padding: 7px;
+}
+
+.container-rtl #NotificationsPage .NotificationMess .icon {
+	left: auto !important;
+	right: 15px;
+}
+
+#NotificationsPage .NotificationMess .NotificationTitle {
+	position: absolute;
+	left: 70px;
+	color: #53565a;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	top: 10px;
+	font-size: 15px;
+	color: #ee0000;
+	font-family: rta-bold !important;
+}
+
+.container-rtl #NotificationsPage .NotificationMess .NotificationTitle {
+	right: 70px
+}
+
+#NotificationsPage .NotificationMess .NotificationBody {
+	position: absolute;
+	left: 70px;
+	color: #53565a;
+	display: inline;
+	top: 30px;
+	font-size: 12px;
+	right: 30px;
+	overflow:hidden;
+	/* height: 20px; */
+}
+
+#NotificationsPage .NotificationMess .NotificationBody i {
+	color: #ee0000;
+	font-family: rta-bold !important
+}
+
+.container-rtl #NotificationsPage .NotificationMess .NotificationBody {
+	right: 70px;
+	left: 30px;
+}
+
+#NotificationsPage .EditNotification {
+	position: absolute;
+	right: -41px;
+	color: #ee0000;
+	top: 0;
+	z-index: -1;
+	height: 80px;
+	width: 145px;
+}
+
+.container-rtl #NotificationsPage .EditNotification {
+	left: 0px;
+	right: calc(100% - 24px);
+}
+
+#NotificationsPage .NotificationItem .EditNotification .removeNotification {
+	position: absolute;
+	left: calc(100% - 40px);
+	border-left: 1px solid #e4dede;
+	width: 80px;
+	text-align: center;
+	background-color: #fff;
+	top: 0px;
+	bottom: 0px;
+}
+
+.container-rtl #NotificationsPage .NotificationItem .EditNotification .removeNotification {
+	left: 10px !important;
+	right: 24px !important;
+	border-right: 2px solid #e4dede!important;
+	border-left: 0px solid #e4dede!important;
+	width: 80px !important;
+}
+
+.container-rtl .NotificationItem .EditNotification .removeNotification span {
+	display: block;
+	text-align: center;
+}
+
+#NotificationsPage .ChangeZIndex {
+	z-index: 0;
+	text-align: center;
+	color: #ee0000;
+	width: 80px;
+}
+
+.container-rtl #NotificationsPage .ChangeZIndex {
+	right: 88%;
+	left: 0px;
+}
+
+#NotificationsPage {
+	top: 0px !important;
+	bottom: 0 !important;
+}
+
+#NotificationsPage #NotificationsHeader {
+	height: 56px;
+	background: #fff;
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+
+#NotificationsPage #NotificationsHeader .CheckAll {
+
+
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    background: white;
+    width: 56px;
+    text-align: center;
+    line-height: 56px;
+
+
+
+
+
+
+
+}
+
+.container-rtl #NotificationsPage #NotificationsHeader .CheckAll {
+	right: 0;
+	left: auto;
+}
+
+#NotificationsPage #NotificationsHeader .NotificationsText {
+	
+
+
+    text-align: center;
+    line-height: 56px;
+    color: #ee0000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: rta-bold !important;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    right: calc( 56px *2);
+    left: calc( 56px *2);
+
+
+
+
+}
+
+#NotificationsPage #NotificationsHeader #cancelNotifications {
+	
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+
+.container-rtl #NotificationsPage #NotificationsHeader #cancelNotifications {
+	left: 0;
+	right: auto;
+}
+
+#NotificationsPage .NotificatiomTile .MoveNotification {
+	transform: translate3d(50px, 0px, 0px);
+}
+
+.container-rtl #NotificationsPage .NotificatiomTile .MoveNotification {
+	transform: translate3d(-50px, 0px, 0px);
+}
+
+#NotificationsPage .NotificatiomTile .CheckNotification {
+	z-index: 1;
+}
+
+#NotificationsPage .termsRow {
+	position: absolute;
+	top: 28px !important;
+	left: 6px;
+}
+
+.container-rtl #NotificationsPage .termsRow {
+	right: 6px;
+	left: auto;
+}
+
+#NotificationsPage .termsRow input[type="checkbox"]:checked+label {
+	background: #e4dede;
+	border: none;
+}
+
+#NotificationsPage .termsRow label {
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 20px;
+	transition-duration: 300ms;
+	border: 1px solid #53565a
+}
+
+.container-rtl #NotificationsPage .termsRow label {
+	right: 0px;
+}
+
+#NotificationsPage .termsRow input[type="checkbox"]:checked+label:before {
+	content: "\ea03";
+	font-family: 'icomoon' !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	line-height: 25px;
+	color: #171c8f;
+}
+
+#NotificationsPage #RemoveNotificationsBtn {
+	position: fixed;
+	bottom: 0px;
+	height: 70px;
+	width: 100%;
+	background: black;
+	color: #fff
+}
+
+#NotificationsPage #RemoveNotificationsBtn .icon {
+	position: absolute;
+	left: 20px;
+	top: 25px;
+	font-size: 25px;
+}
+
+.container-rtl #NotificationsPage #RemoveNotificationsBtn .icon {
+	right: 20px;
+}
+
+#NotificationsPage #RemoveNotificationsBtn .RemoveText1 {
+	position: absolute;
+	left: 77px;
+	top: 25px;
+	font-size: 13px;
+}
+
+.container-rtl #NotificationsPage #RemoveNotificationsBtn .RemoveText1 {
+	right: 65px;
+}
+
+#NotificationsPage #RemoveNotificationsBtn .RemoveCount {
+	position: absolute;
+	left: 132px;
+	top: 25px;
+	font-size: 13px;
+}
+
+.container-rtl #NotificationsPage #RemoveNotificationsBtn .RemoveCount {
+	right: 90px;
+}
+
+#NotificationsPage #RemoveNotificationsBtn .RemoveText2 {
+	position: absolute;
+	left: 160px;
+	top: 25px;
+	font-size: 13px;
+}
+
+.container-rtl #NotificationsPage #RemoveNotificationsBtn .RemoveText2 {
+	left: 0px;
+	right: 110px
+}
+
+#NotificationsPage #EmptyNotificationsList {
+	width: 100%;
+	height: 100%;
+}
+
+#NotificationsPage #EmptyNotificationsList {
+	position: relative;
+	bottom: 13px;
+}
+
+#NotificationsPage #EmptyNotificationsMess {
+	left: 30px;
+	width: 300px;
+	height: 200px;
+	top: 8px;
+}
+
+.container-rtl #NotificationsPage #EmptyNotificationsMess {
+	right: 30px;
+}
+
+#NotificationsPage #EmptyNotificationsMess #CurrentUserNotications {
+	display: block;
+	padding: 20px;
+	font-family: rta-bold !important;
+}
+
+#NotificationsPage #EmptyNotificationsMess #EmptyNotificationBody {
+	display: block;
+	margin-left: 20px;
+}
+
+.container-rtl #NotificationsPage #EmptyNotificationsMess #EmptyNotificationBody {
+	margin-right: 20px;
+}
+
+#NotificationsPage .NotificationMess #notificationDateTime {
+	position: absolute;
+	bottom: 0px;
+	top: 50px;
+	color: black;
+	font-size: 10px;
+	top: 88%;
+	/* height: 20px; */
+	left: 70px;
+	width: 80%;
+}
+
+.container-rtl #NotificationsPage .NotificationMess #notificationDateTime {
+	right: 70px
+	
+}
+
+#NotificationsPage .NotificationMess #notificationDateTime .smallIcon {
+	position: absolute;
+	font-size: 11px;
+	left: 0px;
+	padding: 1px;
+	bottom: 5px;
+}
+.container-rtl #NotificationsPage .NotificationMess #notificationDateTime .smallIcon {
+	right:0px;
+}
+#NotificationsPage .NotificationMess #notificationDateTime .NotificationTime {
+	left: 15px;
+	position: absolute;
+	font-size: 8px;
+	right: 0px;
+	bottom: 6px;
+}
+
+.container-rtl #NotificationsPage .NotificationMess #notificationDateTime .NotificationTime {
+	
+	right: 16px;
+	left:0px !important;
+
+}
+
+#NotificationsPage .removeNotification span {
+	top: 65%;
+	transform: translateY(-50%);
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+}
+
+#NotificationsPage .removeNotification i.icon-trash {
+	top: calc(50% - 16px);
+	transform: translateY(-50%);
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+}

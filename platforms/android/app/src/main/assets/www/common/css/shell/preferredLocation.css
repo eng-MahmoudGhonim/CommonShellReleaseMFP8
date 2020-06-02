@@ -1,0 +1,55 @@
+
+/* Stylesheet content from css/shell/preferredLocation.css in folder common */
+
+/* Stylesheet content from css/shell/preferredLocation.css in folder common */
+
+/* Stylesheet content from css/shell/preferredLocation.css in folder common */
+#preferredLocation .preferredHeader{
+	height:70px;
+	background-color: #fffcd0 !important;
+	width: 100%;
+	position: fixed;
+	top: 51px;
+	z-index: 999;
+}
+#preferredLocation .preferredHeader .preferredIcon{
+		font-size: 26px;
+		position: absolute;
+		top: 20px;
+		bottom: auto;
+		margin: auto;
+		left: 5px;
+		right: 0;
+		height: 70px;
+}
+.container-rtl #preferredLocation .preferredHeader .preferredIcon{
+	right:0px
+	left:auto;
+}
+
+#preferredLocation .preferredHeader .preferredDescription{
+	position: absolute;
+	width: 90%;
+	left: 8%;
+	top: 10px;
+	font-size: 14px;
+	margin: 10px;
+	font-family: rta-bold;
+	}
+
+	.container-rtl #preferredLocation .preferredHeader .preferredDescription{
+     left:0px
+	}
+
+#preferredLocation  #savePreferredAlerts {position: fixed;left:0;bottom: 14%;color: #fff;background: #ee0000;height: 40px;text-align: center;line-height: 40px;width: 300px;font-family: rta-bold;display: inline-block;right: 0;border-radius: 20px;width: 90%;margin:auto;}
+
+#preferredLocation  #googleMapPreferredLocation{
+	top:70px;
+	overflow:hidden;
+	height:90%;
+}
+#preferredLocation .disabled {
+	opacity: 0.4;
+	pointer-events: none;
+	
+}

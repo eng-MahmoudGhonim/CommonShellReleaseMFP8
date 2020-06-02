@@ -1,0 +1,443 @@
+.container-rtl #MyAccountPage {
+	direction: rtl;
+}
+
+#MyAccountPage .tabsCont .tabsHead {
+	background: #fff;
+}
+
+#MyAccountPage * {
+	font-family: rta-regular;
+}
+
+#MyAccountPage .profileDetails {
+	position: relative;
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	height: 235px;
+}
+
+#MyAccountPage #userprofileImg {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	display: block;
+	margin: 0px auto auto auto;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 100%;
+	top: auto;
+}
+
+#MyAccountPage #userProfileLinks {
+	margin: 15px;
+	max-height: calc(100% - 150px);
+	overflow: scroll;
+}
+
+#MyAccountPage .action-btn {
+	height: 45px;
+	background-color: #fff;
+	border-radius: 2px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#MyAccountPage .action-btn .mdi-chevron-right {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-size: 20px;
+	color: black;
+	transform: translateY(-50%);
+	height: 25px;
+	display: inherit;
+}
+
+.container-rtl #MyAccountPage .action-btn .mdi-chevron-right {
+	left: 10px !important;
+	right: auto !important;
+}
+
+.container-rtl #MyAccountPage .action-btn .mdi.mdi-chevron-right:before
+	{
+	content: "\F141";
+}
+
+#MyAccountPage .action-btn .action-title {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	font-size: 13px;
+	color: black;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	transform: translateY(-50%);
+	color: #ee0000;
+}
+
+.container-rtl #MyAccountPage .action-btn .action-title {
+	right: 20px
+}
+
+#MyAccountPage #userprofilebutton {
+	position: absolute;
+	display: block;
+	top: 75Px;
+	left: 125px;
+	color: #ee0000;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.container-rtl #MyAccountPage #userprofilebutton {
+	left: auto;
+	right: 125px;
+}
+
+#MyAccountPage .profileDetails #ProfileUserName {
+	top: 45px;
+	position: absolute;
+	left: 125px;
+	font-size: 20px;
+}
+
+.container-rtl #MyAccountPage .profileDetails #ProfileUserName {
+	right: 125px;
+	left: auto;
+}
+
+#MyAccountPage .UserName {
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 125px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	left: 15px;
+	right: 15px;
+}
+
+#MyAccountPage .UserName .UserNameHeader {
+	position: absolute;
+	width: 31%;
+	left: 0;
+	text-align: center;
+	border-radius: 40px 0px 0px 40px;
+	border: 1px solid #eee;
+	color: #53565a;
+}
+
+.container-rtl #MyAccountPage .UserName .UserNameHeader {
+	width: 40%;
+	right: 1%;
+	border-radius: 0px 40px 40px 0px;
+}
+
+#MyAccountPage .UserName .usernameValue {
+	position: absolute;
+	width: 70%;
+	left: 30%;
+	background: #d8dadc;
+	border-radius: 0px 40px 40px 0px;
+	text-align: left;
+	padding-left: 20px;
+	border: 1px solid #eee;
+	color: #53565a;
+	min-height: 42px;
+}
+
+.container-rtl #MyAccountPage .UserName .usernameValue {
+	text-align: center;
+	right: 40%;
+	left: auto;
+	width: 60%;
+	border-radius: 40px 0px 0px 40px;
+}
+
+#MyAccountPage .changePassBtn {
+	position: absolute;
+	display: block;
+	height: 40px;
+	background: #171c8f;
+	text-align: center;
+	line-height: 43px;
+	border-radius: 40px;
+	color: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	font-family: rta-bold;
+}
+
+#MyAccountPage #userprofilebutton i.icon-camera {
+	font-size: 16px;
+	padding-right: 5px;
+}
+
+.container-rtl #MyAccountPage #userprofilebutton i.icon-camera {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+#MyAccountPage .linked-action {
+	position: relative;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+#MyAccountPage .linked-action .icon {
+	position: absolute;
+	left: 20px;
+	font-size: 24px;
+	color: #ee0000;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#MyAccountPage .actions-cont {
+	margin: 15px;
+}
+
+#MyAccountPage .linked-action .action-title {
+	position: absolute;
+	left: 60px;
+	/* font-size: 15px; */
+	color: #53565a;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#MyAccountPage #linkedHeader {
+	display: block;
+	font-family: 'rta-regular';
+	font-size: 13px;
+	margin: 20px;
+}
+
+#MyAccountPage #linkedTitle {
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#MyAccountPage .add-btn {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	font-size: 13px;
+	width: 55px;
+	border: 1px solid #ee0000;
+	color: #ee0000;
+	text-align: center;
+	padding: 2px;
+	margin: 1px;
+	border-radius: 50px !important;
+	height: 20px;
+}
+
+#MyAccountPage .linkSocial {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-family: rta-bold;
+}
+
+#MyAccountPage .linkSocial span {
+	font-size: 20px;
+}
+
+#MyAccountPage .icon-add {
+	font-size: 8px;
+}
+
+.container-rtl #MyAccountPage .linked-action .icon {
+	left: auto;
+	right: 20px;
+}
+
+.container-rtl #MyAccountPage .linked-action .action-title {
+	left: auto;
+	right: 60px;
+}
+
+.container-rtl #MyAccountPage .add-btn {
+	left: 15px;
+	right: auto;
+}
+#MyAccountPage .profileDetails span.icon.icon-user {
+    color: #ee0000;
+    line-height: 88px;
+    border: 1px solid #eee;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    display: block;
+    margin: 0px auto auto auto;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 100%;
+    top: auto;
+}
+#MyAccountPage .LinkedNolProfile{
+	display:none;
+}
+/* #MyAccountPage #SalikAccountNumberValue{
+	position: absolute;
+	color: #ee0000;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+} */
+#MyAccountPage .ContainerItems{
+	position: relative;
+	height: 60px;
+	/* background: white; */
+	margin-bottom: 10px;
+}
+ #MyAccountPage .EditLinkOptions{
+	position:absolute;
+	right:0;
+	color: #ee0000;
+	top: 0;
+	z-index: -1;
+	height: 60px;
+	background-color: #fff !important;
+	width: 104px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+} 
+.container-rtl  #MyAccountPage .EditLinkOptions{
+    right:200px;
+	left:auto;
+}
+
+#MyAccountPage .ContainerItems .EditLinkOptions #EditlinkedSalikAccount{
+	position: absolute;
+	right: 72px;
+	border-left: 1px solid #e4dede;
+	width: 60px;
+	text-align:  center;
+	height: 60px;
+}
+
+.container-rtl #MyAccountPage .ContainerItems .EditLinkOptions #EditlinkedSalikAccount{
+
+	right:20px;
+	border-left:none;
+	border-right: 1px solid #e4dede;
+}
+ 
+#MyAccountPage .ContainerItems .EditLinkOptions #DeleteSalikAccountNumber i{
+	display: block;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	font-size: 22px;
+	right: 0;
+} 
+#MyAccountPage .ContainerItems .EditLinkOptions #DeleteSalikAccountNumber span{
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	font-size: 13px;
+	font-family: rta-bold;
+	text-transform: uppercase;
+}  
+ #MyAccountPage .ContainerItems .EditLinkOptions #DeleteSalikAccountNumber {
+	position: absolute;
+	right: 5px;
+	border-left: 1px solid #e4dede;
+	width: 65px;
+	text-align:  center;
+	padding-left: 7px;
+	height: 60px;
+} 
+
+ .container-rtl #MyAccountPage .ContainerItems .EditLinkOptions #DeleteSalikAccountNumber {
+ 	right:85px;
+ 	border-left:none;
+ 	border-right: 1px solid #e4dede;
+     background-color: #fff;
+ }
+  
+ #MyAccountPage .ChangeZIndex{
+	z-index: 0;
+	text-align:  center;
+	color: #ee0000;
+}
+
+#MyAccountPage #EditlinkedSalikAccount i {
+    display: block;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 20px;
+    right: 0;
+}
+
+#MyAccountPage #EditSalikAccountNumber {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    font-size: 13px;
+    font-family: rta-bold;
+    text-transform: uppercase;
+}
+
+#MyAccountPage div#SalikNumberCont {
+    border-radius: 4px 0px 0px 4px!important;
+}
+
+#MyAccountPage .AccountNumberValue{
+	position: absolute;
+	color: #ee0000;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.container-rtl #MyAccountPage .AccountNumberValue{
+	right:240px
+}
+#MyAccountPage #LinkedParkingAccount{
+	background:#fcf0e3;
+}
+
+#selectPhotoPopup .popupBtns .cancelBtn{
+	margin:0px !important;
+}
+
+#selectPhotoPopup .popupBtns .okBtn{
+	margin:0px !important;
+}
+/* #MyAccountPage #tabsContent {
+    top: 0px!important;
+}
+#MyAccountPage .tabsCont .tabsHead {
+	background: #fff;
+	display: none;
+} */

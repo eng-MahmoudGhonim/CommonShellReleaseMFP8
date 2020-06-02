@@ -1,0 +1,182 @@
+<div id="MyCompanyProfilePage" data-role="page"
+	data-class="com/views/shell/MyCompanyProfilePageView">
+
+	<div data-role="content" class="tabsCont">
+		<div class="tabsHead">
+
+			<div id="contactDetailsId" class="head waves-effect">%shell.Companyprofile.CompanyDetails%</div>
+			<div id="profileDetailsId" class="head waves-effect">%shell.Companyprofile.AdministratorDetails%</div>
+			<div class="bar"></div>
+		</div>
+		<div id="tabsContent" class="tabsContent guestSidePanel">
+			<div id="MyContactDetails" class="tabContent">
+
+				<div class="headLabel">%shell.Companyprofile.CompanyInformation%</div>
+				<div class="fieldRow">
+					<span class="shell-label">%shell.Companyprofile.BusinessLicenseNumber%</span>
+					<input id="BusinessLicNumber" class="shell-input disabled"
+						data-role="none">
+				</div>
+
+				<div class="fieldRow">
+					<div class="fieldRow IssueDateContent">
+						<span class="shell-label">%shell.Companyprofile.IssueDate%</span>
+						<input class="shell-input" data-role="none" id="IssueDate">
+					</div>
+
+					<div class="fieldRow ExpireDateContent">
+						<span class="shell-label">%shell.Companyprofile.ExpiryDate%</span>
+						<input class="shell-input" data-role="none" id="ExpireDate">
+					</div>
+				</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.Companyprofile.BusinessLicenseIssued%</span>
+					<input id="BusinessLicenseIssued" class="shell-input disabled"
+						data-role="none">
+				</div>
+
+				<div class="OfficeLabel">%shell.Companyprofile.OfficeContactInformation%</div>
+
+
+
+				<div class="fieldRow">
+					<span class="shell-label ">%shell.Companyprofile.OfficeTelephone%</span>
+					<div class="shell-input-cont MobileNumberContent">
+						<input class="shell-input CountryCodeNumber" data-role="none"
+							value="+971" id="CountryCodeOfficeNumber"> <input
+							class="shell-input  AdminMobileNumber" data-role="none"
+							type="text" id="MobileNumberCompanyOffice" />
+					</div>
+
+				</div>
+				<div class="fieldRow">
+					<span class="shell-label ">%shell.Companyprofile.OfficeFax%</span>
+					<div class="shell-input-cont MobileNumberContent">
+						<input class="shell-input CountryCodeNumber" data-role="none"
+							value="+971" id="CountryCodeFaxNumber"> <input
+							class="shell-input  AdminMobileNumber" data-role="none"
+							type="text" id="MobileNumberFaxNumber" />
+					</div>
+
+				</div>
+
+
+
+				
+
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.email.label%</span> <input
+						id="CompanyEmail" class="shell-input disabled" data-role="none"
+						type="email">
+				</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.Companyprofile.POBox%</span> <input
+						id="POBox" class="shell-input disabled" data-role="none">
+				</div>
+
+
+
+			</div>
+
+			<div id="MyProfileDetails" class="tabContent">
+
+				<div class="headLabel">%shell.Companyprofile.administratorProfile%</div>
+
+				<div class="fieldRow">
+					<div class="fNamePart titleCont">
+						<span class="shell-label">%shell.registeration.label1%</span>
+						<div class="shell-dropdown-wrapper mdi">
+							<select id="title" data-role="none" class="shell-select disabled">
+								<option value="" selected="" class="ui-disabled" disabled="">%shell.registeration.select.caption.select%</option>
+								<option value="1">%shell.option.mr%</option>
+								<option value="2">%shell.option.mrs%</option>
+								<option value="3">%shell.option.miss%</option>
+								<option value="4">%shell.option.dr%</option>
+							</select>
+						</div>
+					</div>
+					<div class="fNamePart fNameCont">
+						<span class="shell-label">%shell.first.name%</span>
+						<div class="shell-input-cont" id="fnameField">
+							<input data-role="none" type="text" id="firstName" />
+						</div>
+						<!-- <input id="firstName" class="shell-input" data-role="none" type="text"> -->
+					</div>
+				</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.last.name%</span>
+					<div class="shell-input-cont" id="lnameField">
+						<input data-role="none" type="text" id="lastName" />
+					</div>
+					<!-- <input id="lastName" class="shell-input" data-role="none" type="text"> -->
+				</div>
+
+
+				 <div class="fieldRow nationalityRow">
+					<span class="shell-label">%shell.nationality.label%</span>
+					<div class="shell-dropdown-wrapper mdi prefix">
+						<select id="countries" data-role="none"
+							class="shell-select disabled">
+							<option value="" selected="" class="ui-disabled">%shell.registeration.select.caption.select%</option>
+						</select>
+					</div>
+				</div>
+				
+
+				<div class="fieldRow" id="AdministratorMobileContent">
+					<span class="shell-label ">%shell.Companyprofile.MobileNumber%</span>
+					<div class="shell-input-cont">
+						<input class="shell-input CountryCodeNumber" data-role="none"
+							value="+971" id=""> <input
+							class="shell-input  AdminMobileNumber" data-role="none"
+							type="text" id="AdminMobileValue" />
+					</div>
+
+				</div>
+
+				<div class="fieldRow">
+					<span class="shell-label">%shell.email.label%</span>
+					<div class="shell-input-cont" id="">
+						<input data-role="none" type="text" id="AdminEmail" />
+					</div>
+				</div>
+
+				<div class="fieldRow langRow">
+					<span class="shell-label preferedCommunication">%shell.communications.label%</span>
+					<div class="radio-toolbar">
+						<input type="radio" id="radio3" name="radios1" value="Email"
+							data-role="none" checked disabled> <label for="radio3"
+							class="disabled">%shell.Profile.Email%</label> <input
+							type="radio" id="radio4" name="radios1" value="SMS"
+							data-role="none" disabled> <label for="radio4"
+							class="disabled">%shell.Profile.SMS%</label>
+					</div>
+				</div>
+
+				<div class="fieldRow langRow">
+					<span class="shell-label preferedCommunication">%shell.register2.preferredLang%</span>
+					<div class="radio-toolbar">
+						<input type="radio" id="radio1" name="radios" value="en"
+							data-role="none" checked disabled> <label for="radio1"
+							class="disabled">%shell.Profile.English%</label> <input
+							type="radio" id="radio2" name="radios" value="ar"
+							data-role="none" disabled> <label for="radio2"
+							class="disabled">%shell.Profile.Arabic%</label>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+
+
+
+</div>

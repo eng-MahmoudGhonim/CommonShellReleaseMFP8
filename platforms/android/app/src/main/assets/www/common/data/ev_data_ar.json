@@ -1,0 +1,921 @@
+{
+	"Locations": {
+		"EVChargeAr": {
+			"item": [
+				{
+					"id": "2",
+					"code": "113",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مركز سعادة المتعاملين - المبنى الرئيسي",
+					"latitude": "25.2271111",
+					"longitude": "055.3234722",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				{
+					"id": "3",
+					"code": "114",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مركز سعادة المتعاملين - القوز",
+					"latitude": "25.1544167",
+					"longitude": "055.2322778",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+				
+
+				
+				{
+					"id": "4",
+					"code": "115",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": " مركز سعادة المتعاملين - الحضيبة",
+					"latitude": "25.2445000",
+					"longitude": "055.2816111",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+		{
+					"id": "5",
+					"code": "116",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مركز سعادة المتعاملين - برج نهار",
+					"latitude": "25.2748611",
+					"longitude": "055.3160000",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+{
+					"id": "6",
+					"code": "117",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": " مركز سعادة المتعاملين - أم رمول",
+					"latitude": "25.2255556",
+					"longitude": "055.3761111",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+				{
+					"id": "7",
+					"code": "118",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مركز سعادة المتعاملين - الوصل",
+					"latitude": "25.1998611",
+					"longitude": "055.2626111",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+				{
+					"id": "8",
+					"code": "119",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": " مركز سعادة المتعاملين - جبل علي",
+					"latitude": "24.9968056",
+					"longitude": "055.1048333",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+						{
+					"id": "9",
+					"code": "120",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مبنى الورسان",
+					"latitude": "25.1467281",
+					"longitude": "055.4337756",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+							{
+					"id": "10",
+					"code": "121",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "مركز سعادة المتعاملين - حتا",
+					"latitude": "24.8092222",
+					"longitude": "056.1262778",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+					{
+					"id": "11",
+					"code": "122",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "الروية",
+					"latitude": "25.1489400",
+					"longitude": "055.4919739",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+						{
+					"id": "12",
+					"code": "123",
+					"name": "هيئة كهرباء ومياه دبي ",
+					"address": "المبنى المستدام - القوز",
+					"latitude": "25.1544167",
+					"longitude": "055.2322778",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					{
+					"id": "13",
+					"code": "124",
+					"name": "واحة دبي للسيليكون  ",
+					"address": "المكتب الرئيسي و النادي المجتمعي ",
+					"latitude": "25.1240278",
+					"longitude": "055.3820000",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+				{
+					"id": "14",
+					"code": "125",
+					"name": "واحة دبي للسيليكون ",
+					"address": "سفن تاورز",
+					"latitude": "25.1144889",
+					"longitude": "055.3717253",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					{
+					"id": "15",
+					"code": "126",
+					"name": "بلدية دبي",
+					"address": "مركز الطوار",
+					"latitude": "25.2620869",
+					"longitude": "055.3846708",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+					{
+					"id": "16",
+					"code": "127",
+					"name": "بلدية دبي",
+					"address": "مركز المنارة",
+					"latitude": "25.1572469",
+					"longitude": "055.2274919",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+		           {
+					"id": "17",
+					"code": "128",
+					"name": "بلدية دبي",
+					"address": "ديرة",
+					"latitude": "25.2644819",
+					"longitude": "055.3120900",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+
+               {
+					"id": "18",
+					"code": "129",
+					"name": "بلدية دبي",
+					"address": "أم رمول",
+					"latitude": "25.2374558",
+					"longitude": "055.3630547",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+				  {
+					"id": "19",
+					"code": "130",
+					"name": "هيئة الصحة بدبي",
+					"address": "مستشفى راشد",
+					"latitude": "25.2448669",
+					"longitude": "055.3185950",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				  {
+					"id": "20",
+					"code": "131",
+					"name": "هيئة الصحة بدبي",
+					"address": "مستشفى لطيفة",
+					"latitude": "25.2263089",
+					"longitude": "055.3176719",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+				 {
+					"id": "21",
+					"code": "132",
+					"name": "هيئة الصحة بدبي",
+					"address": "مركز الممزر الصحي",
+					"latitude": "25.2975556",
+					"longitude": "055.3476667",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "22",
+					"code": "133",
+					"name": "هيئة الصحة بدبي",
+					"address": "مستشفى دبي",
+					"latitude": "25.2851156",
+					"longitude": "055.3205328",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+						 {
+					"id": "23",
+					"code": "134",
+					"name": "دبي للبترول",
+					"address": "المكتب الرئيسي",
+			    	"latitude": "25.2096450",
+					"longitude": "055.2644539",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+
+							 {
+					"id": "24",
+					"code": "135",
+					"name": "حي دبي للتصميم",
+					"address": "دبي",
+					"latitude": "25.1889836",
+					"longitude": "055.2981353",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					 {
+					"id": "25",
+					"code": "136",
+					"name": "مطار دبي",
+					"address": "مطار آل مكتوم الدولي",
+					"latitude": "24.8852711 ",
+					"longitude": "055.1584900",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "26",
+					"code": "137",
+					"name": "مطار دبي",
+					"address": "مبنى رقم 1",
+					"latitude": "25.2485647",
+					"longitude": "055.3524819",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+				 {
+					"id": "27",
+					"code": "138",
+					"name": "مطار دبي",
+					"address": "مبنى رقم 2",
+					"latitude": "25.2668372",
+					"longitude": "055.3565544",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "28",
+					"code": "139",
+					"name": "اينوك",
+					"address": "مجمع دبي للاستثمار",
+					"latitude": "25.0166381",
+					"longitude": "055.1467500",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+			
+			 {
+					"id": "29",
+					"code": "140",
+					"name": "اينوك",
+					"address": "أم سقيم*",
+					"latitude": "25.1693422 ",
+					"longitude": "055.2153014",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "30",
+					"code": "141",
+					"name": "اينوك",
+					"address": "الورقاء 4*",
+					"latitude": "25.1734883",
+					"longitude": "055.4355592",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "31",
+					"code": "142",
+					"name": "اينوك",
+					"address": " اينوك - جبل علي*",
+					"latitude": "24.9265414",
+					"longitude": "055.0062539",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "32",
+					"code": "143",
+					"name": "اينوك",
+					"address": "وادي الصفا*",
+					"latitude": "25.0712961 ",
+					"longitude": "055.3605481",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "33",
+					"code": "144",
+					"name": "اينوك",
+					"address": " زعبيل*",
+					"latitude": "25.2195550",
+					"longitude": "055.3135150",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "34",
+					"code": "145",
+					"name": "إعمار",
+					"address": "بوليفارد الشيخ محمد بن راشد آل مكتوم",
+					"latitude": "25.1952478",
+					"longitude": "055.2700300",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+				 {
+					"id": "35",
+					"code": "146",
+					"name": "إعمار",
+					"address": "مارينا مول",
+					"latitude": "25.0764703",
+					"longitude": "055.1406697",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+				
+				 {
+					"id": "36",
+					"code": "147",
+					"name": "إعمار",
+					"address": "برج خليفة - فندق أرماني",
+					"latitude": "25.1975125",
+					"longitude": "055.2741667",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "37",
+					"code": "148",
+					"name": "المواقف الخضراء / شاطئ باراستي",
+					"address": "دبي",
+					"latitude": "25.0919722",
+					"longitude": "055.1459722",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "38",
+					"code": "149",
+					"name": "مواقف مركز الشاطئ (ذا بييتش مول)",
+					"address": "دبي",
+					"latitude": "25.0782339",
+					"longitude": "055.1340544",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					 {
+					"id": "39",
+					"code": "150",
+					"name": "أبراج بيزنس سنترال",
+					"address": "دبي",
+					"latitude": "25.1005642",
+					"longitude": "055.1696039",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					 {
+					"id": "40",
+					"code": "151",
+					"name": "المنطقة الحرة لجبل علي (جافزا)",
+					"address": "دبي",
+					"latitude": "24.9265414",
+					"longitude": "055.0062539",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+						 {
+					"id": "41",
+					"code": "152",
+					"name": "مدينة جميرا",
+					"address": "دبي",
+					"latitude": "25.1332692",
+					"longitude": "055.1858108",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+								
+						 {
+					"id": "42",
+					"code": "153",
+					"name": "فندق شاطىء جميرا",
+					"address": "دبي",
+					"latitude": "25.1417439",
+					"longitude": "055.1919039",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+					 {
+					"id": "43",
+					"code": "154",
+					"name": "فندق أبراج الإمارات",
+					"address": "دبي",
+					"latitude": "25.2165958",
+					"longitude": "055.2832022",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+					 {
+					"id": "44",
+					"code": "155",
+					"name": "هيئة الطرق والمواصلات - موقف سيارات متعدد الطوابق - السبخة القديمة 01",
+					"address": "دبي",
+					"latitude": "25.2696631",
+					"longitude": "055.3039775",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "45",
+					"code": "156",
+					"name": "هيئة الطرق والمواصلات - موقف سيارات متعدد الطوابق - السبخة الجديدة",
+					"address": "دبي",
+					"latitude": "25.2682389",
+					"longitude": "055.3043306",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "46",
+					"code": "157",
+					"name": "هيئة الطرق والمواصلات - موقف سيارات متعدد الطوابق -  الغبيبة",
+					"address": "دبي",
+					"latitude": "25.2637992",
+					"longitude": "055.2903469",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+				
+				 {
+					"id": "47",
+					"code": "158",
+					"name": "هيئة الطرق والمواصلات - موقف سيارات متعدد الطوابق -  نايف",
+					"address": "دبي",
+					"latitude": "25.2730131",
+					"longitude": "055.3049928",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				
+				 {
+					"id": "48",
+					"code": "159",
+					"name": "هيئة الطرق والمواصلات - موقف سيارات متعدد الطوابق - الرقة",
+					"address": "دبي",
+					"latitude": "25.2679408",
+					"longitude": "055.3066550",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+
+				 {
+					"id": "49",
+					"code": "160",
+					"name": "فندق أنانتارا",
+					"address": "نخلة جميرا",
+					"latitude": "25.1296869",
+					"longitude": "055.1536706",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+
+					 {
+					"id": "50",
+					"code": "161",
+					"name": "فندق موفنبيك",
+					"address": "بوابة ابن بطوطة",
+					"latitude": "25.0413231",
+					"longitude": "055.1153158",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				},
+
+
+				 {
+					"id": "51",
+					"code": "162",
+					"name": "المدينة المستدامة",
+					"address": "دبي",
+					"latitude": "25.0278536",
+					"longitude": "055.2742861",
+					"city": "Dubai",
+					"ccode": "AE",
+					"whrs": "السبت إلى الجمعة من الساعة 7:30 صباحاً إلى 12:00 صباحاً",
+					"fimage": "dewa-pin-_evcharging.png",
+					"pimage": "dewa-pin-_evcharging.png",
+					"iimage": "EVicon.png",
+					"phone": "0097146019999",
+					"web": "http://www.dewa.gov.ae"
+				}
+			]
+		}
+	}
+}

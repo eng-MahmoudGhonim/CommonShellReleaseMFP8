@@ -1,0 +1,82 @@
+<div id="TrustedAgentsPage" data-role="page" data-class="com/views/shell/TrustedAgentsPageView">
+
+    <div class="tabsCont">
+        <div class="tabsHead">
+            <div class="head waves-effect">
+                %shell.trustedAgents.vehicleTesting%</div>
+            <div class="head waves-effect">
+                %shell.trustedAgents.driverLicensing%</div>
+
+            <div class="head waves-effect opticianCenters">%shell.trustedAgents.Opticians%</div>
+
+            <div class="bar"></div>
+        </div>
+
+        <div id="tabsContent" class="tabsContent guestSidePanel">
+            <div id="VehicleList" class="tabContent"></div>
+            <div id="DriverList" class="tabContent"></div>
+            <div id="CenterList" class="tabContent">
+                <div class="CenterDescription">
+                    <span id="OpticalHead1"></span>
+                    <span id="OpticalHead2"></span>
+                </div>
+
+                <div id="CenterAgentHead"></div>
+                <div id="opticalCenterAgents"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="display: none;" id="itemTemplate" class="centerAddresses">
+
+        <div class="agentItem">
+            <div class="agentName"></div>
+            <div class="agentPhone">
+                <i class="icon icon-call"></i> <span></span>
+            </div>
+            <div class="agentWeb">
+                <i class="icon icon-external"></i> <span>%shell.trustedAgents.visitWebSite%</span>
+            </div>
+        </div>
+
+        <div class="centerHeaderItems">
+            <div class="centerAgentName"></div>
+            <div class="centerAddressesDetails">
+                <i class="icon locationIcon icon-pin"></i> <span class="TrustedAgentscount"></span>
+            </div>
+            <i class="mdi mdi-chevron-right"></i>
+        </div>
+
+        <div class="centerAddresses">
+            <div class="ceneterDetails">
+                <span class="displayDetails centeraddress"></span>
+                <div class="displayDetails">
+                    <span class="workingdaysHeader"></span><span class="agentCenterFont workingDays"></span>
+                </div>
+                <div class="displayDetails">
+                    <span class="workingHrsHeader"></span><span class="agentCenterFont workinghrs"></span>
+                </div>
+            </div>
+            <div class="countLocation">
+                <div class="agentPhoneCenter">
+                    <i class="icon locationIcon icon-call"></i> <span class=" teleNumber"></span>
+                </div>
+                <div class="agentPhoneCenter">
+                    <i class="icon locationIcon icon-service-centers"></i> <span class="TrustedAgentscount"></span>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="centerSheet" class="sheet">
+        <span class="icon-cancel closeSheet"></span>
+        <div class="sheetTitle"></div>
+        <div class="distanceDetails"></div>
+        <div class="sheetTime"><span class="sheetDays"></span> <span class="sheetHours"></span></div>
+        <div class="sheetAddress"></div>
+        <div class="waves-effect getDirections">%shell.RTACustomerService.GetDirections.button.label%</div>
+    </div>
+</div>

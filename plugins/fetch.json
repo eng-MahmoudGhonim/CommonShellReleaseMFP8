@@ -1,0 +1,82 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-mfp-push": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-mfp-push"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-mfp": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-mfp@>=8.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@>=1.0.1"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-dialogs": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-dialogs@>=1.1.1"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-globalization": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-globalization@>=1.11.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-okhttp": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-okhttp@>=2.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-appavailability": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-appavailability"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,423 @@
+
+/* Stylesheet content from css/shell/trustedAgents.css in folder common */
+#TrustedAgentsPage .head.active {
+	color: #ee0000;
+}
+
+#TrustedAgentsPage .head {
+	line-height: 25px;
+	padding-top: 10px;
+	background: #fff;
+	font-family: rta-bold;
+}
+
+#TrustedAgentsPage .head span {
+	display: block;
+	font-size: 16px;
+}
+
+#TrustedAgentsPage .agentItem {
+	position: relative;
+	padding: 15px;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 75px;
+}
+
+#TrustedAgentsPage .tabsCont .tabsContent .tabContent {
+	padding: 15px;
+}
+
+#TrustedAgentsPage .agentName {
+	font-family: rta-regular;
+}
+
+#TrustedAgentsPage .agentPhone span {
+	font-family: rta-regular;
+}
+
+#TrustedAgentsPage .agentWeb span {
+	font-family: rta-regular;
+}
+
+#TrustedAgentsPage .agentPhone {
+	color: #ee0000;
+	position: absolute;
+	bottom: 10px;
+}
+
+#TrustedAgentsPage .agentWeb {
+	color: #ee0000;
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+
+#TrustedAgentsPage .agentPhone i.icon.icon-call {
+	margin-right: 5px;
+}
+
+#TrustedAgentsPage .agentWeb i.icon.icon-external {
+	margin-right: 5px;
+}
+
+.container-rtl #TrustedAgentsPage .agentWeb {
+	left: 15px;
+	right: auto;
+}
+
+.container-rtl #TrustedAgentsPage .agentPhone i.icon.icon-call {
+	right: 0px;
+	position: absolute;
+	margin-right: 0px;
+}
+
+.container-rtl #TrustedAgentsPage .agentPhone span {
+	margin-right: 25px;
+}
+
+/* start center */
+#TrustedAgentsPage .centerHeaderItems {
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 75px;
+	overflow: hidden;
+}
+
+#TrustedAgentsPage .countLocation span {
+	font-family: rta-regular;
+	position: absolute;
+	text-align: center;
+}
+
+#TrustedAgentsPage .countLocation {
+	position: absolute;
+	top: 0;
+	left: 55%;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.container-rtl #TrustedAgentsPage .countLocation {
+	right: 55%;
+	left: 0;
+}
+
+.container-rtl  #TrustedAgentsPage .locationIcon {
+	position: absolute;
+	right: 1%;
+	left: auto;
+}
+
+#TrustedAgentsPage .locationIcon {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#TrustedAgentsPage .mdi-chevron-right {
+	color: #aaa;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-size: 25px;
+	transform: translateY(-50%);
+	height: 25px;
+	display: inline-block;
+}
+
+.container-rtl  #TrustedAgentsPage .mdi.mdi-chevron-right:before {
+	content: "\F141";
+}
+
+.container-rtl #TrustedAgentsPage  .mdi-chevron-right {
+	left: 10px !important;
+	right: auto !important;
+}
+
+#TrustedAgentsPage .centerAgentName {
+	word-wrap: break-word;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	right: 45%;
+	transform: translateY(-50%);
+}
+
+.container-rtl #TrustedAgentsPage .centerAgentName {
+	right: 10px !important;
+	left: 45% !important;
+}
+
+#TrustedAgentsPage .ceneterDetails {
+	font-size: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 40%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.container-rtl #TrustedAgentsPage .ceneterDetails {
+	right: 0 !important;
+	left: 40% !important;
+}
+
+#TrustedAgentsPage .centerAddresses {
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	min-height: 80px;
+}
+
+#TrustedAgentsPage .displayDetails {
+	margin: 4px;
+	display: block;
+	color: #777;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.container-rtl #TrustedAgentsPage .displayDetails {
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+#TrustedAgentsPage .agentPhoneCenter {
+	color: #ee0000;
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 60px;
+	width: 65%;
+}
+
+.container-rtl #TrustedAgentsPage  .agentPhoneCenter {
+	right: 0;
+	left: 60px;
+}
+
+#TrustedAgentsPage .agentCenterFont {
+	color: black;
+	padding-left: 0px;
+}
+
+#TrustedAgentsPage .headerAgenet {
+	color: #ee0000;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#TrustedAgentsPage .selectedAgenet {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ee0000;
+}
+
+#TrustedAgentsPage #centerSheet .sheetTitle {
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	margin-top: 28px;
+	/* margin-bottom: 5px; */
+	font-size: 18px;
+}
+
+#TrustedAgentsPage #centerSheet .sheetHours {
+	text-align: center;
+	display: block;
+	color: #777;
+	margin-top: 15px;
+}
+
+#TrustedAgentsPage #centerSheet .getDirections {
+	display: block;
+	width: 292px;
+	height: 53px;
+	background: #ee0000;
+	color: #fff;
+	text-align: center;
+	margin: 7px auto;
+	border-radius: 30px;
+	line-height: 59px;
+	margin-top: 15px;
+}
+
+#TrustedAgentsPage .sheet1 {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	/*  display: none; */
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: #fff;
+	transition-duration: 300ms;
+	-webkit-transform: translate3d(0, 200px, 0);
+	box-shadow: -5px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#TrustedAgentsPage .sheet .icon-cancel {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: bold;
+	font-size: 10px;
+	width: 50px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+
+#TrustedAgentsPage .centerAddressesDetails {
+	color: #ee0000;
+	position: absolute;
+	left: 55%;
+	bottom: 0;
+	text-align: center;
+	right: 30px;
+	top: 14px;
+}
+
+.container-rtl #TrustedAgentsPage .centerAddressesDetails {
+	left: 30px;
+	right: 65%;
+}
+
+#TrustedAgentsPage .sheet {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	display: none;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: #fff;
+	transition-duration: 300ms;
+	-webkit-transform: translate3d(0, 200px, 0);
+	box-shadow: -5px 0 5px 0 rgba(0, 0, 0, 0.3);
+	top: 24%;
+}
+
+#TrustedAgentsPage .icon-back {
+	margin-right: 8px;
+	font-family: 'icomoon' !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.container-rtl  #TrustedAgentsPage .icon-back:before {
+	content: "\e919";
+}
+
+#TrustedAgentsPage .sheetTime {
+	color: #ee0000;
+	margin-top: 12px;
+}
+
+#TrustedAgentsPage .sheetTime i {
+	font-family: rta-regular;
+	color:black;
+	font-size:12px;
+}
+
+#TrustedAgentsPage .CenterDescription {
+	color: black;
+	margin-bottom: 10px;
+}
+
+#TrustedAgentsPage #OpticalHead2 {
+	font-family: rta-bold !important;
+	margin-bottom: 10px;
+}
+
+#TrustedAgentsPage #OpticalHead1 {
+	font-size: 16px;
+}
+
+#TrustedAgentsPage * {
+	font-family: rta-regular;
+}
+
+#TrustedAgentsPage .headerAgenet {
+	top: 0px;
+	margin-bottom: 14px;
+}
+
+#TrustedAgentsPage .headerAgenet span {
+	font-family: rta-bold !important;
+}
+
+#TrustedAgentsPage .displayDetails.centeraddress {
+	font-size: 16px;
+	color: black !important;
+}
+
+#TrustedAgentsPage .icon.locationIcon.icon-call {
+	top: 17px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#TrustedAgentsPage .centerHeaderItems .icon.locationIcon.icon-pin {
+	top: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#TrustedAgentsPage .countLocation div:nth-child(2) {
+	right: 10px !important;
+	left: auto !important;
+	width: 35% !important;
+}
+
+.container-rtl #TrustedAgentsPage .countLocation div:nth-child(2) {
+	left: 10px !important;
+	right: auto !important;
+	width: 35% !important;
+}
+
+#TrustedAgentsPage .countLocation i.icon.locationIcon.icon-pin {
+	top: 17px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#TrustedAgentsPage .countLocation i.icon.locationIcon.icon-service-centers
+	{
+	top: 17px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#TrustedAgentsPage .teleNumber {
+	bottom: 10px;
+}
+
+#TrustedAgentsPage .TrustedAgentscount {
+	bottom: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#TrustedAgentsPage .sheetAddress
+{
+	margin-top:5px;
+	/* margin-bottom: 13px; */
+}

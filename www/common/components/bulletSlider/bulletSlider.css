@@ -1,0 +1,64 @@
+.bulletSlider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    direction: ltr;
+}
+
+
+
+.bulletSlider .slidsCont {
+    height: 100%;
+    width: 300%;
+    position: relative;
+    white-space: nowrap;
+    overflow: auto;
+    font-size: 0;
+    transition-timing-function: linear;
+    direction: ltr;
+}
+
+.bulletSlider .slidsCont .slide {
+    display: inline-block;
+    width: 33.33333333%;
+    height: 100%;
+    vertical-align: top;
+    white-space: nowrap;
+    /* text-align: center; */
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bulletSlider .bulletsCont {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+    height: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bulletSlider .bulletsCont .bullet {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    vertical-align: top;
+    overflow: hidden;
+    border: 1px solid #666;
+    border-radius: 100%;
+    margin: 0 1px;
+}
+
+.bulletSlider .bulletsCont .bullet.active {
+    background: #666;
+}
+
+.container-rtl .bulletSlider .bulletsCont {
+    right: auto;
+    left: 10px;
+}

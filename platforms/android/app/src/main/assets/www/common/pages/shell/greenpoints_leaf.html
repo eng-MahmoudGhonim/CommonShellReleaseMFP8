@@ -1,0 +1,104 @@
+<div id="greenpoints_main" class="greenpoints" data-role="page" data-class="com/views/shell/GreenpointsMainPageView">
+    <div data-role="content" id="content" class="content">
+        <div class="tabsCont">
+            <div class="tabsHead">
+                <div id="currentPointsHead" class="head waves-effect">%shell.greenpoints.currentpoints%</div>
+                <div class="head waves-effect">%shell.greenpoints.calculator%</div>
+                <div class="bar"></div>
+            </div>
+            <div id="tabsContent" class="tabsContent">
+                <div class="tabContent">
+                    <div class="titleicons">
+                        <span><i id="gpinfo" class="icon icon-info-circle-filled"></i></span>
+                        <span><i id="sharescore" class="icon icon-external"></i></span>
+                    </div>
+                    <div class="LogedinEstimatedGreenScoreCont">
+                        <span class="gpicon"><i class="icon icon-greenpoints-left"></i></span>
+                        <div class="LogedinEstimatedGreenScore">
+                            <i class="icon icon-green-points"></i>
+                            <span>%shell.greenpoints.totalgreenpoints%</span>
+                            <span id="LogedinEstimatedGreenScore">0</span>
+                            <span>%shell.greenpoints.points%</span>
+                        </div>
+                        <span class="gpicon2"><i class="icon icon-greenpoints-right"></i></span>
+                    </div>
+                    <div class="gpdetails"><span>%shell.greenpoints.co2emissionsaving%</span><span><i id="CO2EmissionSavingsLogin">0</i> %shell.greenpoints.kg%</span></div>
+                    <div class="gpdetails"><span>%shell.greenpoints.costsaving%</span><span><i id="CostSavingsLogin">0</i> %shell.greenpoints.aed%</span></div>
+                    <div class="gpdetails"><span>%shell.greenpoints.timesaving%</span><span><i id="TimeSavingsLogin">0</i> %shell.greenpoints.hrs%</span></div>
+                    <div class="calcContTitle6">%shell.greenpoints.pointsareupdatedevery%<i> 24 %shell.greenpoints.hours%</i></div>
+                </div>
+                <div class="tabContent">
+                    <div class="greenpointsCalc">
+                        <div class="calcContTitle">%shell.greenpoints.title1%<i>%shell.greenpoints.title1.calculate%</i>%shell.greenpoints.title1.estimate%<i>%shell.greenpoints.title1.greenpoint%</i></div>
+                        <div class="calcCont">
+                            <div class="calcContBus calcInputsCont">
+                                <i class="icon icon-bus"></i>
+                                <span>%shell.greenpoints.bus%</span>
+                                <input id="bus" class="shell-input" data-role="none" type="number" name="shell-input">
+                                <span>%shell.greenpoints.km%</span>
+                            </div>
+                            <div class="calcContMetro calcInputsCont">
+                                <i class="icon icon-metro"></i>
+                                <span>%shell.greenpoints.metro%</span>
+                                <input id="metro" class="shell-input" data-role="none" type="number" name="shell-input">
+                                <span>%shell.greenpoints.km%</span>
+
+                            </div>
+                            <div class="calcContTram calcInputsCont">
+                                <i class="icon icon-tram"></i>
+                                <span>%shell.greenpoints.tram%</span>
+                                <input id="tram" class="shell-input" data-role="none" type="number" name="shell-input">
+                                <span>%shell.greenpoints.km%</span>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="calcContTitle2">%shell.greenpoints.estimated%</div>
+                        <div class="calcGreenPointsCont">
+                            <div class="EmissionSavings">
+                                <span>%shell.greenpoints.co2emissionsaving%</span>
+                                <span id="EmissionSavings">0</span>
+                                <span>%shell.greenpoints.kg%</span>
+                            </div>
+                            <div class="EstimatedGreenScoreCont">
+                                <div class="EstimatedGreenScore">
+                                    <i class="icon icon-green-points"></i>
+                                    <span>%shell.greenpoints.estimatedgreenscore%</span>
+                                    <span id="EstimatedGreenScore">0</span>
+                                    <span>%shell.greenpoints.points%</span>
+                                </div>
+                            </div>
+                            <div class="CostSavings">
+                                <span>%shell.greenpoints.costsaving%</span>
+                                <span id="CostSavings">0</span>
+                                <span>%shell.greenpoints.aed%</span>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="calcContTitle3">%shell.greenpoints.env_impact%</div>
+                        <div class="gpSlider">
+                            <span class="whiteIcon"><i class="icon icon-tree"></i></span>
+                            <div class="rankerCont">
+                                <span id="pointsBar"></span>
+                                <span id="ranker"> </span>
+                            </div>
+                            <span class="greenIcon">
+								 <i class="icon-green-points-tree">
+									 <i class="path1"></i>
+									 <i class="path2"></i>
+									 <i class="path3"></i>
+									 <i class="path4"></i>
+									 <i class="path5"></i>
+							 	</i>
+							</span>
+                        </div>
+                        <div id="rankText" class="calcContTitle4"></div>
+                        <div id="rankDetails" class="calcContTitle5"></div>
+                    </div>
+                    <div class="calcContTitle6">%shell.greenpoints.pointsareupdatedevery% <i>24 %shell.greenpoints.hours%</i></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

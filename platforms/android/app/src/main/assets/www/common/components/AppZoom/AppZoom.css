@@ -1,0 +1,95 @@
+#ZoomControls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+#zoomPanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 40px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    margin: auto;
+    pointer-events: all;
+}
+
+#ZoomControls .zoomArrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    transition-duration: 300ms;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    pointer-events: all;
+}
+
+#ZoomControls .zoomArrowLeft {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 0px 5px 5px 0;
+    background-image: url("../../../common/images/shell/appZoom/left-arr.png");
+    background-position-x: 5px;
+    background-position-y: 50%;
+}
+
+#ZoomControls .zoomArrowRight {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px 0px 0px 5px;
+    background-image: url("../../../common/images/shell/appZoom/right-arr.png");
+    background-position-x: 5px;
+    background-position-y: 50%;
+}
+
+#ZoomControls .zoomArrowTop {
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    background-image: url("../../../common/images/shell/appZoom/top-arr.png");
+    background-position-x: 5px;
+    background-position-y: 50%;
+}
+
+#ZoomControls .zoomArrowBottom {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px 5px 0px 0;
+    background-image: url("../../../common/images/shell/appZoom/bottom-arr.png");
+    background-position-x: 5px;
+    background-position-y: 50%;
+}
+
+#zoomPanel img:not(.move) {
+    border-right: 1px solid rgba(255,255,255,0.5);
+    width: 35px;
+    margin-top: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+#zoomPanel img.move {
+    position: absolute;
+    right: 5px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

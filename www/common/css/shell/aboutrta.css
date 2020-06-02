@@ -1,0 +1,33 @@
+#AboutTheRtaPage #aboutRTAContent {
+    padding: 15px;
+}
+
+#AboutTheRtaPage .headerBoldTextStyle {
+    color: black;
+    font-family: rta-regular;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#AboutTheRtaPage .customListSection {
+    color: #53565a !important;
+    font-family: rta-regular;
+    font-size: 13px;
+}
+
+#AboutTheRtaPage .customListSection p {
+    color: #53565a !important;
+    font-family: rta-regular;
+    font-size: 13px;
+}
+.container-rtl #AboutTheRtaPage #aboutRTAContent {
+    direction: rtl;
+    text-align: right;
+}
+
+#AboutTheRtaPage .customListSection strong {
+    font-size: 13px;
+    color: black;
+    font-family: rta-regular;
+}

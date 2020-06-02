@@ -1,0 +1,24 @@
+// Minimum SDK Version
+if (!project.hasProperty('cdvMinSdkVersion') || cdvMinSdkVersion < '19') {
+    ext.cdvMinSdkVersion = '19';
+}
+
+// For Push SDK, SDK version must be at least 28
+if (!project.hasProperty('cdvCompileSdkVersion') || cdvCompileSdkVersion < 28) {
+    ext.cdvCompileSdkVersion = 28;
+}
+buildscript {
+    repositories {
+            jcenter()
+            mavenLocal()
+            google()
+            maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:+'
+        classpath 'com.google.gms:google-services:+'
+    }
+}
+// apply plugin: 'com.google.gms.google-services'
+// class must be used instead of id(string) to be able to apply plugin from non-root gradle file
+apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
