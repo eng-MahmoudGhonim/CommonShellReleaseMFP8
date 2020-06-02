@@ -1,0 +1,11 @@
+#PopupContainer .popup .popupHeader {
+	background: #fff;
+	color: #ee0000;
+	border-bottom: 1px solid #eee;
+}
+
+#PopupContainer .popup .popupBtns {
+	color: #fff;
+	background: #eaeaec;
+	height: 80px;
+}

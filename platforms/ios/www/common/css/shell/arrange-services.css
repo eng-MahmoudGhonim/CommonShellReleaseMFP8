@@ -1,0 +1,128 @@
+#arrangeDashboardServicesPage * {
+	font-family: rta-regular;
+}
+
+#arrangeDashboardServicesPage .sortable-drag {
+	position: absolute;
+	/* left: -10px !important; */
+	/* width: 100% !important; */
+	opacity: 1 !important;
+	transition-duration: 0ms !important;
+	box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+#arrangeDashboardServicesPage .list-group-item {
+	padding: 15px;
+	background: #fff;
+	margin: 10px;
+	text-align: center;
+	color: #ee0000;
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+#arrangeDashboardServicesPage .arrangeNumber {
+	position: absolute;
+	left: 15px;
+	transition: all 300ms ease-in-out;
+	font-family: rta-bold !important;
+	font-size: 18px;
+}
+
+#arrangeDashboardServicesPage #simpleList {
+	position: absolute;
+	/* height: 65%; */
+	overflow-x: hidden;
+	top: 110px;
+	bottom: 60px;
+	right: 0px;
+	left: 0px;
+	bottom: 60px;
+}
+
+#arrangeDashboardServicesPage .dash {
+	position: absolute;
+	left: 30px;
+	transition: all 300ms ease-in-out;
+}
+
+#arrangeDashboardServicesPage {
+	top: 0 !important;
+	bottom: 0 !important;
+	z-index: 10;
+}
+
+#arrangeDashboardServicesPage #bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+
+#arrangeDashboardServicesPage .headerRTALogo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 15px;
+	color: #ee0000;
+	font-size: 30px;
+	height: 25px;
+	width: 89px;
+	margin: auto;
+}
+
+#arrangeDashboardServicesPage .arrangeTitle {
+	display: block;
+	color: black;
+	font-family: rta-bold !important;
+	font-size: 20px;
+	position: relative;
+	margin: 0px 10px;
+	text-align: center;
+	top: 60px;
+}
+
+#arrangeDashboardServicesPage #saveButton {
+	height: 40px;
+	background: #ee0000;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	font-family: rta-regular;
+	position: absolute;
+	bottom: 10px;
+	margin: auto;
+	left: 5%;
+	right: 5%;
+}
+
+#arrangeDashboardServicesPage .sortable-ghost .itemContent {
+	visibility: hidden;
+}
+
+#arrangeDashboardServicesPage .sortable-ghost {
+	border: 1px solid #ee0000 !important;
+	visibility: hidden;
+}
+
+#arrangeDashboardServicesPage .ui-content {
+	height: 100%;
+	overflow: hidden;
+}
+
+#arrangeDashboardServicesPage {
+	height: 100%;
+	overflow: hidden;
+}

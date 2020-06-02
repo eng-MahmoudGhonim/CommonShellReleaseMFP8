@@ -1,0 +1,208 @@
+#TermsAndPoliciesPage .ui-content {
+	padding: 15px;
+	font-size: 13px;
+}
+
+#TermsAndPoliciesPage .searchCont {
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border-radius: 30px;
+	position: relative;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+}
+
+#TermsAndPoliciesPage .searchCont input {
+	position: absolute;
+	left: 45px;
+	top: 0;
+	bottom: 0;
+	right: 45px;
+	width: 82%;
+	display: block;
+	max-width: 100%;
+	-webkit-appearance: none;
+	border: none;
+	font-size: 15px;
+	padding-top: 4px;
+}
+
+#TermsAndPoliciesPage .searchCont input::-webkit-search-decoration,
+	#dashboardPage .searchCont input::-webkit-search-cancel-button,
+	#dashboardPage .searchCont input::-webkit-search-results-button,
+	#dashboardPage .searchCont input::-webkit-search-results-decoration {
+	display: none;
+}
+
+#TermsAndPoliciesPage .searchCont i {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	color: #ee0000;
+}
+
+#TermsAndPoliciesPage .termsHead {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 80px;
+	background: #fff;
+	padding: 0 15px;
+	z-index: 10;
+}
+
+#TermsAndPoliciesPage #staticContent {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: scroll;
+	padding-bottom: 10px;
+}
+
+#TermsAndPoliciesPage #Template {
+	display: none;
+}
+
+#TermsAndPoliciesPage #lastUpdate {
+	position: absolute;
+	bottom: 2px;
+	right: 15px;
+	font-size: 10px;
+	color: #999;
+}
+
+.collapseHead {
+	
+}
+
+.collapseHead {
+	
+}
+
+#TermsAndPoliciesPage .collapseHead.active {
+	background: #ee0000;
+	color: #fff;
+}
+
+#TermsAndPoliciesPage .collapseHead {
+	padding: 0 15px;
+	overflow: hidden;
+}
+
+#TermsAndPoliciesPage .collapseHead .title {
+	font-size: 13px;
+	line-height: 59px;
+	width: 91%;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#TermsAndPoliciesPage .collapseHead i {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	bottom: 0;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	margin: auto;
+	color: #666;
+	transition-duration: 300ms;
+}
+
+#TermsAndPoliciesPage .collapseHead.active i {
+	-webkit-transform: rotate(180deg);
+	color: #fff;
+}
+
+#TermsAndPoliciesPage .collapseHead.active .title {
+	color: #fff;
+}
+
+#TermsAndPoliciesPage .item {
+	padding: 20px;
+	color: #777;
+}
+
+#TermsAndPoliciesPage .item .subContent {
+	margin: 10px 0;
+}
+
+#TermsAndPoliciesPage .item ul {
+	list-style: initial;
+	margin-left: 15px;
+}
+
+#TermsAndPoliciesPage .item li {
+	margin: 10px 0;
+}
+
+#TermsAndPoliciesPage .item h2 {
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	color: #ee0000;
+	margin: 5px 0;
+}
+
+#TermsAndPoliciesPage * {
+	font-family: rta-regular;
+}
+
+#TermsAndPoliciesPage #policies, #TermsAndPoliciesPage #terms {
+	background: #e5e6e8 !important;
+	color: #333 !important;
+	padding: 0 !important;
+	pointer-events: none;
+}
+
+#TermsAndPoliciesPage #policies .title, #TermsAndPoliciesPage #terms .title
+	{
+	color: #333 !important;
+	font-size: 19px;
+	line-height: 80px;
+}
+
+#TermsAndPoliciesPage #policies i, #TermsAndPoliciesPage #terms i {
+	display: none;
+}
+
+#TermsAndPoliciesPage #body-policies, #TermsAndPoliciesPage #body-terms
+	{
+	background: transparent !important;
+}
+
+#TermsAndPoliciesPage #body-policies .item, #TermsAndPoliciesPage #body-terms
+	{
+	padding: 0 !important;
+}
+
+.container-rtl #TermsAndPoliciesPage .collapseHead i {
+	left: 20px !important;
+	right: auto !important;
+}
+
+.container-rtl #TermsAndPoliciesPage .item {
+	direction: rtl;
+}
+
+.container-rtl #TermsAndPoliciesPage .searchCont input {
+	text-align: right;
+}
+
+.container-rtl #TermsAndPoliciesPage .searchCont i {
+	left: auto;
+	right: 10px;
+}

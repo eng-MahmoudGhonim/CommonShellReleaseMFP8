@@ -21,6 +21,26 @@
     },
     "cordova-plugin-appavailability": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-touch-id": {
+      "FACEID_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-speech-recognition-feat-siri": {
+      "SPEECH_USAGE_DESCRIPTION": "Speech recognition permission is required",
+      "MICROPHONE_USAGE_DESCRIPTION": "Microphone permission is required for speech recognition",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "com.telerik.plugins.nativepagetransitions": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {
@@ -34,6 +54,9 @@
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
     "cordova-plugin-mfp": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "es6-promise-plugin": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   }

@@ -1,0 +1,157 @@
+﻿[
+    {
+    	"id":"1",
+        "title_AR": "ما هو نوع بطاقات نول التي يمكنني إضافة الرصيد فيها من خلال التطبيق ؟",
+        "article_AR": "<p>يمكن إضافة رصيد  لأي بطاقة نول من خلال التطبيق ، حتى وان كانت البطاقة ليست شخصية بإمكان العميل إضافة رصيد عليها</p>",
+        "title_EN": "What type of nol cards I can top through the application?",
+    	"article_EN": "<p>Any nol card can be topped up through the application. Even cards that are not personalized, they can be topped up as well.</p>"
+    },{
+    	"id":"2",
+        "title_AR": "كم عدد خدمات نول التي يمكن استخدامها من خلال التطبيق؟",
+        "article_AR": "<p><div>في المرحلة الأولى سيتم توفير 6 خدمات</div><ul><li>إضافة رصيد</li><li>الاستفسار عن الرصيد</li><li>التقديم للحصول على بطاقة زرقاء</li><li>تحويل بطاقة نول الفضية و الذهبية إلى بطاقة شخصية</li><li>التقديم على بطاقة ذات تصميم خاص (أن يتم دمجها مع تطبيق البطاقة الزرقاء)</li><li>تتبع التطبيق</li></ul></p>",
+        "title_EN": "How many nol services I can use from the application?",
+    	"article_EN": "<p><div>6 services will be available in the 1st phase.</div><ul><li>Top up</li><li>Balance Inquiry</li><li>Apply for a Blue Card</li><li>Personalize Silver/Gold Card</li><li>Apply for a special design card (integrated with blue card application)</li><li>Track Applications</li></ul></p>"
+    },{
+    	"id":"3",
+        "title_AR": "هل بطاقة نول الحالية تظهر آخر تحديث لرصيدي ؟",
+        "article_AR": "<p>الرصيد الحالي سيكون محدث ، لا حاجة إلى مرور 24 ساعة ليتم التحديث</p>",
+        "title_EN": "Does the current nol balance shows my updated balance?",
+    	"article_EN": "<p>The current balance will be up to date. It doesn’t need 48 hours to be updated.</p>"
+    },{
+    	"id":"4",
+        "title_AR": "كيف يمكنني إرفاق مستندات عند التقديم لبطاقة نول الزرقاء ؟",
+        "article_AR": "<p>للتقديم على بطاقة نول الزرقاء سيتم توفير زر منفصل لإضافة عدة ملفات مرفقة بدل اضافة ملف واحد فقط.</p>",
+        "title_EN": "How to attach documents for applying a nol Blue Card?",
+    	"article_EN": "<p>For applying the nol Blue Card, there is a separate button to attach each document, not just one attachment option.</p>"
+    },{
+    	"id":"5",
+        "title_AR": "كيف يمكنني عرض الاشعارات ؟",
+        "article_AR": "<p>في المرحلة الاولى من تطبيق المواصلات العامة  لن يتم توفير خاصية الاشعارات</p>",
+        "title_EN": "How can I view notifications?",
+    	"article_EN": "<p>In the 1st phase, the Public Transport app has no notifications.</p>"
+    },{
+    	"id":"6",
+        "title_AR": "ما هي هويتي الإلكترونية؟",
+        "article_AR": "<p><b>حول هويتي الإلكترونية<b></p><p>مواكبة لإطار العمل الخاص بتطبيق مبادرة صاحب السمو الشيخ محمد بن راشد آل مكتوم نائب رئيس الدولة، رئيس مجلس الوزراء، حاكم دبي، والمعنية بالتحول إلى الحكومة الذكية، أطلقت كلا من حكومة دبي الذكية وهيئة الامارات للهوية مبادرة \"هويتي الإلكترونية \" والتي تتيح للعملاء الحصول على هوية موحدة تتيح لهم الدخول إلى كافة الخدمات الإلكترونية التي توفرها الدوائر الحكومية والتفاعل معها عبر الهواتف الذكية أو من خلال شبكة الإنترنت.</p><p>ويمكن الحصول على اسم المستخدم في هويتي الإلكترونية عبر التسجيل في الموقع الإلكتروني: <u> https://myid.dubai.gov.ae</u></p>",
+        "title_EN": "What is MyID?",
+    	"article_EN": "<p>About MyID</p><p>Within the framework of the implementation of the initiative of His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister and Ruler of Dubai, of the transformation to smart-government, Dubai Smart Government (DSG) and the Emirates Identity Authority (EIDA) have launched \"MyID\" which allows customers a unified access for all eServices provided by government agencies through one login and interact with them via smart phone or the Internet.</p><p>The MyID username can be obtained by registering on their website https://myid.dubai.gov.ae/</p><p>Importance of the Service</p><p>The idea was for DSG to create a unified and secure electronic identity that allows clients access to all eServices provided by government agencies in Dubai through smartphone or over the Internet with one login without having to register for each entity separately. The Service comes in line with the advanced concept of interconnected and integrated government in the ongoing process of e-transformation in Dubai. The unified electronic access is subject to strong security standards that adopt typical techniques consistent with the standards applied on Dubai Government Services Integration Platform <u> https://myid.dubai.gov.ae</u></p>"
+    },
+    {
+    	"id":"7",
+        "title_AR": "كيف يمكنني الدخول إلى كافة خدمات هيئة الطرق والمواصلات؟",
+        "article_AR": "<p>توفر هيئة الطرق والمواصلات طيفاَ عريضاَ من الخدمات الإلكترونية على تطبيقها الخاص بالهواتف المحمولة، وعلى موقعها الإلكتروني المطور المخصص للهواتف المحمولة  (http://m.rta.ae)، فيما لا تتوفر الخدمات الأخرى إلكترونياَ، بسبب طبيعتها والتي تتطلب الحضور والتعريف الشخصيين.</p><p>لمستخدمي تطبيق الهواتف المحمولة:</p><p>انقر على رمز الخدمة الظاهر على القائمة السفلية. وستظهر على الشاشة الافتراضية قائمة خدمات هيئة الطرق والمواصلات المتوفرة في تطبيق الهواتف المحمولة، وستحتاج إلى النقر على زر التصفية في القائمة العلوية.</p><p>لمستخدمي الموقع الإلكتروني على الهواتف المحمولة:</p><p>قم بفتح الصفحة الموقع: www.rta.ae، وقم بالنقر على خدمات الهيئة الرابط موجود في القائمة العلوية.</p><p></p>",
+        "title_EN": "How do I access all RTA services?",
+    	"article_EN": "<p>RTA offers a range of services, some of them which are available on the http://www.rta.ae website, others on the RTA mobile applications, others on the mobile optimized website (http://m.rta.ae). The remaining services are not available online, due to the nature of the service, which require in person meetings and identification.</p> <p>The entire list of services that are available from RTA can be found on all channels.</p> <p>From the mobile application:</p> <p>Click on the Services footer menu. The default view is the list of RTA services available on that mobile application. You need to click the filter button on the top “” All RTA services). You can also search the service are you looking for by using the search bar located on top.</p> <p>From the mobile web:</p><p>Open the www.rta.ae website and click on the “RTA Services” link located on the top menu.</p><p>From the m.rta.ae optimized mobile site:</p><p>http://m.rta.ae</p>"
+    },
+    {
+    	"id":"8",
+        "title_AR": "ما هي خيارات الدفع المتاحة لي؟",
+        "article_AR": "<p>تعتمد هيئة الطرق والمواصلات على بوابات الدفع العامة المتعارف عليها ، والمعترف بها من قبل حكومة الأمارات، والمتوافقة مع المعايير المحلية والدولية.</p><p>ويمكن الدفع مقابل خدمات هيئة الطرق والمواصلات عبر خدمة الدفع عن طريق الهاتف المحمول mPay، أو عبر خدمة الدفع الإلكتروني التي توفرها حكومة دبي الذكية ePay . وللدفع عن طريق الهاتف المحمول أو إلكترونيا، تحتاج لوجود بطاقة ائتمان صالحة وصادة من أي من البنوك في الإمارات، حيث تقبل المدفوعات في الوقت الراهن من بطاقات الائتمان الإماراتية فقط.</p><p>يمكنك التعرف على المزيد عن خدمة الدفع عبر الهاتف المحمول mPay، بزيارة الموقع الإلكتروني: https://mpay.dubai.ae/userPortal</p><p>يمكنك التعرف على المزيد عن خدمة الدفع الإلكتروني ePay، بزيارة الرابط الإلكتروني:http://www.dubai.ae/en/Lists/Topics/DispForm.aspx?ID=1&category=Home</p>",
+        "title_EN": "What are the available payment options?",
+    	"article_EN": "<p>RTA uses the UAE Public Sector agreed payment gateways, which are certified by UAE Government and abide by national and international standards. The transactions for RTA services can be paid via mPay or ePay gateways offered by the Dubai Smart Government. To use both ePay and mPay you need to have a valid credit card issued by any UAE bank. Currently only payment via UAE credit cards is accepted.</p> <p>You can find out more about mPay by visiting its website https://mpay.dubai.ae/userPortal </p> <p>You can find out more about ePay by visiting the following link: http://www.dubai.ae/en/Lists/Topics/DispForm.aspx?ID=1&category=Home</p>" 
+
+    },
+    {
+    	"id":"9",
+        "title_AR": "كيف أعيد ضبط رمز المرور الخاص بي؟",
+        "article_AR": "<p>تحتاج إلى تسجيل الدخول للوصول إلى قائمة الوظائف. قم بتصفح القائمة > نمطي. ويرجى النقر على الحقل الخاص برمز المرور. وستظهر شاشة جديدة حيث سيتم الطلب منك إدخال رمز المرور الحالي. أكتب رمز المرور الجديد وأعد كتابته لغرض التحقق. وفور أن تضغط موافق يكون قد تم إنشاء رمز مرور جديد.</p><p>يرجى تذكر أنه فور تفعيل رمز المرور الجديد، فإنه سيتم استخدامه لكافة تطبيقات الخدمات التابعة لهيئة الطرق والمواصلات على هاتفك المحمول.</p>",
+        "title_EN": "How do I reset my password?",
+    	"article_EN": "<p>Open the Menu-> My Profile. Please click on the Password field (displayed as *****). A new screen will appear where you will be asked to provide the current password and twice the new password. Once you press OK the new password will be changed.</p>"
+    },
+    {
+    	"id":"10",
+        "title_AR": "كيف أقوم بضبط الخدمات الظاهرة على صفحتي الرئيسية؟",
+        "article_AR": "<p>يمكنك إضافة خيار مفضل جديد بالنقر على رابط \"أضف خدمة مفضلة\" الموجود على الصفحة الرئيسية. ليتم عرض قائمة الخدمات المتوفرة في تطبيقات الهاتف المحمول. حيث يمكنك تصفحها، قم بوضع علامة في المربع المخصص لكل خدمة تفضلها وتود إضافتها ثم إضغط  موافق كي يتم عرضها على الصفحة الرئيسية.</p><p>يمكنك أيضاَ إلغاء خدمات عبر سحب الخدمة من اليسار إلى اليمين ومن ثم الضغط على الزر الظاهر إلغاء.</p>",
+        "title_EN": "How do I adjust the services displayed on my Homepage?",
+    	"article_EN": "<p>You can add a favorite service by clicking the \"Add a favorite service\". A list of services available on this mobile application is presented. You need to choose which one you would like to add and then press OK. </p> <p>You can delete services by swiping from right to left on the service and then clicking on the appearing button “Delete”.</p>"
+
+    },
+    {
+    	"id":"11",
+        "title_AR": "ما هي فوائد إنشاء حساب؟",
+        "article_AR": "بإنشاء حساب يكون لديك القدرة على الدخول لكافة خدمات هيئة الطرق والمواصلات التي تتطلب التحقق من شخصية المستخدم بغض النظر عن وسيلة التواصل التي تقوم باختيارها – سواء كانت هاتفا محمولا أو كمبيوترا مكتبيا، ومن بين أمثلة الخدمات، دفع المخالفات المرورية، تجديد رخصة القيادة، أو تجديد ترخيص تأمين المركبة.",
+        "title_EN": "What are the benefits of creating an account?",
+    	"article_EN": "<p>You get access to all RTA services that require log in regardless of the communication channel you choose – whether it is mobile, desktop. Some of the examples are: pay your traffic fines, renew your driving license, renew your car policy, etc.</p> <p>You will also get a personalized home page, with alerts specific to your profile. Your homepage and your favorite services will be shared among all mobile devices that share the same login information, so that you can use your phone and tablet and receive the same notifications regardless of the mobile device.</p> <p>Upon accessing your service, if your profile is populated with information, your data will be pre-populated in the respective fields so that you can save valuable time in applying for it.</p> <p>Your profile data is stored securely on the mobile device.</p>" 
+
+    },
+    {
+    	"id":"12",
+        "title_AR": "ما هي تطبيقات الهاتف المحمول الأخرى من هيئة الطرق والمواصلات؟",
+        "article_AR": "للإطلاع على القائمة الكاملة لتطبيقات الهاتف المحمول من هيئة الطرق والمواصلات، تحتاج الى الدخول إلى القائمة > معلومات الهيئة > تطبيقات الهاتف المحمول.",
+        "title_EN": "What are the other RTA mobile applications?",
+    	"article_EN": "<p>For a complete list of the RTA mobile application you need to access the Menu -> RTA Information -> RTA mobile applications.</p>"
+
+    },
+    {
+    	"id":"13",
+        "title_AR": "كيف يمكنني تنزيل تطبيقات هيئة الطرق والمواصلات الأخرى؟",
+        "article_AR": "بعد أن تصل إلى قائمة تطبيقات الهاتف المحمول (قائمة> معلومات الهيئة> تطبيقات الهاتف المحمول)، يرجى الضغط على التطبيق المرغوب فتحه، واذا كان قد تم تثبيته من قبل، فسوف يفتح تلقائيا على جهازك، واذا لم يكن قد تم تثبيته من قبل فسوف يقوم متجر التطبيقات بفتح التطبيق المعني، وهنا يمكنك الضغط على رابط تنزيل",
+        "title_EN": "How do I download the other RTA applications?",
+    	"article_EN": "<p>Once you have reached the list of all mobile application (Menu->RTA Information-> RTA Mobile Applications, please click on the desired mobile application you would like to open. If it is already installed it will try to open on your mobile device. If it is not yet installed, it will open the Application Store specific to the mobile device manufacturer (e.g. AppStore for Apple or Microsoft Store for Microsoft devices). From there you need to press the download link.</p>"
+
+    },
+    {
+    	"id":"14",
+        "title_AR": "كيف يمكنني الخروج من التطبيق؟",
+        "article_AR": "قم بفتح القائمة الرئيسية بالضغط على رمز القائمة. حيث يتواجد تسجيل الخروج في نهاية القائمة، وفور أن تقوم بالضغط عليه، تظهر قائمة تأكيد تسألك إن كنت ترغب في الاستمرار للخروج، ولتسجيل الخروج يرجى الضغط على موافق، حيث سيعاد توجبهك إلى شاشة الترحيب.",
+        "title_EN": "How do I logout from the application?",
+    	"article_EN": "<p>The user opens the main menu, by pressing on the Menu icon <insert image>. The last menu item is the Logout function. Once you press it, a confirmation screen will appear asking you if you would like to proceed with this action, as this would log you out from all the other opened RTA mobile applications. If you want to log out please press “OK”. You will be redirected to the Welcome screen.</p>"
+
+    },
+    {
+    	"id":"15",
+        "title_AR": "كيف يمكنني الدخول إلى الموقع الإلكتروني المطور على الهاتف المحمول؟",
+        "article_AR": "قم بفتح أي متصفح متوفر على هاتفك المحمول (مثل: سفاري على أجهزة أبل) وقم بالدخول عن الموقع الالكتروني: http://m.rta.ae.",
+        "title_EN": "How do I access the mobile-optimised website?",
+        "article_EN": "<p>Open any browser you have it installed on your mobile device (e.g. Safari on Apple devices) and navigate to the m.rta.ae website.</p>"
+
+    },
+    {
+    	"id":"16",
+        "title_AR": "ما هي المواصفات الوظيفية المطلوبة لهذا الموقع؟",
+        "article_AR": "<p>ربما تتطلب تطبيقات هيئة الطرق والمواصلات المواصفات الوظيفية التالية، حسب طبيعة الجهاز:</p><ul><li>1.متصفح مواقع الكترونية مخصص للهواتف المحمولة.</li><li>2.الصور (في حالة السماح بالدخول) خصوصا لتحميل الوثائق.</li><li>3.نظام تحديد المواقع العالمي (في حال السماح بالدخول)، وخصوصا للخدمات التي تتطلب تحديد المواقع، مثل خدمات المواقف، أو تلك الخدمات التي تتطلب الاستعانة بالخرائط، مثل مراكز خدمة العملاء.</li><li>4.كاميرا (في حال السماح بالدخول)، للخدمات التي تتطلب الابلاغ عن حادث أو إرسال وثائق.</li><li>5.ميكروفون (في حال السماح بالدخول)، للخدمات التي تتطلب أو تسمح بتحميل رسائل صوتية.</li><li>6. هاتف – للخدمات التي تتطلب إجراء مكالمات صوتية.</li><li>7. 3 جي/ 4 جي- على الرغم من محدودية التفاعل مع وظائف الموقع في حالة عدم الإتصال بشبكة الإنترنت، فإن أغلب خدمات الهيئة تتطلب إتصالا شبكيا.</li><li>8. واي فاي- في حال عدم توفر خدمة حزمة البيانات أو كان الاتصال بطيئا، فإن خدمات موقع الهيئة تعمل كذلك باستخدام الاتصال الشبكي عبر الواي فاي.</li></ul>",
+        "title_EN": "What device functionalities are required for this application?",
+    	"article_EN": "<p>The RTA applications may call, depending on the nature of the service, the following device functionality:</p> <ul><li>1.Mobile Web browser</li>  <li>2.Photos (if granted access) – mainly for uploading documents</li> <li>3.GPS – mainly for services that require exact locations, like parking or services that require maps, like Customer Service Centers</li> <li>4.Camera – for services that require reporting an incident or sending documents</li> <li>5.Microphone – for services that allow uploading a vocal message</li><li>6.Phone – for services that require voice call</li><li>7.3G / 4G – although the RTA mobile application function limited in offline mode, most of the RTA services require an online connection</li> <li>8.WiFi – in case a data package is not available or connectivity is low, the RTA mobile applications work also using the WiFi Internet connection.</li> </ul>"
+
+    },
+    {
+    	"id":"17",
+        "title_AR": "كيف يمكنني تكبير حجم الخط في التطبيق؟",
+        "article_AR": "يمكن إيجاد رمز القائمة الموجودة في اسفل الشاشة (أدخل رمزا). بعد الضغط عليها، يظهر شريط سحب يمكنك من خلاله ضبط حجم الخط المناسب لك عن طريق تحريك مؤشر السحب إلى الأعلي أو الأسفل. وعند إختيارك لحجم الخط المناسب، يمكنك ببساطة الضغط على أي من أجزاء الشاشة حتى يختفي شريط السحب. ومن ثم سيظهر المحتوى بحجم الخط الجديد.",
+        "title_EN": "How do I increase the font size in the application?",
+    	"article_EN": "<p>The footer menu has an icon (insert image). Upon pressing it a slide bar will appear, where you can adjust your preferred font size, by moving the slide pointer up or down. When the desired font size was chosen, you simply need to press on any other part of the screen for the slide bar to disappear. The content will be displayed using the newly chosen font size.</p>"
+
+    },
+    {
+    	"id":"18",
+        "title_AR": "كيف يمكنني حذف التنويهات؟",
+        "article_AR": "<p>اذهب إلى شاشة التنويهات والتي يمكن الوصول إليها في القائمة الرئيسية (القائمة > التنويهات)، وعند الوصول إلى تلك لقائمة ستجد خيارين لحذف التنويهات.</p><p>الخيار الأول بالسحب من اليمين إلى اليسار لكل سطر من سطور التنويهات، ومن ثم سيظهر خيار الحذف، وعند الضغط عليه يختفي التنويه.</p><p>الخيار الثاني بفتح كل تنويه على حدة والضغط على رمز الحذف، وبعد الضغط على رمز الحذف سيتم حذف التنويه الذي أمامك ويظهر التنويه التالي.</p>",
+        "title_EN": "How do I delete notifications?",
+    	"article_EN": "<p>Go to the Notifications screen, accessible from the footer menu. Once you reach that screen, there are 2 options to delete the notifications.</p><p>First option is to swipe from right to left on each notification line. The “Delete” option will appear and upon pressing it the notification will be deleted.</p><p>The second option is to go within each notification and press the “delete” icon. Upon pressing it the current notification will be deleted and the next notification will be displayed.</p>"
+
+    },
+    {
+    	"id":"19",
+        "title_AR": "كيف يمكنني تحرير نمطي الخاص؟",
+        "article_AR": "نمطك الخاص موجود في القائمة الرئيسية. إفتح القائمة > نمطي>. ولاستخدام هذه الوظيفة ينبغي أن تكون مسجلا الدخول إلى تطبيقات الهاتف المحمول. وبالضغط على أي من الحقول (باستثناء اذا ما كانت ظاهرة ياللون الرمادي، وهو ما يعني أنها حقول مخصصة للقراءة فقط) يمكن تحرير الحقل وإدخال قيم جديدة فيه.",
+        "title_EN": "How do I edit my profile?",
+    	"article_EN": "<p>The stored profile is available on the main menu. Open Menu ->My Profile. To use this functionality you need to be logged in the mobile application. Clicking on any fields (unless they are greyed out, which marks an read-only field) will edit the field and you can enter the updated input.</p>"
+
+    },
+    {
+    	"id":"20",
+        "title_AR": "كيف يمكنني الإبلاغ عن مشكلة فنية؟",
+        "article_AR": "<p>يجب عليك أن تسجل الدخول للوصول إلى هذه الوظيفة، إفتح القائمة> أبلغ عن مشكلة فنية. وفي هذه الشاشة يرجى تعبئة الحقول والنقر على إرسال. وبالإضافة إلى وصف المشكلة، سيقوم التطبيق بإرسال بيانات تفنية خاصة بهاتفك، مثل نسخة نظام التشغيل، ونسخة تطبيقات الهاتف. وسيتم إظهار كافة المعلومات المرسلة إلى هيئة الطرق والمواصلات على صفحتك، ولن تتاح معلومات إضافية للهيئة.</p><p>وفي حال لم ترغب في إرسال بيانات المشكلة الفنية، فيمكنك النقر على إلغاء على ذات الصفحة.</p>",
+        "title_EN": "How do I report a technical problem?",
+    	"article_EN": "<p>You need to be logged in to access this functionality. Open Menu->Report Technical Problem. On this screen please populate the fields and click Submit. Along with your problem description the application will also send technical details of your phone, operating system version and the mobile application version. All the information that will be sent to RTA is displayed and visible on the page. No other information is made available to RTA. If you do not wish to send the Problem you can click Cancel on the same page.</p>"
+
+    },
+    {
+    	"id":"21",
+        "title_AR": "ما هي الأجهزة الداعمة لخدمات هيئة الطرق والمواصلات؟",
+        "article_AR": "<p>تعمل هيئة الطرق والمواصلات جاهدة لتوفير تطبيقاتها على كافة اجهزة الهاتف المحمول، وفيما يلي أجهزة الهواتف المحمولة الداعمة:</p><ul><li>أجهزة الهواتف المحمولة التي تنتجها شركة ابل (ايفون 4، ايفون 4 إس، أيفون 5، أيفون 5 إس، أيباد 2، ايباد ميني).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة اتش. تي. سي (اتش. تي. سي 1، اتش. تي. سي ديزاير اكس، اتش. تي. سي بوترفلاي اس، اتش. تي. سي ون ميني، ديزاير 600).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة سامسونج (جالاكسي نوت 3، جالاكسي 2، جالاكسي اس 4، جالاكسي اس 3، جالاكسي اس 2، جالاكسي تاب 3.8.0، جالاكسي تاب 310.1، جالاكسي نوت 10.1، جالاكسي نوت 8.0).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة سوني (سوني اكسبيريا زد، سوني اكسبيريا زد 1، اكسبيريا تابلت).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة جوجل/ موتورولا (نيكسس 5، نيكسس 7، نيكسس 10).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة هواوي ( أسند بي 6، أسند دي 2، أسند بي 2، أسند ميت).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة ميكروسوفت/ نوكيا ( لوميا 1520).</li><li>أجهزة الهواتف المحمولة التي تنتجها شركة بلاكبيري (زد 10).</li></ul><p>ملاحظة: لمستخدمين نظام الأندرويد, هذا التطبيق يعمل بشكل أفضل مع نسخة أندرويد 4.4 أو أحدث</p>",
+        "title_EN": "Which are the supported mobile devices?",
+    	"article_EN": "<p>RTA objective is to make its mobile applications available to run on a wide range of mobile devices. The supported mobile devices are the following:</p><ul><li>Mobile devices produced by Apple (iPhone 4, iPhone 4S, iPhone 5, iPhone 5S, iPad 2, iPad Mini)</li><li>Mobile devices produced by HTC (HTC One, HTC Desire X, HTC Butterfly S, HTC One mini, Desire 600)</li><li>Mobile devices produced by Samsung (Galaxy Note III, Galaxy Note II, Galaxy S4, Galaxy S3, Galaxy S2, Galaxy Tab 3 8.0, Galaxy Tab 3 10.1, Galaxy Note 10.1, Galaxy Note 8.0)</li><li>Mobile devices produced by Sony (Sony Xperia Z, Sony Xperia Z1, Xperia Tablet)</li><li>Mobile devices produced by Google / Motorola (Nexus 5, Nexus 7, Nexus 10)</li><li>Mobile devices produced by Huawei (Ascend P6, Ascend D2, Ascend P2, Ascend Mate)</li><li>Mobile devices produced by Microsoft-Nokia (Lumia 1520)</li><li>Mobile devices produced by Blackberry (Z10)</li></ul><p>Note: For android users, this application has the best experience on Android OS version 4.4 and above.</p>"
+
+    }
+]

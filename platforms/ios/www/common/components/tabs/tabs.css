@@ -1,0 +1,85 @@
+.tabsCont {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.tabsCont .tabsHead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	font-size: 0 !important;
+	white-space: nowrap;
+	border-bottom: 1px solid #eee;
+}
+
+.tabsCont .tabsContent {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 45px;
+	white-space: nowrap;
+	overflow: visible;
+	font-size: 0 !important;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
+}
+
+.tabsCont .tabsHead .head {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 13px;
+	font-family: rta-regular;
+}
+.tabsCont .tabsHead {
+	height: 45px;
+	background: #fff;
+	color: #777;
+	font-size:13px;
+}
+.tabsCont .tabsHead .head.active {
+	color: #ee0000;
+	font-family: rta-bold! important;
+}
+.tabsCont .tabsHead .bar {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 50%;
+	height: 3px;
+	background: #ee0000;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
+	z-index: 2;
+}
+
+.tabsCont .tabsContent .tabContent {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: initial;
+	overflow: auto;
+}
+
+.tabsCont.rtlTabs .tabsHead {
+	direction: rtl;
+}
+
+.tabsCont.rtlTabs .bar {
+	right: 0;
+	left: auto;
+}
+
+.tabsCont.rtlTabs .tabsContent {
+    direction: rtl;
+}

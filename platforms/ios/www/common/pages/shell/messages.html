@@ -1,0 +1,60 @@
+<div id="messagesPage" data-role="page"
+	data-class="com/views/shell/MessagesPageView">
+	<div data-role="content" data-tab-name="messages" class="_1_0Animated fadeIn">
+
+		<fieldset id="radioSwitcher" data-role="controlgroup"
+			data-type="horizontal"
+			style="margin-bottom: -10px; margin-top: -10px;">
+			<label id="unreadBtnId" for="messages_unreaded">%shell.messages.unread%</label>
+			<input type="radio" id="messages_unreaded" name="services_type"
+				value="0" checked="checked" /> <label id="allBtnId"
+				for="message_all">%shell.all.notification.title%</label> <input
+				type="radio" id="message_all" name="services_type" value="1" />
+		</fieldset>
+		<table class="line">
+			<tr class="bgColorCS lineStyle">
+				<td class="lineStyleTD">
+					<center id="unreadBtnArrow" style="display: none;">
+						<div class="bgColorCS" style="height: 6px; margin-top: -6px;"></div>
+						<div class="messages-arrow-down"></div>
+					</center>
+				</td>
+				<td class="lineStyleTD rightHalfLine">
+					<center id="allBtnArrow">
+						<div class="bgColorCS" style="height: 6px; margin-top: -6px;"></div>
+						<div class="messages-arrow-down"></div>
+					</center>
+				</td>
+
+			</tr>
+		</table>
+		<div class="messages-lists">
+
+			<div id="selectall-checkbox" class="checkboxTextMainConatiner"
+				style="padding-top: 20px; display: none">
+				<div class="notification-handlers-images hidden">
+					<img id="read_message" alt=""
+						src="../../common/images/shell/new-email.png"></img> <img
+						id="unread_message" alt="" src="../../common/images/shell/email-read.png"></img>
+					<img id="delete_message" alt="" src="../../common/images/shell/trash1.png"></img>
+				</div>
+				<span id="selectall-span" class="checkbox-container"> <label
+					id="selectall-lbl"> <input id="selectall-spanChecked"
+						class="checkbox-input" type="checkbox" name="selectall-span"
+						for="selectall-span" data-theme="d">
+				</label>
+				</span> <span class="checkbox-text">%shell.unread.notification.selectall%</span>
+
+			</div>
+
+			<ul data-role="listview" id="messagesList">
+
+			</ul>
+
+			<a href="#" id="loadMore" class="ui-btn hidden">%shell.messages.loadMore%</a>
+		</div>
+
+	</div>
+	<!-- /content -->
+</div>
+<!-- /page -->

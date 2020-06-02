@@ -1,0 +1,352 @@
+@-webkit-keyframes rotating {
+  0%   { -webkit-transform: rotateZ(360deg); }
+  100% { -webkit-transform: rotateZ(0deg); }
+}
+
+@-webkit-keyframes loadingBefore {
+    0% {
+        -webkit-transform:scale(0);
+        opacity:0;
+     }
+    50% {
+        -webkit-transform:scale(25);
+        opacity:0.1;
+    }
+    100% {
+        -webkit-transform:scale(25);
+        opacity:0;
+     }
+}
+.tileLoader {
+	top: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	background: #000;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	display: none;
+	-webkit-animation: 1.7s infinite linear loadingBefore;
+}
+.serviceTileCont {
+	display: block;
+	width: 100%;
+	height: 90px;
+	position: relative;
+	overflow: hidden !important;
+	margin-bottom: 15px;
+	background: #fff;
+}
+
+.serviceTileCont .expandButton {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 25px;
+	z-index: 10;
+	color: #fff;
+	transition-duration: 600ms;
+	transition-delay: 300ms;
+	will-change: transform;
+}
+
+.serviceTileCont .serviceLogo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+}
+
+.serviceTileCont .serviceTitle {
+	color: #fff;
+	font-size: 10px;
+	margin-top: 10px;
+	margin-left: 9px;
+	transition-duration: 300ms;
+	transition-delay: 600ms;
+	position: absolute;
+	z-index: 2;
+}
+
+.serviceTileCont .tileDataCont {
+	position: absolute;
+	left: 80px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	z-index: 0;
+}
+
+.serviceTileCont .serviceList {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	right: 30px;
+	bottom: 0;
+	color: #fff;
+	z-index: 5;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	transition-duration: 300ms;
+	/* 	-webkit-transform: translate3d(-500px, 0, 0);
+ */
+	transition-timing-function: linear;
+	transition-delay: 400ms;
+}
+
+.serviceTileCont .serviceList .serviceListItem {
+	display: inline-block;
+	width: 80px;
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	height: 100%;
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 13px;
+	overflow: hidden;
+	position: relative;
+}
+ 
+.serviceTileCont .serviceList .serviceListItem:before {
+	content: '\e993';
+	position: absolute;
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	padding: 6px;
+	-moz-osx-font-smoothing: grayscale;
+	left: 0;
+	font-size: 11px!important;
+	visibility: hidden;
+}
+.container-rtl .serviceTileCont .serviceList .serviceListItem:before{
+	left:auto;
+	right:0;
+}
+.serviceTileCont .itemsScroller {
+	height: 100%;
+	position: relative;
+	white-space: nowrap;
+}
+
+.serviceTileCont .serviceListCtrl {
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 5;
+}
+
+.serviceTileCont .scrollArrow {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 30px;
+	color: #fff;
+	text-align: center;
+	z-index: 10;
+}
+
+.serviceTileCont .tileDataCont .tempElCont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transition-duration: 300ms;
+}
+
+.serviceTileCont .serviceLogo .logo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 60px;
+	width: 55px;
+	background: #ee0000;
+	color: #fff;
+	text-align: center;
+	line-height: 77px;
+	font-size: 40px;
+}
+
+.serviceTileCont .loginInfo {
+	width: 60%;
+	display: inline-block;
+	word-wrap: break-word;
+	white-space: normal;
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+.serviceTileCont .expandButton i {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 16px;
+	text-align: center;
+	height: 16px;
+	margin: auto;
+	transition-duration: 600ms;
+}
+
+.serviceTileCont .serviceList .serviceListItem span {
+	word-wrap: break-word;
+	white-space: normal;
+	display: inline-block;
+	text-align: center;
+	max-height: 60px;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	font-size: 11px;
+	vertical-align: middle;
+	margin-top: 5px;
+	padding: 0 5px;
+	overflow: hidden;
+	box-sizing: border-box !important;
+	width: 100%;
+	position: absolute;
+	top: 55%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	transform: translateY(-50%);
+}
+
+.serviceTileCont .entryTemp {
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: left;
+}
+
+.serviceTileCont .entryTemp span {
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	width: 60px;
+	text-align: left;
+	font-size: 16px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.serviceTileCont .entryTemp i {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 32px;
+}
+
+.serviceTileCont .googleLoader {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.serviceTileCont 
+.reloadCont {
+	position: absolute;
+	left: 80px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.25);
+	z-index: 3;
+	color: #fff;
+	text-align: center;
+	display: none;
+	will-change: transform;
+}
+
+.serviceTileCont 
+.reloadCont span {
+	font-size: 28px;
+	margin: 8px auto;
+	display: block;
+	width: 28px;
+	height: 28px;
+	margin-top: 20px;
+}
+
+.serviceTileCont 
+.reloadCont span.active {
+	-webkit-animation: rotating 500ms linear infinite;
+}
+
+.container-rtl .serviceTileCont .serviceList .serviceListItem {
+	border-right: none;
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.serviceTileCont .scrollArrow i {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 13px;
+	width: 13px;
+	height: 13px;
+	margin: auto;
+}
+
+.container-rtl .serviceTileCont .scrollArrow i {
+	-webkit-transform: rotate(180deg);
+}
+
+.container-rtl .serviceTileCont .serviceList {
+	left: 30px;
+	right: 25px;
+}
+
+.container-rtl .serviceTileCont 
+.reloadCont {
+	left: 0;
+	right: 80px;
+}
+
+.container-rtl .serviceTileCont .serviceTitle {
+	margin-right: 9px;
+	margin-left: auto;
+}
+
+.serviceTileCont .serviceList .serviceListItem.require-login i.icon.icon-lock {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.container-rtl .serviceTileCont .serviceList .serviceListItem.require-login i.icon.icon-lock {
+     right:auto;
+    left: 6px;
+}
+.serviceListItem.require-login {
+    background-color: rgba(255, 255, 255, 0.3);
+}

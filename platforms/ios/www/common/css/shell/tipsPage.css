@@ -1,0 +1,187 @@
+#TipsPageView {
+	top: 0 !important;
+	bottom: 0 !important;
+	z-index: 10;
+	background: #eee;
+}
+
+#TipsPageView #closeBtn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	text-align: left;
+	z-index: 100;
+	line-height: 40px;
+}
+
+#TipsPageView .bulletSlider {
+	top: 0;
+	bottom: 150px;
+}
+
+#TipsPageView .descCont {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 150px;
+	background: #fff;
+	box-shadow: 0 0px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+#TipsPageView .bulletsCont {
+	right: 0;
+	left: 0;
+	top: 17px;
+}
+
+#TipsPageView .bullet {
+	width: 7px;
+	height: 7px;
+	border: 1px solid #fff;
+	margin: 0 3px;
+}
+
+#TipsPageView .bullet.active {
+	background: #4998A6;
+	border: 1px solid #4998A6;
+}
+
+#TipsPageView .descs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 45px;
+	white-space: nowrap;
+	overflow: visible;
+	font-size: 0;
+	transition-timing-function: linear;
+	direction: ltr;
+	pointer-events: none;
+	transition-duration: 200ms;
+}
+
+#TipsPageView .iconsCont {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	text-align: center;
+}
+
+#TipsPageView .icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #adadad;
+	overflow: hidden;
+	border-radius: 100%;
+	margin: 0 5px;
+	text-align: center;
+	color: #adadad;
+}
+
+#TipsPageView .desc {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	white-space: nowrap;
+	font-size: 13px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+#TipsPageView .slide {
+	/* text-align: center; */
+	/* font-size: 42px; */
+	/* line-height: 465px; */
+	/* color: #888; */
+	will-change: transform;
+}
+
+#TipsPageView .icon.active {
+	border: 1px solid #ff2600;
+	background: #ff2600;
+	color: #fff !important;
+}
+
+#TipsPageView .slide img {
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+}
+
+#TipsPageView .desc .title {
+	font-family: rta-bold;
+	font-size: 17px;
+	color: #ee0000;
+	margin-top: 20px;
+}
+
+#TipsPageView .desc .cont {
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	color: #777;
+	font-weight: bold;
+}
+
+#TipsPageView .icon span {
+	width: 27px;
+	text-align: center;
+	height: 100%;
+	line-height: 27px;
+	font-size: 15px;
+	display: block;
+	margin: auto;
+	/* color: #adadad; */
+}
+
+.container-rtl #TipsPageView #closeBtn {
+	left: 0;
+	right: auto;
+	text-align: right !important;
+}
+
+#TipsPageView .icon .icon-RTA-logo:before {
+	color: #fff;
+}
+
+#TipsPageView .slidsCont {
+	background-image: url(../../../common/images/shell/tips/scenery-bg.png);
+	background-size: contain;
+}
+
+.container-rtl #TipsPageView .desc .cont {
+	direction: rtl;
+}
+
+.CorporateApp #TipsPageView .slidsCont {
+	background-image: url(../../../common/images/corporate/tips/scenary.png) !important;
+	background-size: contain;
+}
+.CorporateApp #TipsPageView .bullet.active {
+    background: #EE0000;
+    border: 1px solid #EE0000;
+}
+
+.CorporateApp #TipsPageView #closeBtn {
+    color:#EE0000;
+}
+.CorporateApp #TipsPageView .bullet {
+    border: 1px solid #EE0000;
+}

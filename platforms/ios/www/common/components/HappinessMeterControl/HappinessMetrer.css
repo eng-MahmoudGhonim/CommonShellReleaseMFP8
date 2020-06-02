@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'happinessmeterfont';
+  src:  url('../../fonts/HappinessMeter.eot?smbg5k');
+  src:  url('../../fonts/HappinessMeter.eot?smbg5k#iefix') format('embedded-opentype'),
+    url('../../fonts/HappinessMeter.ttf?smbg5k') format('truetype'),
+    url('../../fonts/HappinessMeter.woff?smbg5k') format('woff'),
+    url('../../fonts/HappinessMeter.svg?smbg5k#HappinessMeter') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="HappinessMeter-"], [class*=" HappinessMeter-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'happinessmeterfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.HappinessMeter-happy-face-selected:before {
+  content: "\e900";
+}
+.HappinessMeter-happy-face:before {
+  content: "\e901";
+}
+.HappinessMeter-icon-back-arabic:before {
+  content: "\e902";
+}
+.HappinessMeter-icon-back:before {
+  content: "\e903";
+}
+.HappinessMeter-icon-finish-tick:before {
+  content: "\e904";
+}
+.HappinessMeter-icon-finish:before {
+  content: "\e905";
+}
+.HappinessMeter-icon-tell-me-more-arabic:before {
+  content: "\e906";
+}
+.HappinessMeter-icon-tell-me-more-three-dot:before {
+  content: "\e907";
+}
+.HappinessMeter-icon-tell-me-more:before {
+  content: "\e908";
+}
+.HappinessMeter-natural-face-selected:before {
+  content: "\e909";
+}
+.HappinessMeter-natural-face:before {
+  content: "\e90a";
+}
+.HappinessMeter-sad-face-selected:before {
+  content: "\e90b";
+}
+.HappinessMeter-sad-face:before {
+  content: "\e90c";
+}
+

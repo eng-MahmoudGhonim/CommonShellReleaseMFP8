@@ -1,0 +1,65 @@
+<div id="NotificationsSettingsPage" data-role="page"
+	data-class="com/views/shell/NotificationsSettingsPageView">
+	
+	    <div data-role="content">
+        <div class="acc-head"> %shell.notificationsSettings.header%
+        </div>
+        
+        <div id="generalNotificationsSetting" class="notificationsSetting" >
+            <div class="title">%shell.notificationsSettings.generalNotifications%
+             <div class="Description">%shell.notificationsSettings.ImportantNews% </div>
+            </div>
+           
+            <div id="" class="shell-switch">
+                <input data-role="none" id="generalNotifications-checkbox" name="generalNotifications-checkbox" class="shell-checkbox" type="checkbox">
+                <label for="generalNotifications-checkbox" class="shell-lever"></label>
+            </div>
+        </div>
+        
+        <div id="personalNotificationsSetting" class="notificationsSetting" style="display: none" >
+            <div class="title">%shell.notificationsSettings.PersonalizedNotifications%
+            <div class="Description">%shell.notificationsSettings.ChoosePOIs%</div>
+            </div>
+            
+            <div id="" class="shell-switch">
+                <input data-role="none" id="IncidentNotificationsSettings-checkbox" name="IncidentNotificationsSettings-checkbox" class="shell-checkbox" type="checkbox">
+                <label id="IncidentNotificationsSettingsLabel" for="IncidentNotificationsSettings-checkbox" class="shell-lever"></label>
+            </div>
+        </div>
+        
+        
+        <div id="standardAlerts" class="notificationsSetting" >
+            <div class="title">%shell.notificationsSettings.StandardAlerts%
+            <div class="Description">%shell.notificationsSettings.StandardAlertsDecrip% </div>
+            </div>
+            <span id="showAllAlerts">%shell.notificationsSettings.AllAlerts%</span> 
+            <div  class="shell-switch">
+               
+               <i class="mdi mdi-chevron-right"></i>
+            </div>
+        </div>
+        
+       
+        <div id="customAlertNotifications" class="notificationsSetting" >
+            <div class="title">%shell.notificationsSettings.CustomAlerts%
+            <div class="Description"> %shell.notificationsSettings.CustomAlertsDescrip%</div>
+            </div>
+            
+            <div id="" class="shell-switch">
+               
+               <i class="mdi mdi-chevron-right"></i>
+             
+            </div>
+        </div>
+        
+        
+       
+        <div class="item" id="openSettings" style="display:none">
+            <span>%shell.notificationsSettings.setServiceLimit%</span>
+            <i class="icon icon-next"></i>	
+        </div>
+        <div id="resetBtn" class="resetBtn waves-effect">%shell.notificationsSettings.resetall%</div>
+    </div>
+	
+	</div>
+

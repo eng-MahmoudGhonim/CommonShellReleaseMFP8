@@ -1,0 +1,402 @@
+
+/* Stylesheet content from css/shell/search.css in folder common */
+#SearchPage * {
+	box-sizing: initial;
+	font-family: rta-regular;
+}
+
+#SearchPage .require-linking {
+	color: #999999 !important;
+}
+
+#SearchPage .linkingBtn-servicelist {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	height: 25px;
+	width: 110px;
+	border-radius: 60px;
+	border: 1px solid #eee;
+	line-height: 27px;
+	font-size: 11px;
+	padding: 0 10px;
+	margin: auto;
+	pointer-events: all;
+	display: block;
+	color: #ee0000;
+	border-color: #ee0000;
+}
+
+.container-rtl #SearchPage .linkingBtn-servicelist {
+	left: 0px;
+	right: auto;
+}
+
+#SearchPage .linkingBtn-servicelist i.icon.icon-lock {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	line-height: 25px;
+}
+
+.container-rtl #dashboardPage .linkingBtn-servicelist i.icon.icon-lock {
+	left: 10px;
+	right: auto;
+}
+
+
+#SearchPage #searchArea {
+	height: 90px;
+	background: #fff;
+	position: relative;
+}
+
+#SearchPage {
+	top: 0px !important;
+	bottom: 0 !important;
+}
+
+.CorporateApp #SearchPage .categoryHeader {
+    background: #fc4a4f!important;
+}
+#SearchPage .searchCont {
+	height: 40px;
+	background: #fff;
+	border-radius: 30px;
+	position: absolute;
+	border: 1px solid #b6b6b6;;
+	top: 23px;
+	left: 20px;
+	width: calc(100% - 110px);
+}
+
+.container-rtl #SearchPage .searchCont {
+	left: auto !important;
+	right: 20px !important;
+}
+
+.container-rtl #SearchText::-webkit-search-cancel-button {
+	position: relative;
+	right: 2px;
+}
+
+#SearchPage .searchCont input {
+	position: absolute;
+	left: 35px;
+	top: 0px;
+	bottom: 0;
+	width: 75%;
+	display: block;
+	max-width: 100%;
+	-webkit-appearance: none;
+	border: none;
+	font-size: 15px;
+	padding-top: 4px;
+}
+
+#SearchPage .searchCont input::-webkit-search-cancel-button {
+	/* Remove default */
+	-webkit-appearance: none;
+}
+
+.container-rtl #SearchPage .searchCont input {
+	right: 40px;
+	left: auto;
+	direction: rtl;
+}
+
+#SearchPage .searchCont i.icon.icon-menu-search {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	bottom: 0;
+	font-size: 18px;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	color: #b6b6b6;
+}
+
+#SearchPage .searchCont i.icon.icon-cancel {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	font-size: 10px;
+	width: 22px;
+	height: 22px;
+	z-index: 10;
+	background: #e5e6e8;
+	border-radius: 20px;
+	margin: auto;
+	display: none;
+}
+
+.container-rtl #SearchPage .searchCont i.icon.icon-cancel {
+	left: 10px;
+	right: auto;
+}
+
+#SearchPage .searchCont i.icon.icon-cancel::before {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-size: 7px;
+	font-weight: bold;
+	padding: 7px;
+}
+
+.container-rtl #SearchPage .searchCont i.icon.icon-menu-search {
+	left: auto !important;
+	right: 15px !important;
+}
+
+#SearchPage .searchCont span {
+	position: absolute;
+	left: 290px;
+	top: 12px;
+	bottom: 0;
+	color: #53565a;
+}
+
+#SearchPage #cancelSearch {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	bottom: 0;
+	color: #53565a;
+	height: 90px;
+	line-height: 90px;
+	width: 50px;
+}
+
+.container-rtl #SearchPage #cancelSearch {
+	right: auto;
+	left: 20px;
+}
+
+.container-rtl #SearchPage .searchCont span {
+	left: -55px;
+}
+
+#SearchPage #searchResultCount {
+	display: block;
+	margin-left: 10px;
+}
+.container-rtl #SearchPage #searchResultCount{
+	margin-left:10px;
+}
+
+#SearchPage #searchResultCount i {
+	display: block;
+	margin: 20px 15px 20px 10px;
+	font-size: 16px;
+	color: #53565a;
+}
+
+#SearchPage #searchResultCount span {
+	display: inline;
+	background: #fff;
+	min-width: 15px;
+	border-radius: 25px;
+	padding: 10px;
+	color: #ee0000;
+	margin: 5px;
+	font-size: 13px;
+}
+
+.container-rtl #SearchPage #searchResultCount span {
+	padding: 8px !important;
+
+}
+
+#SearchPage #ServicesSearchResult {
+	margin: 15px;
+	min-height: 400px;
+}
+
+#SearchPage #NoSearchResult .noResultFound {
+	position: absolute;
+	left: 30%;
+	top: 23%;
+	color: #ee0000;
+	font-size: 20px;
+}
+
+#SearchPage #NoSearchResult .noResultDescrip {
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	font-size: 15px;
+}
+
+.container-rtl #SearchPage #NoSearchResult .noResultDescrip {
+	direction: rtl;
+}
+
+#SearchPage #NoSearchResult .noResultTryAgain {
+	position: absolute;
+	left: 33%;
+	top: 35%;
+	font-size: 15px;
+}
+
+#SearchPage #NoSearchResult i {
+	position: absolute;
+	left: 1%;
+	top: 38%;
+	font-size: 164px;
+	color: #000;
+	opacity: .20;
+}
+
+#SearchPage .categoryHeader {
+	position: relative;
+	border-bottom: 1px solid #777;
+	margin-bottom: 15px;
+	height: 65px;
+	color: #fff;
+}
+
+.container-rtl #SearchPage .categoryHeader {
+	direction: rtl !important;
+}
+
+#SearchPage .categoryHeader i {
+	position: absolute;
+	bottom: 10px;
+	color: #ee0000;
+	margin-left: 20px;
+	font-size: 45px;
+}
+
+.container-rtl #SearchPage .categoryHeader i {
+	right: 20px;
+}
+
+#SearchPage .categoryHeader .serviceHeaderText {
+	margin-left: 6px;
+	font-size: 16px;
+	margin-bottom: 15px !important;
+}
+
+.container-rtl #SearchPage .categoryHeader .servicesCount {
+	direction: rtl !important;
+}
+
+#SearchPage .categoryBody .serviceBodyitems {
+	height: 45px;
+	line-height: 49px;
+	font-size: 11px;
+	padding-left: 0px;
+	color: #666;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+}
+
+.container-rtl #SearchPage .categoryBody .serviceBodyitems {
+	direction: rtl;
+	padding-right: 0px;
+	padding-left: 70px;
+}
+
+#SearchPage .popularSearchItems {
+	height: 50px;
+}
+
+#SearchPage .popularSearchItemsCorporate {
+	height: 50px;
+	margin-left: 1px;
+}
+
+#SearchPage .categoryHeader i {
+	color: #fff !important;
+	padding-top: 30px !important;
+}
+
+#SearchPage .categoryHeader .iconCount {
+	position: absolute;
+	left: 70px;
+	top: 27px;
+}
+
+.container-rtl #SearchPage .categoryHeader .iconCount {
+	right: 80px;
+	top: 25px;
+}
+
+#SearchPage .loginBtn-servicelist {
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	height: 25px;
+	width: 45px;
+	border-radius: 60px;
+	border: 1px solid #eee;
+	line-height: 27px;
+	font-size: 11px;
+	padding: 0 10px;
+	margin: auto;
+	pointer-events: all;
+	display: block;
+	color: #ee0000;
+	border-color: #ee0000;
+}
+
+.container-rtl #SearchPage .loginBtn-servicelist {
+	right: 223px;
+}
+
+#SearchPage #SearchPage .loginBtn-servicelist i.icon.icon-lock {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	line-height: 25px;
+}
+
+.container-rtl #SearchPage .loginBtn-servicelist i.icon.icon-lock {
+	right: 10px !important;
+	left: auto !important;
+}
+
+#SearchPage .categoryBody .require-login {
+	color: #999999 !important;
+	padding-right: 76px;
+}
+
+#SearchPage .categoryBody .serviceBodyitems:last-child {
+	border-bottom: none;
+}
+
+#SearchPage #ServicesSearchResult .categoryBlock {
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#SearchPage #NoSearchResult {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	position: fixed
+}
+
+#SearchPage i.icon.icon-new-service {
+	font-size: 16px;
+	color: red;
+}

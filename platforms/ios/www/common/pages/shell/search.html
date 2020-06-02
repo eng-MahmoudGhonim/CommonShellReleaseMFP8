@@ -1,0 +1,68 @@
+<div id="SearchPage" data-role="page"
+	data-class="com/views/shell/SearchPageView">
+
+	<div data-role="content">
+		<div id="searchArea">
+			<div class="searchCont">
+				<i class="icon icon-menu-search"></i><i id="deleteSearchText" class="icon icon-cancel"></i> <input data-role="none"
+					type="search" placeholder="%shell.search.searchfor%"
+					id="SearchText" /> 
+			</div>
+			<span id="cancelSearch">%shell.label.cancel%</span>
+		</div>
+
+
+		<div id="searchResultCount">
+			<div id="popularSearch">
+				<!--  <i>Popular Search</i> <span class="popularSearchItem"> Pay
+					for Parking</span> <span> Recharge Salik</span> <span>Pay Fines</span> 
+					<span>Renew Vechicle Registration</span> 
+					<span>Renew Vechicle Registration</span>  -->
+			</div>
+		</div>
+
+		<div id="ServicesSearchResult" style="display: none"></div>
+
+      <div id="NoSearchResult" style="display: none">
+      <span class="noResultFound">%shell.search.NoResultsFound%</span>
+      <span class="noResultDescrip">%shell.search.NoMatchingSearch%</span>
+      <span class="noResultTryAgain">%shell.search.PleaseTryAgain%</span>
+      <i class="icon icon-desert"></i>
+      </div>
+		<!-- <div class="">
+				<div class="categoryHeader">
+				<i class="icon icon-service-license-blk" ></i>
+				<span class="serviceHeaderText">Drivers</span>
+				 </div>
+				<div class="categoryBody"> 
+				 <span class="serviceItem">-  New Learning Permit</span>
+				 <span class="serviceItem">-  Renew Learning Permit</span>
+				 <span class="serviceItem">-  Renew License</span>
+				 <span class="serviceItem">-  Replace Learning Permit</span>
+				 <span class="serviceItem">-  Amend Learning Permit</span>
+				 <span class="serviceItem">-  Transfer Foreign License</span>
+				 </div>
+			</div> -->
+
+
+		<div id="templateserviceCategory" style="display: none">
+			<div class="categoryHeader">
+				<i class="icon icon-service-license-blk"></i>
+				<div class="iconCount">
+
+					<span class="serviceHeaderText"> </span>
+					<span class="servicesCount"></span>
+				</div>
+			</div>
+			<div class="categoryBody">
+				<!-- 	create span here -->
+
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+</div>

@@ -86,6 +86,52 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "appAvailability"
       ]
+    },
+    {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-x-socialsharing.SocialSharing",
+      "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+      "pluginId": "cordova-plugin-x-socialsharing",
+      "clobbers": [
+        "window.plugins.socialsharing"
+      ]
+    },
+    {
+      "id": "cordova-plugin-tts.tts",
+      "file": "plugins/cordova-plugin-tts/www/tts.js",
+      "pluginId": "cordova-plugin-tts",
+      "clobbers": [
+        "TTS"
+      ]
+    },
+    {
+      "id": "cordova-plugin-touch-id.TouchID",
+      "file": "plugins/cordova-plugin-touch-id/www/TouchID.js",
+      "pluginId": "cordova-plugin-touch-id",
+      "clobbers": [
+        "window.plugins.touchid"
+      ]
+    },
+    {
+      "id": "cordova-plugin-speech-recognition-feat-siri.SpeechRecognitionFeatSiri",
+      "file": "plugins/cordova-plugin-speech-recognition-feat-siri/www/SpeechRecognitionFeatSiri.js",
+      "pluginId": "cordova-plugin-speech-recognition-feat-siri",
+      "clobbers": [
+        "SpeechRecognitionFeatSiri"
+      ]
+    },
+    {
+      "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+      "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+      "pluginId": "com.telerik.plugins.nativepagetransitions",
+      "clobbers": [
+        "window.plugins.nativepagetransitions"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -98,6 +144,12 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-mfp-push": "8.0.2020052609",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-plugin-appavailability": "0.4.2"
+    "cordova-plugin-appavailability": "0.4.2",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "5.6.8",
+    "cordova-plugin-tts": "0.2.3",
+    "cordova-plugin-touch-id": "3.3.1",
+    "cordova-plugin-speech-recognition-feat-siri": "3.0.0",
+    "com.telerik.plugins.nativepagetransitions": "0.6.5"
   };
 });

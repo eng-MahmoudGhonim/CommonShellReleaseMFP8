@@ -1,0 +1,55 @@
+{
+  "_from": "cordova-plugin-speech-recognition-feat-siri",
+  "_id": "cordova-plugin-speech-recognition-feat-siri@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lb28H7aVzi1zkLXHNmYkR0u0Unibyfbk86WAzTwP4CoO4YQRyNA4Ik90W4i94052SXLCNAednP95X320ebRxDQ==",
+  "_location": "/cordova-plugin-speech-recognition-feat-siri",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-speech-recognition-feat-siri",
+    "name": "cordova-plugin-speech-recognition-feat-siri",
+    "escapedName": "cordova-plugin-speech-recognition-feat-siri",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-speech-recognition-feat-siri/-/cordova-plugin-speech-recognition-feat-siri-3.0.0.tgz",
+  "_shasum": "18811fd4443f6bb1ad94d57422dbbeca02a969d1",
+  "_spec": "cordova-plugin-speech-recognition-feat-siri",
+  "_where": "C:\\Users\\Mahmoud\\Common-Shell-V8",
+  "author": {
+    "name": "Masakatsu Aoyama"
+  },
+  "bugs": {
+    "url": "https://github.com/bluedesign/speech-recognition-feat-siri/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-speech-recognition-feat-siri",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin Speech Recognition feat. Siri",
+  "homepage": "https://github.com/bluedesign/speech-recognition-feat-siri#readme",
+  "keywords": [
+    "cordova",
+    "SpeechRecognition",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-speech-recognition-feat-siri",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluedesign/speech-recognition-feat-siri.git"
+  },
+  "version": "3.0.0"
+}

@@ -1,0 +1,803 @@
+
+/* Stylesheet content from css/shell/loginPopup.css in folder common */
+	#LoginPopup * {
+		font-family: rta-regular;
+		font-weight: normal !important;
+	}
+
+	/* #LoginPopup .popupBtns .okBtn {
+		left: 0px !important;
+		right: 0px !important;
+		margin-left: 20px !important;
+	} */
+
+	#LoginPopup .tabs {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		border-top: snow;
+	}
+
+	#LoginPopup .popupContent {
+		padding: 0 !important;
+		height: 350px;
+		transition: height 300ms ease;
+	}
+
+	#LoginPopup .tabsHead {
+		height: 45px;
+	}
+
+	#LoginPopup .head {
+		line-height: 50px;
+	}
+
+	#LoginPopup .tabContent img {
+		width: 84px;
+		position: relative;
+		display: block;
+		height: 34px;
+		margin: 10px auto;
+		margin-top: 5px;
+	}
+
+	#LoginPopup .tabContent #rta-logo {
+		content: url(../../../common/images/shell/splash/rta-logo.svg);
+	}
+
+	#LoginPopup .tabContent #myIdLogo {
+		content: url(../../../common/images/shell/myIdLogo.png);
+	}
+
+	#LoginPopup .tabContent .title {
+		display: block;
+		margin: 1px 0px;
+		color: #333;
+	}
+
+	#LoginPopup .tabContent .helpertitle {
+		display: block;
+		margin: 1px 0px;
+		color: #333;
+		height: 30px;
+		padding-top: 5px;
+	}
+
+	#LoginPopup .tabContent {
+		text-align: left;
+		padding: 15px;
+	}
+
+	#LoginPopup input {
+		background: #eee;
+	}
+
+	#LoginPopup .additional {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+		white-space: nowrap;
+		color: #333;
+		height: 14px;
+		direction: ltr;
+	}
+
+	#LoginPopup .additional span {
+		margin-left: 4px;
+		vertical-align: top;
+		display: inline-block;
+		margin-right: 6px;
+	}
+
+	#LoginPopup .additional i {
+		border: 1px solid;
+		border-radius: 3px;
+		width: 12px;
+		height: 12px;
+		font-size: 10px;
+		line-height: 10px;
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#LoginPopup .head.active {
+		color: #ee0000;
+	}
+
+	#LoginPopup .head {
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	#LoginPopup .tabContent {
+		font-size: 13px;
+	}
+
+	#LoginPopup .popupContent {
+		color: #333 !important;
+	}
+
+	#LoginPopup .forgotPassCont i {
+		border-radius: 100%;
+		color: black;
+		border-color: black;
+		text-align: center;
+		line-height: 16px;
+		width: 14px;
+		height: 14px;
+		font-size: 9px;
+		font-weight: bold;
+		padding-right: 1px;
+		margin-top: 5px;
+	}
+
+	.container-rtl #LoginPopup .tabContent {
+		text-align: right;
+	}
+
+	.container-rtl #LoginPopup input {
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	.container-rtl #LoginPopup .additional {
+		direction: rtl;
+	}
+
+	#LoginPopup .additionalCont {
+		height: 35px;
+	}
+
+	#LoginPopup .forgetAdditionalCont {
+		background: #bfbfbf;
+		height: 40px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		position: absolute;
+		line-height: 28px;
+		opacity: 0.95;
+	}
+
+	#LoginPopup .forgotUserCont i {
+		border-radius: 100%;
+		color: black;
+		border-color: black;
+		text-align: center;
+		line-height: 16px;
+		width: 14px;
+		height: 14px;
+		font-size: 9px;
+		padding-right: 1px;
+		margin-top: 5px;
+	}
+
+	#LoginPopup .forgotUserCont {
+		padding-left: 15px;
+		color: black;
+		padding-top: 8px;
+		padding-right: 15px;
+	}
+
+	#LoginPopup .forgotPassCont {
+		padding-left: 15px;
+		color: black;
+		padding-top: 8px;
+		padding-right: 13px;
+	}
+
+	#LoginPopup #forgetPasswordRTA {
+		/* color: black; */
+		/* padding-top: 8px; */
+	}
+
+	#LoginPopup #forgetPasswordRTA i {
+		color: black;
+		border-color: black;
+	}
+
+	#LoginPopup .okBtn:before {
+		content: "\e9f0";
+		color: #fff;
+		font-family: 'icomoon' !important;
+		font-size: 18px;
+		position: absolute;
+		top: -3px;
+		right: 65px;
+		left: 20px;
+		bottom: 0;
+	}
+
+
+	.container-rtl #LoginPopup .okBtn:before {
+		-webkit-transform: rotateY(180deg);
+		right: -28%;
+		/* left: 104%; */
+		position: absolute;
+	}
+	#LoginPopup .cancelBtn:before {
+		content: "\e9cb";
+		color: #ee0000;
+		font-family: 'icomoon' !important;
+		font-size: 18px;
+		position: absolute;
+		top: -3px;
+		right: 79px;
+		left: 0;
+		bottom: 0;
+		padding-left: 20px;
+	}
+
+
+
+	.container-rtl #LoginPopup .cancelBtn:before{
+		-webkit-transform: rotateY(180deg);
+		position: absolute;
+		right: -70%;
+	}
+
+
+
+	/*UAE PASS  */
+
+	#LoginPopup #UAELogoId {
+		content: url(../../../common/images/shell/login/logo.svg);
+		/* width: 31%;
+		height: auto; */
+		/* height: 111px; */
+		width: 100px;
+	}
+
+	#LoginPopup #UAEPassBGId {
+		content: url(../../../common/images/shell/login/bg.svg);
+		width: 90% !important;
+		height: 65%;
+	}
+
+	#LoginPopup #UAEHeadDescId {
+		text-align: center;
+	}
+
+	#LoginPopup #UAEHeadDescId i {
+		font-size: 13px;
+		font-family: rta-bold;
+	}
+
+	#LoginPopup #UAEPassButtonId {
+		width: 100%;
+		display: block;
+		height: 40px;
+		background-color: white !important;
+		border-color: white !important;
+		z-index: 0;
+		position: relative;
+	}
+
+	/*Link UAE Pass*/
+
+	#linkRTAUAEPassPopup .popupContent {
+		padding: 0px !important;
+	}
+
+	#linkRTAUAEPassPopup .successLinkUAEPassHeader {
+		background-color: #e5e6e8;
+		height: 75px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#linkRTAUAEPassPopup #LinkRta-logo {
+		content: url(../../../common/images/shell/splash/rta-logo.svg);
+		position: absolute;
+		top: 24px;
+		bottom: 20px;
+		left: 6%;
+		width: 99px;
+		height: auto;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup #LinkRta-logo {
+		right: 30px;
+		left: auto;
+	}
+
+	#linkRTAUAEPassPopup .arrowLine {
+		position: absolute;
+		top: 25px;
+		bottom: 20px;
+		font-size: 27px;
+		left: 46%;
+	}
+
+	#linkRTAUAEPassPopup #LinkUAELogoId {
+		content: url(../../../common/images/shell/login/logo.svg);
+		position: absolute;
+		top: 25px;
+		bottom: 20px;
+		left: 61%;
+		right: 0px;
+		width: 100px;
+		height: auto;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup #LinkUAELogoId {
+		right: auto;
+		left: 20px;
+	}
+
+	#linkRTAUAEPassPopup #linkUAEBodyId {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#linkRTAUAEPassPopup #linkUAEBodyId span {
+		font-family: rta-regular;
+		text-align: center;
+		display: inline-block;
+		margin: 10px;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup #linkUAEBodyId span {
+		direction: rtl;
+	}
+
+	#linkRTAUAEPassPopup #linkUAEBodyId i {
+		font-size: 14px;
+		font-family: rta-bold;
+	}
+
+	#linkRTAUAEPassPopup .okBtn:before {
+		content: "\e9f0";
+		color: #fff;
+		font-family: 'icomoon' !important;
+		font-size: 18px;
+		position: absolute;
+		top: 0px;
+		/* right: 70px; */
+		left: 25px;
+		bottom: 0;
+		font-weight: normal;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup .okBtn:before {
+		-webkit-transform: rotateY(180deg);
+		right: 20px;
+		left: auto;
+	}
+
+	#linkRTAUAEPassPopup .cancelBtn:before {
+		content: "\e9cb";
+		font-family: 'icomoon' !important;
+		font-size: 18px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		left: 25px;
+		bottom: 0;
+		text-align: left;
+		font-weight: normal;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup .cancelBtn:before {
+		-webkit-transform: rotateY(180deg);
+		right: 25px;
+		left: 0px;
+	}
+
+	#linkRTAUAEPassPopup .mdi-close {
+		display: block;
+	}
+
+	#linkRTAUAEPassPopup .popupBtns .cancelBtn {
+		font-family: rta-bold;
+		/* left: 50%; */
+		padding-left: 20px;
+	}
+
+	#linkRTAUAEPassPopup #linkUAEPASSHeader {
+		background-color: #e5e6e8;
+		height: 75px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	.container-rtl #linkRTAUAEPassPopup .popupBtns .cancelBtn {
+		padding-right: 20px;
+		padding-left: 0px;
+	}
+
+	#linkRTAUAEPassPopup .popupHeader {
+		text-transform: none !important;
+		font-family: rta-regular;
+	}
+
+	/*Success Link with UAE Pass popup*/
+
+	#successLinkUAEPassPopup .popupContent {
+		padding: 0px !important;
+	}
+
+	#successLinkUAEPassPopup .successLinkUAEPassHeader {
+		background-color: #e5e6e8;
+		height: 75px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#successLinkUAEPassPopup #successLinkRta-logo {
+		content: url(../../../common/images/shell/splash/rta-logo.svg);
+		position: absolute;
+		top: 24px;
+		bottom: 20px;
+		left: 6%;
+		width: 99px;
+		height: auto;
+	}
+
+	.container-rtl #successLinkUAEPassPopup #successLinkRta-logo {
+		right: 30px;
+		left: auto;
+	}
+
+	#successLinkUAEPassPopup .arrowLine {
+		position: absolute;
+		top: 25px;
+		bottom: 20px;
+		font-size: 27px;
+		left: 46%;
+	}
+
+	#successLinkUAEPassPopup #sucessLinkUAELogoId {
+		content: url(../../../common/images/shell/login/logo.svg);
+		position: absolute;
+		top: 25px;
+		bottom: 20px;
+		left: 61%;
+		right: 0px;
+		width: 100px;
+		height: auto;
+	}
+
+	.container-rtl #successLinkUAEPassPopup #sucessLinkUAELogoId {
+		right: auto;
+		left: 20px;
+	}
+
+	#successLinkUAEPassPopup #successLinkUAEBodyId {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#successLinkUAEPassPopup .checkedIcon {
+		/* position:absolute; */
+		font-size: 45px;
+		color: #00b154;
+		text-align: center;
+		left: 0px;
+		right: 0px;
+		top: 80px;
+	}
+
+	#successLinkUAEPassPopup .checkedIcon {
+		/* position:absolute; */
+		font-size: 45px;
+		color: #00b154;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	#successLinkUAEPassPopup .congratulationText {
+		left: 0px;
+		right: 0px;
+		top: 150px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	.container-rtl #successLinkUAEPassPopup .congratulationText {
+		direction: rtl;
+	}
+
+	#successLinkUAEPassPopup .successContent {
+		text-align: center;
+		font-family: rta-regular;
+		font-size: 14px !important;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+
+	#successLinkUAEPassPopup .successContent i {
+		font-family: rta-regular;
+		font-weight: bold;
+	}
+
+	.container-rtl #successLinkUAEPassPopup .successContent {
+		direction: rtl;
+	}
+
+	#successLinkUAEPassPopup .mdi {
+		display: none !important;
+	}
+
+	#successLinkUAEPassPopup .popupHeader {
+		text-transform: none !important;
+		font-family: rta-regular;
+	}
+
+	/*success login */
+
+	#loginResultUAEPassPopup .loginUAEPASSPopupContent {
+		display: block;
+		margin: 10px;
+	}
+
+	#loginResultUAEPassPopup .loginUAEPASSLogo {
+		position: absolute;
+		content: url(../../../common/images/shell/login/logo.svg);
+		top: 10px;
+		bottom: 20px;
+		left: 30%;
+		right: 0px;
+		width: 100px;
+	}
+
+	#loginResultUAEPassPopup .loginUAEPASSIconChecked {
+		font-size: 50px;
+		color: #00b154;
+		text-align: center;
+		width: 100%;
+		left: 20px;
+		margin-top: 50px;
+		top: 0px;
+	}
+
+	#loginResultUAEPassPopup .errorUAEPASSLogin {
+		color: #ee0000;
+	}
+
+	#loginResultUAEPassPopup .loginUAEPASSCongratulation {
+		font-family: rta-regular;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.container-rtl #loginResultUAEPassPopup .loginUAEPASSCongratulation {
+		direction: rtl;
+	}
+
+	#loginResultUAEPassPopup .loginUAEPASSBody {
+		font-family: rta-regular;
+		font-size: 14px
+	}
+
+	.container-rtl #loginResultUAEPassPopup .loginUAEPASSBody {
+		direction: rtl;
+	}
+
+	#loginResultUAEPassPopup .loginUAEPASSBody i {
+		font-family: rta-regular;
+		font-weight: bold;
+	}
+
+	#loginResultUAEPassPopup .mdi {
+		display: none !important;
+	}
+
+	#loginResultUAEPassPopup .popupHeader {
+		text-transform: none !important;
+		font-family: rta-regular;
+	}
+
+	/*LOgin Fail with  uAE Pass*/
+
+	#loginFailUAEPassPopup .loginUAEPASSPopupContent {
+		display: block;
+		margin: 10px;
+	}
+
+	#loginFailUAEPassPopup .loginUAEPASSLogo {
+		position: absolute;
+		content: url(../../../common/images/shell/login/logo.svg);
+		top: 10px;
+		bottom: 20px;
+		left: 30%;
+		right: 0px;
+		width: 100px;
+	}
+
+	#loginFailUAEPassPopup .loginUAEPASSIconChecked {
+		font-size: 50px;
+		color: #00b154;
+		text-align: center;
+		width: 100%;
+		left: 20px;
+		margin-top: 50px;
+		top: 0px;
+	}
+
+	#loginFailUAEPassPopup .errorUAEPASSLogin {
+		color: #ee0000;
+	}
+
+	#loginFailUAEPassPopup .loginUAEPASSCongratulation {
+		font-family: rta-regular;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.container-rtl #loginFailUAEPassPopup .loginUAEPASSCongratulation {
+		direction: rtl;
+	}
+
+	#loginFailUAEPassPopup .loginUAEPASSBody {
+		font-family: rta-regular;
+		font-size: 14px
+	}
+
+	.container-rtl #loginFailUAEPassPopup .loginUAEPASSBody {
+		direction: rtl;
+	}
+
+	#loginFailUAEPassPopup .loginUAEPASSBody i {
+		font-family: rta-regular;
+		font-weight: bold;
+	}
+
+	#loginFailUAEPassPopup .mdi {
+		display: none !important;
+	}
+
+	#loginFailUAEPassPopup .popupHeader {
+		text-transform: none !important;
+		font-family: rta-regular;
+	}
+
+	/*App UAE PASS is not installed*/
+
+	#UAEPassNotInstalledPopup .loginUAEPASSLogo {
+		position: absolute;
+		content: url(../../../common/images/shell/login/logo.svg);
+		top: 10px;
+		bottom: 20px;
+		left: 30%;
+		right: 0px;
+		width: 100px;
+	}
+
+	#UAEPassNotInstalledPopup .icon-danger {
+		font-size: 50px;
+		color: #ee0000;
+		text-align: center;
+		width: 100%;
+		left: 20px;
+		margin-top: 50px;
+		top: 0px;
+	}
+
+	#UAEPassNotInstalledPopup .appNotInstalledTitle {
+		font-family: rta-regular;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.container-rtl #UAEPassNotInstalledPopup .appNotInstalledTitle {
+		direction: rtl;
+	}
+
+	#UAEPassNotInstalledPopup .appNotInstalledBody {
+		font-family: rta-regular;
+		font-size: 14px
+	}
+
+	.container-rtl #UAEPassNotInstalledPopup .appNotInstalledBody {
+		direction: rtl;
+	}
+
+	#UAEPassNotInstalledPopup .appNotInstalledBody i {
+		font-family: rta-regular;
+		font-weight: bold;
+	}
+
+	#UAEPassNotInstalledPopup .mdi {
+		display: none !important;
+		color: red !important;
+	}
+
+	#UAEPassNotInstalledPopup .popupHeader {
+		text-transform: none !important;
+		font-family: rta-regular;
+	}
+
+	/* cancelled popup*/
+
+	#UAEPassCancelledPopup .loginUAEPASSLogo {
+		position: absolute;
+		content: url(../../../common/images/shell/login/logo.svg);
+		top: 10px;
+		bottom: 20px;
+		left: 30%;
+		right: 0px;
+		width: 100px;
+	}
+
+	#UAEPassCancelledPopup .popupContent .icon-cancel1 {
+		font-size: 50px;
+		color: #ee0000;
+		text-align: center;
+		width: 100%;
+		left: 20px;
+		margin-top: 50px;
+		top: 0px;
+	}
+
+	#UAEPassCancelledPopup .appNotInstalledTitle {
+		font-family: rta-regular;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.container-rtl #UAEPassCancelledPopup .appNotInstalledTitle {
+		direction: rtl;
+	}
+
+	#UAEPassCancelledPopup .appCancelledBody {
+		font-family: rta-regular;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.container-rtl #UAEPassCancelledPopup .appCancelledBody {
+		direction: rtl;
+	}
+
+	#UAEPassCancelledPopup .appCancelledBody i {
+		font-family: rta-regular;
+		font-weight: bold;
+	}
+
+	#UAEPassCancelledPopup .mdi {
+		display: none !important;
+		color: red !important;
+	}
+
+	#UAEPassCancelledPopup .popupHeader {
+		font-family: rta-regular;
+		text-transform: none !important;
+	}
+
+	#LoginPopup #UAEPassButtonId {
+
+		content: url(../../../common/images/shell/login/UAE_PASS_Login_Button_Green_En.png);
+	}
+	.container-rtl #LoginPopup #UAEPassButtonId {
+		content: url(../../../common/images/shell/login/UAE_PASS_Login_Button_Green_Ar.png) !important;
+	}
+
+	#LoginPopup  .cancelBtn{
+	padding-left:22px;
+	}
+	.container-rtl #LoginPopup  .cancelBtn{
+	   padding-right: 32px;
+	}
+	#LoginPopup  .okBtn{
+	padding-left:22px;
+	}
+
+
+
+
+	.container-rtl  #LoginPopup  .popupBtns .okBtn{
+	padding-right:10%;
+	}

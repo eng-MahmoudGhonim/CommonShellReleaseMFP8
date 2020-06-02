@@ -22,8 +22,6 @@
 		087AE803EF4C42D1A84998B2 /* CDVWKWebViewEngine+MFP.m in Sources */ = {isa = PBXBuildFile; fileRef = D402FF4FB7F34BCC850C7BCF /* CDVWKWebViewEngine+MFP.m */; };
 		31496CB4BB0B40A3B44CC6DB /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78641A0D6CD74EFC83AA6EA3 /* Localizations.bundle */; };
 		C36C4E2BF7D64EA0B9380626 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA02688685439FB58B5D68 /* mfpclient.plist */; };
-		2C98147503C74BDB9A36ADC5 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C37FC05011742BBB274F900 /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
-		1A55A4A43E5240E8926695A5 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D66DFB58AF4BD9ADF24B1E /* IBMMobileFirstPlatformFoundation.framework */; };
 		D8D173641FE3447EB15094F4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D03BAAAB50E343919320CA13 /* libz.tbd */; };
 		D98BF1BCE22140709CF47B87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C606460BE0C4BC48155938E /* libc++.tbd */; };
 		49EC0AA839944A97B2BE2F29 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F9D0F766304DFBA27C9180 /* Security.framework */; };
@@ -38,6 +36,20 @@
 		071925DEA69E45E2A09FED81 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F84CBE68324EB9AC0E5819 /* CDVSplashScreen.m */; };
 		0666E86B8F644B9EB32C1486 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AF35FDAB74814CEBAE14FC52 /* CDVViewController+SplashScreen.m */; };
 		DCB9AABC5330448B9E4F2AE4 /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 737DC2FEC454430881DAB0BF /* AppAvailability.m */; };
+		F426DC0C24AE4B82B20BECA6 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C9A9ADE2B422CB3F01196 /* NSString+SSURLEncoding.m */; };
+		1AFA81CA9C29467181B54C58 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D49BC598340FBA53D51B3 /* SocialSharing.m */; };
+		057ED43F47884D4D8E78A9B5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D39CA4285B4782B5828E65 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		612AED047EA74ACA88ECE106 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6F7D8DA9FF4A999C19F44F /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DE9563DFDB3249219D651C12 /* CDVTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E990BD7639143C8BD6B94D9 /* CDVTTS.m */; };
+		3DDD106CC174458FAA35F749 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 91480EA5FA944E68A3D799F3 /* TouchID.m */; };
+		EA5C21D2BCC54D0D9441AF44 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D2F6CDF7FE44C08D32370B /* LocalAuthentication.framework */; };
+		92D4788A58EB424D8CF19329 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE154E65D754F2A9CD48558 /* IBMMobileFirstPlatformFoundation.framework */; };
+		8A5C1EC408D0437A96CE0DB2 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE154E65D754F2A9CD48558 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4EE656AE5CD74586B48F2878 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C081F5C3A14D8C989FD85D /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		FB8C32503AA84C8E9F6BA557 /* CDVSpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E31D340892450091E1CCC8 /* CDVSpeechRecognition.swift */; };
+		E892AA104EEB4D82ABF42C83 /* CDVSpeechRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31809E4AAC45B381100596 /* CDVSpeechRecognitionViewController.swift */; };
+		58CF87DFC24E4F34B723ACED /* NativePageTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C30FDE3A9FC48F0954FE3CE /* NativePageTransitions.m */; };
+		78920221AB524765B201A1E7 /* AppDelegate+nativepagetransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +108,6 @@
 		D402FF4FB7F34BCC850C7BCF /* CDVWKWebViewEngine+MFP.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine+MFP.m"; path = "cordova-plugin-mfp/CDVWKWebViewEngine+MFP.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		78641A0D6CD74EFC83AA6EA3 /* Localizations.bundle */ = {isa = PBXFileReference; name = "Localizations.bundle"; path = "Localizations.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
 		4ECA02688685439FB58B5D68 /* mfpclient.plist */ = {isa = PBXFileReference; name = "mfpclient.plist"; path = "mfpclient.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		5C37FC05011742BBB274F900 /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		15D66DFB58AF4BD9ADF24B1E /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		D03BAAAB50E343919320CA13 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		3C606460BE0C4BC48155938E /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		C6F9D0F766304DFBA27C9180 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
@@ -119,6 +129,25 @@
 		78FE2E8FF3CA466A85AD5E60 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		737DC2FEC454430881DAB0BF /* AppAvailability.m */ = {isa = PBXFileReference; name = "AppAvailability.m"; path = "cordova-plugin-appavailability/AppAvailability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		FB7358E15E9C4642B95BD842 /* AppAvailability.h */ = {isa = PBXFileReference; name = "AppAvailability.h"; path = "cordova-plugin-appavailability/AppAvailability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3A6C9A9ADE2B422CB3F01196 /* NSString+SSURLEncoding.m */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.m"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9D0D49BC598340FBA53D51B3 /* SocialSharing.m */ = {isa = PBXFileReference; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2B89757741B046CAA3133EC0 /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C169F209DFF847C89D1498B4 /* SocialSharing.h */ = {isa = PBXFileReference; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		31D39CA4285B4782B5828E65 /* Social.framework */ = {isa = PBXFileReference; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7B6F7D8DA9FF4A999C19F44F /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1E990BD7639143C8BD6B94D9 /* CDVTTS.m */ = {isa = PBXFileReference; name = "CDVTTS.m"; path = "cordova-plugin-tts/CDVTTS.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E4A6AC35821A413D85C4B6EB /* CDVTTS.h */ = {isa = PBXFileReference; name = "CDVTTS.h"; path = "cordova-plugin-tts/CDVTTS.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		91480EA5FA944E68A3D799F3 /* TouchID.m */ = {isa = PBXFileReference; name = "TouchID.m"; path = "cordova-plugin-touch-id/TouchID.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4DAE35589F0145219AF6979C /* TouchID.h */ = {isa = PBXFileReference; name = "TouchID.h"; path = "cordova-plugin-touch-id/TouchID.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		24D2F6CDF7FE44C08D32370B /* LocalAuthentication.framework */ = {isa = PBXFileReference; name = "LocalAuthentication.framework"; path = "System/Library/Frameworks/LocalAuthentication.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CEE154E65D754F2A9CD48558 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		69C081F5C3A14D8C989FD85D /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		76E31D340892450091E1CCC8 /* CDVSpeechRecognition.swift */ = {isa = PBXFileReference; name = "CDVSpeechRecognition.swift"; path = "cordova-plugin-speech-recognition-feat-siri/CDVSpeechRecognition.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		0A31809E4AAC45B381100596 /* CDVSpeechRecognitionViewController.swift */ = {isa = PBXFileReference; name = "CDVSpeechRecognitionViewController.swift"; path = "cordova-plugin-speech-recognition-feat-siri/CDVSpeechRecognitionViewController.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		7C30FDE3A9FC48F0954FE3CE /* NativePageTransitions.m */ = {isa = PBXFileReference; name = "NativePageTransitions.m"; path = "com.telerik.plugins.nativepagetransitions/NativePageTransitions.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */ = {isa = PBXFileReference; name = "AppDelegate+nativepagetransitions.m"; path = "com.telerik.plugins.nativepagetransitions/AppDelegate+nativepagetransitions.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BBA6EE4E61314407A103DE7C /* NativePageTransitions.h */ = {isa = PBXFileReference; name = "NativePageTransitions.h"; path = "com.telerik.plugins.nativepagetransitions/NativePageTransitions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1F89A7748BAD4395B40B6D6D /* AppDelegate+nativepagetransitions.h */ = {isa = PBXFileReference; name = "AppDelegate+nativepagetransitions.h"; path = "com.telerik.plugins.nativepagetransitions/AppDelegate+nativepagetransitions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +157,6 @@
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				735F0BD7930C41D78D557B0C /* AudioToolbox.framework in Frameworks */,
-				2C98147503C74BDB9A36ADC5 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
-				1A55A4A43E5240E8926695A5 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				D8D173641FE3447EB15094F4 /* libz.tbd in Frameworks */,
 				D98BF1BCE22140709CF47B87 /* libc++.tbd in Frameworks */,
 				49EC0AA839944A97B2BE2F29 /* Security.framework in Frameworks */,
@@ -137,6 +164,11 @@
 				7527607F1B93419EBB0A9FEF /* SystemConfiguration.framework in Frameworks */,
 				CB90C3F370044C20A3CCB89C /* IBMMobileFirstPlatformFoundationPush.framework in Frameworks */,
 				C4A3D336B9E84F4B86965193 /* CoreTelephony.framework in Frameworks */,
+				057ED43F47884D4D8E78A9B5 /* Social.framework in Frameworks */,
+				612AED047EA74ACA88ECE106 /* MessageUI.framework in Frameworks */,
+				EA5C21D2BCC54D0D9441AF44 /* LocalAuthentication.framework in Frameworks */,
+				92D4788A58EB424D8CF19329 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				4EE656AE5CD74586B48F2878 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				C26D820404F44730B0067CD6 /* AudioToolbox.framework */,
-				5C37FC05011742BBB274F900 /* IBMMobileFirstPlatformFoundationHybrid.framework */,
-				15D66DFB58AF4BD9ADF24B1E /* IBMMobileFirstPlatformFoundation.framework */,
 				D03BAAAB50E343919320CA13 /* libz.tbd */,
 				3C606460BE0C4BC48155938E /* libc++.tbd */,
 				C6F9D0F766304DFBA27C9180 /* Security.framework */,
@@ -220,6 +250,11 @@
 				BFC6DB8480F04478B08AA971 /* SystemConfiguration.framework */,
 				CDF0DCF36ABE408E8883D6A4 /* IBMMobileFirstPlatformFoundationPush.framework */,
 				B05BBD06EF9D44FDAC8D5868 /* CoreTelephony.framework */,
+				31D39CA4285B4782B5828E65 /* Social.framework */,
+				7B6F7D8DA9FF4A999C19F44F /* MessageUI.framework */,
+				24D2F6CDF7FE44C08D32370B /* LocalAuthentication.framework */,
+				CEE154E65D754F2A9CD48558 /* IBMMobileFirstPlatformFoundation.framework */,
+				69C081F5C3A14D8C989FD85D /* IBMMobileFirstPlatformFoundationHybrid.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +302,20 @@
 				78FE2E8FF3CA466A85AD5E60 /* CDVViewController+SplashScreen.h */,
 				737DC2FEC454430881DAB0BF /* AppAvailability.m */,
 				FB7358E15E9C4642B95BD842 /* AppAvailability.h */,
+				3A6C9A9ADE2B422CB3F01196 /* NSString+SSURLEncoding.m */,
+				9D0D49BC598340FBA53D51B3 /* SocialSharing.m */,
+				2B89757741B046CAA3133EC0 /* NSString+SSURLEncoding.h */,
+				C169F209DFF847C89D1498B4 /* SocialSharing.h */,
+				1E990BD7639143C8BD6B94D9 /* CDVTTS.m */,
+				E4A6AC35821A413D85C4B6EB /* CDVTTS.h */,
+				91480EA5FA944E68A3D799F3 /* TouchID.m */,
+				4DAE35589F0145219AF6979C /* TouchID.h */,
+				76E31D340892450091E1CCC8 /* CDVSpeechRecognition.swift */,
+				0A31809E4AAC45B381100596 /* CDVSpeechRecognitionViewController.swift */,
+				7C30FDE3A9FC48F0954FE3CE /* NativePageTransitions.m */,
+				9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */,
+				BBA6EE4E61314407A103DE7C /* NativePageTransitions.h */,
+				1F89A7748BAD4395B40B6D6D /* AppDelegate+nativepagetransitions.h */,
 			);
 			name = Plugins;
 			path = "RTA_Common_Shell/Plugins";
@@ -292,6 +341,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				538345F1AB3C4C09B6CBE502 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -405,6 +455,14 @@
 				071925DEA69E45E2A09FED81 /* CDVSplashScreen.m in Sources */,
 				0666E86B8F644B9EB32C1486 /* CDVViewController+SplashScreen.m in Sources */,
 				DCB9AABC5330448B9E4F2AE4 /* AppAvailability.m in Sources */,
+				F426DC0C24AE4B82B20BECA6 /* NSString+SSURLEncoding.m in Sources */,
+				1AFA81CA9C29467181B54C58 /* SocialSharing.m in Sources */,
+				DE9563DFDB3249219D651C12 /* CDVTTS.m in Sources */,
+				3DDD106CC174458FAA35F749 /* TouchID.m in Sources */,
+				FB8C32503AA84C8E9F6BA557 /* CDVSpeechRecognition.swift in Sources */,
+				E892AA104EEB4D82ABF42C83 /* CDVSpeechRecognitionViewController.swift in Sources */,
+				58CF87DFC24E4F34B723ACED /* NativePageTransitions.m in Sources */,
+				78920221AB524765B201A1E7 /* AppDelegate+nativepagetransitions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,9 +501,8 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
-					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
 					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp-push\"",
+					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
 				);
 			};
 			name = Debug;
@@ -472,9 +529,8 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
-					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
 					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp-push\"",
+					"\"RTA_Common_Shell/Plugins/cordova-plugin-mfp\"",
 				);
 			};
 			name = Release;
@@ -585,6 +641,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		538345F1AB3C4C09B6CBE502 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C1EC408D0437A96CE0DB2 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Embed Frameworks";
+			dstPath = "";
+			dstSubfolderSpec = 10;
+		};
+/* End PBXCopyFilesBuildPhase section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

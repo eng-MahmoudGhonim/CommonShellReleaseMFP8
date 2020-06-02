@@ -1,0 +1,383 @@
+<div id="dashboardPage" data-role="page" data-class="com/views/shell/DashboardPageView">
+   <div data-role="content">
+      <div id="templates" style="display: none">
+         <div class="collapseHead">
+            <i class='serviceIcon'></i>
+            <div class="serviceDescCont">
+               <div class="serviceTitle"></div>
+               <span class="count"></span>
+            </div>
+            <div class="subCats"></div>
+            <i class="mdi mdi-chevron-down"></i>
+         </div>
+         <div class="collapseBody"></div>
+         <div class="activeTicket">
+            <div class="remainingText">%shell.dashboard.parkingtile.timeremaining%</div>
+            <div class="timeCont">
+               <span class="hours">15h</span> <span class="colun">:</span> <span class="minutes">56m</span>
+            </div>
+            <div class="platCont">
+               <!-- <img  src="../../common/images/shell/emirates-plate-logos/castle-black.png" class="plateCode" /> -->
+               <div class="plateCode"></div>
+               <img class="plateSource" />
+               <i  class="icon"></i>
+               <i  class="icon motorcycleIcon"></i>
+               <div class="plateNo"></div>
+            </div>
+            <div class="zoneCont">312 A</div>
+            <div class="extendBtn btn waves-effect">%shell.dashboard.parkingtile.extend%</div>
+         </div>
+         <div class="salikDispute">
+            <div class="disputeNumberText">%shell.dashboard.saliktile.disputenumber%</div>
+            <div class="disputeNumber">12345566</div>
+            <div class="disputeDateText">
+               %shell.dashboard.saliktile.raisedon% <span id="disputeDate">21/10/2017</span>
+            </div>
+            <div class="viewDisputeBtn btn waves-effect">%shell.dashboard.saliktile.view%</div>
+         </div>
+         <div class="salikViolation">
+            <div class="salikViolationNumberText">%shell.dashboard.saliktile.violationNumber%</div>
+            <div class="salikViolationNumber">12345566</div>
+            <div class="platCont">
+              <!--  <img src="../../common/images/shell/emirates-plate-logos/castle-black.png" class="plateCode" /> -->
+               <div class="plateCode"></div>
+               <img class="plateSource" />
+                <i class="icon"></i>
+               <i class="icon motorcycleIcon"></i>
+               <div class="plateNo"></div>
+            </div>
+            <div class="AmountCont">
+               <span>%shell.dashboard.general.AED%</span><span
+                  id="salikViolationAmount">%shell.dashboard.general.AED%</span>
+            </div>
+            <div class="viewViolationBtn btn waves-effect">%shell.dashboard.saliktile.dispute%</div>
+         </div>
+         <div class="serviceCont">
+            <span class="serviceIcon"></span>
+            <div class="favServiceTitle"></div>
+            <div class="favServicesCont"></div>
+         </div>
+         <div class="favService">
+            <div class="favServiceName"></div>
+            <span class="icon-service-right-arrow"></span>
+         </div>
+         <div id="vehicleTileTemplate">
+            <img class="carLogo" />
+            <div class="carName"></div>
+
+
+
+
+
+            <div class="platCont">
+               <div class="plateCode"></div>
+                <img class="plateSource" />
+
+               <div class="plateNo"></div>
+               <i class="icon"></i>
+               <i class="icon motorcycleIcon"></i>
+            </div>
+            <div class="expiryCont">
+               <span>%shell.dashboard.vehicletile.expireon%</span>
+               <div class="expiryDate"></div>
+            </div>
+         </div>
+         <div id="driverTileLicenseTemplate">
+
+            <div class="driverlicenses">
+               <span>%shell.dashboard.licensesItem.driverlicense%</span> <span id="driverlicNumber">52923</span>
+            </div>
+            <div class="blackpoints">
+               <span id="blackPoints">3</span><span>%shell.dashboard.licensesItem.blackpoints%</span>
+            </div>
+            <div class="expirydate">
+               <span>%shell.dashboard.licensesItem.expireon%</span><span id="expireDate">12 مارس 2017</span>
+            </div>
+
+         </div>
+         <div id="driverTilePermitTemplate">
+            <div class="driverlicenses">
+               <span>%shell.dashboard.drivertile.LearningPermitNo%</span> <span id="driverlicNumber">52923</span>
+            </div>
+            <div class="permitClass">
+               <span id="permitClass"></span>
+            </div>
+            <div class="expirydate">
+               <span>%shell.dashboard.licensesItem.expireon%</span><span id="expireDate">12 مارس 2017</span>
+            </div>
+         </div>
+         <div class="item" id="licensesItem">
+            <div class="guestCont">
+               <div class="greenImg">
+                  <i class="icon icon-service-license-blk"></i>
+               </div>
+               <div class="greeting">
+                  <span>%shell.dashboard.greetings.loginforlicense%</span>
+               </div>
+               <div class="loginButton btn waves-effect">%shell.dashboard.greetings.loginregister%</div>
+            </div>
+            <div class="loginCont" style="display: none">
+               <div class="greenImg">
+                  <i class="icon icon-service-license-blk"></i>
+               </div>
+               <div class="driverlicenses">
+                  <span>%shell.dashboard.licensesItem.driverlicense%</span> <span id="driverlicNumber">52923</span>
+               </div>
+               <div class="blackpoints">
+                  <span id="blackPoints">3</span><span>%shell.dashboard.licensesItem.blackpoints%</span>
+               </div>
+               <div class="expirydate">
+                  <span>%shell.dashboard.licensesItem.expireon%</span><span id="expireDate">12 مارس 2017</span>
+               </div>
+            </div>
+            <div class="loginwitoutTFNCont" style="display: none">
+               <div class="greenImg">
+                  <i class="icon icon-service-license-blk"></i>
+               </div>
+               <div class="TFNTEXT">
+                  <span>%shell.dashboard.licensesItem.linkyourlicenase%</span>
+               </div>
+               <div id="linkLicenseButton" class="linkLicenseButton btn waves-effect">
+                  %shell.dashboard.licensesItem.linknow%</div>
+            </div>
+            <div class="loginwitoutLicenseCont" style="display: none">
+               <div class="greenImg">
+                  <i class="icon icon-service-license-blk"></i>
+               </div>
+               <div class="NoLicenceTEXT">
+                  <span>%shell.dashboard.licensesItem.nothavelicense%</span>
+               </div>
+            </div>
+         </div>
+         <div class="item" id="greenpointItem">
+            <div class="greenImg">
+               <i class="icon icon-green-points"></i>
+            </div>
+            <div id="gpLogintext" class="greeting guestItem">
+               <span>%shell.dashboard.greetings.loginforgreenpoints%</span>
+            </div>
+            <div id="gpLoginButton" class="loginButton btn waves-effect guestItem">
+               %shell.dashboard.greetings.loginregister%</div>
+            <div id="greenpointsCont" class="greenpointsCont loginItem" style="display: none">
+               <span id="greenPointsNumbers">0</span> <span>%shell.dashboard.greenpointItem.greenpoints%</span>
+            </div>
+            <div id="dashboardRanker" class="loginItem" style="display: none">
+               <i id="dashboardRankerFill"></i>
+            </div>
+         </div>
+         <div class="item" id="finesItem">
+            <div class="guestCont">
+               <div class="greenImg">
+                  <i class="icon icon-right-of-way"></i>
+               </div>
+               <div class="greeting">
+                  <span>%shell.dashboard.greetings.loginforfines%</span>
+               </div>
+               <div class="loginButton btn waves-effect">%shell.dashboard.coporate.login%</div>
+            </div>
+            <div class="loginCont" style="display: none">
+               <div class="greenImg">
+                  <i class="icon icon-right-of-way"></i>
+               </div>
+               <div class="tileLoader" style="display: none; background: rgb(252, 74, 79);"></div>
+               <div class="driverlicenses">
+                  <span>%shell.dashboard.greetings.finesAmount%</span> <span
+                     id="finesAmount">0</span><span>%shell.dashboard.general.AED%</span>
+               </div>
+               <div class="blackpoints">
+                  <span id="permitsCount">0</span><span>%shell.dashboard.greetings.issuedPermits%</span>
+               </div>
+               <div class="expirydate">
+                  <span>%shell.dashboard.licensesItem.expireon%</span><span id="expireDate">-</span>
+               </div>
+            </div>
+            <div class="loginwitoutfines" style="display: none">
+               <div class="greenImg">
+                  <i class="icon icon-right-of-way"></i>
+               </div>
+               <div class="greeting">
+                  <span>%shell.dashboard.finetile.congrats%
+                     %shell.dashboard.finetile.nofine%</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="boardSlider" class="homeContent">
+         <div class="sliderHead">
+            <div class="sliderBullet"></div>
+            <div class="sliderBullet"></div>
+            <div class="sliderBullet"></div>
+         </div>
+         <div class="sliderPages">
+            <div class="slidePage" id="favServicesCont">
+               <div class="whiteBg">
+                  <div class="searchCont">
+                     <i class="icon icon-menu-search"></i> <input data-role="none" type="search"
+                        placeholder="%shell.dashboard.search.searchforservices%" id="favSearchInput" />
+                  </div>
+               </div>
+               <div class="favHint">
+                  <span class="icon-info-circle-filled"></span> <span class="favHintContent" id="favhintCont"></span>
+               </div>
+               <div id="favScroller"></div>
+               <div id="noFavorites" style="display: none">
+                  <div class="desc">%shell.favorites.noFavs%</div>
+                  <div class=desc>%shell.favorites.gotoServices%</div>
+                  <div id="goServices" class="servicesBtn bgColorCS">
+                     %shell.favorites.servicesBtn%
+                  </div>
+               </div>
+            </div>
+            <div id="refreshInfo">
+               <span id="reloadIcon" class="icon-reload"></span>
+               <div class="pullDownTip">%shell.dashboard.pulltorefresh%</div>
+               <div class="refreshedTip">%shell.dashboard.refreshed%</div>
+               <div class="lastRefreshTip">
+                  %shell.dashboard.lastupdated% <i id='lastpulled'>17/6/2017
+                     2:33pm</i>
+               </div>
+               <div class="loadingTip">%shell.dashboard.loadinglatestdata%</div>
+            </div>
+            <svg id="pullToRefreshBg" viewBox="0 0 375 667" preserveAspectRatio="xMaxYMin slice">
+               <path id="pullToRefreshPath" d="M0,0 C125,0 250,0 375,0 S375,1 375,0 L375,1 0,1z" />
+            </svg>
+            <div class="slidePage" id="dashboardCont">
+
+               <div id="DashboardNotification" class="NotificationMess" style="display: none">
+                  <i class="icon "></i> <span class="NotificationTitle"></span> <span class="NotificationBody"></span>
+                  <div id="notifDateTime" style="display: none">
+                     <i class="smallIcon"></i> <span class="NotificationTime"></span>
+                  </div>
+                  <i id="CancelDashNotification" class="icon-cancel"></i>
+               </div>
+
+
+
+               <div id="DashboardBanner" class="BannerMess" style="display:none">
+
+                  <i class="icon "></i>
+                  <span class="BannerTitle"></span>
+                  <span class="bannerBody"></span>
+
+                  <div id="BannerDateTime">
+                  <i class="icon-calendar"></i>
+                  <i id="BannerEventDate"></i> </div>
+                  <i id="BannerCancel" class="icon-cancel"></i>
+                  <div class="BannerAction">
+                    <div class="btn Bannerbtn" id="BannerTwitter">
+                     <i  class="icon-twitter BannerIcon"></i>
+                     %shell.dashboard.FollowUsTiwtter%
+                    </div>
+                    <div class="btn Bannerbtn"   id="BannerExternal">
+                     <i  class="icon-external BannerIcon">
+                     %shell.dashboard.LearnMore%
+                     </i>
+                    </div>
+                  </div>
+               </div>
+
+
+
+               <div class="sliderWrabber" id="welcome">
+                  <div class="scroller">
+                     <div class="item" id="welcomeItem">
+                        <img class="bg" src="../../../common/images/shell/welcome-tile-bg.png" />
+                        <div class="blackCover"></div>
+                        <div class="userImg">
+                           <i id="dummyprofileImg" class="icon icon-user"></i> <img id="userprofileImgDash"
+                              style="display: none"></img>
+                        </div>
+                        <div class="greeting">
+                           <span></span>
+                        </div>
+                        <div class="greeting welUsername" style="display: none">
+                           <span id="welUsername"></span>
+                        </div>
+                        <div id="welLoginButton" class="loginButton btn waves-effect">
+                           %shell.dashboard.greetings.loginregister%</div>
+
+                        <div id="driverScore" class="scoreCont" style="display: none"></div>
+
+                        <div id="loyaltyId" class="scoreCont" style="display: none">
+                           <div class="loyaltyLoader" style="background: rgb(23, 27, 143); display: none;"></div>
+                           <span class="loyaltyIcon icon-nol-plus"> </span>
+                           <span class="loyaltyBalance" id="loyaltyBalanceId"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div style="display: none;" id="vipTileTitle" class="vipTileTitle vipStuff"
+                  style="-webkit-transform: translate3d(120%, 0, 0)">
+                  <i id="vipTilesTitleDash">%shell.Dashboard.VIPServices%</i>
+               </div>
+               <div style="display: none;" class="serviceTileCont dashboardTile dashboardTilechild0 vipStuff"
+                  id="vipEnquiryTile">
+                  <div class="tileDataCont" style="color: #FFB700;">
+                     <div class="tileLoader" style="background: rgb(1, 176, 185);"></div>
+                     <div class="guestTemp tempElCont" style="">
+                        <div class="loginInfo">%shell.Dashboard.VIPTileBody%</div>
+                        <div class="vipEnquireBtn btn waves-effect">%shell.Dashboard.VIPEnquiry%</div>
+                     </div>
+                  </div>
+                  <div class="serviceTitle">%shell.Dashboard.VIPTileTitle%</div>
+                  <div class="serviceLogo" style="background: #FFB700;">
+                     <div class="logo">
+                        <i class="icon icon-vip"></i>
+                     </div>
+                  </div>
+               </div>
+               <div id="tilesTitle" class="tileTitle" style="-webkit-transform: translate3d(120%, 0, 0)">
+                  <i id="tilesTitleDash"></i> <i class="icon icon-personalise"></i>
+               </div>
+               <div id="serviceTiles"></div>
+               <div class="servicesSearchTile waves-effect dashboardTile outTransform">
+                  <div class="servicesSearchTileIcon">
+                     <span><i class="icon icon-search"></i></span>
+                  </div>
+                  <div class="servicesSearchTileContent">
+                     <span>%shell.dashboard.servicesSearchTile.wehave%</span> <span><i id="serviceCount"></i>
+                        %shell.dashboard.servicesSearchTile.servicesavailable%</span>
+                     <span><i>%shell.dashboard.servicesSearchTile.findaservicenow%</i><i
+                           class="icon icon-arrow-right"></i></span>
+                  </div>
+               </div>
+               <div id="quickCalls" class="dashboardTile outTransform">
+                  <div id="PoliceAmbulance" class="waves-effect">
+                     <span><i class="icon icon-police"></i></span> <span
+                        class="quickCallsTexts">%shell.dashboard.quickCalls.policeambulance%</span>
+                     <span class="quickCallsNumbers">999</span> <span><i class="icon icon-call"></i></span>
+                  </div>
+                  <div id="FireDepartement" class="waves-effect">
+                     <span><i class="icon icon-fireman"></i></span> <span
+                        class="quickCallsTexts">%shell.dashboard.quickCalls.firedepartment%</span>
+                     <span class="quickCallsNumbers">997</span> <span><i class="icon icon-call"></i></span>
+                  </div>
+                  <div id="RoadServices" class="waves-effect">
+                     <span><i class="icon  icon-car_service"></i></span> <span
+                        class="quickCallsTexts">%shell.dashboard.quickCalls.roadservices%</span>
+                     <span class="quickCallsNumbers">80088088</span> <span><i class="icon icon-call"></i></span>
+                  </div>
+               </div>
+               <div id="editDash" class="dashboardTile outTransform">
+                  <i id="editDashbtn" class="icon icon-personalise waves-effect"></i>
+                  <span>%shell.dashboard.edit%</span>
+               </div>
+            </div>
+            <div class="slidePage" id="servicesCont">
+
+               <div class="searchCont">
+                  <i class="icon icon-menu-search"></i> <input data-role="none" type="search"
+                     placeholder="%shell.dashboard.search.searchforservices%" id="serviceSearchInput" />
+               </div>
+               <div class="servicesCount"></div>
+               <div class="servicesScroller">
+                  <div class="collapseCont"></div>
+               </div>
+               <div id="noServiceResult">%shell.dashboard.servicenotfount%</div>
+            </div>
+
+
+         </div>
+      </div>
+   </div>
+</div>

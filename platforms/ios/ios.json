@@ -107,6 +107,26 @@
             {
               "xml": "<feature name=\"AppAvailability\"><param name=\"ios-package\" value=\"AppAvailability\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"TTS\"><param name=\"ios-package\" value=\"CDVTTS\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"TouchID\"><param name=\"ios-package\" value=\"TouchID\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SpeechRecognitionFeatSiri\"><param name=\"ios-package\" value=\"SpeechRecognitionFeatSiri\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NativePageTransitions\"><param name=\"ios-package\" value=\"NativePageTransitions\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -116,6 +136,36 @@
           "UIBackgroundModes": [
             {
               "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
+          ],
+          "NSPhotoLibraryAddUsageDescription": [
+            {
+              "xml": "<string>This app requires photo library access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string>This app requires photo library access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSFaceIDUsageDescription": [
+            {
+              "xml": "<string> </string>",
+              "count": 1
+            }
+          ],
+          "NSSpeechRecognitionUsageDescription": [
+            {
+              "xml": "<string>Speech recognition permission is required</string>",
+              "count": 1
+            }
+          ],
+          "NSMicrophoneUsageDescription": [
+            {
+              "xml": "<string>Microphone permission is required for speech recognition</string>",
               "count": 1
             }
           ]
@@ -169,6 +219,29 @@
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
     "cordova-plugin-appavailability": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-touch-id": {
+      "FACEID_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-speech-recognition-feat-siri": {
+      "SPEECH_USAGE_DESCRIPTION": "Speech recognition permission is required",
+      "MICROPHONE_USAGE_DESCRIPTION": "Microphone permission is required for speech recognition",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "com.telerik.plugins.nativepagetransitions": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
@@ -252,6 +325,52 @@
       "clobbers": [
         "appAvailability"
       ]
+    },
+    {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-x-socialsharing.SocialSharing",
+      "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+      "pluginId": "cordova-plugin-x-socialsharing",
+      "clobbers": [
+        "window.plugins.socialsharing"
+      ]
+    },
+    {
+      "id": "cordova-plugin-tts.tts",
+      "file": "plugins/cordova-plugin-tts/www/tts.js",
+      "pluginId": "cordova-plugin-tts",
+      "clobbers": [
+        "TTS"
+      ]
+    },
+    {
+      "id": "cordova-plugin-touch-id.TouchID",
+      "file": "plugins/cordova-plugin-touch-id/www/TouchID.js",
+      "pluginId": "cordova-plugin-touch-id",
+      "clobbers": [
+        "window.plugins.touchid"
+      ]
+    },
+    {
+      "id": "cordova-plugin-speech-recognition-feat-siri.SpeechRecognitionFeatSiri",
+      "file": "plugins/cordova-plugin-speech-recognition-feat-siri/www/SpeechRecognitionFeatSiri.js",
+      "pluginId": "cordova-plugin-speech-recognition-feat-siri",
+      "clobbers": [
+        "SpeechRecognitionFeatSiri"
+      ]
+    },
+    {
+      "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+      "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+      "pluginId": "com.telerik.plugins.nativepagetransitions",
+      "clobbers": [
+        "window.plugins.nativepagetransitions"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -263,6 +382,12 @@
     "cordova-plugin-mfp-push": "8.0.2020052609",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-plugin-appavailability": "0.4.2"
+    "cordova-plugin-appavailability": "0.4.2",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "5.6.8",
+    "cordova-plugin-tts": "0.2.3",
+    "cordova-plugin-touch-id": "3.3.1",
+    "cordova-plugin-speech-recognition-feat-siri": "3.0.0",
+    "com.telerik.plugins.nativepagetransitions": "0.6.5"
   }
 }

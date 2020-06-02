@@ -1,0 +1,163 @@
+#MPayDetailsPage .mPayContent {
+	width: 90%;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	height: 170px;
+	background: #fff;
+	border-radius: 3px;
+	/* margin-top: 20px; */
+	position: relative;
+	top: 70px;
+	right: 0;
+	left: 0;
+}
+
+#MPayDetailsPage .mPayContent .mPayLogo {
+	content: url(../../common/images/shell/mPay/mpay.png);
+	width: 70%;
+	height: 50px;
+	margin: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#MPayDetailsPage .mPayContent .mPayDescription {
+	display: block;
+	white-space: normal;
+	text-align: center;
+	height: 50px;
+	color: #53565a;
+	font-size: 14px;
+	width: 80%;
+	margin: auto;
+}
+
+#MPayDetailsPage .mPayContent .mPayAmountDetails {
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid #e5e6e8;
+	padding: 0 10px 0 10px;
+}
+
+#MPayDetailsPage .mPayContent .mPayAmountTitle {
+	display: inline-block;
+	width: 69%;
+	font-family: rta-bold !important;
+}
+
+#MPayDetailsPage .mPayContent .mPayAmountDetails i {
+	direction: ltr;
+	display: inline-block;
+}
+
+#MPayDetailsPage .mPayContent .mPayCurrency {
+	color: #ee0000;
+	font-family: rta-bold !important;
+	display: inline-block;
+}
+
+#MPayDetailsPage .mPayContent .mPayAmount {
+	color: #ee0000;
+	font-family: rta-bold !important;
+	font-size: 25px;
+	display: inline-block;
+}
+
+#MPayDetailsPage .shell-button {
+	font-size: 14px;
+	font-family: rta-bold;
+}
+
+#MPayDetailsPage .shell-button.disabled {
+	background: #aaa;
+	opacity: 0.5;
+	color: #333;
+	pointer-events: none;
+	font-weight: bold;
+}
+
+#MPayDetailsPage #RegistermPayButton {
+	color: #ee0000;
+	background: #fff;
+	font-family: rta-bold;
+}
+
+#MPayDetailsPage .stepperComponent .pagesCont {
+	top: 90px;
+	position: relative;
+	/* transform: translate3d(0px, 0px, 0px) !important; */
+}
+
+#MPayDetailsPage #ResendOTPButton {
+	color: #ee0000;
+	background: #fff;
+	font-family: rta-bold;
+}
+
+#MPayDetailsPage .stepperComponent .pagesCont .page {
+	padding: 10px;
+}
+
+/* User not found popup */
+#mpayUserNotFoundPopup .mpayPopupContent {
+	font-size: 15px;
+	
+	
+	margin-left: 25px;
+	margin-right: 25px;
+	display:block;
+}
+
+#mpayUserNotFoundPopup .mpayPopupContent .usercontent1 {
+	font-family: rta-regular;
+display:block;
+}
+#mpayUserNotFoundPopup .mpayPopupContent .usercontent2 {
+	font-family: rta-regular;
+display:block;
+}
+
+#mpayUserNotFoundPopup .mpayPopupContent .usercontent1 i {
+	font-family: rta-regular;
+	font-weight: bold;
+}
+
+.container-rtl #mpayUserNotFoundPopup .mpayPopupContent {
+	direction: rtl;
+}
+
+
+/* mpay Wallet  popup */
+#mpayWalletBlockedPopup .mpayWalletPopupContent {
+	font-size: 15px;
+	
+	margin-bottom: 21px;
+	margin-left: 25px;
+	margin-right: 25px;
+	display:block;
+	font-family: rta-regular;
+	}
+
+#mpayWalletBlockedPopup .callRTA{
+	margin-top: 15px;
+   margin-left: 25px;
+    margin-right: 25px;	
+	font-size: 15px;
+	font-family: rta-regular;
+	display:block;
+	
+}
+
+#mpayWalletBlockedPopup .mpayWalletPopupContent  i {
+	font-family: rta-regular;
+	font-weight: bold;
+}
+
+.container-rtl #mpayWalletBlockedPopup .mpayWalletPopupContent {
+	direction: rtl;
+}
+.container-rtl #mpayWalletBlockedPopup .callRTA{
+	direction: rtl;
+}

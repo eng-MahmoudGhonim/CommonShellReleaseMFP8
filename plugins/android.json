@@ -21,6 +21,22 @@
     },
     "cordova-plugin-appavailability": {
       "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-touch-id": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-speech-recognition-feat-siri": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "com.telerik.plugins.nativepagetransitions": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
     }
   },
   "dependent_plugins": {
@@ -37,6 +53,9 @@
       "PACKAGE_NAME": "com.RTA_Common_Shell"
     },
     "cordova-plugin-mfp": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "es6-promise-plugin": {
       "PACKAGE_NAME": "com.RTA_Common_Shell"
     }
   }

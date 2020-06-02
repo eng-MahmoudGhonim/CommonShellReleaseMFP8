@@ -1,0 +1,156 @@
+
+/* Stylesheet content from css/shell/addNewNumberPopup.css in folder common */
+#AddNewNumberPopup * {
+	font-family: rta-regular;
+	font-weight: normal !important;
+}
+
+#AddNewNumberPopup .label-type {
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.container-rtl #AddNewNumberPopup .label-type {
+ 	text-align: right;
+ }
+
+#AddNewNumberPopup .newmobileTypes {
+	border: 1px solid #ccc;
+}
+
+#AddNewNumberPopup .fieldRow.mobileRow {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 88px;
+}
+
+#AddNewNumberPopup .popupHeader {
+	text-transform: none !important;
+	text-align: left !important;
+	padding-left: 20px !important;
+}
+.container-rtl #AddNewNumberPopup .popupHeader {
+	text-transform: none !important;
+	text-align: right !important;
+	padding-right: 20px !important;
+}
+#AddNewNumberPopup .popupContent .fieldRow .shell-label {
+	text-align: left;
+}
+.container-rtl #AddNewNumberPopup .popupContent .fieldRow .shell-label {
+	text-align: right;
+	right: 0;
+}
+
+#AddNewNumberPopup .popupContent .fieldRow input {
+	/* position: absolute; */
+	border: 1px solid #ccc;
+	right: 0;
+	left: 80px;
+	width: calc(100% - 80px);
+	margin-top: -12px;
+}
+
+#AddNewNumberPopup .popupContent .fieldRow .countryCode {
+	border: 1px solid #ccc;
+	width: 76px;
+	left: 0px !important;
+	position: absolute;
+	margin-top: -12px;
+	height: 36px;
+}
+.container-rtl #AddNewNumberPopup .popupContent .fieldRow .countryCode {
+	
+}
+
+#AddNewNumberPopup  .popupBtns .cancelBtn {
+	display: none;
+}
+
+#AddNewNumberPopup  .popupBtns .okBtn {
+	left: 0px !important;
+	right: 0px!important;
+	margin-left: 20px!important;
+}
+
+#AddNewNumberPopup  .setDefaultNumber {
+	position: relative;
+	text-align: left;
+	margin-top: -22px;
+	height: 34px;
+	overflow: hidden;
+}
+ .container-rtl #AddNewNumberPopup  .setDefaultNumber {
+	
+	height:50px
+	
+}
+
+#AddNewNumberPopup .fieldRow.mobileRow .addNewSalikNumberCont {
+	position: relative;
+	height: 36px;
+}
+
+#AddNewNumberPopup .setDefaultLabel {
+	display: block;
+}
+
+#AddNewNumberPopup #setDefault-switch {
+	position: absolute;
+	top: 0;
+	height: auto;
+	/* margin-top: 0; */
+}
+
+
+.setDefaultNumber .shell-label {
+	position: absolute;
+	/* height: 40px; */
+	width: auto;
+	line-height: 40px;
+	margin: 0;
+}
+
+.container-rtl #AddNewNumberPopup #setDefault-switch{left:0;line-height: 40px;right: auto;/* margin-top: 0; */}
+.container-rtl #AddNewNumberPopup .popupContent .fieldRow .countryCode select {
+    direction: ltr;
+}
+#AddNewNumberPopup .disabled {
+	/* background: #ccc; */
+	/* pointer-events: none; */
+	/* color: #53565a; */
+	/* opacity:0.3; */
+	/* color:#fff; */
+	background: #ccc;
+	pointer-events: none;
+}
+ #AddNewNumberPopup .popupContent .fieldRow .countriesCodeList {
+	position: absolute; 
+
+	border: 1px solid #ccc;
+	right: 0;
+	left: 80px;
+	width: calc(100% - 220px);
+	margin-bottom:-40px
+} 
+
+#AddNewNumberPopup .popupContent #addNewSalikNumberInput .shell-label {
+	
+   margin-bottom:15px;
+}
+
+.container-rtl #AddNewNumberPopup .shell-input-cont .icon-input-error{
+	right:110px;
+}
+.container-rtl #AddNewNumberPopup .shell-input-cont .errorMessage{
+	text-align:right;
+}
+.container-rtl #AddNewNumberPopup #setDefault-switch{
+	
+	padding-right:41px!important;
+}
+
+

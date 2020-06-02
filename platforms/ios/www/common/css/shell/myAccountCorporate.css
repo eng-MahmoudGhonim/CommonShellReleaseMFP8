@@ -1,0 +1,433 @@
+.container-rtl #MyAccountCorporatePage {
+	direction: rtl;
+}
+
+#MyAccountCorporatePage .tabsCont .tabsHead {
+	background: #fff;
+}
+
+#MyAccountCorporatePage * {
+	font-family: rta-regular;
+}
+
+#MyAccountCorporatePage #ManageNOCBtn {
+	position: absolute;
+	background: white;
+	border-radius: 40px;
+	color: #ee0000;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	top: 70px;
+	left: 15px;
+	right: 15px;
+	font-family: rta-bold;
+}
+
+#MyAccountCorporatePage #CreateNewNOCBTn {
+	position: absolute;
+	display: block;
+	height: 40px;
+	background: #ee0000;
+	text-align: center;
+	line-height: 43px;
+	border-radius: 40px;
+	color: white;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	font-family: rta-bold;
+	top: 19px;
+}
+
+#MyAccountCorporatePage .profileDetails {
+	position: relative;
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	height: 235px;
+}
+
+#MyAccountCorporatePage #userprofileImg {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	display: block;
+	margin: 0px auto auto auto;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 100%;
+	top: auto;
+}
+
+#MyAccountCorporatePage #userProfileLinks {
+	margin: 15px;
+	max-height: calc(100% - 150px);
+	overflow: scroll;
+}
+
+#MyAccountCorporatePage .action-btn {
+	height: 45px;
+	background-color: #fff;
+	border-radius: 2px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#MyAccountCorporatePage .action-btn .mdi-chevron-right {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-size: 20px;
+	color: black;
+	transform: translateY(-50%);
+	height: 25px;
+	display: inherit;
+}
+
+.container-rtl #MyAccountCorporatePage .action-btn .mdi-chevron-right {
+	left: 10px !important;
+	right: auto !important;
+}
+
+.container-rtl #MyAccountCorporatePage .action-btn .mdi.mdi-chevron-right:before
+	{
+	content: "\F141";
+}
+
+#MyAccountCorporatePage .action-btn .action-title {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	font-size: 13px;
+	color: black;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+	transform: translateY(-50%);
+	color: #ee0000;
+}
+
+.container-rtl #MyAccountCorporatePage .action-btn .action-title {
+	right: 20px
+}
+
+#MyAccountCorporatePage #userprofilebutton {
+	position: absolute;
+	display: block;
+	top: 75Px;
+	left: 125px;
+	color: #ee0000;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.container-rtl #MyAccountCorporatePage #userprofilebutton {
+	left: auto;
+	right: 125px;
+}
+
+#MyAccountCorporatePage .profileDetails #ProfileUserName {
+	top: 45px;
+	position: absolute;
+	left: 125px;
+	font-size: 20px;
+}
+
+.container-rtl #MyAccountCorporatePage .profileDetails #ProfileUserName
+	{
+	right: 125px;
+	left: auto;
+}
+
+#MyAccountCorporatePage .UserName {
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 125px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	left: 15px;
+	right: 15px;
+}
+
+#MyAccountCorporatePage .CompanyName {
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 175px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	left: 15px;
+	right: 15px;
+}
+
+#MyAccountCorporatePage  .UserNameHeader {
+	position: absolute;
+	width: 31%;
+	left: 0;
+	text-align: center;
+	border-radius: 40px 0px 0px 40px;
+	border: 1px solid #eee;
+	color: #53565a;
+}
+
+.container-rtl #MyAccountCorporatePage  .UserNameHeader {
+	width: 40%;
+	right: 1%;
+	border-radius: 0px 40px 40px 0px;
+}
+
+#MyAccountCorporatePage  .usernameValue {
+	position: absolute;
+	width: 70%;
+	left: 30%;
+	background: #d8dadc;
+	border-radius: 0px 40px 40px 0px;
+	text-align: left;
+	padding-left: 20px;
+	border: 1px solid #eee;
+	color: #53565a;
+	min-height: 42px;
+}
+
+.container-rtl #MyAccountCorporatePage  .usernameValue {
+	text-align: center;
+	right: 40%;
+	left: auto;
+	width: 60%;
+	border-radius: 40px 0px 0px 40px;
+}
+
+#MyAccountCorporatePage #userprofilebutton i.icon-camera {
+	font-size: 16px;
+	padding-right: 5px;
+}
+
+.container-rtl #MyAccountCorporatePage #userprofilebutton i.icon-camera
+	{
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+#MyAccountCorporatePage .linked-action {
+	height: 60px;
+	background-color: #fff;
+	border-radius: 2px;
+	position: relative;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+#MyAccountCorporatePage .linked-action .icon {
+	position: absolute;
+	left: 20px;
+	font-size: 24px;
+	color: #ee0000;
+	display: inline;
+	top: 18px;
+}
+
+#MyAccountCorporatePage .actions-cont {
+	margin: 15px;
+}
+
+#MyAccountCorporatePage .linked-action .action-title {
+	position: absolute;
+	top: 22.5px;
+	left: 60px;
+	font-size: 15px;
+	color: #53565a;
+	display: inline;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+#MyAccountCorporatePage #linkedHeader {
+	display: block;
+	font-family: 'rta-regular';
+	font-size: 13px;
+	margin: 20px;
+}
+
+#MyAccountCorporatePage #linkedTitle {
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#MyAccountCorporatePage .add-btn {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	font-size: 13px;
+	width: 55px;
+	border: 1px solid #ee0000;
+	color: #ee0000;
+	text-align: center;
+	padding: 2px;
+	margin: 1px;
+	border-radius: 50px !important;
+	height: 20px;
+}
+
+#MyAccountCorporatePage .linkSocial {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-family: rta-bold;
+}
+
+#MyAccountCorporatePage .linkSocial span {
+	font-size: 20px;
+}
+
+#MyAccountCorporatePage .icon-add {
+	font-size: 8px;
+}
+
+.container-rtl #MyAccountCorporatePage .linked-action .icon {
+	left: auto;
+	right: 20px;
+}
+
+.container-rtl #MyAccountCorporatePage .linked-action .action-title {
+	left: auto;
+	right: 60px;
+}
+
+.container-rtl #MyAccountCorporatePage .add-btn {
+	left: 15px;
+	right: auto;
+}
+
+#MyAccountCorporatePage .profileDetails span.icon.icon-user {
+	color: #ee0000;
+	line-height: 88px;
+	border: 1px solid #eee;
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	display: block;
+	margin: 0px auto auto auto;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 45px;
+	border-radius: 100%;
+	top: auto;
+}
+
+#MyAccountCorporatePage .LinkedNolProfile {
+	display: none;
+}
+
+#MyAccountCorporatePage .profileDetails #ProfileUserName i {
+	font-family: rta-bold;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #LinkedAccountHeader {
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NOCActions {
+	top: 237px;
+	position: relative;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NocDetails {
+	position: relative;
+	margin: 15px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NocBox {
+	width: 105px;
+	height: 115px;
+	background: white;
+	margin: 5px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NocBox .NocBoxHeader {
+	font-size: 11px;
+	margin-left: auto;
+	margin-top: 26px;
+	display: inline-block;
+	text-align: center !important;
+	width: 100%;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NocBox .NocBoxValue {
+	font-size: 38px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 12px;
+	text-align: center;
+}
+
+.container-rtl #MyAccountCorporatePage #LinkedAccounts #TemporarilySaved
+	{
+	right: 0px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #PendingDocs {
+	left: 115px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #ProcessApproved {
+	left: 230px
+}
+
+.container-rtl #MyAccountCorporatePage #LinkedAccounts #ProcessApproved
+	{
+	left: 0px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #DueForRevalidation {
+	left: 0px;
+	top: 125px;
+}
+
+.container-rtl #MyAccountCorporatePage #LinkedAccounts #DueForRevalidation
+	{
+	right: 0px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #CancelledObjected {
+	left: 115px;
+	top: 125px;
+}
+
+.container-rtl #MyAccountCorporatePage #LinkedAccounts #CancelledObjected
+	{
+	left: 115px;
+	top: 125px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #Commented {
+	left: 230px;
+	top: 125px
+}
+
+.container-rtl #MyAccountCorporatePage #LinkedAccounts #Commented {
+	left: 0px;
+}
+
+#MyAccountCorporatePage #LinkedAccounts #LinkedAccountHeader i {
+	font-family: rta-bold;
+}
+
+#MyAccountCorporatePage #LinkedAccounts .NocBox .InProcessApprove {
+	margin-top: 0px;
+}

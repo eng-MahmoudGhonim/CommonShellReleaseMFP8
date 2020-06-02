@@ -39,6 +39,14 @@
             {
               "xml": "<feature name=\"AppAvailability\"><param name=\"android-package\" value=\"com.ohh2ahh.appavailability.AppAvailability\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"NativePageTransitions\"><param name=\"android-package\" value=\"com.telerik.plugins.nativepagetransitions.NativePageTransitions\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -121,6 +129,10 @@
             {
               "xml": "<feature name=\"ChallengeHandlerPlugin\"><param name=\"android-package\" value=\"com.worklight.androidgap.plugin.ChallengeHandlerPlugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"TTS\"><param name=\"android-package\" value=\"com.wordsbaking.cordova.tts.TTS\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -173,6 +185,10 @@
             {
               "xml": "<service android:exported=\"true\" android:name=\"com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPush\"><intent-filter><action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" /></intent-filter></service>",
               "count": 1
+            },
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.sharing.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"nl.xservices.plugins.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/sharing_paths\" /></provider>",
+              "count": 1
             }
           ],
           "/manifest/application/activity": [
@@ -184,6 +200,16 @@
           "/*": [
             {
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            }
+          ],
+          "/*/application": [
+            {
+              "xml": "<receiver android:enabled=\"true\" android:name=\"nl.xservices.plugins.ShareChooserPendingIntent\"><intent-filter><action android:name=\"android.intent.action.SEND\" /></intent-filter></receiver>",
               "count": 1
             }
           ]
@@ -220,6 +246,25 @@
       "PACKAGE_NAME": "com.RTA_Common_Shell"
     },
     "cordova-plugin-appavailability": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-touch-id": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "cordova-plugin-speech-recognition-feat-siri": {
+      "PACKAGE_NAME": "com.RTA_Common_Shell"
+    },
+    "com.telerik.plugins.nativepagetransitions": {
       "PACKAGE_NAME": "com.RTA_Common_Shell"
     }
   },
@@ -311,6 +356,52 @@
       "clobbers": [
         "appAvailability"
       ]
+    },
+    {
+      "id": "es6-promise-plugin.Promise",
+      "file": "plugins/es6-promise-plugin/www/promise.js",
+      "pluginId": "es6-promise-plugin",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-x-socialsharing.SocialSharing",
+      "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+      "pluginId": "cordova-plugin-x-socialsharing",
+      "clobbers": [
+        "window.plugins.socialsharing"
+      ]
+    },
+    {
+      "id": "cordova-plugin-tts.tts",
+      "file": "plugins/cordova-plugin-tts/www/tts.js",
+      "pluginId": "cordova-plugin-tts",
+      "clobbers": [
+        "TTS"
+      ]
+    },
+    {
+      "id": "cordova-plugin-touch-id.TouchID",
+      "file": "plugins/cordova-plugin-touch-id/www/TouchID.js",
+      "pluginId": "cordova-plugin-touch-id",
+      "clobbers": [
+        "window.plugins.touchid"
+      ]
+    },
+    {
+      "id": "cordova-plugin-speech-recognition-feat-siri.SpeechRecognitionFeatSiri",
+      "file": "plugins/cordova-plugin-speech-recognition-feat-siri/www/SpeechRecognitionFeatSiri.js",
+      "pluginId": "cordova-plugin-speech-recognition-feat-siri",
+      "clobbers": [
+        "SpeechRecognitionFeatSiri"
+      ]
+    },
+    {
+      "id": "com.telerik.plugins.nativepagetransitions.NativePageTransitions",
+      "file": "plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js",
+      "pluginId": "com.telerik.plugins.nativepagetransitions",
+      "clobbers": [
+        "window.plugins.nativepagetransitions"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -323,6 +414,12 @@
     "cordova-plugin-mfp-push": "8.0.2020052609",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-plugin-appavailability": "0.4.2"
+    "cordova-plugin-appavailability": "0.4.2",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "5.6.8",
+    "cordova-plugin-tts": "0.2.3",
+    "cordova-plugin-touch-id": "3.3.1",
+    "cordova-plugin-speech-recognition-feat-siri": "3.0.0",
+    "com.telerik.plugins.nativepagetransitions": "0.6.5"
   }
 }

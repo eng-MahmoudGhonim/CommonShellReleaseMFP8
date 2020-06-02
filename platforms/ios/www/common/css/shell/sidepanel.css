@@ -1,0 +1,490 @@
+
+/* Stylesheet content from css/shell/sidepanel.css in folder common */
+#sidepanel * {
+	font-family: rta;
+}
+
+#sidepanel .icon-user {
+	position: absolute;
+	color: #fff;
+	width: 60px;
+	/* height: 60px; */
+	font-size: 30px;
+	line-height: 58px;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	top: 20px;
+	left: 15px;
+	background: #ee0000;
+}
+
+#sidepanel .loginTap {
+	position: absolute;
+	top: 32px;
+	left: 85px;
+	width: 40%;
+	color: #ee0000;
+	border-radius: 20px;
+	text-align: center;
+	height: 40px;
+	border-radius: 30px;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	line-height: 40px;
+	display: block;
+}
+
+#sidepanel .searchInput {
+	position: absolute;
+	top: 93px;
+	width: 90%;
+	background: #fff;
+	margin: auto;
+	display: block;
+	left: 0;
+	right: 0;
+	height: 35px;
+	border-radius: 20px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	overflow: hidden;
+	display: none;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+#sidepanel .searchInput .icon-menu-search {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	font-size: 20px;
+	color: #666;
+}
+
+#sidepanel .sidepanelItem {
+	height: 50px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.035);
+	line-height: 52px;
+	font-size: 14px;
+	color: #333;
+	max-width: 100%;
+	margin: 0;
+	position: relative;
+	padding-left: 50px;
+	text-align: initial;
+	display: block;
+}
+
+#sidepanel .sidepanelItem i {
+	position: absolute;
+	left: 15px;
+	font-size: 18px;
+	height: 20px;
+	line-height: 20px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-weight: bold;
+}
+
+#sidepanel .sidepanelItem .shell-switch {
+	height: 40px;
+	line-height: 50px;
+	display: inline-block;
+	right: 13px;
+	position: absolute;
+	margin: 0px;
+	text-align: center;
+	width: 100px;
+}
+
+#sidepanel .mdi-chevron-right {
+	position: absolute;
+	right: 10px;
+	left: auto !important;
+	font-size: 35px !important;
+	height: 35px !important;
+	line-height: 35px !important;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#sidepanel .icon-next {
+	position: absolute;
+	right: 40px;
+	left: auto !important;
+	font-size: 12px !important;
+	height: 16px !important;
+	line-height: 16px !important;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-weight: bold;
+}
+
+#sidepanel .loginBtn {
+	height: 38px;
+	background: #ee0000;
+	color: #fff;
+	border: 2px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	max-width: 100%;
+	margin: 3px auto;
+	border-radius: 30px;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	margin-top: 20px;
+	font-family: rta-regular;
+}
+
+#sidepanel .registerBtn {
+	height: 40px;
+	background: #fff;
+	border: 1px solid #ee0000;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #ee0000;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	font-family: rta-regular;
+}
+
+#sideNavBlack span {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #fff;
+}
+
+#sidepanel .searchInput span:nth-of-type(2) {
+	color: #666;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	bottom: 0;
+	height: 15px;
+	margin: auto;
+	font-size: 15px;
+}
+
+#sidepanel .tabsCont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 105px;
+	border-top: 1px solid #eee;
+	bottom: 0;
+	height: auto;
+}
+
+#sidepanel .head.active {
+	color: #ee0000;
+}
+
+#sidepanel .head {
+	line-height: 25px;
+	padding-top: 10px;
+	font-size: 12px !important;
+	font-weight: bold;
+	color: black;
+}
+
+#sidepanel .head span {
+	display: block;
+	font-size: 16px;
+}
+
+#sidepanel .head .icon-info {
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	border: 1px solid;
+	font-size: 10px;
+	text-align: center;
+	margin: auto;
+	line-height: 14px;
+}
+
+#sidepanel .bottomBtns {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	/* height: 135px; */
+	background: white;
+	border-top: 1px solid #eee;
+}
+
+#sidepanel .tabsContent.loggedInSidePanel {
+	bottom: 50px;
+}
+
+#sidepanel .tabsContent.guestSidePanel {
+	bottom: 170px;
+}
+#sidepanel .tabsCont .tabsContent{
+	top:50px;
+}
+#sidepanel .tabsHead{
+	height:50px;
+}
+
+
+
+#sidepanel #logoutBtn {
+	bottom: 0px;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.035);
+	line-height: 55px;
+	font-size: 16px;
+	color: #333;
+	max-width: 100%;
+	margin: 0;
+	padding-left: 50px;
+	text-align: initial;
+	display: block;
+}
+
+#sidepanel #logoutBtn i {
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	height: 20px;
+	line-height: 20px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/* font-weight: bold; */
+}
+
+#sidepanel #welcomeMessage {
+	position: absolute;
+	top: 40px;
+	left: 75px;
+	padding-left: 15px;
+}
+
+#sidepanel #editButton {
+	position: relative;
+	top: 57px;
+	left: 90px;
+	width: 100%;
+	color: #ee0000;
+	text-align: left;
+	overflow: hidden;
+	display: block;
+	font-size: 14px;
+	padding-left: 17px;
+	margin-top: 3px;
+}
+
+#sidepanel i.icon.icon-profile-settings {
+	position: absolute;
+	left: 0px;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#sidepanel #editButtonText {
+	left: 0px;
+	font-size: 12px;
+	height: 14px;
+	line-height: 17px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+}
+
+.container-rtl #sidepanel .sidepanelItem {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.container-rtl #sidepanel .icon-next {
+	left: 30px !important;
+	right: auto !important;
+	-webkit-transform: rotate(-180deg);
+}
+
+.container-rtl #sidepanel .sidepanelItem i {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #language-switch {
+	right: auto !important;
+	left: 13px;
+}
+
+.container-rtl #drivemode-switch {
+	right: auto !important;
+	left: 13px;
+}
+
+.container-rtl #sidepanel #logoutBtn {
+	text-align: right !important;
+	padding-right: 50px !important;
+}
+
+.container-rtl #sidepanel i.icon.icon-log-out{
+	left: auto !important;
+	right: 10px;
+	-webkit-transform: rotateY(180deg);
+}
+
+.container-rtl #sidepanel .searchInput span:nth-of-type(2) {
+	left: auto;
+	right: 15px;
+}
+
+.container-rtl #sidepanel .icon-user {
+	right: 5%;
+	left: auto;
+}
+
+.container-rtl #sidepanel .searchInput .icon-menu-search {
+	right: auto;
+	left: 10px;
+}
+
+.container-rtl #sidepanel #editButton {
+	padding-right: 17px;
+	text-align: right;
+	padding-left: 0px !important;
+	left: auto !important;
+	right: 90px !important;
+}
+
+.container-rtl #sidepanel i.icon.icon-profile-settings {
+	left: auto;
+	right: 0px;
+}
+
+.container-rtl #sidepanel #welcomeMessage {
+	left: auto;
+	right: 75px;
+	text-align: right;
+	direction: rtl;
+	padding-right: 15px;
+}
+
+#sidepanel #userprofileimgsidepanel {
+	position: absolute;
+	background: #fff;
+	color: #ee0000;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	line-height: 58px;
+	text-align: center;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	top: 20px;
+	left: 15px;
+}
+
+.container-rtl #sidepanel #userprofileimgsidepanel {
+	right: 5%;
+	left: auto;
+}
+
+.CorporateApp #sidepanel .tabsContent.guestSidePanel {
+	bottom: 75px;
+}
+
+#sidepanel #loginBtn:before {
+	content: "\e9f0";
+	color: #fff;
+	font-family: 'icomoon' !important;
+	font-size: 18px;
+	position: absolute;
+	top: 0px;
+	right: 170px;
+	left: 0;
+	bottom: 0;
+}
+
+#sidepanel #registerBtn:before {
+	content: "\e9cb";
+	color: #ee0000;
+	font-family: 'icomoon' !important;
+	font-size: 18px;
+	position: absolute;
+	top: 0px;
+	right: 180px;
+	left: 0;
+	bottom: 0;
+}
+
+.container-rtl #sidepanel #loginBtn:before {
+	-webkit-transform: rotateY(180deg);
+	right: 0;
+	left: 65px;
+}
+
+.container-rtl #sidepanel #registerBtn:before {
+	-webkit-transform: rotateY(180deg);
+	right: 0;
+	left: 75px;
+}
+#sidepanel #language-switch .shell-lever {
+    background: #ee0000!important;
+}
+#sidepanel #iconAndVersion{
+	position: relative;
+	height: 50px;
+}
+#sidepanel #appIcon {
+    position: absolute;
+    /* background: url(../../common/images/shell/about-dubaidrive.png) no-repeat; */
+    font-size: 29px;
+    left: 10px;
+    top: 5px;
+}
+
+.container-rtl #sidepanel #appIcon {
+	right:10px;
+	left:auto;
+}
+
+#sidepanel #versionNumber {
+	text-align: right;
+	color: gray;
+	font-size: 11px;
+	font-weight: bold;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.container-rtl #sidepanel #versionNumber {
+
+	left:10px;
+	right:auto;
+}
+.loggedInSidePanel .tabContent {
+	height: calc(100% - 55px) !important;
+}
+

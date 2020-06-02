@@ -1,0 +1,53 @@
+<div id="CSFavoriteServicesPageView" data-role="page" data-class="com/views/shell/CSFavoriteServicesPageView">
+    <div id="content">
+        <div id="servicesContainer" style="display: none">
+            <div class="servicesDesc">%shell.favorites.hint1% <span style="font-weight: bold;">%shell.favorites.hint2%</span> %shell.favorites.hint3%</div>
+            <div id="servicesScroller" style="transform:translate3d(0,0,0)">
+            </div>
+        </div>
+        <div id="servicesLoader" class="loader textColorCS"></div>
+        <div id="noFavorites" style="display: none">
+            <div class="desc">
+                %shell.favorites.noFavs%
+            </div>
+            <div class=desc>
+                %shell.favorites.gotoServices%
+            </div>
+            <div id="goServices" class="servicesBtn bgColorCS">
+                %shell.favorites.servicesBtn%
+            </div>
+        </div>
+
+        <div id="sliderTemplate" style="display: none">
+            <div class="serviceSlider textColorCS">
+                <div class="sliderHead">
+                    <img />
+                    <div class="serviceTitle"></div>
+                    <div class="subCategories"></div>
+                </div>
+                <div class="sliderCont">
+                    <div class="scroller">
+
+                    </div>
+                </div>
+                <div class="sliderBlur"></div>
+                <div class="popupMenu">
+                    <div class="arrow"></div>
+                    <div class="infoBtn popBtn">%shell.services.Information%</div>
+                    <div class="removeBtn popBtn">%shell.services.Remove%</div>
+                    <div class="favBtn popBtn">%shell.services.Favorite%</div>
+                    <div class="sharBtn popBtn">%shell.services.Share%</div>
+                </div>
+            </div>
+            <div class="slideItem">
+                <div class="loader"></div>
+                <div class="menuBtnCont">
+                    <img class="menuBtn" src="../../common/images/shell/services/dots.png" />
+                </div>
+                <span></span>
+                <img class="favIcon" src="../../common/images/shell/services/star-on-tile.png" />
+            </div>
+        </div>
+
+    </div>
+</div>

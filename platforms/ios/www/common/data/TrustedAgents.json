@@ -1,0 +1,2590 @@
+[
+   {
+      "indx": 0,
+      "CenterName": "Grand Optics ",
+      "CenterName_Ar": "البصريات الكبرى ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - jumeirah heights",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - جزر جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 214,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 24,
+               "TELEPHONE_NBR": "043609009"
+            },
+            "geometry": {
+               "y": 25.063417,
+               "x": 55.156944
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - the walk JBR",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - شارع الممشى جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 215,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 25,
+               "TELEPHONE_NBR": "044233809"
+            },
+            "geometry": {
+               "y": 25.074083,
+               "x": 55.131
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - dubai mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 216,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 26,
+               "TELEPHONE_NBR": "043398776"
+            },
+            "geometry": {
+               "y": 25.198528,
+               "x": 55.27964
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - mirdif city center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - سيتي مردف",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 217,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 27,
+               "TELEPHONE_NBR": "042840056"
+            },
+            "geometry": {
+               "y": 25.216667,
+               "x": 55.40775
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - Deira city center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - ديرة سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 210,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 20,
+               "TELEPHONE_NBR": "042954699"
+            },
+            "geometry": {
+               "y": 25.252138,
+               "x": 55.332806
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - Mall of the Emirates",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى-امارات مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 213,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 23,
+               "TELEPHONE_NBR": "043410350"
+            },
+            "geometry": {
+               "y": 25.11811,
+               "x": 55.200584
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - Deira city center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - ديرة سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 211,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 21,
+               "TELEPHONE_NBR": "042945539"
+            },
+            "geometry": {
+               "y": 25.252138,
+               "x": 55.332806
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - motor city",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - موتور سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 218,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 28,
+               "TELEPHONE_NBR": "044279833"
+            },
+            "geometry": {
+               "y": 25.046028,
+               "x": 55.241554
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - al ghurair centre deira",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - الغرير سنتر ديرة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 219,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 29,
+               "TELEPHONE_NBR": "042959656"
+            },
+            "geometry": {
+               "y": 25.26689,
+               "x": 55.317974
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - souk al bahar downtown",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - سوق البحار",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 220,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 30,
+               "TELEPHONE_NBR": "045576061"
+            },
+            "geometry": {
+               "y": 25.195055,
+               "x": 55.27689
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - palm jumeirah",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى - نخلة جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 221,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 31,
+               "TELEPHONE_NBR": "044504094"
+            },
+            "geometry": {
+               "y": 25.110306,
+               "x": 55.142277
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Grand Optics - Arabian Ranches Community",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "البصريات الكبرى-المرابع العربية",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 212,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 22,
+               "TELEPHONE_NBR": "043619420"
+            },
+            "geometry": {
+               "y": 25.056889,
+               "x": 55.270443
+            }
+         }
+      ],
+      "Count": 12
+   },
+   {
+      "indx": 0,
+      "CenterName": "Emirates optical LLc ",
+      "CenterName_Ar": "نظارات الإمارات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Emirates optical LLc - AL Qouz 4",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات الإمارات - القوز 4",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 191,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 1,
+               "TELEPHONE_NBR": "043383809"
+            },
+            "geometry": {
+               "y": 25.147806,
+               "x": 55.24564
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Emirates optical LLc - 2nd December street,",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات الإمارات - شارع الثاني من ديسمبر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 192,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 2,
+               "TELEPHONE_NBR": "043451010"
+            },
+            "geometry": {
+               "y": 25.235472,
+               "x": 55.277527
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Emirates optical LLc - Al Mizhar",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات الإمارات - المزهر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 193,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 3,
+               "TELEPHONE_NBR": "042840809"
+            },
+            "geometry": {
+               "y": 25.237028,
+               "x": 55.421276
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Emirates optical LLc - Al Rigga Rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات الامارات - شارع الرقة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 194,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 4,
+               "TELEPHONE_NBR": "042217221"
+            },
+            "geometry": {
+               "y": 25.264055,
+               "x": 55.322807
+            }
+         }
+      ],
+      "Count": 4
+   },
+   {
+      "indx": 0,
+      "CenterName": "OPTX 20/20 ",
+      "CenterName_Ar": "اوبتكس 20/20 ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "OPTX 20/20 - City Center Al Barsha",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "اوبتكس 20/20 - سيتي سنتر البرشاء",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 195,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 5,
+               "TELEPHONE_NBR": "045589963"
+            },
+            "geometry": {
+               "y": 25.06964,
+               "x": 55.241917
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "OPTX 20/20 - City Center Deira",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "اوبتكس 20/20 - سيتي سنتر ديرة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 196,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 6,
+               "TELEPHONE_NBR": "042502277"
+            },
+            "geometry": {
+               "y": 25.251972,
+               "x": 55.332806
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "OPTX 20/20 - Emirates mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "اوبتكس 20/20 - امارات مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 197,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 7,
+               "TELEPHONE_NBR": "043850509"
+            },
+            "geometry": {
+               "y": 25.11814,
+               "x": 55.20061
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "OPTX 20/20 - Bur Dubai",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "اوبتكس 20/20 - بر دبي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 198,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 8,
+               "TELEPHONE_NBR": "043277012"
+            },
+            "geometry": {
+               "y": 25.26411,
+               "x": 55.286777
+            }
+         }
+      ],
+      "Count": 4
+   },
+   {
+      "indx": 0,
+      "CenterName": "Barakat Optical ",
+      "CenterName_Ar": "نظارات البركات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Dubai Mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 199,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 9,
+               "TELEPHONE_NBR": "043398181"
+            },
+            "geometry": {
+               "y": 25.197834,
+               "x": 55.27914
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Festival City",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - فستيقال سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 200,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 10,
+               "TELEPHONE_NBR": "042325650"
+            },
+            "geometry": {
+               "y": 25.222166,
+               "x": 55.352974
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - dubai silicon oasis",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - واحة دبي للسيليكون",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 201,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 11,
+               "TELEPHONE_NBR": "043268111"
+            },
+            "geometry": {
+               "y": 25.127138,
+               "x": 55.39711
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Jumeirah Rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات -  شارع جميرا ",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 202,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 12,
+               "TELEPHONE_NBR": "043499945"
+            },
+            "geometry": {
+               "y": 25.2295,
+               "x": 55.262165
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Jumeirah the walk.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - جميرا شارع الممشى",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 203,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 13,
+               "TELEPHONE_NBR": "044270565"
+            },
+            "geometry": {
+               "y": 25.08036,
+               "x": 55.137695
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Mirdiff",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - سيتي مردف",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 204,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 14,
+               "TELEPHONE_NBR": "042888430"
+            },
+            "geometry": {
+               "y": 25.223888,
+               "x": 55.42461
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - madina mall beirut rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - مدينة مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 205,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 15,
+               "TELEPHONE_NBR": "042568322"
+            },
+            "geometry": {
+               "y": 25.281944,
+               "x": 55.397972
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Jumeirah Rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات - شارع جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 206,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 16,
+               "TELEPHONE_NBR": "043954006"
+            },
+            "geometry": {
+               "y": 25.169916,
+               "x": 55.216084
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - jumeirah community center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات البركات -  جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 207,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 10:00 PM",
+               "AGENT_ID": 17,
+               "TELEPHONE_NBR": "045531416"
+            },
+            "geometry": {
+               "y": 25.042862,
+               "x": 55.15972
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - Jabal Ali",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات بركات - جبل علي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 208,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 10:00 PM",
+               "AGENT_ID": 18,
+               "TELEPHONE_NBR": "045531430"
+            },
+            "geometry": {
+               "y": 25.034721,
+               "x": 55.146973
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Barakat Optical - outlet mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات بركات - اوتليت",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 209,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 10:00 PM",
+               "AGENT_ID": 19,
+               "TELEPHONE_NBR": "044259816"
+            },
+            "geometry": {
+               "y": 25.07261,
+               "x": 55.400528
+            }
+         }
+      ],
+      "Count": 11
+   },
+   {
+      "indx": 0,
+      "CenterName": "Yateem Optician ",
+      "CenterName_Ar": "نظارات يتيم ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Arabian centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - العربي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 256,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 66,
+               "TELEPHONE_NBR": "042845505"
+            },
+            "geometry": {
+               "y": 25.235167,
+               "x": 55.436085
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - mirdif city centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - مردف سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 257,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 67,
+               "TELEPHONE_NBR": "042840660"
+            },
+            "geometry": {
+               "y": 25.216305,
+               "x": 55.407806
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - 2nd of december St.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع الثاني من ديسمبر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 258,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /الجمعة: من 05:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / Friday  From 05:00 PM to 10:00 PM",
+               "AGENT_ID": 68,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.237528,
+               "x": 55.27464
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Galleria mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - جاليريا مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 259,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 69,
+               "TELEPHONE_NBR": "043431355"
+            },
+            "geometry": {
+               "y": 25.207222,
+               "x": 55.2545
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Al Wasl",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم -الوصل",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 260,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 70,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.211056,
+               "x": 55.25628
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Dubai mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم -دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 261,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 71,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.196888,
+               "x": 55.279415
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - The Palm",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - النخلة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 262,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 72,
+               "TELEPHONE_NBR": "044579440"
+            },
+            "geometry": {
+               "y": 25.130444,
+               "x": 55.117085
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Jumeirah",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 263,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 73,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.133583,
+               "x": 55.185665
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Burjuman",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - برجمان",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 248,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 58,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.25311,
+               "x": 55.302166
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Al Rigga St.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع الرقة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 249,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 11:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 11:00 PM",
+               "AGENT_ID": 59,
+               "TELEPHONE_NBR": "042222265"
+            },
+            "geometry": {
+               "y": 25.267666,
+               "x": 55.317417
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Al Rigga St.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع الرقة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 250,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 60,
+               "TELEPHONE_NBR": "042281787"
+            },
+            "geometry": {
+               "y": 25.267666,
+               "x": 55.317417
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - lamcy plaza",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - لامسي بلازا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 251,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 61,
+               "TELEPHONE_NBR": "043347438"
+            },
+            "geometry": {
+               "y": 25.234222,
+               "x": 55.307972
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Jumeirah Rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 252,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 62,
+               "TELEPHONE_NBR": "043490909"
+            },
+            "geometry": {
+               "y": 25.22489,
+               "x": 55.258915
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Sheikh zayed rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع الشيخ زايد",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 253,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 63,
+               "TELEPHONE_NBR": "043303301"
+            },
+            "geometry": {
+               "y": 25.220139,
+               "x": 55.28042
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Dubai mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - شارع الشيخ زايد",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 254,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 64,
+               "TELEPHONE_NBR": null
+            },
+            "geometry": {
+               "y": 25.197195,
+               "x": 55.277054
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Yateem Optician - Al Barsha 1",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات يتيم - البرشاء",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 255,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 65,
+               "TELEPHONE_NBR": "043414010"
+            },
+            "geometry": {
+               "y": 25.118584,
+               "x": 55.200054
+            }
+         }
+      ],
+      "Count": 16
+   },
+   {
+      "indx": 0,
+      "CenterName": "Al Jaber Optical ",
+      "CenterName_Ar": "الجابر للنظارات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Sheikh Zayed Rd",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - شارع الشيخ زايد",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 264,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 74,
+               "TELEPHONE_NBR": "043326236"
+            },
+            "geometry": {
+               "y": 25.212639,
+               "x": 55.27711
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - arabian centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - عربي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 265,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 75,
+               "TELEPHONE_NBR": "042845051"
+            },
+            "geometry": {
+               "y": 25.23575,
+               "x": 55.436417
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - arabian ranches 2",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - المرابع العربية",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 266,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 76,
+               "TELEPHONE_NBR": "044324736"
+            },
+            "geometry": {
+               "y": 25.029306,
+               "x": 55.270473
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - aswaq mizhar",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - أسواق مزهر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 267,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 77,
+               "TELEPHONE_NBR": "042845054"
+            },
+            "geometry": {
+               "y": 25.25011,
+               "x": 55.453556
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Bin Sougat center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - بن سوقات",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 268,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 78,
+               "TELEPHONE_NBR": "042861180"
+            },
+            "geometry": {
+               "y": 25.233,
+               "x": 55.38503
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Al Safa Rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -شارع الصفا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 269,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 79,
+               "TELEPHONE_NBR": "043448633"
+            },
+            "geometry": {
+               "y": 25.210167,
+               "x": 55.25875
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Diera city center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -ديرة سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 270,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 80,
+               "TELEPHONE_NBR": "042954400"
+            },
+            "geometry": {
+               "y": 25.252695,
+               "x": 55.33186
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Dubai festival city",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -فستيفال سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 271,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 81,
+               "TELEPHONE_NBR": "042326446"
+            },
+            "geometry": {
+               "y": 25.222555,
+               "x": 55.355473
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Dubai mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 272,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 82,
+               "TELEPHONE_NBR": "043398100"
+            },
+            "geometry": {
+               "y": 25.19775,
+               "x": 55.278027
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Dubai marina mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -مارينا مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 273,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 83,
+               "TELEPHONE_NBR": "043997733"
+            },
+            "geometry": {
+               "y": 25.076584,
+               "x": 55.140556
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - outlet mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -اوتليت",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 274,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 84,
+               "TELEPHONE_NBR": "044255828"
+            },
+            "geometry": {
+               "y": 25.07261,
+               "x": 55.400555
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - EMAAR town centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - اعمار تاون سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 275,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 85,
+               "TELEPHONE_NBR": "043607466"
+            },
+            "geometry": {
+               "y": 25.054138,
+               "x": 55.17139
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Al Ghurair city",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -الغرير",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 276,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 86,
+               "TELEPHONE_NBR": "042249444"
+            },
+            "geometry": {
+               "y": 25.267805,
+               "x": 55.318054
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - Ibn Battuta",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -ابن بطوطة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 277,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 87,
+               "TELEPHONE_NBR": "048823750"
+            },
+            "geometry": {
+               "y": 25.044806,
+               "x": 55.12053
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - the walk marina",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -مارينا ",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 278,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 88,
+               "TELEPHONE_NBR": "044342727"
+            },
+            "geometry": {
+               "y": 25.078667,
+               "x": 55.13475
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - jumeirah town centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - جميرا تاون سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 279,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 89,
+               "TELEPHONE_NBR": "043429933"
+            },
+            "geometry": {
+               "y": 25.214666,
+               "x": 55.251335
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - lamcy plaza",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - لامسي بلازا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 280,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 90,
+               "TELEPHONE_NBR": "043360773"
+            },
+            "geometry": {
+               "y": 25.234278,
+               "x": 55.308
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - mall of the emirates",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - مول الامارات",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 281,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 91,
+               "TELEPHONE_NBR": "043411322"
+            },
+            "geometry": {
+               "y": 25.11839,
+               "x": 55.19925
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - mirdif city center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - سيتي مردف",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 282,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 92,
+               "TELEPHONE_NBR": "042843771"
+            },
+            "geometry": {
+               "y": 25.216305,
+               "x": 55.407833
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - sheikh zayed road",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات -شارع الشيخ زايد",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 283,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 93,
+               "TELEPHONE_NBR": "043311955"
+            },
+            "geometry": {
+               "y": 25.21789,
+               "x": 55.279
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - madinat jumeirah",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - مدينة جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 284,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 94,
+               "TELEPHONE_NBR": "044489285"
+            },
+            "geometry": {
+               "y": 25.133362,
+               "x": 55.186695
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Al Jaber Optical - oud metha wafi city",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الجابر للنظارات - وافي سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 285,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 95,
+               "TELEPHONE_NBR": "043577555"
+            },
+            "geometry": {
+               "y": 25.22925,
+               "x": 55.319443
+            }
+         }
+      ],
+      "Count": 22
+   },
+   {
+      "indx": 0,
+      "CenterName": "DUBAI OPTICAL ",
+      "CenterName_Ar": "نظارات دبي ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - DEIRA CITY CENTER",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - سيتي سنتر ديرة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 222,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 32,
+               "TELEPHONE_NBR": "042941004"
+            },
+            "geometry": {
+               "y": 25.251694,
+               "x": 55.333168
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - FESTIVAL CITY",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - فستيقال سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 223,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 33,
+               "TELEPHONE_NBR": "042325692"
+            },
+            "geometry": {
+               "y": 25.223055,
+               "x": 55.355446
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - DUBAI MALL",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 224,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 34,
+               "TELEPHONE_NBR": "044341282"
+            },
+            "geometry": {
+               "y": 25.196583,
+               "x": 55.278667
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - IBN BATTUTA",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - ابن بطوطة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 225,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 35,
+               "TELEPHONE_NBR": "043685539"
+            },
+            "geometry": {
+               "y": 25.045528,
+               "x": 55.12103
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - BUR DUBAI",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - بر دبي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 226,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 36,
+               "TELEPHONE_NBR": "043554767"
+            },
+            "geometry": {
+               "y": 25.257223,
+               "x": 55.295193
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - MALL OF THE EMIRATES",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - امارات مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 227,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 37,
+               "TELEPHONE_NBR": "043414090"
+            },
+            "geometry": {
+               "y": 25.118305,
+               "x": 55.200333
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - MIRDIF CITY CENTER",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - مردف سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 228,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م /عطلة نهاية الاسبوع من 10:00 ص إلى 12:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM / WEEKEND  From 10:00 AM to 12:00 PM",
+               "AGENT_ID": 38,
+               "TELEPHONE_NBR": "042840103"
+            },
+            "geometry": {
+               "y": 25.216806,
+               "x": 55.408222
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "DUBAI OPTICAL - jumeirah rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "نظارات دبي - شارع جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 229,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 39,
+               "TELEPHONE_NBR": "043461931"
+            },
+            "geometry": {
+               "y": 25.233862,
+               "x": 55.264305
+            }
+         }
+      ],
+      "Count": 8
+   },
+   {
+      "indx": 0,
+      "CenterName": "Super Vision Optiocal ",
+      "CenterName_Ar": "الرؤية الحادة للنظارات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - Al Qusais",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - القصيص",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 230,
+               "OPERATING_HOURS_AR": "من 09:30 ص إلى 01:30 م / من 05:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 09:30 AM to 01:30 PM /  From 05:00 AM to 10:00 PM",
+               "AGENT_ID": 40,
+               "TELEPHONE_NBR": "042616296"
+            },
+            "geometry": {
+               "y": 25.268305,
+               "x": 55.37886
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - twar 3 emiraes cooperative society",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - طوار 3 جمعية الامارات الاتحادية",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 231,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 02:00 م / من 05:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 02:00 PM /  From 05:00 AM to 10:00 PM",
+               "AGENT_ID": 41,
+               "TELEPHONE_NBR": "042642022"
+            },
+            "geometry": {
+               "y": 25.25525,
+               "x": 55.39714
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - bin sougat",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - بن سوقات",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 232,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 42,
+               "TELEPHONE_NBR": "042862827"
+            },
+            "geometry": {
+               "y": 25.232805,
+               "x": 55.385
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - abu hail",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - أبو هيل",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 233,
+               "OPERATING_HOURS_AR": "من 09:30 ص إلى 01:30 م / من 05:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 09:30 AM to 01:30 PM /  From 05:00 AM to 10:00 PM",
+               "AGENT_ID": 43,
+               "TELEPHONE_NBR": "042699880"
+            },
+            "geometry": {
+               "y": 25.277056,
+               "x": 55.33836
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - Times square centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - تايمز سكوير",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 234,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 44,
+               "TELEPHONE_NBR": "043466161"
+            },
+            "geometry": {
+               "y": 25.139694,
+               "x": 55.21989
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Super Vision Optiocal - mazaya cantre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "الرؤية الحادة للنظارات - مزايا سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 235,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 45,
+               "TELEPHONE_NBR": "043212660"
+            },
+            "geometry": {
+               "y": 25.199083,
+               "x": 55.26572
+            }
+         }
+      ],
+      "Count": 6
+   },
+   {
+      "indx": 0,
+      "CenterName": "LEEN OPTICS ",
+      "CenterName_Ar": "لين للنظارات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "LEEN OPTICS - Al Twar",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "لين للنظارات - الطوار",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 236,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 08:00 AM to 09:00 PM",
+               "AGENT_ID": 46,
+               "TELEPHONE_NBR": "042973313"
+            },
+            "geometry": {
+               "y": 25.269278,
+               "x": 55.354946
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Magrabi Optical ",
+      "CenterName_Ar": "مغربي للبصريات ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - arabian center",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - العربي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 237,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 47,
+               "TELEPHONE_NBR": "042845530"
+            },
+            "geometry": {
+               "y": 25.234112,
+               "x": 55.43589
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - city center deira",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - ديرة سيتي سنتر",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 238,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 48,
+               "TELEPHONE_NBR": "042504438"
+            },
+            "geometry": {
+               "y": 25.2515,
+               "x": 55.33275
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - Dubai festival city",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - فستيفال سيتي",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 239,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 49,
+               "TELEPHONE_NBR": "042329866"
+            },
+            "geometry": {
+               "y": 25.220612,
+               "x": 55.353527
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - Dubai mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات -دبي مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 240,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 50,
+               "TELEPHONE_NBR": "043398984"
+            },
+            "geometry": {
+               "y": 25.1985,
+               "x": 55.27953
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - Dubai marina mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - مارينا مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 241,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 51,
+               "TELEPHONE_NBR": "043997570"
+            },
+            "geometry": {
+               "y": 25.076416,
+               "x": 55.1405
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - sheikh zayed rd.",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - شارع الشيخ زايد",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 242,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 52,
+               "TELEPHONE_NBR": "043591866"
+            },
+            "geometry": {
+               "y": 25.209,
+               "x": 55.2725
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - Ibn Battuta mall",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - بطوطة مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 243,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 53,
+               "TELEPHONE_NBR": "043685683"
+            },
+            "geometry": {
+               "y": 25.044556,
+               "x": 55.12025
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - mall of the emirates",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - امارات مول",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 244,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 54,
+               "TELEPHONE_NBR": "043410445"
+            },
+            "geometry": {
+               "y": 25.11811,
+               "x": 55.200584
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - mercato",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - ميركاتو",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 245,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 55,
+               "TELEPHONE_NBR": "043427258"
+            },
+            "geometry": {
+               "y": 25.216473,
+               "x": 55.25297
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - mirdif city centre",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - سيتي سنتر مردف",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 246,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 56,
+               "TELEPHONE_NBR": "042843246"
+            },
+            "geometry": {
+               "y": 25.216278,
+               "x": 55.407776
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Magrabi Optical - the palm",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "مغربي للبصريات - نخلة جميرا",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 247,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 57,
+               "TELEPHONE_NBR": "043993040"
+            },
+            "geometry": {
+               "y": 25.105778,
+               "x": 55.148193
+            }
+         }
+      ],
+      "Count": 11
+   },
+   {
+      "indx": 0,
+      "CenterName": "Malak Typing  & Fotocopying & Eye test ",
+      "CenterName_Ar": "ملاك للطباعة و النسخ و فحص النظر ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Malak Typing  & Fotocopying & Eye test - Al Barsha",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "ملاك للطباعة و النسخ و فحص النظر - البرشاء",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 286,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 96,
+               "TELEPHONE_NBR": "043419939"
+            },
+            "geometry": {
+               "y": 25.123037,
+               "x": 55.20598
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Executive Optics",
+      "CenterName_Ar": "أكسيكتيف أوبتكس ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Executive Optics- Al Twar ",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "أكسيكتيف أوبتكس - الطوار",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 287,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 97,
+               "TELEPHONE_NBR": "042207712"
+            },
+            "geometry": {
+               "y": 25.262703,
+               "x": 55.385624
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Salik Optical ",
+      "CenterName_Ar": "سالك أوبتكال ",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "1",
+               "CENTER_NAME_EN": "Salik Optical - Al Manara",
+               "SERVICES_PROVIDED_AR": "فحص نظر;تجديد رخصة قيادة;شهادة خبرة; رخصة بدل فاقد/ تالف",
+               "CENTER_NAME_AR": "سالك أوبتكال - المنارة",
+               "WORKING_DAYS_AR": "كل أيام الاسبوع",
+               "WORKING_DAYS_EN": "ALL DAYS",
+               "SERVICES_PROVIDED_EN": "Eye testing; Renew Driving license; Driving experience certificate; Lost / Damage Driving license",
+               "OBJECTID_1": 288,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 98,
+               "TELEPHONE_NBR": "043326236"
+            },
+            "geometry": {
+               "y": 25.156488,
+               "x": 55.227226
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Al Noor Polyclinic Naif",
+      "CenterName_Ar": "مركز النور الطبي /ديرة",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Al Noor Polyclinic Naif",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز النور الطبي /ديرة",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 850,
+               "OPERATING_HOURS_AR": "من 05:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 05:00 PM",
+               "AGENT_ID": 109,
+               "TELEPHONE_NBR": "42233324"
+            },
+            "geometry": {
+               "y": 25.275593,
+               "x": 55.31244
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Almusalla Medical Center",
+      "CenterName_Ar": "مركز المصلى الطبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Almusalla Medical Center",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز المصلى الطبي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 851,
+               "OPERATING_HOURS_AR": "من 08:00 ص إلى 05:00 م",
+               "OPERATING_HOURS_EN": "From 05:00 PM to 08:00 PM",
+               "AGENT_ID": 108,
+               "TELEPHONE_NBR": "43966123"
+            },
+            "geometry": {
+               "y": 25.2585,
+               "x": 55.298584
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Alnoor Poly Clinic Satwa",
+      "CenterName_Ar": "مركز النور الطبي/ السطوه",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Alnoor Poly Clinic Satwa",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز النور الطبي/ السطوه",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 852,
+               "OPERATING_HOURS_AR": "من 05:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 05:00 PM",
+               "AGENT_ID": 107,
+               "TELEPHONE_NBR": "43498100"
+            },
+            "geometry": {
+               "y": 25.229416,
+               "x": 55.27447
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Amber Clinics, Internationl City",
+      "CenterName_Ar": "عيادة أمبر ،انترناشيونال سيتي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Amber Clinics, Internationl City",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "عيادة أمبر ،انترناشيونال سيتي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 853,
+               "OPERATING_HOURS_AR": "من 05:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 05:00 PM",
+               "AGENT_ID": 106,
+               "TELEPHONE_NBR": "42777102"
+            },
+            "geometry": {
+               "y": 25.15939,
+               "x": 55.348362
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Amber Clinics, Riqqa",
+      "CenterName_Ar": "عيادات امبر ، الرقه",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Amber Clinics, Riqqa",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "عيادات امبر ، الرقه",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 854,
+               "OPERATING_HOURS_AR": "من 05:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 05:00 PM",
+               "AGENT_ID": 105,
+               "TELEPHONE_NBR": "42309100"
+            },
+            "geometry": {
+               "y": 25.265306,
+               "x": 55.321415
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Apple International Clinic, International City",
+      "CenterName_Ar": "مجمع ابل انترناشيونال",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Apple International Clinic, International City",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مجمع ابل انترناشيونال",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 855,
+               "OPERATING_HOURS_AR": "من 11:00 ص إلى 08:00 م",
+               "OPERATING_HOURS_EN": "From 08:00 AM to 11:00 PM",
+               "AGENT_ID": 104,
+               "TELEPHONE_NBR": "44227533"
+            },
+            "geometry": {
+               "y": 25.161139,
+               "x": 55.404057
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Belhoul Speciality Hospital",
+      "CenterName_Ar": "مستشفى بلهول التخصصي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Belhoul Speciality Hospital",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مستشفى بلهول التخصصي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 856,
+               "OPERATING_HOURS_AR": "من 05:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 05:00 PM",
+               "AGENT_ID": 103,
+               "TELEPHONE_NBR": "42733333"
+            },
+            "geometry": {
+               "y": 25.2805,
+               "x": 55.313137
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Canadian Specialist Hospital",
+      "CenterName_Ar": "المستشفى الكندي التخصصي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Canadian Specialist Hospital",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "المستشفى الكندي التخصصي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 857,
+               "OPERATING_HOURS_AR": "من 03:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 03:00 PM",
+               "AGENT_ID": 102,
+               "TELEPHONE_NBR": "47072222"
+            },
+            "geometry": {
+               "y": 25.278334,
+               "x": 55.348362
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Dha",
+      "CenterName_Ar": "هيئة الصحة دبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Dha-JLT",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "هيئة الصحة دبي- JLT",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 858,
+               "OPERATING_HOURS_AR": "من 06:00 ص إلى 07:30 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 06:00 PM",
+               "AGENT_ID": 101,
+               "TELEPHONE_NBR": "45024954"
+            },
+            "geometry": {
+               "y": 25.077528,
+               "x": 55.153805
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Iranian Hospital",
+      "CenterName_Ar": "المستشفى الايراني",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Iranian Hospital",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "المستشفى الايراني",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 859,
+               "OPERATING_HOURS_AR": "من 11:00 ص إلى 07:30 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 11:00 PM",
+               "AGENT_ID": 100,
+               "TELEPHONE_NBR": "43440250"
+            },
+            "geometry": {
+               "y": 25.230305,
+               "x": 55.26936
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Jafza Medical Center",
+      "CenterName_Ar": "هيئة الصحة دبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Jafza Medical Center",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "هيئة الصحة دبي- جافزا",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 860,
+               "OPERATING_HOURS_AR": "من 02:00 ص إلى 07:30 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 02:00 PM",
+               "AGENT_ID": 99,
+               "TELEPHONE_NBR": "45023203"
+            },
+            "geometry": {
+               "y": 24.973473,
+               "x": 55.14086
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Joseph Poly Clinic, Karama",
+      "CenterName_Ar": "عيادة جوزيف ، الكرامة",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Joseph Poly Clinic, Karama",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "عيادة جوزيف ، الكرامة",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 861,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 08:00 م",
+               "OPERATING_HOURS_EN": "From 08:00 AM to 10:00 PM",
+               "AGENT_ID": 117,
+               "TELEPHONE_NBR": "43378828"
+            },
+            "geometry": {
+               "y": 25.244667,
+               "x": 55.300972
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Jts Medical Center",
+      "CenterName_Ar": "مركز جي تي اس الطبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Jts Medical Center",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز جي تي اس الطبي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 862,
+               "OPERATING_HOURS_AR": "من 07:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 07:00 PM",
+               "AGENT_ID": 116,
+               "TELEPHONE_NBR": "43799954"
+            },
+            "geometry": {
+               "y": 25.239334,
+               "x": 55.269806
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Prime Medical Center LLC",
+      "CenterName_Ar": "مركز برايم الطبي ذ م م",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Prime Medical Center LLC",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز برايم الطبي ذ م م",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 863,
+               "OPERATING_HOURS_AR": "من 10:00 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 10:00 AM to 10:00 PM",
+               "AGENT_ID": 115,
+               "TELEPHONE_NBR": "42720720"
+            },
+            "geometry": {
+               "y": 25.270922,
+               "x": 55.322117
+            }
+         },
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Prime Medical Center LLC",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز برايم الطبي ذ م م",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 864,
+               "OPERATING_HOURS_AR": "من 09:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 09:00 PM",
+               "AGENT_ID": 114,
+               "TELEPHONE_NBR": "43389389"
+            },
+            "geometry": {
+               "y": 25.155611,
+               "x": 55.227833
+            }
+         }
+      ],
+      "Count": 2
+   },
+   {
+      "indx": 0,
+      "CenterName": "Unicar Medical Centre",
+      "CenterName_Ar": "مركزالعناية الطبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Unicar Medical Centre",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركزالعناية الطبي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 865,
+               "OPERATING_HOURS_AR": "من 09:00 ص إلى 09:00 م",
+               "OPERATING_HOURS_EN": "From 09:00 AM to 09:00 PM",
+               "AGENT_ID": 113,
+               "TELEPHONE_NBR": "43529292"
+            },
+            "geometry": {
+               "y": 25.277306,
+               "x": 55.34861
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Uptown Mirdiff",
+      "CenterName_Ar": "هيئة الصحة دبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Uptown Mirdiff",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "هيئة الصحة دبي- ابتاون",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 866,
+               "OPERATING_HOURS_AR": "من 07:30 ص إلى 01:00 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 01:00 PM",
+               "AGENT_ID": 112,
+               "TELEPHONE_NBR": "43383809"
+            },
+            "geometry": {
+               "y": 25.22375,
+               "x": 55.42464
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Zulekha Hospital",
+      "CenterName_Ar": "مستشفى زليخه",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Zulekha Hospital",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مستشفى زليخه",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 867,
+               "OPERATING_HOURS_AR": "من 07:30 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 10:00 PM",
+               "AGENT_ID": 111,
+               "TELEPHONE_NBR": "600524442"
+            },
+            "geometry": {
+               "y": 25.291334,
+               "x": 55.383694
+            }
+         }
+      ],
+      "Count": 1
+   },
+   {
+      "indx": 0,
+      "CenterName": "Zulekha Medical Center",
+      "CenterName_Ar": "مركز زليخة الطبي",
+      "CenterAddresses": [
+         {
+            "attributes": {
+               "AGENT_TYPE": "2",
+               "CENTER_NAME_EN": "Zulekha Medical Center",
+               "SERVICES_PROVIDED_AR": "فحص النظر; تحليل السكر; الضغط; فحص شامل",
+               "CENTER_NAME_AR": "مركز زليخة الطبي",
+               "WORKING_DAYS_AR": "من السبت إلى الخميس",
+               "WORKING_DAYS_EN": "Saturday to Thursday",
+               "SERVICES_PROVIDED_EN": "Eye testing; Sugar analysis; Pressure; Comprehensive Examination",
+               "OBJECTID_1": 868,
+               "OPERATING_HOURS_AR": "من 07:30 ص إلى 10:00 م",
+               "OPERATING_HOURS_EN": "From 07:30 AM to 10:00 PM",
+               "AGENT_ID": 110,
+               "TELEPHONE_NBR": "600524442"
+            },
+            "geometry": {
+               "y": 25.269194,
+               "x": 55.3065
+            }
+         }
+      ],
+      "Count": 1
+   }
+]

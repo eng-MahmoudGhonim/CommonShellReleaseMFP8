@@ -1,0 +1,745 @@
+
+/* Stylesheet content from components/driveModeTileControl/driveModeTileControl.css in folder common */
+@-webkit-keyframes pulse {
+	0%   { -webkit-transform: scale(1); }
+	50%  { -webkit-transform: scale(1.2); }
+	100% { -webkit-transform: scale(1); }
+  }
+  
+  #driveModeTile {
+	  position: relative;
+	  width: 100%;
+	  box-sizing: border-box;
+	  overflow: hidden;
+	  font-size: 13px;
+	  background: #fff;
+	  text-align: center;
+	  transition-duration: 300ms;
+	  margin-bottom: 15px;
+  }
+  
+  #driveModeTile .dmTitle {
+	  display: block;
+	  margin: 15px auto;
+	  color: #171b8f;
+  }
+  
+  #driveModeTile .dmTitle i {
+	  margin: 0 5px;
+	  font-size: 18px;
+  }
+  
+  #driveModeTile .dmTitle * {
+	  display: inline-block;
+	  vertical-align: middle;
+  }
+  
+  #driveModeTile .dmTitle span {
+	  font-size: 15px;
+  }
+  
+  #driveModeTile .mapImageContainer {
+	  position: relative;
+	  overflow: hidden;
+	  margin: 0 10px;
+	  height: 120px;
+  }
+  
+  #driveModeTile .stateTemplateCont {
+	  position: relative;
+	  display: block;
+	  width: 100%;
+	  overflow: hidden;
+	  transition-duration: 300ms;
+	  white-space: nowrap;
+  }
+  
+  #driveModeTile .selectState {
+	  position: absolute;
+	  white-space: nowrap;
+	  transition-duration: 300ms;
+	  display: block;
+	  width: 100%;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  top: 0;
+	  height: 170px;
+	  overflow: hidden;
+  }
+  
+  #driveModeTile .selectState .hint {
+	  position: relative;
+	  font-size: 15px;
+	  width: 135px;
+	  margin: 15px auto;
+	  display: block;
+	  white-space: normal;
+	  color: #000;
+  }
+  
+  #driveModeTile .selectState .item {
+	  display: inline-block;
+	  vertical-align: bottom;
+	  width: 25%;
+	  /* height: 100px; */
+	  box-sizing: border-box;
+	  border-right: 1px solid #eee;
+  }
+  
+  #driveModeTile .selectState .item * {
+	  display: block;
+  }
+  
+  #driveModeTile .selectState .item i {
+	  width: 40px;
+	  height: 40px;
+	  color: #fff;
+	  font-size: 20px;
+	  border-radius: 100%;
+	  line-height: 40px;
+	  text-align: center;
+	  margin: 15px auto;
+  }
+  
+  #driveModeTile .selectState .item span {
+	  margin-bottom: 20px;
+	  color: #666;
+	  height: 30px
+  }
+  
+  #driveModeTile .mapImageContainer img {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  top: 0;
+	  width: 100%;
+	  /* min-height: 100%; */
+	  transition-duration: 300ms;
+  }
+  
+  #driveModeTile .mapImageContainer .mapPlaceHolder {
+	  z-index: 10;
+  }
+  
+  #driveModeTile .dmServicesActions {
+	  position: relative;
+	  width: calc(100% - 20px);
+	  display: block;
+	  height: 60px;
+	  margin: auto;
+	  border-bottom: 1px solid #eee;
+  }
+  
+  #driveModeTile .dmServicesActions .icon {
+	  width: 35px;
+	  height: 35px;
+	  color: #fff;
+	  font-size: 17px;
+	  border-radius: 100%;
+	  line-height: 35px;
+	  text-align: center;
+	  margin-left: 10px;
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  z-index: 10;
+	  margin: auto;
+	  transition-duration: 150ms;
+  }
+  
+  #driveModeTile .dmServicesActions .desc {
+	  position: absolute;
+	  left: 42px;
+	  text-align: left;
+	  bottom: 0;
+	  top: 0;
+	  line-height: 16px;
+	  height: 30px;
+	  transition-duration: 300ms;
+	  margin: auto;
+	  transition-timing-function: linear;
+  }
+  
+  #driveModeTile .dmServicesActions .desc .weFound {
+	  font-size: 10px;
+  }
+  
+  #driveModeTile .petrolState {
+	  display: inline-block;
+	  position: relative;
+	  width: 100%;
+	  vertical-align: top;
+  }
+  
+  #driveModeTile .petrolState .nearstPlace {
+	  position: relative;
+	  display: block;
+	  height: 60px;
+	  text-align: initial;
+	  padding-top: 12px;
+	  box-sizing: border-box;
+  }
+  
+  #driveModeTile .petrolState .nearstPlace .logo {
+	  position: relative;
+	  display: inline-block;
+	  height: 35px;
+	  margin: 0 10px;
+	  vertical-align: middle;
+  }
+  
+  #driveModeTile .petrolState .nearstPlace .distance {
+	  position: relative;
+	  color: #aaa;
+	  font-size: 12px;
+	  height: 14px;
+	  margin-top: 7px;
+	  display: inline-block;
+	  vertical-align: middle;
+  }
+  
+  #driveModeTile .nearstPlace .dmBtn {
+	  position: absolute;
+	  right: 10px;
+	  top: 16px;
+	  height: 20px;
+	  color: #ee0000;
+	  border: 1px solid #ee0000;
+	  line-height: 24px;
+	  font-size: 12px;
+	  padding: 0 10px;
+	  border-radius: 20px;
+  }
+  
+  #driveModeTile .petrolState .pricesCont {
+	  position: relative;
+	  display: block;
+	  white-space: nowrap;
+	  width: calc(100% - 20px);
+	  margin: auto;
+	  overflow: hidden;
+	  font-size: 0;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item {
+	  display: inline-block;
+	  width: 25%;
+	  font-size: 12px;
+	  text-align: center;
+	  position: relative;
+	  vertical-align: top;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item .priceLabel {
+	  height: 30px;
+	  color: #fff;
+	  line-height: 34px;
+	  overflow: visible;
+	  position: relative;
+	  margin-bottom: 13px;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item:first-child .priceLabel {
+	  border-radius: 4px 0 0 4px;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item:last-child .priceLabel {
+	  border-radius: 0 4px 4px 0;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item .priceLabel .pointerCirc {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  bottom: -4px;
+	  width: 10px;
+	  height: 10px;
+	  margin: auto;
+	  border-radius: 100%;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item .petrolType {
+	  white-space: normal;
+	  display: block;
+	  word-spacing: 200px;
+	  width: 100%;
+	  margin: auto;
+	  color: #aaa;
+	  min-height: 35px;
+  }
+  
+  #driveModeTile .petrolState .pricesCont .item .petrolNumber {
+	  display: block;
+	  margin: 5px auto;
+	  margin-bottom: 15px;
+	  font-size: 15px;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace {
+	  position: relative;
+	  display: block;
+	  height: 80px;
+	  text-align: initial;
+	  overflow: hidden;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace i {
+	  position: absolute;
+	  left: 10px;
+	  top: 0;
+	  bottom: 30px;
+	  font-size: 30px;
+	  width: 30px;
+	  height: 30px;
+	  margin: auto;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace .distance {
+	  position: absolute;
+	  left: 50px;
+	  top: 0;
+	  bottom: 30px;
+	  height: 11px;
+	  margin: auto;
+	  font-size: 12px;
+	  color: #aaa;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace .mosqueName {
+	  position: absolute;
+	  top: 50px;
+	  left: 10px;
+	  font-size: 15px;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace .getDirectionButton {
+	  bottom: 30px;
+  }
+  
+  #driveModeTile .mosqueState .nearstPlace .address {
+	  position: absolute;
+	  left: 10px;
+	  top: 69px;
+	  color: #777;
+	  font-size: 12px;
+  }
+  
+  #driveModeTile .mosqueState .prayerTimes {
+	  position: relative;
+	  display: block;
+	  white-space: nowrap;
+	  width: 100%;
+	  overflow: hidden;
+	  font-size: 0;
+	  margin: 10px auto;
+  }
+  
+  #driveModeTile .mosqueState .prayerTimes .item {
+	  font-size: 13px;
+	  display: inline-block;
+	  width: 20%;
+  }
+  
+  #driveModeTile .mosqueState .prayerTimes .item i {
+	  font-size: 25px;
+	  margin-top: 5px;
+	  display: block;
+  }
+  
+  #driveModeTile .mosqueState .prayerTimes .item .time {
+	  color: #ee0000;
+	  margin-top: 5px;
+	  font-weight: bold;
+  }
+  
+  #driveModeTile .dmServicesCont {
+	  display: block;
+	  width: 100%;
+	  height: 170px;
+	  white-space: nowrap;
+	  overflow: visible;
+	  font-size: 0;
+	  transition-duration: 150ms;
+  }
+  
+  #driveModeTile .mosqueState {
+	  display: inline-block;
+	  vertical-align: top;
+	  width: 100%;
+  }
+  
+  #driveModeTile .atmState {
+	  display: inline-block;
+	  vertical-align: top;
+	  width: 100%;
+	  overflow: hidden;
+	  font-size: 12px;
+	  height: 100%;
+	  position: relative;
+  }
+  
+  #driveModeTile .dmServiceTemp {
+	  transition-duration: 300ms;
+	  display: block;
+	  width: 100%;
+	  position: absolute;
+	  height: 230px;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  top: 0;
+	  -webkit-transform: translate3d(0px, 170px, 0px);
+  }
+  
+  #driveModeTile .atmState .nearstPlace {
+	  position: relative;
+	  display: block;
+	  height: 60px;
+	  text-align: initial;
+  }
+  
+  #driveModeTile .atmState .nearstPlace .logo {
+	  position: absolute;
+	  left: 10px;
+	  top: 0;
+	  bottom: 0;
+	  height: 35px;
+	  margin: auto;
+  }
+  
+  #driveModeTile .atmState .nearstPlace .distance {
+	  position: absolute;
+	  left: 50px;
+	  color: #555;
+	  font-size: 12px;
+	  height: 14px;
+	  top: 0;
+	  bottom: 0;
+	  margin: auto;
+  }
+  
+  #driveModeTile .atmState .atmBranch {
+	  position: relative;
+	  font-size: 15px;
+	  text-align: initial;
+	  margin: 0 10px;
+  }
+  
+  #driveModeTile .atmState .address {
+	  position: relative;
+	  color: #555;
+	  font-size: 12px;
+	  text-align: initial;
+	  margin: 0px 10px;
+	  margin-top: 5px;
+  }
+  
+  #driveModeTile .atmState .atmHint {
+	  text-align: initial;
+	  margin: 0 10px;
+	  color: #555;
+	  font-size: 12px;
+	  margin-top: 50px;
+	  position: absolute;
+	  bottom: 10px;
+	  left: 0;
+	  right: 0;
+  }
+  
+  #driveModeTile .evState {
+	  display: inline-block;
+	  vertical-align: top;
+	  width: 100%;
+	  overflow: hidden;
+	  font-size: 12px;
+	  position: relative;
+	  text-align: initial;
+  }
+  
+  #driveModeTile .dmServicesActions .icon.iconActive {
+	  left: 0;
+  }
+  
+  #driveModeTile .dmServicesActions .icon:nth-child(2) {
+	  right: 80px;
+  }
+  
+  #driveModeTile .dmServicesActions .icon:nth-child(3) {
+	  right: 40px;
+  }
+  
+  #driveModeTile .dmServicesActions .icon:nth-child(4) {
+	  right: 0px;
+  }
+  
+  #driveModeTile .evState .nearstPlace img {
+	  width: 60px;
+	  position: absolute;
+	  vertical-align: middle;
+	  left: 10px;
+  }
+  
+  #driveModeTile .evState .nearstPlace {
+	  text-align: left;
+	  width: 100%;
+	  display: block;
+	  padding: 10px;
+	  height: 75px;
+  }
+  
+  #driveModeTile .evState .nearstPlace .distance {
+	  color: #aaa;
+	  font-size: 12px;
+	  position: absolute;
+	  left: 75px;
+	  top: 21px;
+  }
+  
+  #driveModeTile .evState .nearstPlace .name {
+	  display: block;
+	  position: absolute;
+	  left: 10px;
+	  top: 50px;
+	  direction: ltr;
+	  font-size: 15px;
+	  text-align: initial;
+	  right: 10px;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+  }
+  
+  #driveModeTile .evState .nearstPlace .address {
+	  position: absolute;
+	  color: #777;
+	  font-size: 12px;
+	  text-align: left;
+	  top: 68px;
+	  left: 10px;
+  }
+  
+  #driveModeTile .atmState .nearstPlace i {
+	  position: absolute;
+	  left: 10px;
+	  top: 0;
+	  bottom: 0;
+	  font-size: 30px;
+	  width: 30px;
+	  height: 30px;
+	  margin: auto;
+  }
+  
+  #driveModeTile .nearstPlace .noData {
+	  font-size: 14px;
+	  color: #888;
+	  text-align: center;
+	  margin-top: 12px;
+  }
+  
+  #driveModeTile .evState .noData {
+	  font-size: 14px;
+	  color: #888;
+	  text-align: center;
+	  margin-top: 70px;
+  }
+  
+  #driveModeTile .atmState .noData {
+	  font-size: 14px;
+	  color: #888;
+	  text-align: center;
+	  margin-top: 70px;
+  }
+  
+  #driveModeTile .mosqueState .noData {
+	  font-size: 14px;
+	  color: #888;
+	  text-align: center;
+	  margin-top: 20px;
+  }
+  
+  #driveModeTile .evState .timings {
+	  margin: 0 10px;
+	  margin-top: 10px;
+  }
+  
+  #driveModeTile .evState .timings .timingsValue {
+	  font-size: 13px;
+	  color: #ee0000;
+  }
+  
+  #driveModeTile .evState .evPhoneNo {
+	  display: inline-block;
+  }
+  
+  #driveModeTile .evState .evPhone {
+	  margin: 0 10px;
+	  margin-top: 10px;
+  }
+  
+  .container-rtl #driveModeTile .nearstPlace {
+	  text-align: right;
+  }
+  
+  .container-rtl #driveModeTile .evState .nearstPlace img {
+	  right: 10px;
+	  left: auto;
+  }
+  
+  .container-rtl #driveModeTile .evState .nearstPlace .distance {
+	  left: auto;
+	  right: 75px;
+  }
+  
+  .container-rtl #driveModeTile .evState .nearstPlace .name {
+	  text-align: right;
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .nearstPlace .dmBtn {
+	  right: auto;
+	  left: 10px;
+  }
+  
+  .container-rtl #driveModeTile .evState .nearstPlace .address {
+	  text-align: right;
+	  right: 10px;
+	  left: auto;
+  }
+  
+  .container-rtl #driveModeTile .evState .timings {
+	  text-align: right;
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .evState .evPhone {
+	  text-align: right;
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .atmState .nearstPlace i {
+	  right: 10px;
+	  left: auto;
+  }
+  
+  .container-rtl #driveModeTile .atmState .nearstPlace .distance {
+	  right: 50px;
+  }
+  
+  .container-rtl #driveModeTile .atmState {
+	  direction: rtl;
+	  text-align: right;
+  }
+  
+  .container-rtl #driveModeTile .mosqueState {
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .mosqueState .nearstPlace i {
+	  left: auto;
+	  right: 10px;
+  }
+  
+  .container-rtl #driveModeTile .mosqueState .nearstPlace .distance {
+	  left: auto;
+	  right: 50px;
+  }
+  
+  .container-rtl #driveModeTile .mosqueState .nearstPlace .mosqueName {
+	  left: auto;
+	  right: 10px;
+  }
+  
+  .container-rtl #driveModeTile .mosqueState .nearstPlace .address {
+	  left: auto;
+	  right: 10px;
+  }
+  
+  #driveModeTile .petrolState .nearstPlace .logo {
+	  
+  }
+  
+  .container-rtl #driveModeTile .petrolState .nearstPlace {
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .petrolState {
+	  direction: rtl;
+  }
+  
+  .container-rtl #driveModeTile .petrolState .pricesCont .item:last-child .priceLabel
+	  {
+	  border-radius: 4px 0 0 4px;
+  }
+  
+  .container-rtl #driveModeTile .petrolState .pricesCont .item:first-child .priceLabel
+	  {
+	  border-radius: 0 4px 4px 0;
+  }
+  
+  .container-rtl #driveModeTile .dmServicesActions .desc {
+	  text-align: right;
+	  direction: rtl;
+	  left: auto;
+	  right: 42px;
+  }
+  
+  .container-rtl #driveModeTile .dmServicesActions .icon.iconActive {
+	  right: 0;
+	  left: auto;
+  }
+  
+  .container-rtl #driveModeTile .dmServicesActions .icon:nth-child(2) {
+	  left: 80px;
+	  right: auto;
+  }
+  
+  .container-rtl #driveModeTile .dmServicesActions .icon:nth-child(3) {
+	  right: auto;
+	  left: 40px;
+  }
+  
+  .container-rtl #driveModeTile .dmServicesActions .icon:nth-child(4) {
+	  right: auto;
+	  left: 0;
+  }
+  
+  #driveModeTile .reloadCont {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  top: 0;
+	  bottom: 0;
+	  background: rgba(0, 0, 0, 0.5);
+	  z-index: 15;
+	  color: #fff;
+	  text-align: center;
+	  display: none;
+  }
+  
+  #driveModeTile 
+  .reloadCont span {
+	  font-size: 28px;
+	  margin: 8px auto;
+	  display: block;
+	  width: 28px;
+	  height: 28px;
+	  margin-top: 175px;
+  }
+  
+  #driveModeTile 
+  .reloadCont span.active {
+	  -webkit-animation: rotating 500ms linear infinite;
+  }
+  
+  
+  #driveModeTile .selectState .hint.active {
+	color: #ee0000;
+  }
+  
+  #driveModeTile .reloadCont div {
+	  width: 250px;
+	  text-align: center;
+	  display: block;
+	  margin: 0 auto;
+  }

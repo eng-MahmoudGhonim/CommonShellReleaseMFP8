@@ -52,5 +52,15 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app requires photo library access to function properly.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires photo library access to function properly.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string/>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech recognition permission is required</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone permission is required for speech recognition</string>
 </dict>
 </plist>

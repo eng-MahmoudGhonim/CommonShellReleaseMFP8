@@ -1,0 +1,50 @@
+#boardSlider .sliderHead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	height: 20px;
+	text-align: center;
+	z-index: 10;
+}
+
+#boardSlider .sliderPages {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	bottom: 0;
+	width: 300%;
+	font-size: 0;
+	white-space: nowrap;
+}
+
+#boardSlider .sliderBullet {
+	border-radius: 7px;
+	border: 1px solid #ee0000;
+	width: 3px;
+	height: 3px;
+	display: inline-block;
+	/* margin-top: -6px; */
+	transition-duration: 300ms;
+	margin: 0 1px;
+}
+
+#boardSlider .sliderBullet.active {
+	background: #ee0000;
+	width: 10px;
+}
+
+#boardSlider .slidePage {
+	width: 33.333333%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	overflow: hidden;
+	overflow-y: auto;
+	position: relative;
+	box-sizing: border-box;
+	padding: 15px;
+	font-size: initial;
+	transition-duration: 1000ms;
+}

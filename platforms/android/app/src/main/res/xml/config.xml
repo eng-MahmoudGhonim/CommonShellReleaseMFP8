@@ -26,6 +26,13 @@
     <feature name="AppAvailability">
         <param name="android-package" value="com.ohh2ahh.appavailability.AppAvailability" />
     </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <feature name="NativePageTransitions">
+        <param name="android-package" value="com.telerik.plugins.nativepagetransitions.NativePageTransitions" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="OkHttpPlugin">
         <param name="android-package" value="com.google.cordova.OkHttpPlugin" />
         <param name="onload" value="true" />
@@ -85,6 +92,10 @@
     <feature name="ChallengeHandlerPlugin">
         <param name="android-package" value="com.worklight.androidgap.plugin.ChallengeHandlerPlugin" />
     </feature>
+    <feature name="TTS">
+        <param name="android-package" value="com.wordsbaking.cordova.tts.TTS" />
+        <param name="onload" value="true" />
+    </feature>
     <name>RTA_Common_Shell</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -101,14 +112,14 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <mfp:android>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>4161792991</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
         </mfp:security>
     </mfp:android>
     <mfp:ios>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>2557538532</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
@@ -135,7 +146,7 @@
         </mfp:windows10>
         <mfp:appChecksum>0</mfp:appChecksum>
     </mfp:windows>
-    <mfp:platformVersion />
+    <mfp:platformVersion>8.0.0.00-20200524-153527</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
     <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
     <mfp:serverUri url="" />

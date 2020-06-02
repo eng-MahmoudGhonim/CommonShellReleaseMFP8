@@ -1,0 +1,490 @@
+/* Stylesheet content from css/shell/parkinglaw.css in folder common */
+/* Stylesheet content from css/shell/parkinglaw.css in folder common */
+
+/* Stylesheet content from css/shell/parkinglaw.css in folder common */
+/* Stylesheet content from css/shell/parkinglaw.css in folder common */
+#ParkingLawPage * {
+	font-family: rta-regular;
+}
+
+#ParkingLawPage .parkinglawImg {
+	height: 160px;
+	width: 100%;
+}
+
+#ParkingLawPage .parkinglawIntro {
+	padding: 15px;
+}
+
+#ParkingLawPage .lawDesc {
+	margin: 0 15px 5px 15px;
+	font-size: 12px;
+	color: #333;
+}
+
+#ParkingLawPage .lawItem {
+	padding-left: 15px;
+	background: #fff;
+	margin: 15px;
+	line-height: 60px;
+	height: 60px;
+	display: block;
+}
+
+#ParkingLawPage .lawItem i.icon.icon-next {
+	position: absolute;
+	right: 15px;
+	line-height: 60px;
+	font-weight: bold;
+	color: black;
+}
+
+#ParkingLawPage .lawItem span {
+	font-size: 15px;
+}
+
+.container-rtl #ParkingLawPage .lawItem {
+	padding-right: 15px;
+}
+
+.container-rtl #ParkingLawPage .lawItem i.icon.icon-next {
+	right: auto;
+	left: 15px;
+	-webkit-transform: rotate(-180deg);
+}
+
+#ZoneCategoriesPage * {
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#ZoneCategoriesPage .zoneDesc {
+	padding: 15px;
+	font-size: 13px;
+	color: #333;
+	padding-bottom: 0;
+}
+
+#ZoneCategoriesPage .head.textColorCS {
+	padding: 14px 15px;
+	font-size: 16px;
+	padding-bottom: 0;
+}
+
+#ZoneCategoriesPage .collapseHead i {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	bottom: 0;
+	font-size: 20px;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	transition-duration: 300ms;
+	text-align: center;
+	/* line-height: 20px; */
+	font-weight: bold;
+}
+
+#ZoneCategoriesPage .collapseHead .serviceTitle {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: rta-regular;
+	display: block;
+	color: black;
+	position: absolute;
+	right: 60px;
+	left: 15px;
+	bottom: 0;
+	top: 0;
+	height: 13px;
+	margin: auto;
+}
+
+#ZoneCategoriesPage .collapseHead .count {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	color: #ee0000;
+	transition-duration: 300ms;
+}
+
+#ZoneCategoriesPage .collapseHead .subCats {
+	margin-left: 65px;
+	font-size: 10px;
+	margin-top: 2px;
+	color: #999;
+	font-weight: bold;
+	width: 65%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition-duration: 300ms;
+}
+
+#ZoneCategoriesPage .collapseHead .mdi-chevron-down {
+	left: auto;
+	right: 20px;
+	color: #000;
+	font-size: 25px;
+	width: 25px;
+	height: 25px;
+	transition-duration: 300ms;
+}
+
+#ZoneCategoriesPage .collapseBody .item {
+	color: #666;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px;
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#ZoneCategoriesPage .collapseHead.active .serviceTitle {
+	color: #fff;
+}
+
+#ZoneCategoriesPage .collapseHead.active {
+	background: #ee0000;
+}
+
+#ZoneCategoriesPage .collapseHead.active i.mdi.mdi-chevron-down {
+	color: #fff !important;
+	-webkit-transform: rotate(180deg);
+}
+
+#ZoneCategoriesPage .subDesc {
+	color: #333;
+	font-size: 12px;
+}
+
+#ZoneCategoriesPage .subHead {
+	font-size: 14px;
+	color: black;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#ZoneCategoriesPage .leftCol {
+	display: inline-block;
+	width: 65%;
+	height: 35px;
+	line-height: 35px;
+}
+
+#ZoneCategoriesPage .rightCol {
+	display: inline-block;
+	height: 35px;
+	line-height: 39px;
+	/* width: 49%; */
+}
+
+#ZoneCategoriesPage .itemRow {
+	font-size: 15px;
+	color: black;
+	height: 35px;
+	/* line-height: 35px; */
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #cfcfcf;
+	width: 100%;
+}
+
+#ZoneCategoriesPage .rowHeader {
+	background-color: #53565a;
+	color: #fff;
+	border-radius: 2px;
+	border-bottom: 0px !important;
+}
+
+#ZoneCategoriesPage .ui-content {
+	padding-bottom: 15px;
+}
+
+.container-rtl #ZoneCategoriesPage .collapseHead .mdi-chevron-down {
+	right: auto !important;
+	left: 20px !important;
+}
+
+.container-rtl #ZoneCategoriesPage .collapseHead .serviceTitle {
+	left: 60px !important;
+	right: 15px !important;
+}
+
+.container-rtl #ZoneCategoriesPage * {
+	direction: rtl;
+}
+
+#ParkingCardsPage .ui-content {
+	padding: 15px;
+}
+
+#ParkingCardsPage * {
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#ParkingCardsPage .zoneDesc {
+	color: black;
+	padding-bottom: 0;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#ParkingCardsPage .subDesc {
+	color: #333;
+	font-size: 12px;
+}
+
+#ParkingCardsPage .subHead {
+	font-size: 14px;
+	color: black;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#ParkingCardsPage .leftCol {
+	display: inline-block;
+	width: 65%;
+	height: 35px;
+	line-height: 35px;
+}
+
+#ParkingCardsPage .rightCol {
+	display: inline-block;
+	height: 35px;
+	line-height: 39px;
+	/* width: 49%; */
+}
+
+#ParkingCardsPage .itemRow {
+	font-size: 15px;
+	color: black;
+	height: 35px;
+	/* line-height: 35px; */
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #cfcfcf;
+	width: 100%;
+	background: #fff;
+}
+
+#ParkingCardsPage .rowHeader {
+	background-color: #53565a;
+	color: #fff;
+	border-radius: 2px;
+	border-bottom: 0px !important;
+}
+
+#ParkingCardsPage .head {
+	font-size: 16px;
+	color: #333;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#ParkingCardsPage .warning-title {
+	font-style: normal !important;
+	font-size: 14px !important;
+}
+
+#ParkingCardsPage .warning-cs span {
+	color: #333;
+	display: block;
+	font-style: italic;
+}
+
+#ParkingCardsPage .head2 {
+	margin-bottom: 5px;
+}
+
+.container-rtl #ParkingCardsPage * {
+	direction: rtl;
+}
+
+#ParkingFinesPage .ui-content {
+	padding: 15px;
+}
+
+#ParkingFinesPage * {
+	font-family: rta-regular;
+	font-size: 13px;
+}
+
+#ParkingFinesPage .zoneDesc {
+	color: black;
+	padding-bottom: 0;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#ParkingFinesPage .subDesc {
+	color: #333;
+	font-size: 12px;
+}
+
+#ParkingFinesPage .subHead {
+	font-size: 14px;
+	color: black;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#ParkingFinesPage .colViolation {
+	display: inline-block;
+	width: 70%;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#ParkingFinesPage .colAmount {
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#ParkingFinesPage .itemRow {
+	font-size: 15px;
+	color: black;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #cfcfcf;
+	width: 100%;
+	background: #fff;
+	height: auto;
+	display: table;
+}
+
+#ParkingFinesPage .rowHeader {
+	background-color: #53565a;
+	color: #fff;
+	border-radius: 2px;
+	border-bottom: 0px !important;
+	height: 35px;
+}
+
+#ParkingFinesPage .head {
+	font-size: 16px;
+	color: #333;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#ParkingFinesPage .head2 {
+	margin-bottom: 5px;
+}
+
+#ParkingFinesPage .colBlackPoints {
+	display: none;
+}
+
+#ParkingFinesPage .colVehicle {
+	display: none;
+}
+
+.container-rtl #ParkingFinesPage * {
+	direction: rtl;
+}
+
+#WaysToPayPage * {
+	font-family: rta-regular;
+	font-size: 13px;
+	border-radius: 2px;
+}
+
+#WaysToPayPage .ui-content {
+	padding: 15px;
+}
+
+#WaysToPayPage .boxCont {
+	background: #fff;
+	position: relative;
+	margin: 0 0 20px 0;
+	padding: 10px;
+}
+
+#WaysToPayPage .appIcon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 15px;
+}
+
+#WaysToPayPage .head {
+	color: black;
+	font-size: 15px !important;
+	padding: 5px;
+}
+
+#WaysToPayPage .desc {
+	color: #333;
+	padding: 5px;
+}
+
+#WaysToPayPage .desc.boxContIntro {
+	width: 85%;
+	height: 80px;
+	display: inline-block;
+	padding: 5px;
+}
+
+#WaysToPayPage .clickNParkButton {
+	height: 40px;
+	background: rgb(24, 108, 225);
+	border: 2px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	font-family: rta-regular;
+}
+
+#WaysToPayPage .purchaseParkingPermitButton {
+	height: 40px;
+	background: rgb(24, 108, 225);
+	border: 2px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto;
+	color: #fff;
+	border-radius: 30px;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 14px;
+	-webkit-transform: translate3d(0, 0, 0);
+	font-family: rta-regular;
+}
+
+#WaysToPayPage #rtaApp {
+	top: 30px;
+}
+
+#WaysToPayPage #dvApp {
+	top: 80px;
+}
+
+.container-rtl #WaysToPayPage .appIcon {
+	right: auto !important;
+	left: 15px;
+}
+
+.container-rtl #WaysToPayPage * {
+	direction: rtl;
+}
