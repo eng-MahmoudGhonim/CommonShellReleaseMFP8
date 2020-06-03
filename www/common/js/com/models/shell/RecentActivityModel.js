@@ -21,7 +21,7 @@ define([
 					if(!pageData.data) {
 						pageData.data = [];
 					}
-					
+
 					callback(pageData.data);
 				} else if((networkInfo && networkInfo.isNetworkConnected == "true")){
 					var recentActivities = [];
@@ -37,8 +37,8 @@ define([
 							procedure : "getRecentActivities",
 							parameters : [ userId ]
 						};
-						WL.Client.invokeProcedure(invocationData, {
-							onSuccess : function(result) {
+						invokeWLResourceRequest(invocationData,
+							function(result) {
 								WL.Logger.debug("RecentActivityModel :: requestRecentActivities :: Invocation success");
 								if (showLoadingAlert && loadingInd) {
 									loadingInd.hide();
@@ -47,7 +47,7 @@ define([
 								if (result && result.invocationResult && result.invocationResult.resultSet) {
 									recentActivities = result.invocationResult.resultSet;
 								}
-								
+
 								if(recentActivities && recentActivities.length > 0) {
 									recentActivities.sort(self._compareDates);
 								}
@@ -60,7 +60,7 @@ define([
 
 								callback(pageDataPack.data);
 							},
-							onFailure : function(result) {
+							function(result) {
 								WL.Logger.debug("RecentActivityModel :: requestRecentActivities :: Invocation failure");
 								if (showLoadingAlert && loadingInd) {
 									loadingInd.hide();
@@ -74,7 +74,7 @@ define([
 
 								callback(pageDataPack.data);
 							}
-						});
+						);
 					} catch (e) {
 						WL.Logger.debug("RecentActivityModel :: requestRecentActivities :: Invocation error");
 						if (showLoadingAlert && loadingInd) {
@@ -120,12 +120,12 @@ define([
 
 			return (pageData && pageData.data && pageData.date && !$.isEmptyObject(pageData.data) && ((dateNow - pageData.date) < self.SESSION_EXPIRY_IN_MS));
 		},
-		
+
 		_compareDates : function(item1, item2) {
 			try {
 				var date1 = item1.modified;
 				var date2 = item2.modified;
-				
+
 				if(date1.indexOf(".") >= 0) {
 					date1 = date1.split(".")[0];
 				}
@@ -138,7 +138,7 @@ define([
 				while(date2.indexOf("-") >= 0) {
 					date2 = date2.replace("-", "/");
 				}
-				
+
 				var item1Date = new Date(date1);
 				var item2Date = new Date(date2);
 

@@ -10,8 +10,8 @@ define([ "backbone", "com/models/Constants", "com/utils/Utils",
 					parameters : [ params ]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result) {
+			invokeWLResourceRequest(invocationData,
+				function(result) {
 					if (result.invocationResult) {
 						callBack("SUCCESS",result.invocationResult.url);
 					} else {
@@ -19,11 +19,11 @@ define([ "backbone", "com/models/Constants", "com/utils/Utils",
 					}
 					HapinessMeterRatingModel.transactionData = null;
 				},
-				onFailure : function() {
+				function() {
 					callBack("FAIL");
 					HapinessMeterRatingModel.transactionData = null;
 				}
-			});
+			);
 		},
 		prepareHappinessParams : function() {
 			var appName = Utils.getAppNameForHappinessMeter(Constants.APP_ID);

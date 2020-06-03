@@ -16,15 +16,15 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 						procedure: 'getCrisisAnnouncement',
 						parameters: []
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						var bannerResult=result.invocationResult&&result.invocationResult.Current.resultSet?result.invocationResult.Current.resultSet:null;
 				    	 if(bannerResult&&bannerResult.length>0)
 						   callback(bannerResult[0]);
 						   else
 							   callback(null);
 					},
-					onFailure: function (e) {
+					function (e) {
 						callback(null);
 						///for testing only /////////////////////////
 						/*result=
@@ -43,7 +43,7 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 						callback(result)*/
 
 					}
-				});
+				);
 			}
 			catch(e){
 				console.log(e);
@@ -1697,7 +1697,7 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 					//					procedure: 'callGoogleAPI',
 					//					parameters: [params.appName,params.platform,params.googleAPI,params.query,params.options]
 					//					};
-					//					WL.Client.invokeProcedure(invocationData, {
+					//					invokeWLResourceRequest(invocationData, {
 					//					onSuccess: function(result) {
 					//					var locations = DashboardModel.handleLocationResponse(centerObj, res);
 					//					DashboardModel.getBase64MapImage(locations, center, "fuel-pump-40.png", function(imgData) {
@@ -1751,17 +1751,18 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 					var invocationData = {
 							adapter: 'DriveModeAdapter',
 							procedure: 'getDriveModeData',
-							parameters: []
+							parameters: [],
+							invocationContext: this
 					};
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (result) {
+					invokeWLResourceRequest(invocationData,
+						function (result) {
 							petrolPricesDef.resolve(result);
 						},
-						onFailure: function (e) {
+						function (e) {
 							petrolPricesDef.reject(e);
-						},
-						invocationContext: this
-					});
+						}
+
+					);
 					$.when(petrolLocationsDef, petrolPricesDef).done(function (locationsData, result) {
 						petrolData = locationsData;
 						petrolData.petrolPrices = result.invocationResult.petrolPrices;
@@ -1810,10 +1811,11 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 					var invocationData = {
 							adapter: 'DriveModeAdapter',
 							procedure: 'getEVData',
-							parameters: []
+							parameters: [],
+							invocationContext: this
 					};
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (res) {
+					invokeWLResourceRequest(invocationData,
+						function (res) {
 							res = res.invocationResult;
 							var locations = res.Locations.EVChargeAr.item;
 							for (var i = 0; i < locations.length; i++) {
@@ -1836,7 +1838,7 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 							if (locations.length > 10) locations = locations.slice(0, 10);
 							evEnDef.resolve(locations);
 						},
-						onFailure: function (e) {
+						function (e) {
 							$.getJSON(window.mobile.baseUrl +"/common/data/ev_data_ar.json", function (res) {
 								var locations = res.Locations.EVChargeAr.item;
 								for (var i = 0; i < locations.length; i++) {
@@ -1861,9 +1863,9 @@ define(["com/models/Constants", "com/models/shell/UserProfileModel", "com/models
 								if (locations.length > 10) locations = locations.slice(0, 10);
 								evEnDef.resolve(locations);
 							})
-						},
-						invocationContext: this
-					});
+						}
+
+					);
 					$.when(evArDef, evEnDef).done(function (arLocations, enLocations) {
 						DashboardModel.getBase64MapImage(enLocations, center, "electric-station-40.png", function (imgData) {
 							evData = {

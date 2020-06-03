@@ -302,6 +302,7 @@ define(["com/views/PageView",
 			var invocationData = {
 					adapter : 'shellInterface',
 					procedure : 'setUserInfo',
+          invocationContext: this,
 					parameters : [user_id,
 					              title,
 					              first_name,
@@ -316,15 +317,15 @@ define(["com/views/PageView",
 					              password_changed_flag]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					var x = 0;
 				},
-				onFailure : function(e) {
+				function(e) {
 					var x = 0;
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 		},
 		sendSMSOTP:function(){
 			OTPModel.sendOTP("MustafaZayed","updateProfile","00971544305865",null,null);
@@ -584,8 +585,8 @@ define(["com/views/PageView",
 					procedure : "encryptData",
 					parameters : [ JSON.stringify(dataToEncrypt), Constants.APP_ID, 'MPAY']
 			};
-			WL.Client.invokeProcedure(invocationData,{
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					dsgParams = {
 							EDATA:result.invocationResult.cypherText, //Encrypted data
 							AMOUNT:dataToEncrypt.AMOUNT,
@@ -602,11 +603,11 @@ define(["com/views/PageView",
 					dsgParams.Services="CS";
 					PaymentUtils.performMPay(dsgParams, 'shell/commonShellExamples.html');
 				},
-				onFailure : function(){
+				function(){
 					var generalErrorPopup = new Popup('generalErrorPopup');
 					generalErrorPopup.show();
 				}
-			});
+			);
 		},
 		epayPayment : function(event){
 			event.preventDefault();
@@ -622,8 +623,8 @@ define(["com/views/PageView",
 					parameters : [ JSON.stringify(dataToEncrypt), Constants.APP_ID, 'EPAY']
 			};
 			//Calling adapter
-			WL.Client.invokeProcedure(invocationData,{
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					var DSGOptions = {
 							EDATA:result.invocationResult.cypherText, //Encrypted data
 							SERVICEID:'171',
@@ -651,10 +652,10 @@ define(["com/views/PageView",
 						}
 					});
 				},
-				onFailure : function(){
+				function(){
 					var generalErrorPopup = new Popup('generalErrorPopup');
 					generalErrorPopup.show();				}
-			});
+			);
 		},
 		getEpayResult : function(ePayComplete){
 

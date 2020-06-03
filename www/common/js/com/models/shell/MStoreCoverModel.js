@@ -8,10 +8,11 @@ define(["com/models/shell/AuthenticationModel"], function(AuthenticationModel) {
 				var invocationData = {
 						adapter: 'JasperReportAdapter',
 						procedure: 'getJasperReport',
-						parameters: [bookletId]
+						parameters: [bookletId],
+						timeout: 120000
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function(result) {
+				invokeWLResourceRequest(invocationData,
+					function(result) {
 						if(result && result.invocationResult && result.invocationResult.report){
 							callback(result.invocationResult.report,null);
 						}else{
@@ -19,12 +20,12 @@ define(["com/models/shell/AuthenticationModel"], function(AuthenticationModel) {
 							callback(false,hasVirtual);
 						}
 					},
-					onFailure: function(result) {
+					function(result) {
 
 						callback(false,null);
-					},
-					timeout: 120000
-				});
+					}
+
+				);
 			} catch (e) {
 				callback(false);
 			}
@@ -75,14 +76,15 @@ define(["com/models/shell/AuthenticationModel"], function(AuthenticationModel) {
 				var invocationData = {
 						adapter: 'mStoreAdapter',
 						procedure: 'getmStoreData',
-						parameters: [username, cardId]
+						parameters: [username, cardId],
+						timeout: 120000
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function(result) {
+				invokeWLResourceRequest(invocationData,
+					function(result) {
 						WL.Logger.debug("MStoreCoverModel :: requestCardsDetails :: Invocation success");
-						if (result && result.invocationResult && result.invocationResult.resultSet) 
+						if (result && result.invocationResult && result.invocationResult.resultSet)
 							groups = MStoreCoverModel._groupingCardsData(result.invocationResult.resultSet);
-						if (result && result.resultSet) 
+						if (result && result.resultSet)
 							groups = MStoreCoverModel._groupingCardsData(result.resultSet);
 						window.pageDataPack = {
 								data: groups,
@@ -93,12 +95,12 @@ define(["com/models/shell/AuthenticationModel"], function(AuthenticationModel) {
 						});
 						callback(pageDataPack.data);
 					},
-					onFailure: function(result) {
+					function(result) {
 						WL.Logger.debug("MStoreCoverModel :: requestCardsDetails :: Invocation failure");
 						callback({});
-					},
-					timeout: 120000
-				});
+					}
+
+				);
 			} catch (e) {
 				WL.Logger.debug("MStoreCoverModel :: requestCardsDetails :: Invocation error");
 				callback({});

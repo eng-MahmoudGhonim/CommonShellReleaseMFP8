@@ -46,12 +46,12 @@ function servicesCount (isVIP){
 	for(var i =0 ; i< ServiceCategories.length ;i++){
 		if(ServiceCategories[i].CategoryServices != undefined && ServiceCategories[i].CategoryServices.length>0)
 		{
-			
+
 			count+=ServiceCategories[i].CategoryServices.length;
 		}
 
 	}
-	// skip count vip 
+	// skip count vip
 	var Constants = require("com/models/Constants");
 	if((Constants&&Constants.APP_ID=="RTA_Drivers_And_Vehicles")&&(!isVIP||isVIP==false)){
 		count=count-1;
@@ -71,7 +71,7 @@ function handleLinkingForServiceCategory(serviceCategory,isLinked){
 					}
 				}
 			}
-		}	
+		}
 	}catch(e){}
 }
 function convertMS(ms) {
@@ -776,7 +776,7 @@ function invokeWebserviceRequest(invocationData, invocationContext, timeout, suc
 	}
 	try
 	{
-		WL.Client.invokeProcedure(invocationData, {
+		invokeWLResourceRequest(invocationData, {
 			onSuccess : function(result)
 			{
 				if(!isEnforceNoEncryption && isEncryptWebservices && (isBypassEncryption == undefined || isBypassEncryption == false))
@@ -831,7 +831,7 @@ function invokeWLResourceRequest(invocationData,successCallback,failureCallBack 
 	{
 		//validate mandatory Parms
 		if(invocationData && typeof successCallback == "function" && typeof failureCallBack == "function" ){
-			// read data from invocation Data	
+			// read data from invocation Data
 			var adapterName=invocationData.adapter;
 			var procedureName=invocationData.procedure;
 			var parameters =invocationData.parameters;
@@ -839,7 +839,7 @@ function invokeWLResourceRequest(invocationData,successCallback,failureCallBack 
 			var timeout=invocationData.timeout?invocationData.timeout:null;
 			var method=invocationData.method?invocationData.method:"GET";
 			var scope=invocationData.scope?invocationData.scope:null;
-			// for testing oonly 
+			// for testing oonly
 			//var WLResourceRequest={};
 
 
@@ -847,7 +847,7 @@ function invokeWLResourceRequest(invocationData,successCallback,failureCallBack 
 					timeout:timeout,
 					scope :scope};
 			var url="/adapters/"+adapterName+"/"+procedureName;
-			//TODO WLResourceRequest.GET  check is enum 
+			//TODO WLResourceRequest.GET  check is enum
 			var request = new WLResourceRequest(url, WLResourceRequest.GET,options);
 
 			request.setQueryParameter('params',parameters );

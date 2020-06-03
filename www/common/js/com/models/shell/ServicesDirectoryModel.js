@@ -62,12 +62,13 @@ define([
 						adapter : 'iDosServiceAdapter',
 						procedure : 'getAllServices',
 						parameters : [],
-						compressResponse : true
+						compressResponse : true,
+            invocationContext: this
 				};
 
 				//Calling adapter
-				WL.Client.invokeProcedure(invocationData,{
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,{
+					function(result){
 						if(result.invocationResult.isSuccessful){
 							var data = result.invocationResult;
 							if(data && data.Envelope && data.Envelope.Body
@@ -101,13 +102,13 @@ define([
 //							}
 //						}
 					},
-					onFailure : function(result){
+					function(result){
 //						if(result && result.invocationContext){
 //							result.invocationContext._loadFallbackServiceList(callback);
 //						}
-					},
-					invocationContext: this
-				});
+					}
+
+				);
 			}
 		},
 

@@ -16,7 +16,7 @@ define([
 			return hash;
 		},
 		encPassword:function (userId,password){
-		
+
 			var key=this.hash(userId);
 //		 	console.log("Hashed key   :   " + key.toString());
 
@@ -24,7 +24,7 @@ define([
 //		 	console.log("key length  :   " + key.toString().length);
 
 			var encoded_key = CryptoJS.enc.Utf8.parse(key);
-			var iv = CryptoJS.enc.Utf8.parse(key);                                                                  
+			var iv = CryptoJS.enc.Utf8.parse(key);
 			var cipher = CryptoJS.AES.encrypt(password,encoded_key,{
 										iv: iv,
 										mode: CryptoJS.mode.CBC,
@@ -43,9 +43,9 @@ define([
 					parameters : [ emailAddress]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result) {
-					if(result.invocationResult&&result.invocationResult.responseID&&!result.invocationResult.failure)	
+			invokeWLResourceRequest(invocationData,
+				function(result) {
+					if(result.invocationResult&&result.invocationResult.responseID&&!result.invocationResult.failure)
 					{
 						callback(self.SUCCESS);
 					}
@@ -55,11 +55,11 @@ define([
 					}
 				},
 
-				onFailure : function(result) {
+				function(result) {
 					callback(self.FAILED);
 				}
 
-			});
+			);
 
 		}
 	});

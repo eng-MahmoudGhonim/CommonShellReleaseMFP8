@@ -59,10 +59,11 @@ define(["com/views/PageView", "com/utils/Utils", "com/utils/DataUtils", "com/mod
 				var invocationData = {
 					adapter: 'authenticationMaster',
 					procedure: 'heartbeat',
-					parameters: []
+					parameters: [],
+					timeout: 5000
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function(e) {
+				invokeWLResourceRequest(invocationData,
+					function(e) {
 						console.log('Online mode');
 						console.log("heartbeat onSuccess : " + JSON.stringify(e));
 						if (AuthenticationModel.isAuthenticatedWithServer()) {
@@ -78,16 +79,16 @@ define(["com/views/PageView", "com/utils/Utils", "com/utils/DataUtils", "com/mod
 							}
 						}
 					},
-					onFailure: function(e) {
+					function(e) {
 						console.log("heartbeat onFailure : " + JSON.stringify(e));
 						if (e.errorCode && e.errorCode == "REQUEST_TIMEOUT") {
 							_indexPageViewInstance.handleLoggedInUserOffline();
 						} else {
 							AuthenticationModel.logout();
 						}
-					},
-					timeout: 5000
-				});
+					}
+
+				);
 			} catch (e) {
 				AuthenticationModel.logout();
 			}
@@ -114,10 +115,11 @@ define(["com/views/PageView", "com/utils/Utils", "com/utils/DataUtils", "com/mod
 			var invocationData = {
 				adapter: 'userProfile',
 				procedure: 'getUserProfile',
-				parameters: [user_id]
+				parameters: [user_id],
+				timeout: 90000
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function(response) {
+			invokeWLResourceRequest(invocationData,
+				function(response) {
 					if (response.status == 200) {
 						var result = response.invocationResult;
 						delete result.responseID;
@@ -127,11 +129,11 @@ define(["com/views/PageView", "com/utils/Utils", "com/utils/DataUtils", "com/mod
 						Utils.loadHomePage();
 					}
 				},
-				onFailure: function(response) {
+				function(response) {
 					_indexPageViewInstance.loadofflineBoard();
-				},
-				timeout: 90000
-			});
+				}
+
+			);
 		},
 		dispose: function() {
 			PageView.prototype.dispose.call(_indexPageViewInstance);
