@@ -821,6 +821,80 @@ function invokeWebserviceRequest(invocationData, invocationContext, timeout, suc
 				}, 5000);
 	}
 }
+
+
+//invoke procedure v8
+function invokeWLResourceRequest(invocationData,successCallback,failureCallBack , trialNo)
+{
+	// get from invocatioData ( invocationContext, timeout)
+	try
+	{
+		//validate mandatory Parms
+		if(invocationData && typeof successCallback == "function" && typeof failureCallBack == "function" ){
+			// read data from invocation Data	
+			var adapterName=invocationData.adapter;
+			var procedureName=invocationData.procedure;
+			var parameters =invocationData.parameters;
+			var invocationContext=invocationData.invocationContext?invocationData.invocationContext:null;
+			var timeout=invocationData.timeout?invocationData.timeout:null;
+			var method=invocationData.method?invocationData.method:"GET";
+			var scope=invocationData.scope?invocationData.scope:null;
+			// for testing oonly 
+			//var WLResourceRequest={};
+
+
+			var options={
+					timeout:timeout,
+					scope :scope};
+			var url="/adapters/"+adapterName+"/"+procedureName;
+			//TODO WLResourceRequest.GET  check is enum 
+			var request = new WLResourceRequest(url, WLResourceRequest.GET,options);
+
+			request.setQueryParameter('params',parameters );
+			request.send().then(
+					function(response) {
+						// success flow, the result can be found in response.responseJSON
+						successCallback(response);
+					},
+					function(response) {
+						failureCallBack(response);
+						// failure flow
+						/*setTimeout(	function()
+							{
+						if(trialNo == undefined)
+							trialNo = 0;
+						trialNo++;
+						if(trialNo <= numOfInvocationTrials)
+							invokeWLResourceRequest(invocationData, successCallback, failureCallBack, trialNo);
+						else
+							failureCallBack(error);
+							}, 5000);*/
+					}
+			);
+
+		}
+
+	}
+	catch(ex)
+	{
+		console.log(ex);
+		/*setTimeout(	function()
+				{
+			if(trialNo == undefined)
+				trialNo = 0;
+			trialNo++;
+			if(trialNo <= numOfInvocationTrials)
+				invokeWLResourceRequest(invocationData, successCallback, failureCallBack, trialNo);
+			else
+				failureCallBack();
+				}, 5000);*/
+	}
+}
+
+
+
+
+
 function localize(key){
 	if (isUndefinedOrNullOrBlank(key))
 		return '';
