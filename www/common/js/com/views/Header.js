@@ -21,12 +21,12 @@ define(["com/models/Constants",
 			}
 
 			pages[1].style.top = pageTop;
-			
+
 			if (!event)
 				pages[1].style.transitionDuration = "300ms";
-			
+
 			document.getElementById("noInternet").style.display='block';
-			
+
 			setTimeout(function() {
 				document.getElementById("noInternet").style.webkitTransform = "translate3d(0,0,0)";
 				setTimeout(function() {
@@ -50,30 +50,34 @@ define(["com/models/Constants",
 			}, 300);
 		},
 		openSidepanel: function(event) {
-			event.preventDefault();
-			var sidepanel = MobileRouter.getSidePanel();
-			document.activeElement.blur();
-			sidepanel.open();
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+  				event.preventDefault();
+  				var sidepanel = MobileRouter.getSidePanel();
+  				document.activeElement.blur();
+  				sidepanel.open();
+  			}
 		},
 		backAction: function(event) {
-			event.preventDefault();
-			var options = {
-					"direction": "right", // 'left|right|up|down', default 'left' (which is like 'next')
-					"duration": 250, // in milliseconds (ms), default 400
-					"slowdownfactor": 3, // overlap views (higher number is more) or no overlap (1). -1 doesn't slide at all. Default 4
-					"slidePixels": 0, // optional, works nice with slowdownfactor -1 to create a 'material design'-like effect. Default not set so it slides the entire page.
-					"iosdelay": -1, // ms to wait for the iOS webview to update before animation kicks in, default 60
-					"androiddelay": -1, // same as above but for Android, default 70
-					"winphonedelay": -1, // same as above but for Windows Phone, default 200,
-					"fixedPixelsTop": 0, // the number of pixels of your fixed header, default 0 (iOS and Android)
-					"fixedPixelsBottom": 0 // the number of pixels of your fixed footer (f.i. a tab bar), default 0 (iOS and Android)
-			};
-			window.plugins.nativepagetransitions.slide(
-					options,
-					function(msg) {}, // called when the animation has finished
-					function(msg) {} // called in case you pass in weird values
-			);
-			history.back();
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+  				event.preventDefault();
+  				var options = {
+  						"direction": "right", // 'left|right|up|down', default 'left' (which is like 'next')
+  						"duration": 250, // in milliseconds (ms), default 400
+  						"slowdownfactor": 3, // overlap views (higher number is more) or no overlap (1). -1 doesn't slide at all. Default 4
+  						"slidePixels": 0, // optional, works nice with slowdownfactor -1 to create a 'material design'-like effect. Default not set so it slides the entire page.
+  						"iosdelay": -1, // ms to wait for the iOS webview to update before animation kicks in, default 60
+  						"androiddelay": -1, // same as above but for Android, default 70
+  						"winphonedelay": -1, // same as above but for Windows Phone, default 200,
+  						"fixedPixelsTop": 0, // the number of pixels of your fixed header, default 0 (iOS and Android)
+  						"fixedPixelsBottom": 0 // the number of pixels of your fixed footer (f.i. a tab bar), default 0 (iOS and Android)
+  				};
+  				window.plugins.nativepagetransitions.slide(
+  						options,
+  						function(msg) {}, // called when the animation has finished
+  						function(msg) {} // called in case you pass in weird values
+  				);
+  				history.back();
+  			}
 		},
 		render: function(parent) {
 			var noInternet = localize('<div id="noInternet">' + localize('%shell.header.offline%') + '</div>');
@@ -86,13 +90,13 @@ define(["com/models/Constants",
 
 			var self = this;
 			var html = '<div id="header" class="animate">' +
-			'<span id="backBtnHeaderActionBtn" class="left icon-back waves-effect"></span>' +
-			'<span id="searchBtn" class="left icon icon-menu-search waves-effect" style="display:none;"></span>' +
-			'<span id="notificationBtn" class="right icon icon-notifications waves-effect" style="display:none;"></span>' +
-			'<span id="sidePanelHeaderActionBtn" class="right icon icon-menu waves-effect"> </span>' +
-			'<div id="phone_title" class="title"></div><div id="sub_title" style="display:none;"></div>' +
-			'<span id="headerRTALogo" class="icon-RTA-logo"></span>' +
-			'</div>';
+    '<span id="backBtnHeaderActionBtn" class="left icon-back waves-effect" alt="back"></span>' +
+    '<span id="searchBtn" class="left icon icon-menu-search waves-effect" style="display:none;" alt="search"></span>' +
+    '<span id="notificationBtn" class="right icon icon-notifications waves-effect" style="display:none;" alt="notifications"></span>' +
+    '<span id="sidePanelHeaderActionBtn" class="right icon icon-menu waves-effect" alt="menu"> </span>' +
+		'<div id="phone_title" class="title"></div><div id="sub_title" style="display:none;"></div>' +
+		'<span id="headerRTALogo" class="icon-RTA-logo" alt="RTA"></span>' +
+		'</div>';
 			var headerElements = $(parent).find("#header");
 			if (headerElements.length == 0) {
 				$(parent).append(html);
@@ -114,12 +118,16 @@ define(["com/models/Constants",
 			return this; //Maintains chainability
 		},
 		searchBtnAction: function(event) {
-			event.preventDefault();
-			mobile.changePage('shell/search.html');
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+    			event.preventDefault();
+    			mobile.changePage('shell/search.html');
+    			}
 		},
 		notificationBtnAction: function(event) {
-			event.preventDefault();
-			mobile.changePage('shell/notifications.html');
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+    			event.preventDefault();
+    			mobile.changePage('shell/notifications.html');
+    			}
 		},
 		/**
 		 * hide
