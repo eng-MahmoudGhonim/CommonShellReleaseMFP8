@@ -3,7 +3,7 @@
 		this.init(options);
 	}
 	serviceTileControl.prototype = function() {
-		var tileTemplate = '<div class="serviceTileCont dashboardTile">' + '<div class="expandButton"><i class="icon icon-dots-v"></i></div>' + '<div class="tileDataCont">' + '<div class="tileLoader"></div>' + '</div>' + '<div class="reloadCont">' + '<span class="icon-reload"></span>' + '<div>TAP TO RELOAD</div>' + '</div>' + '<div class="serviceListCtrl">' + '<div class="scrollArrow"><i class="icon icon-arrow-right"></i></div>' + '<div class="serviceList">' + '<div class="itemsScroller">' + '<!-- <div class="serviceListItem">item</div> -->' + '</div>' + '</div>' + '</div>' + '<div class="serviceTitle"></div>' + '</div>',
+		var tileTemplate = '<div class="serviceTileCont dashboardTile">' + '<div class="expandButton"><i class="icon icon-dots-v" alt="quick link"></i></div>' + '<div class="tileDataCont">' + '<div class="tileLoader"></div>' + '</div>' + '<div class="reloadCont">' + '<span class="icon-reload"></span>' + '<div>TAP TO RELOAD</div>' + '</div>' + '<div class="serviceListCtrl">' + '<div class="scrollArrow"><i class="icon icon-arrow-right"></i></div>' + '<div class="serviceList">' + '<div class="itemsScroller">' + '<!-- <div class="serviceListItem">item</div> -->' + '</div>' + '</div>' + '</div>' + '<div class="serviceTitle"></div>' + '</div>',
 		tileLogoTemplate = '<div class="serviceLogo">' + '<div class="logo">' + '<i class="icon icon-service-fines"></i>' + '</div>' + '</div>';
 
 		function openClose(e) {
@@ -59,12 +59,12 @@
 			}
 			this.el.serviceList.style.webkitTransform = "translate3d(" + (vw * -1) + "px,0,0)";
 			this.el.serviceListCtrl.style.webkitTransform = "translate3d(" + (vw * -1) + "px,0,0)";
-			
+
 			var upTilesCount = document.getElementsByClassName('serviceTileCont');
 			var _idExt= parseInt(index);
 			if(upTilesCount && upTilesCount.length >0)
 				_idExt = _idExt+parseInt(1);
-				
+
 			this.el.classList.add('dashboardTilechild' + _idExt);
 			document.getElementById("serviceTiles").appendChild(this.el);
 		}
@@ -135,7 +135,7 @@
 			el.appendChild(logo.firstChild);
 			el.options = options;
 			for (var i = 0; i < options.serviceList.length; i++) {
-				
+
 				var serviceItem = document.createElement("div");
 				serviceItem.className = "serviceListItem";
 				var isLoginRequired = options.serviceList[i].requireLogin;
@@ -171,7 +171,7 @@
 				}
 				serviceItem.appendChild(serviceText);
 				serviceItem.pageUrl = options.serviceList[i].ServicePageUrl;
-				
+
 				if (isLoginRequired == true && isloggedIn !=true){
 					serviceItem.onclick = function() {
 						var loginOptions = {
@@ -195,12 +195,12 @@
 						  mobile.changePage(this.pageUrl);
                       }
 					}
-					
+
 //					serviceItem.onclick = function() {
 //						mobile.changePage(this.pageUrl);
 //					}
 				}
-				
+
 				el.querySelector(".itemsScroller").appendChild(serviceItem);
 			}
 			el.serviceOpened = false;
