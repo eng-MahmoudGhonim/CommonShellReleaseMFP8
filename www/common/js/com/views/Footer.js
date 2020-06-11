@@ -11,9 +11,9 @@ define(["com/models/Constants",
 	// Extends Backbone.View
 	var Footer = Backbone.View.extend( {
 
-		initialize: function(options) 
+		initialize: function(options)
 		{
-			appFooter = this ; 
+			appFooter = this ;
 			this.render(options.parent);
 			this.currentSelectedFooterItem="Dashboard";
 
@@ -35,7 +35,7 @@ define(["com/models/Constants",
 				}else if (location.hash.contains("shell/mstore.html")){
 					appFooter.setFooterActiveItem('DriveMode');
 				}else if (location.hash.contains(Constants.MY_APPS_LINK)){
-					appFooter.setFooterActiveItem('MyApps');	
+					appFooter.setFooterActiveItem('MyApps');
 				}else {
 					appFooter.setFooterActiveItem();
 				}
@@ -77,7 +77,7 @@ define(["com/models/Constants",
 					document.getElementById("activeBar").style.visibility = "visible";
 					document.getElementById("activeBar").style.webkitTransform = "translate3d(400%,0,0)";
 					break;
-				default : 
+				default :
 					document.getElementById("activeBar").style.visibility = "hidden";
 				break;
 				}
@@ -109,7 +109,7 @@ define(["com/models/Constants",
 					document.getElementById("activeBar").style.visibility = "visible";
 					document.getElementById("activeBar").style.webkitTransform = "translate3d(-400%,0,0)";
 					break;
-				default : 
+				default :
 					document.getElementById("activeBar").style.visibility = "hidden";
 				break;
 				}
@@ -117,79 +117,55 @@ define(["com/models/Constants",
 
 		},
 		openDashboard:function(event){
-			event.preventDefault();
-			appFooter.setFooterActiveItem("Dashboard");
-			if(window.location.hash.indexOf("shell/dashboard.html")!=-1){
-				boradSlide.changeIndex(1);
-			}else{
-				window.DashboardIndex = "1";
-				mobile.changePage("shell/dashboard.html");	
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+				event.preventDefault();
+				appFooter.setFooterActiveItem("Dashboard");
+				if(window.location.hash.indexOf("shell/dashboard.html")!=-1){
+					boradSlide.changeIndex(1);
+				}else{
+					window.DashboardIndex = "1";
+					mobile.changePage("shell/dashboard.html");
+				}
 			}
 		},
 		openFavourites:function(event){
-			event.preventDefault();
-			appFooter.setFooterActiveItem("Favourites");
-			if(window.location.hash.indexOf("shell/dashboard.html")!=-1){
-				boradSlide.changeIndex(0);
-			}else{
-				window.DashboardIndex = "0";
-				mobile.changePage("shell/dashboard.html");	
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+    				event.preventDefault();
+    				appFooter.setFooterActiveItem("Favourites");
+    				if(window.location.hash.indexOf("shell/dashboard.html")!=-1){
+    					boradSlide.changeIndex(0);
+    				}else{
+    					window.DashboardIndex = "0";
+    					mobile.changePage("shell/dashboard.html");
+    				}
 			}
 
 		},
 		openHelpCenter:function(event){
-			event.preventDefault();
-			if(this.className.indexOf("active") == -1){
-				appFooter.setFooterActiveItem("HelpCenter");
-				mobile.changePage("shell/help_center.html");
-//				if (!navigator.onLine){
-//					showInternetProblemPopup();
-//					return;
-//				}
-//				try { 
-//					var mChatOpenPopup_Options = {
-//							popupId: "mChatOpenPopup",
-//							title: localize("%shell.menu.mchat%"),
-//							content: localize("%shell.popup.mchat.message%"),
-//							primaryBtnText: localize("%shell.dialog.button.ok%"),
-//							primaryBtnCallBack: appFooter.openChatPage,
-//							primaryBtnDisabled: false,
-//							secondaryBtnText: localize("%shell.label.cancel%"),
-//							secondaryBtnCallBack: null,
-//							secondaryBtnVisible: true,
-//							secondaryBtnDisabled: false,
-//							hideOnPrimaryClick: true,
-//							hideOnSecondaryClick: true,
-//							aroundClickable: true,
-//							onAroundClick: null
-//					}
-//
-//					var mChatOpenPopup = new Popup(mChatOpenPopup_Options);
-//					mChatOpenPopup.show();
-//				}catch(e){$('.ui-loader').hide();}
-
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+      event.preventDefault();
+      if(this.className.indexOf("active") == -1){
+        appFooter.setFooterActiveItem("HelpCenter");
+        mobile.changePage("shell/help_center.html");
+      }
 			}
 		},
 		openDriveMode:function(event){
-			event.preventDefault();
-			mobile.changePage("shell/mstore.html");
-			/*if(AuthenticationModel.isAuthenticated()) {
-				if(!UserProfileModel.getUserProfile().Users[0].traffic_number){
-					DVDashboardModel.onLinkTrafficFileClick();
-				}else{
-					mobile.changePage("shell/mstore.html");
-				}
-			}else{
-				var loginRegisterPopup = new Popup("loginRegisterPopup");
-				loginRegisterPopup.show();
-			}*/
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+    				event.preventDefault();
+    				mobile.changePage("shell/mstore.html");
+          }
 		},
 		openMyApps:function(event){
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
 			event.preventDefault();
 			appFooter.setFooterActiveItem("MyApps");
 			mobile.changePage(Constants.MY_APPS_LINK);
+    }
 		},
 		openHapinessMeter:function(event){
+      if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+
 			event.preventDefault();
 			if (!navigator.onLine){
 				showInternetProblemPopup();
@@ -198,8 +174,9 @@ define(["com/models/Constants",
 			appFooter.setFooterActiveItem("HapinessMeter");
 
 			HapinessMeterRatingModel.showHappinessMeter();
+    }
 		},
-		render: function(parent,translated) 
+		render: function(parent,translated)
 		{
 			var html= '<div id="footer" class="animate">'+
 			'<span id="dashboard" class="item icon icon-footer-dashboard waves-effect waves-light"><span class="footer-text">%shell.footer.dashboard%</span></span>'+
@@ -240,7 +217,7 @@ define(["com/models/Constants",
 
 			window.footerAnimated = true;
 		},
-		
+
 
 		thanksHapinessSuccess : function(){
 			$(".ui-loader").hide();
