@@ -95,7 +95,7 @@ define(["com/models/Constants",
     '<span id="notificationBtn" class="right icon icon-notifications waves-effect" style="display:none;" alt="notifications"></span>' +
     '<span id="sidePanelHeaderActionBtn" class="right icon icon-menu waves-effect" alt="menu"> </span>' +
 		'<div id="phone_title" class="title"></div><div id="sub_title" style="display:none;"></div>' +
-		'<span id="headerRTALogo" class="icon-RTA-logo" alt="RTA"></span>' +
+    '<span id="headerRTALogo" class="icon-RTA-logo" alt="roads and transport authority logo"></span>' +
 		'</div>';
 			var headerElements = $(parent).find("#header");
 			if (headerElements.length == 0) {
