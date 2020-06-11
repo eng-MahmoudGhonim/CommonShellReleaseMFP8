@@ -24,7 +24,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/Constants", "com/m
 			self.orientation = "front";
 			var actionsCont = document.querySelector(".pswp .actionsCont");
 			actionsCont.className = "actionsCont mStoreVehiclesPage";
-			actionsCont.innerHTML = '<span class="icon-flip"></span><span class="icon-social-share"></span><span class="icon-cancel"></span>';
+			actionsCont.innerHTML = '<span class="icon-flip"></span><span class="icon-social-share"></span><span class="icon-cancel" alt="close"></span>';
 			document.querySelector("#mStoreLicensePage .headerCont .icon-flip").onclick = function() {
 				if (self.orientation == "front") {
 					self.bindImg(self.mylicense.backView);

@@ -63,7 +63,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/shell/MStoreCoverM
 						setTimeout(function() {
 							var actionsCont = document.querySelector(".pswp .actionsCont");
 							actionsCont.className = "actionsCont mStoreVehiclesPage";
-							actionsCont.innerHTML = '<span class="icon-flip"></span><span class="icon-social-share"></span><span class="icon-cancel"></span>';
+							actionsCont.innerHTML = '<span class="icon-flip"></span><span class="icon-social-share"></span><span class="icon-cancel" alt="close"></span>';
 							actionsCont.querySelector(".icon-social-share").onclick = self.shareVehicleCard;
 							actionsCont.querySelector(".icon-flip").onclick = self.filpVehicleCardInGallery;
 							actionsCont.querySelector(".icon-cancel").onclick = function() {
@@ -198,7 +198,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/shell/MStoreCoverM
 							window.Gallery2 = gallery2;
 							var actionsCont = document.querySelector(".pswp .actionsCont");
 							actionsCont.className = "actionsCont mStoreVehiclesPage";
-							actionsCont.innerHTML = '<span class="icon-social-share"></span><span class="icon-cancel"></span>';
+							actionsCont.innerHTML = '<span class="icon-social-share"></span><span class="icon-cancel" alt="close"></span>';
 							actionsCont.querySelector(".icon-cancel").onclick = function() {
 								window.Gallery2.close();
 							}
@@ -221,7 +221,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/shell/MStoreCoverM
 				});
 			} catch (e) {}
 		},
-		
+
 		viewVehicleLicense: function(event) {
 			try {
 				if(event)
@@ -249,7 +249,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/shell/MStoreCoverM
 				var shareMessage = null;
 				var sharingLink = Utils.getAppStoreLink();
 				if(Utils.isAndroid()){
-					shareMessage = localize("%shell.mstore.share.vehiclelicense%").replace("#STORELINK#", sharingLink);	
+					shareMessage = localize("%shell.mstore.share.vehiclelicense%").replace("#STORELINK#", sharingLink);
 				}
 				SocialSharingUtils.share(shareMessage, [self.vehicles[i].report], null);
 			} catch (e) {}

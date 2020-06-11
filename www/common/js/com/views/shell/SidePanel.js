@@ -368,6 +368,11 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/utils/Utils", "c
 						document.querySelector(".ui-loader").innerHTML = loader;
 						$(".ui-loader").hide();
 					}, 500);
+					// Hide Text speech on arabic
+				try{
+					var language = getApplicationLanguage();
+					if(language&&language=='ar'&&window.TextToSpeech&&window.TextToSpeech.isSpeechEnabled()){
+						window.TextToSpeech.toggle();}}catch(e){console.log(e)}
 				} catch (e) {
 					$(".ui-loader").hide();
 				}
