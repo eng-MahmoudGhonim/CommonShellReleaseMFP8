@@ -125,7 +125,7 @@
 				popupId: "UAEPassCancelledPopup",
 				title: localize("%shell.Login.loginUAEPassCancelledTitle%"),
 				content: window.Utils.applyLocalization('<div class="appUAEPASSNotInstalledPopupContent"><img class="loginUAEPASSLogo"></div>'+
-						'<div class="icon-cancel1"></div> '+
+						'<div class="icon-cancel1" alt="close"></div> '+
 						'<div class="appCancelledBody">%shell.Login.loginUAEPassCancelledBody%</div>'
 				),
 				primaryBtnText: localize("%shell.dashboard.coporate.login%"),

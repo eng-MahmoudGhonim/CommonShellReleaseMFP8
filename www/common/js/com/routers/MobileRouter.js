@@ -44,6 +44,11 @@ define(["com/models/Constants",
 				});
 			},
 			changePage: function (hash, changePageObj) {
+				//Stop Navigation if accessibilty working
+if((window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+	return ;
+}
+
 				//			console.log('changePage hash ' +hash+ 'changePageObj '+ JSON.stringify(changePageObj));
 				var self = this;
 				var navigateObj = {
