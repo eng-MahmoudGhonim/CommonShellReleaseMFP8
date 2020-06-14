@@ -72,14 +72,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-splashscreen.SplashScreen",
-      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-      "pluginId": "cordova-plugin-splashscreen",
-      "clobbers": [
-        "navigator.splashscreen"
-      ]
-    },
-    {
       "id": "cordova-plugin-appavailability.AppAvailability",
       "file": "plugins/cordova-plugin-appavailability/www/AppAvailability.js",
       "pluginId": "cordova-plugin-appavailability",
@@ -140,6 +132,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "cordova.getAppVersion"
       ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -151,7 +151,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-mfp": "8.0.2020052505",
     "cordova-plugin-mfp-push": "8.0.2020052609",
     "cordova-plugin-network-information": "2.0.2",
-    "cordova-plugin-splashscreen": "5.0.3",
     "cordova-plugin-appavailability": "0.4.2",
     "es6-promise-plugin": "4.2.2",
     "cordova-plugin-x-socialsharing": "5.6.8",
@@ -159,6 +158,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-touch-id": "3.3.1",
     "cordova-plugin-speech-recognition-feat-siri": "3.0.0",
     "com.telerik.plugins.nativepagetransitions": "0.6.5",
-    "cordova-plugin-app-version": "0.1.9"
+    "cordova-plugin-app-version": "0.1.9",
+    "cordova-plugin-splashscreen": "5.0.4"
   };
 });

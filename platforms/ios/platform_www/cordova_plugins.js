@@ -124,6 +124,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "cordova.getAppVersion"
       ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -141,6 +149,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-touch-id": "3.3.1",
     "cordova-plugin-speech-recognition-feat-siri": "3.0.0",
     "com.telerik.plugins.nativepagetransitions": "0.6.5",
-    "cordova-plugin-app-version": "0.1.9"
+    "cordova-plugin-app-version": "0.1.9",
+    "cordova-plugin-splashscreen": "5.0.4"
   };
 });
