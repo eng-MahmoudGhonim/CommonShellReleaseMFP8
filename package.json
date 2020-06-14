@@ -26,7 +26,6 @@
     "cordova-plugin-network-information": "^2.0.2",
     "cordova-plugin-okhttp": "^2.0.0",
     "cordova-plugin-speech-recognition-feat-siri": "^3.0.0",
-    "cordova-plugin-splashscreen": "^5.0.3",
     "cordova-plugin-touch-id": "^3.4.0",
     "cordova-plugin-tts": "^0.2.3",
     "cordova-plugin-x-socialsharing": "^5.6.8",
@@ -40,7 +39,6 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-mfp-push": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-splashscreen": {},
       "cordova-plugin-appavailability": {},
       "cordova-plugin-x-socialsharing": {
         "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",

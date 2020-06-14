@@ -111,7 +111,7 @@
         <resource-file src="src/android/libs/mips64/libauthjni.so" target="libs/mips64/libauthjni.so" />
         <resource-file src="src/android/libs/x86/libauthjni.so" target="libs/x86/libauthjni.so" />
 
-        <resource-file src="src/android/libs/arm64-v8a/libauthjni.so" target="libs/arm64-v8a/libauthjni.so" />
+     <resource-file src="src/android/libs/arm64-v8a/libauthjni.so" target="libs/arm64-v8a/libauthjni.so" />
         <resource-file src="src/android/libs/x86_64/libauthjni.so" target="libs/x86_64/libauthjni.so" />
         <resource-file src="src/android/res/drawable-hdpi/splash.9.png" target="res/drawable-hdpi/splash.9.png" />
         <resource-file src="src/android/res/drawable-ldpi/splash.9.png" target="res/drawable-ldpi/splash.9.png" />

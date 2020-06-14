@@ -19,10 +19,6 @@
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
     <feature name="AppAvailability">
         <param name="android-package" value="com.ohh2ahh.appavailability.AppAvailability" />
     </feature>
@@ -150,7 +146,7 @@
         <mfp:appChecksum>0</mfp:appChecksum>
     </mfp:windows>
     <mfp:platformVersion>8.0.0.00-20200524-153527</mfp:platformVersion>
-    <mfp:clientCustomInit enabled="false" />
+    <mfp:clientCustomInit enabled="true" />
     <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
     <mfp:serverUri url="" />
     <mfp:directUpdateAuthenticityPublicKey />
