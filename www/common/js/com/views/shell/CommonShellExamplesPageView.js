@@ -132,7 +132,8 @@ define(["com/views/PageView",
 		openAnotherApp:function() {
 			var parameter = null;
 
-			if (WL.Client.getEnvironment() == WL.Environment.ANDROID) {
+			//if (WL.Client.getEnvironment() == WL.Environment.ANDROID) {
+      if (device.platform == "Android") {
 				parameter = $('#packageName').val();
 			}
 
@@ -171,7 +172,8 @@ define(["com/views/PageView",
 		openAnotherApp:function() {
 			var parameter = null;
 
-			if (WL.Client.getEnvironment() == WL.Environment.ANDROID) {
+      //if (WL.Client.getEnvironment() == WL.Environment.ANDROID) {
+      if (device.platform == "Android") {
 				parameter = $('#packageName').val();
 			}
 

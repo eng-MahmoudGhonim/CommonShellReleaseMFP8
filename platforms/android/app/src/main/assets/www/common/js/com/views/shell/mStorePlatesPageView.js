@@ -57,7 +57,7 @@ define(["com/views/PageView",
 
 				var actionsCont = document.querySelector(".pswp .actionsCont");
 				actionsCont.className = "actionsCont mStoreVehiclesPage";
-				actionsCont.innerHTML = '<span class="icon-social-share"></span><span class="icon-cancel"></span>';
+        actionsCont.innerHTML = '<span class="icon-social-share"></span><span class="icon-cancel" alt="close"></span>';
 
 				self.bindItems(self.myplates);
 

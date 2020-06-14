@@ -59,8 +59,8 @@ define([
 					parameters : []
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					if(result && !result.error) {
 						callback(result.invocationResult);
 					}
@@ -68,10 +68,10 @@ define([
 						callback(null);
 					}
 				},
-				onFailure : function(result) {
+				function(result) {
 					callback(null);
 				}
-			});
+			);
 		},
 
 
@@ -83,8 +83,8 @@ define([
 					parameters : []
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 
 					if(result && !result.error) {
 						// Update Cashed Data
@@ -96,10 +96,10 @@ define([
 						callback(null);
 					}
 				},
-				onFailure : function(result) {
+				function(result) {
 					callback(null);
 				}
-			});
+			);
 		},
 
 

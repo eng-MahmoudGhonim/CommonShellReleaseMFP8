@@ -83,8 +83,9 @@ define([
 		setMessageUnread: function(message_id, message_status, user_id, callback) {
 			var self = this;
 			//MGRT71
-			WL.Device.getNetworkInfo(function (networkInfo) {
-				if((networkInfo && networkInfo.isNetworkConnected == "true")){
+      //WL.Device.getNetworkInfo(function (networkInfo) {
+				//if((networkInfo && networkInfo.isNetworkConnected == "true")){
+        if (Utils.IS_NETWORK_CONNECTED==true) {
 					//Online mode
 					var invocationData = {
 							adapter : 'userProfile',
@@ -129,14 +130,15 @@ define([
 
 					callback({isSuccessful: true});
 				}
-			});
+		//	});
 
 		},
 		setMessageRead: function(message_id, message_status, user_id, callback) {
 			var self = this;
 			//MGRT71
-			WL.Device.getNetworkInfo(function (networkInfo) {
-				if((networkInfo && networkInfo.isNetworkConnected == "true") ){
+      //WL.Device.getNetworkInfo(function (networkInfo) {
+				//if((networkInfo && networkInfo.isNetworkConnected == "true") ){
+        if (Utils.IS_NETWORK_CONNECTED==true) {
 					//Online mode
 					var invocationData = {
 							adapter : 'userProfile',
@@ -181,15 +183,18 @@ define([
 
 					callback({isSuccessful: true});
 				}
-			});
+		//	});
 		},
 
 		deleteMessage: function(message_id, user_id, callback) {
 
 			var self = this;
-			WL.Device.getNetworkInfo(function(deviceStatus) {
+		//	WL.Device.getNetworkInfo(function(deviceStatus) {
 				//MGRT71
-				if ((deviceStatus && deviceStatus.isNetworkConnected == "true") ) {
+			//	if ((deviceStatus && deviceStatus.isNetworkConnected == "true") ) {
+    //  WL.Device.getNetworkInfo(function(deviceStatus) {
+        if (Utils.IS_NETWORK_CONNECTED==true) {
+
 					//Online mode
 					var invocationData = {
 							adapter : 'userProfile',
@@ -231,7 +236,7 @@ define([
 					DataUtils.setLocalStorageData('PENDING_MESSAGES_TASKS', JSON.stringify(pendingTasks), false, 'shell');
 					callback({isSuccessful: true});
 				}
-			});
+			//});
 		},
 
 		getUserMessageAfterDate: function(user_id, date, callback) {
@@ -304,9 +309,10 @@ define([
 
 					var unreadMessages = 0;
 					try {
-						WL.Device.getNetworkInfo(function(deviceStatus) {
+					//	WL.Device.getNetworkInfo(function(deviceStatus) {
 							//MGRT71
-							if ((deviceStatus && deviceStatus.isNetworkConnected == "true")) {
+							//if ((deviceStatus && deviceStatus.isNetworkConnected == "true")) {
+              if (Utils.IS_NETWORK_CONNECTED==true) {
 								var user_id = "";
 								try {
 									user_id = UserProfileModel.getUserProfile().Users[0].user_id;
@@ -355,7 +361,7 @@ define([
 
 								self._updateMessagesCounterInView(unreadMessages);
 							}
-						});
+						//});
 					} catch (e) {
 
 					}

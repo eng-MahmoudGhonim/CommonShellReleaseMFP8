@@ -106,8 +106,7 @@ define([
 					busyInd.hide();
 					deferred.resolve({ePayComplete:false});
 				}
-
-			);
+			});
 		},
 
 		fillDSGOptions: function(DSGOptions){

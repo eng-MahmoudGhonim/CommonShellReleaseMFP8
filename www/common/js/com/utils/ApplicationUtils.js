@@ -1290,7 +1290,8 @@ function sendEmail()
 	var mail = localize("ask@rta.ae");
 	var winMail='';
 
-	if(env == WL.Environment.BLACKBERRY10|| env == WL.Environment.WINDOWS_PHONE_8) {
+		//if(env == WL.Environment.BLACKBERRY10|| env == WL.Environment.WINDOWS_PHONE_8) {
+ if(env == "BlackBerry 10"|| env == "Win32NT") {
 		winMail = window.location.href = 'mailto:' + mail;
 	} else {
 		winMail = window.open("mailto:" + mail+"?subject="+emailSubject+"&body="+emailDetails+"&content='text/plain'&charset='UTF-8'", '_system');

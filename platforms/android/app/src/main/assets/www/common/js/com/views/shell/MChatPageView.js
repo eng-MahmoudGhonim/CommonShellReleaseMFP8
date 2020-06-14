@@ -13,6 +13,7 @@ Function.prototype.clone = function() {
 define([
   "com/views/PageView",
   "com/models/Constants",
+  "com/utils/Utils",
   "com/utils/DataUtils",
   "com/views/Header",
   "com/models/shell/UserProfileModel",
@@ -126,7 +127,8 @@ define([
       var lang = getApplicationLanguage();
       var chatURL = "";
       var skill = "",
-        ver = WL.Client.getAppProperty("APP_VERSION"),
+        //ver = WL.Client.getAppProperty("APP_VERSION"),
+        ver = utils.APP_VERSION,//WL.Client.getAppProperty("APP_VERSION"),
         appname = "";
       if (Constants.APP_ID == "RTA_Drivers_And_Vehicles") {
         appname = "Dubaidrive";

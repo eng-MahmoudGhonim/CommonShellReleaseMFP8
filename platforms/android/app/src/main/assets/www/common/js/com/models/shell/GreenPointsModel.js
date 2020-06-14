@@ -45,18 +45,18 @@ define([
 							parameters : [ score ]
 					};
 
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess : function(result) {
+					invokeWLResourceRequest(invocationData,
+						function(result) {
 							if (result && result.invocationResult) {
 								callback(result.invocationResult.resultSet);
 							} else {
 								callback(null);
 							}
 						},
-						onFailure : function(result) {
+						function(result) {
 							callback(null, true);
 						}
-					});
+					);
 				} catch (e) {
 					callback(null, true);
 				}
@@ -73,18 +73,18 @@ define([
 							parameters : [ user_id ]
 					};
 
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess : function(result) {
+					invokeWLResourceRequest(invocationData,
+						function(result) {
 							if (result && result.invocationResult) {
 								callback(result.invocationResult.resultSet[0]);
 							} else {
 								callback(null);
 							}
 						},
-						onFailure : function(result) {
+						function(result) {
 							callback(null, true);
 						}
-					});
+					);
 				} catch (e) {
 					callback(null, true);
 				}

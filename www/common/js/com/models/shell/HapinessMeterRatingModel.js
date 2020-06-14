@@ -58,7 +58,7 @@ define([ "backbone", "com/models/Constants", "com/utils/Utils",
 					"applicationID": appName,
 					"platform": appPlatform,
 					"url": appURL,
-					"version":WL.Client.getAppProperty("APP_VERSION"),
+          "version":Utils.APP_VERSION,//WL.Client.getAppProperty("APP_VERSION"),
 					"type": "SMARTAPP"
 				}
 			};

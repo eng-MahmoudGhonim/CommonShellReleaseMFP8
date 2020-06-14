@@ -13,8 +13,11 @@ define([
 
 			var pageData = self.getPageDataFromStorage();
 			//MGRT71
-			WL.Device.getNetworkInfo(function (networkInfo) {
-				if (self._isValidPageData(pageData) || (networkInfo && networkInfo.isNetworkConnected == "false")) {
+		//	WL.Device.getNetworkInfo(function (networkInfo) {
+			//	if (self._isValidPageData(pageData) || (networkInfo && networkInfo.isNetworkConnected == "false")) {
+					//	WL.Device.getNetworkInfo(function (networkInfo) {
+		if (self._isValidPageData(pageData) || (Utils.IS_NETWORK_CONNECTED==false) /*(networkInfo && networkInfo.isNetworkConnected == "false")*/) {
+
 					if(!pageData) {
 						pageData = {};
 					}
@@ -23,7 +26,7 @@ define([
 					}
 
 					callback(pageData.data);
-				} else if((networkInfo && networkInfo.isNetworkConnected == "true")){
+				} else if((Utils.IS_NETWORK_CONNECTED==true)/*(networkInfo && networkInfo.isNetworkConnected == "true")*/){
 					var recentActivities = [];
 					var loadingInd = $(".ui-loader");
 
@@ -90,7 +93,7 @@ define([
 						callback(pageDataPack.data);
 					}
 				}
-			});
+			//});
 		},
 
 		setPageDataToStorage : function(recentActivities) {

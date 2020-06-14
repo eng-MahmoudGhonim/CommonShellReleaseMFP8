@@ -1,7 +1,8 @@
 function wlSuccessfullyInitialized(){
-	console.log("@@@@@@@@@"+WL.Client.getEnvironment());
-if( WL.Client.getEnvironment() == WL.Environment.IPAD || WL.Client.getEnvironment() == WL.Environment.IPHONE ||  WL.Client.getEnvironment() == WL.Environment.ANDROID){
-	var touchid = {
+	//console.log("@@@@@@@@@"+WL.Client.getEnvironment());
+	//if( WL.Client.getEnvironment() == WL.Environment.IPAD || WL.Client.getEnvironment() == WL.Environment.IPHONE ||  WL.Client.getEnvironment() == WL.Environment.ANDROID){
+	var env=device.platform ;
+	if (env== "Android" || env="IOS") {	var touchid = {
 			isAvailable: function(successCallback, errorCallback){
 				cordova.exec(successCallback, errorCallback, "TouchID", "isAvailable", []);
 			},

@@ -167,7 +167,7 @@ define(["com/utils/Utils",
 				WL.Client.setUserPref("recentUserIdMyId", response.responseJSON.userProfile.Users[0].cn);
 				var profile = response.responseJSON.userProfile.Users[0]
 				//				if(profile.mobile[0] != "0" && profile.mobile[1] != "0"){
-				//				response.responseJSON.userProfile.Users[0].mobile = 
+				//				response.responseJSON.userProfile.Users[0].mobile =
 				//				"00" + profile.mobile;
 				//				}
 				UserProfileModel.setUserProfile(response.responseJSON.userProfile);
@@ -230,10 +230,11 @@ define(["com/utils/Utils",
 				var invocationDataPortal = {
 					adapter: 'portalAdapter',
 					procedure: 'linkEmiratesId',
-					parameters: [portalProfile.user_id, MYIDuserProfile.id_number, "true", Constants.PORTAL_APP_IDs[Constants.APP_ID]]
+					parameters: [portalProfile.user_id, MYIDuserProfile.id_number, "true", Constants.PORTAL_APP_IDs[Constants.APP_ID]],
+					timeout: 180000
 				};
-				WL.Client.invokeProcedure(invocationDataPortal, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationDataPortal,
+					function (result) {
 						console.log('portalAdapter->linkEmiratesId:onSuccess() called');
 						amAdapterAuthChallengeHandler.userProfileForLinking = null;
 						if (result && result.invocationResult) {
@@ -245,7 +246,7 @@ define(["com/utils/Utils",
 							}
 						}
 					},
-					onFailure: function (result) {
+					function (result) {
 						console.log('amAdapterAuthChallengeHandler :: linkEmiratesId :: onFailure');
 
 						amAdapterAuthChallengeHandler.userProfileForLinking = null;
@@ -254,9 +255,9 @@ define(["com/utils/Utils",
 								errorCode: "99"
 							}
 						});
-					},
-					timeout: 180000
-				});
+					}
+
+				);
 			} else if (amAdapterAuthChallengeHandler.userProfileForLinkingUAEPass) {
 				console.log('amAdapterAuthChallengeHandler :: userProfileForLinkingUAEPass');
 
@@ -274,7 +275,7 @@ define(["com/utils/Utils",
 						//TODO hanling linking success popup
 						//	if ($(".ui-loader"))
 						//	{$(".ui-loader").hide();}
-						//var successLinkedWithUAEPass=new Popup("successLinkUAEPassPopup"); 
+						//var successLinkedWithUAEPass=new Popup("successLinkUAEPassPopup");
 						//successLinkedWithUAEPass.show();
 						console.log('amAdapterAuthChallengeHandler :: linkUAEPass :: onSuccess');
 						afterAuthenticationCompleted.onSuccess();

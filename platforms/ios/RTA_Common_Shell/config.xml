@@ -185,4 +185,7 @@
     <feature name="NativePageTransitions">
         <param name="ios-package" value="NativePageTransitions" />
     </feature>
+    <feature name="AppVersion">
+        <param name="ios-package" value="AppVersion" />
+    </feature>
 </widget>

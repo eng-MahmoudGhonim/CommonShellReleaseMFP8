@@ -199,8 +199,9 @@ define([
 
 				//WL.Client.deleteUserPref("activeUserId");
 				//MGRT71
-				WL.Device.getNetworkInfo(function (networkInfo) {
-					if ((networkInfo && networkInfo.isNetworkConnected == "true")) {
+			//	WL.Device.getNetworkInfo(function (networkInfo) {
+			//		if ((networkInfo && networkInfo.isNetworkConnected == "true")) {
+	if (Utils.IS_NETWORK_CONNECTED==true) {
 						self.logutAMAdapterAuthRealm(redirectPage, callback);
 					} else {
 						if (redirectPage) {
@@ -210,7 +211,7 @@ define([
 							callback();
 						}
 					}
-				});
+			//	});
 			}
 			catch (e) {
 				console.log("User was logged out before");

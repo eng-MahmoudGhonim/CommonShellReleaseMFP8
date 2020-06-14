@@ -39,7 +39,8 @@ define(["com/views/PageView",
 			SocialSharingModel.share(shareMessage,null,sharingLink);
 		},
 		whatIsNewViewed:function (){
-			var AboutThisAppOpened={"isOpened":true,"version":WL.Client.getAppProperty("APP_VERSION")};
+			//var AboutThisAppOpened={"isOpened":true,"version":WL.Client.getAppProperty("APP_VERSION")};
+      var AboutThisAppOpened={"isOpened":true,"version":Utils.APP_VERSION/*WL.Client.getAppProperty("APP_VERSION")*/};
 			DataUtils.setLocalStorageData("AboutThisAppOpened",JSON.stringify(AboutThisAppOpened),false,"shell");
 		},
 		onPageShow:function (){
@@ -86,7 +87,8 @@ define(["com/views/PageView",
 				document.getElementsByClassName("collapseHead")[0].click();
 
 			},500);},100);
-			var appVersion = WL.Client.getAppProperty("APP_VERSION");
+		//	var appVersion = WL.Client.getAppProperty("APP_VERSION");
+      var appVersion = Utils.APP_VERSION;//WL.Client.getAppProperty("APP_VERSION");
 			$('#AppVersion').html(appVersion);
 
 

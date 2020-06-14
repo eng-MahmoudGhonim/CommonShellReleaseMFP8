@@ -16,6 +16,7 @@
     "com.telerik.plugins.nativepagetransitions": "^0.6.5",
     "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
+    "cordova-plugin-app-version": "^0.1.9",
     "cordova-plugin-appavailability": "^0.4.2",
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-dialogs": "^2.0.2",
@@ -54,7 +55,8 @@
         "SPEECH_USAGE_DESCRIPTION": "Speech recognition permission is required",
         "MICROPHONE_USAGE_DESCRIPTION": "Microphone permission is required for speech recognition"
       },
-      "com.telerik.plugins.nativepagetransitions": {}
+      "com.telerik.plugins.nativepagetransitions": {},
+      "cordova-plugin-app-version": {}
     },
     "platforms": [
       "android",

@@ -25,7 +25,7 @@
 					// sheetBottonControl.style.webkitTransform = "translate3d(0,0,0)";
 					buttonSheetWrapper.style.webkitTransform = "translate3d(0,0,0)";
 					buttonSheetBlack.style.opacity = 1;
-					// get time 
+					// get time
 					var DataUtils = require("com/utils/DataUtils");
 					var time = 2000;
 					if (DataUtils) {
@@ -40,11 +40,18 @@
 					var lang = getApplicationLanguage() == "ar" ? "ar" : "en";
 					var constant = require("com/models/Constants");
 					var url = null;
+					var Utils = require("com/utils/Utils");
 					if (DEVELOPMENT_MODE) {
-						url = constant.ButtonSheetDevURL + serviceId + "&language=" + lang + "&date=" + Date.now() +"&version="+WL.Client.getAppProperty("APP_VERSION")+ "&app=" + constant.APP_ID;
+						Utils.getAppicationVersion(function callFunction(version) {
+						url = constant.ButtonSheetDevURL + serviceId + "&language=" + lang + "&date=" + Date.now() +"&version="+version+ "&app=" + constant.APP_ID;
+						//url = constant.ButtonSheetDevURL + serviceId + "&language=" + lang + "&date=" + Date.now() +"&version="+WL.Client.getAppProperty("APP_VERSION")+ "&app=" + constant.APP_ID;
 						console.log(url);
+					});
 					} else {
-						url = constant.ButtonSheetProdURL + serviceId + "&language=" + lang + "&date=" + Date.now()+"&version="+WL.Client.getAppProperty("APP_VERSION")+ "&app=" + constant.APP_ID;
+						Utils.getAppicationVersion(function callFunction(version) {
+							url = constant.ButtonSheetProdURL + serviceId + "&language=" + lang + "&date=" + Date.now()+"&version="+version+ "&app=" + constant.APP_ID;
+						});
+						//url = constant.ButtonSheetProdURL + serviceId + "&language=" + lang + "&date=" + Date.now()+"&version="+WL.Client.getAppProperty("APP_VERSION")+ "&app=" + constant.APP_ID;
 					}
 					buttonSheetIframe.contentWindow.location.replace(url);
 					$(".ui-loader").show();
@@ -61,7 +68,7 @@
 					hide();
 				}
 			}
-			// hide loader if exist 
+			// hide loader if exist
 			setTimeout(function () {
 				$(".ui-loader").hide();
 			}, 15000);
@@ -72,7 +79,7 @@
 			debugger;
 			$(".ui-loader").hide();
 			if (e) e.preventDefault();
-		
+
 			buttonSheetWrapper.style.webkitTransform = "translate3d(0,120%,0)";
 
 			setTimeout(function () {

@@ -30,6 +30,7 @@
 	background: #fff;
 	transition-duration: 300ms;
 	visibility: hidden;
+	line-height:1.6;
 }
 
 .container-rtl .collapseHead {

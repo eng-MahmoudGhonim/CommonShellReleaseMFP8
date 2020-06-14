@@ -36,6 +36,12 @@ define(["com/views/PageView",
 					activateCheckbox(document.getElementById("zoom-checkbox"));
 					setTimeout(function(){ 	window.appZoom.toggle(); }, 300);
 				}
+        deactivateCheckbox(document.getElementById('speech-checkbox'));
+      if(window.TextToSpeech.isSpeechEnabled()){
+        activateCheckbox(document.getElementById("speech-checkbox"));
+        setTimeout(function(){  	window.TextToSpeech.toggle();}, 300);
+      }
+
 			};
 			var highConstrastSwitch = document.getElementById('highConstrast-checkbox');
 			highConstrastSwitch.onchange = function(event){
@@ -51,16 +57,16 @@ define(["com/views/PageView",
 				}
 
 			};
-			
+
 			var invertedColors = localStorage.getItem("shellInvertedColors");
 			invertedColors = invertedColors != null ? JSON.parse(invertedColors):false;
 			if(invertedColors){
 				activateCheckbox(highConstrastSwitch);
 				setTimeout(function(){ 	AccessibilityPageView.invertColors(true); }, 300);
 			}
-			
-			
-			
+
+
+
 			var blackAndWhiteSwitch = document.getElementById('blackAndWhite-checkbox');
 			blackAndWhiteSwitch.onchange = function(event){
 				var checked =this.checked;
@@ -81,7 +87,7 @@ define(["com/views/PageView",
 				activateCheckbox(blackAndWhiteSwitch);
 				setTimeout(function(){ 	AccessibilityPageView.blackAndWhite(true); }, 300);
 			}
-			
+
 			var zoomSwitch = document.getElementById('zoom-checkbox');
 			zoomSwitch.onchange = function(event){
 				var checked =this.checked;
@@ -96,7 +102,7 @@ define(["com/views/PageView",
 				}
 
 			};
-			
+
 			window.appZoom = new AppZoom();
 			window.appZoom.onClose(function(){
 				if(document.getElementById("zoom-checkbox") != null){
@@ -111,6 +117,45 @@ define(["com/views/PageView",
 			if(Utils.getCurrentPlatform() == "iOS"){
 				document.getElementById("openSettings").style.display = "none";
 			}
+
+			// speech text
+			var language = getApplicationLanguage();
+			if(language&&language=='en'){
+				document.getElementById("speechCont").style.display="block";
+				var speechSwitch = document.getElementById('speech-checkbox');
+				speechSwitch.onchange = function(event){
+					var checked =this.checked;
+					if(checked ==false) {
+
+						deactivateCheckbox(this);
+						setTimeout(function(){ 	window.TextToSpeech.toggle(); }, 300);
+
+					}else {
+						activateCheckbox(this);
+						setTimeout(function(){ 	window.TextToSpeech.toggle(); }, 300);
+					}
+
+				};
+
+
+				window.TextToSpeech = new textToSpeech();
+				window.TextToSpeech.onClose(function(){
+					if(document.getElementById("speech-checkbox") != null){
+						deactivateCheckbox(document.getElementById("speech-checkbox"));
+					}
+				})
+				if(window.TextToSpeech.isSpeechEnabled()){
+					activateCheckbox(document.getElementById("speech-checkbox"));
+					//setTimeout(function(){ 	window.TextToSpeech.toggle(); }, 300);
+				}
+			}else{
+				document.getElementById("speechCont").style.display="none";
+				//window.TextToSpeech.onClose("closeSpeech")
+
+			}
+
+
+
 		},
 		invertColors:function(checked){
 			if(checked){

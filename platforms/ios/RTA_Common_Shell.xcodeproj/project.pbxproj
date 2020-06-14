@@ -50,6 +50,7 @@
 		E892AA104EEB4D82ABF42C83 /* CDVSpeechRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31809E4AAC45B381100596 /* CDVSpeechRecognitionViewController.swift */; };
 		58CF87DFC24E4F34B723ACED /* NativePageTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C30FDE3A9FC48F0954FE3CE /* NativePageTransitions.m */; };
 		78920221AB524765B201A1E7 /* AppDelegate+nativepagetransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */; };
+		A9FA310A7E214C6098503EC4 /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = AA430857317E495F8C689862 /* AppVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,8 @@
 		9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */ = {isa = PBXFileReference; name = "AppDelegate+nativepagetransitions.m"; path = "com.telerik.plugins.nativepagetransitions/AppDelegate+nativepagetransitions.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		BBA6EE4E61314407A103DE7C /* NativePageTransitions.h */ = {isa = PBXFileReference; name = "NativePageTransitions.h"; path = "com.telerik.plugins.nativepagetransitions/NativePageTransitions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		1F89A7748BAD4395B40B6D6D /* AppDelegate+nativepagetransitions.h */ = {isa = PBXFileReference; name = "AppDelegate+nativepagetransitions.h"; path = "com.telerik.plugins.nativepagetransitions/AppDelegate+nativepagetransitions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AA430857317E495F8C689862 /* AppVersion.m */ = {isa = PBXFileReference; name = "AppVersion.m"; path = "cordova-plugin-app-version/AppVersion.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		8BC6727781344C39848B8984 /* AppVersion.h */ = {isa = PBXFileReference; name = "AppVersion.h"; path = "cordova-plugin-app-version/AppVersion.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +319,8 @@
 				9B29251897F745DA84D69A2B /* AppDelegate+nativepagetransitions.m */,
 				BBA6EE4E61314407A103DE7C /* NativePageTransitions.h */,
 				1F89A7748BAD4395B40B6D6D /* AppDelegate+nativepagetransitions.h */,
+				AA430857317E495F8C689862 /* AppVersion.m */,
+				8BC6727781344C39848B8984 /* AppVersion.h */,
 			);
 			name = Plugins;
 			path = "RTA_Common_Shell/Plugins";
@@ -463,6 +468,7 @@
 				E892AA104EEB4D82ABF42C83 /* CDVSpeechRecognitionViewController.swift in Sources */,
 				58CF87DFC24E4F34B723ACED /* NativePageTransitions.m in Sources */,
 				78920221AB524765B201A1E7 /* AppDelegate+nativepagetransitions.m in Sources */,
+				A9FA310A7E214C6098503EC4 /* AppVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

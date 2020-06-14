@@ -12,8 +12,9 @@ define(["com/models/Constants", "com/views/PageView", "com/views/Header", "com/m
 			PageView.prototype.initialize.call(this, options);
 		},
 		cancelSearch: function() {
-//			mobile.changePage("shell/dashboard.html");
-			history.back();
+			if(!(window.TextToSpeech&&window.TextToSpeech.isSpeakerEnabled())){
+						history.back();
+					}
 		},
 		getUserPopularSearch: function() {
 			var currentApp = Constants.APP_ID
@@ -84,7 +85,7 @@ define(["com/models/Constants", "com/views/PageView", "com/views/Header", "com/m
 						Color: ServiceCategories[i].Color,
 						Icon: ServiceCategories[i].Icon,
 						CategoryServices: []
-						
+
 				};
 
 				var matchData = false;
@@ -106,7 +107,7 @@ define(["com/models/Constants", "com/views/PageView", "com/views/Header", "com/m
 					}
 				}
 				//}
-			// check if found match 
+			// check if found match
 			if (matchData) {
 				searchResult.push(cat);
 			}
@@ -127,7 +128,7 @@ define(["com/models/Constants", "com/views/PageView", "com/views/Header", "com/m
 					document.getElementById("ServicesSearchResult").style.display = "block";
 					document.getElementById("ServicesSearchResult").innerHTML = "";
 
-                  
+
 					for (var i = 0; i < ServiceCategories.length; i++) {
 						var subServiceCount = " " + "(" + ServiceCategories[i].CategoryServices.length + ")";
 						var categoryTemplate = document.querySelector("#templateserviceCategory").cloneNode(true);

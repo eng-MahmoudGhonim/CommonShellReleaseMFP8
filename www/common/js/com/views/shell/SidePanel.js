@@ -270,7 +270,11 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/utils/Utils", "c
 			//set the version number
 			var language = getApplicationLanguage();
 			var txt = language == "en" ? "version" : "اصدار";
-			document.getElementById("versionNumber").innerText = txt + " " + WL.Client.getAppProperty("APP_VERSION");
+			//document.getElementById("versionNumber").innerText = txt + " " + WL.Client.getAppProperty("APP_VERSION");
+
+			var ver=Utils.getAppicationVersion(function callFunction(version) {
+					document.getElementById("versionNumber").innerText = txt + " " + version;
+			 });
 			var data = DataUtils.getLocalStorageData("userProfile", "shell");
 			if (data) {
 				data = JSON.parse(data);

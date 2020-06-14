@@ -43,7 +43,9 @@ define([
 				var q2Aswer =ratingObject.q2?("Ease to Use: "+ ratingObject.q2) :"" ;
 				var q4Answer=(ratingObject.q4?("Overall: "+ ratingObject.q4) :"");
 				var userComment=(ratingObject.user_comment? "User comment: " + ratingObject.user_comment:"") ;
-				var msg =mobileNumber +"\r\n"+deviceModel +"\r\n"+deviceVersion+"\r\n" +"App Version: "+WL.Client.getAppProperty(WL.AppProperty.APP_VERSION) +"\r\n"
+				var Utils = require("com/utils/Utils");
+				var msg =mobileNumber +"\r\n"+deviceModel +"\r\n"+deviceVersion+"\r\n" +"App Version: "+Utils.APP_VERSION/*WL.Client.getAppProperty(WL.AppProperty.APP_VERSION)*/ +"\r\n"
+				//var msg =mobileNumber +"\r\n"+deviceModel +"\r\n"+deviceVersion+"\r\n" +"App Version: "+WL.Client.getAppProperty(WL.AppProperty.APP_VERSION) +"\r\n"
 						 +"Service Name: "+GroupingModel.getServicesName(ratingObject.service_id,model) +"\r\n"
 						  +q1Answer+"\r\n"+q2Aswer+"\r\n"+q4Answer+"\r\n"+userComment;
 

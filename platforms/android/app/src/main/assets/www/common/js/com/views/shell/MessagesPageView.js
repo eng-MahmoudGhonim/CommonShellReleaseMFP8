@@ -1,6 +1,6 @@
-define([ 
+define([
 
-        "jquery", 
+        "jquery",
         "backbone",
         "com/views/PageView",
         "com/views/Footer",
@@ -29,7 +29,7 @@ define([
 			'tap #unread_message' :'makeUnreadMessage',
 			'tap #read_message' : 'makeReadMessage'
 		},
-		initialize: function(options) 
+		initialize: function(options)
 		{
 			PageView.prototype.initialize.call(this);
 
@@ -65,8 +65,9 @@ define([
 			$("#messagesList").empty();
 			$("#messagesList").listview("refresh");
 			//MGRT71
-			WL.Device.getNetworkInfo(function (networkInfo) {
-				if(networkInfo && networkInfo.isNetworkConnected == "true"){
+      //	WL.Device.getNetworkInfo(function (networkInfo) {
+  			//	if(networkInfo && networkInfo.isNetworkConnected == "true"){
+        if(Utils.IS_NETWORK_CONNECTED==true){
 					messagesPageViewInstance.getRecentMessages(timeStamp,function(list) {
 						messagesPageViewInstance.messageList = list;
 						messagesPageViewInstance.render();
@@ -77,7 +78,7 @@ define([
 						messagesPageViewInstance.render();
 					});
 				}
-			});
+			//});
 		},
 		loadMore : function(event){
 			event.preventDefault();
@@ -419,7 +420,7 @@ define([
 					messagesPageViewInstance.messageList = result.invocationResult.resultSet;
 					$.each(messagesPageViewInstance.messageList, function( index, value ) {
 						this["messageIndex"] = index ;
-					}); 
+					});
 					DataUtils.setLocalStorageData("rtaMessagesSaveTimeStamp",JSON.stringify(new Date(result.invocationResult.resultSet[0].created).getTime()),false,"shell");
 					messagesPageViewInstance.cacheMessages(messagesPageViewInstance.messageList);
 
@@ -429,7 +430,7 @@ define([
 					messagesPageViewInstance.messageList = cachedMessages;
 					$.each(messagesPageViewInstance.messageList, function( index, value ) {
 						this["messageIndex"] = index ;
-					}); 
+					});
 					callback(messagesPageViewInstance.messageList);
 				}
 			});
@@ -442,7 +443,7 @@ define([
 				messagesPageViewInstance.messageList = JSON.parse(cachedMessages);
 				$.each(messagesPageViewInstance.messageList, function( index, value ) {
 					this["messageIndex"] = index ;
-				}); 
+				});
 				if(messagesPageViewInstance.messageList.length > 0)
 					callback(messagesPageViewInstance.messageList);
 			}
@@ -519,7 +520,7 @@ define([
 				title = item.title_ar;
 				description = item.message_ar;
 			}
-			var newMessageBody = messageStatus 
+			var newMessageBody = messageStatus
 			+ '<div class="holder-class"><div class=" message-item-pos">'
 			+ '<div id="'+messageTextArea+'" class="message-text-area">'
 

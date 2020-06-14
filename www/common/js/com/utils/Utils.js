@@ -1,5 +1,14 @@
 
 /* JavaScript content from js/com/utils/Utils.js in folder common */
+
+document.addEventListener("offline", onOffline, false);
+  function onOffline() {
+    Utils.IS_NETWORK_CONNECTED=false;
+  }
+  document.addEventListener("online", onOnline, false);
+  function onOnline() {
+    Utils.IS_NETWORK_CONNECTED=true;
+  }
 define(["backbone",
         "com/models/Constants",
         "com/utils/DataUtils"
@@ -8,7 +17,8 @@ define(["backbone",
 	var Utils = Backbone.Model.extend({},
 
 			{
-
+    APP_VERSION:"",
+    IS_NETWORK_CONNECTED:false,
 		LANGUAGE_ALIGN_KEY : "%languageAlign%",
 		LANGUAGE_ALIGN_OPPOSITE_KEY : "%!languageAlign%", //align opposite to the selected language alignment
 		LANGUAGE_ALIGN_LEFT_CLASS : "languageLTR",
@@ -167,8 +177,8 @@ define(["backbone",
 		 */
 		isiOS: function()
 		{
-
-			var isiOS = WL.Client.getEnvironment() == WL.Environment.IPAD || WL.Client.getEnvironment() == WL.Environment.IPHONE;
+      var isiOS = device.platform =="iOS";
+			//var isiOS = WL.Client.getEnvironment() == WL.Environment.IPAD || WL.Client.getEnvironment() == WL.Environment.IPHONE;
 			return isiOS;
 		},
 
@@ -179,7 +189,8 @@ define(["backbone",
 		 */
 		isAndroid: function()
 		{
-			var isAndroid = WL.Client.getEnvironment() == WL.Environment.ANDROID;
+		//	var isAndroid = WL.Client.getEnvironment() == WL.Environment.ANDROID;
+      var isAndroid = device.platform =="Android";
 			return isAndroid;
 		},
 
@@ -572,6 +583,17 @@ define(["backbone",
 		letsTryAgain:function (callBack){
 			document.getElementById("connenctionErrorElement").style.display="none";
 			if (callBack)callBack();
+		},getAppicationVersion:function(callBack){
+      if(Utils.APP_VERSION){
+        if (typeof callBack == "function")
+                callBack(Utils.APP_VERSION);
+      }else{
+			cordova.getAppVersion.getVersionNumber().then(function (version) {
+        Utils.APP_VERSION=version;
+				if (typeof callBack == "function")
+                callBack(version);
+			});
+    }
 		}
 
 			});

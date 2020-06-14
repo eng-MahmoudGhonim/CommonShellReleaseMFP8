@@ -10,11 +10,16 @@ window.PushEventSource = window.PushEventSource||"RTA_Drivers_And_Vehicles_Push_
 function isPushSupported(){
 	var pushEnvSupported = false;
 	if(WL.Client.Push){
-		var env = WL.Client.getEnvironment();
-		if((env == WL.Environment.ANDROID)
-				|| (env == WL.Environment.IPAD)
-				|| (env == WL.Environment.IPHONE)
-				|| (env == WL.Environment.WINDOWS_PHONE_8)){
+		var env = device.platform;
+		if((env == "Android")
+				|| (env == "iOS")
+				|| (env == "Win32NT")
+			){
+		//var env = WL.Client.getEnvironment();
+		// if((env == WL.Environment.ANDROID)
+		// 		|| (env == WL.Environment.IPAD)
+		// 		|| (env == WL.Environment.IPHONE)
+		// 		|| (env == WL.Environment.WINDOWS_PHONE_8)){
 			pushEnvSupported = true;
 		}
 	}

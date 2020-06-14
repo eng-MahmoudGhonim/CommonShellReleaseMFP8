@@ -38,7 +38,8 @@ define([
 			var callbackCalled = false;
 			var lastSaveDate = DataUtils.getLocalStorageData("rtaServicesLastSavedDate","shell");
 			var savedAppVersion = DataUtils.getLocalStorageData("rtaServicesLastSavedAppVersion","shell");
-			if(lastSaveDate && savedAppVersion && (savedAppVersion == WL.Client.getAppProperty(WL.AppProperty.APP_VERSION))){
+			//if(lastSaveDate && savedAppVersion && (savedAppVersion == WL.Client.getAppProperty(WL.AppProperty.APP_VERSION))){
+      if(lastSaveDate && savedAppVersion && (savedAppVersion == Utils.APP_VERSION/*WL.Client.getAppProperty(WL.AppProperty.APP_VERSION)*/)){
 				var myDate = new Date().getTime();
 				if (myDate - parseInt(lastSaveDate) < Constants.CACHED_DATA_EXPIRY_IN_MS){
 					var dataStr = DataUtils.getLocalStorageData("rtaServices","shell");
@@ -62,12 +63,13 @@ define([
 						adapter : 'iDosServiceAdapter',
 						procedure : 'getAllServices',
 						parameters : [],
-						compressResponse : true
+						compressResponse : true,
+            invocationContext: this
 				};
 
 				//Calling adapter
-				WL.Client.invokeProcedure(invocationData,{
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,{
+					function(result){
 						if(result.invocationResult.isSuccessful){
 							var data = result.invocationResult;
 							if(data && data.Envelope && data.Envelope.Body
@@ -84,7 +86,8 @@ define([
 								DataUtils.setLocalStorageData("rtaServices",JSON.stringify(data),false,"shell");
 								var myDate = new Date().getTime();
 								DataUtils.setLocalStorageData("rtaServicesLastSavedDate",myDate,false,"shell");
-								DataUtils.setLocalStorageData("rtaServicesLastSavedAppVersion",WL.Client.getAppProperty(WL.AppProperty.APP_VERSION),false,"shell");
+                DataUtils.setLocalStorageData("rtaServicesLastSavedAppVersion",Utils.APP_VERSION/*WL.Client.getAppProperty(WL.AppProperty.APP_VERSION)*/,false,"shell");
+							//	DataUtils.setLocalStorageData("rtaServicesLastSavedAppVersion",WL.Client.getAppProperty(WL.AppProperty.APP_VERSION),false,"shell");
 
 								//Fire callback
 //								callback(data);
@@ -101,12 +104,12 @@ define([
 //							}
 //						}
 					},
-					onFailure : function(result){
+					function(result){
 //						if(result && result.invocationContext){
 //							result.invocationContext._loadFallbackServiceList(callback);
 //						}
-					},
-					invocationContext: this
+					}
+
 				});
 			}
 		},
@@ -258,8 +261,9 @@ define([
 			var data = {};
 			if(!MobileRouter.servicesMinList){
 				var url;
-				if(WL.Client.getEnvironment() == WL.Environment.WINDOWS_PHONE_8){
-					url = '/www/default/data/services_list_min.json';
+        //if(WL.Client.getEnvironment() == WL.Environment.WINDOWS_PHONE_8){
+        if(device.platform=="Win32NT"){
+          url = '/www/default/data/services_list_min.json';
 				}
 				else{
 					url = '../../common/data/services_list_min.json';

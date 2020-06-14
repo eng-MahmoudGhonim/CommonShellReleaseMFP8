@@ -44,10 +44,11 @@
 					var invocationData = {
 							adapter: 'googleAPIAdapter',
 							procedure: 'getAPIURL',
-							parameters: [appName,getMobileOperatingSystem(),googleAPI,"",options]
+							parameters: [appName,getMobileOperatingSystem(),googleAPI,"",options],
+							invocationContext: this
 					};
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function(result) {
+					invokeWLResourceRequest(invocationData,
+						function(result) {
 
 							if(result&&result.invocationResult && result.invocationResult.url){
 								callback(result.invocationResult.url);
@@ -57,14 +58,12 @@
 							}
 
 						},
-						onFailure: function(e) {
+						function(e) {
 							console.warn(e);
 							var error = e&&e.errorMsg?e.errorMsg : "Failure";
 							callback({"error":error});
-
-						},
-						invocationContext: this
-					});
+						}
+					);
 				}catch(e){
 					var error = e&&e.errorMsg?e.errorMsg : "Failure";
 					callback({"error":error});
@@ -76,18 +75,19 @@
 					var invocationData = {
 							adapter: 'googleAPIAdapter',
 							procedure: 'getAPIURL',
-							parameters: [appName,"IPRestrictedKey",googleAPI,query,options]
+							parameters: [appName,"IPRestrictedKey",googleAPI,query,options],
+							invocationContext: this
 					};
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function(result) {
+					invokeWLResourceRequest(invocationData,
+						function(result) {
 							callback(result.invocationResult.url);
 						},
-						onFailure: function(e) {
+						function(e) {
 							callback(false);
 
-						},
-						invocationContext: this
-					});
+						}
+
+					);
 				}catch(e){callback(false);}
 			}
 			var destroyGoogleScripts = function (callback,trial){
@@ -123,7 +123,7 @@
 						callback();
 					}
 
-				}catch(e){ 
+				}catch(e){
 					callback();
 				}
 			}
@@ -147,8 +147,3 @@
 	})();
 	window.GoogleAPIs = GoogleAPIs;
 })();
-
-
-
-
-

@@ -46,12 +46,12 @@ function servicesCount (isVIP){
 	for(var i =0 ; i< ServiceCategories.length ;i++){
 		if(ServiceCategories[i].CategoryServices != undefined && ServiceCategories[i].CategoryServices.length>0)
 		{
-			
+
 			count+=ServiceCategories[i].CategoryServices.length;
 		}
 
 	}
-	// skip count vip 
+	// skip count vip
 	var Constants = require("com/models/Constants");
 	if((Constants&&Constants.APP_ID=="RTA_Drivers_And_Vehicles")&&(!isVIP||isVIP==false)){
 		count=count-1;
@@ -71,7 +71,7 @@ function handleLinkingForServiceCategory(serviceCategory,isLinked){
 					}
 				}
 			}
-		}	
+		}
 	}catch(e){}
 }
 function convertMS(ms) {
@@ -776,7 +776,7 @@ function invokeWebserviceRequest(invocationData, invocationContext, timeout, suc
 	}
 	try
 	{
-		WL.Client.invokeProcedure(invocationData, {
+		invokeWLResourceRequest(invocationData, {
 			onSuccess : function(result)
 			{
 				if(!isEnforceNoEncryption && isEncryptWebservices && (isBypassEncryption == undefined || isBypassEncryption == false))
@@ -821,6 +821,80 @@ function invokeWebserviceRequest(invocationData, invocationContext, timeout, suc
 				}, 5000);
 	}
 }
+
+
+//invoke procedure v8
+function invokeWLResourceRequest(invocationData,successCallback,failureCallBack , trialNo)
+{
+	// get from invocatioData ( invocationContext, timeout)
+	try
+	{
+		//validate mandatory Parms
+		if(invocationData && typeof successCallback == "function" && typeof failureCallBack == "function" ){
+			// read data from invocation Data
+			var adapterName=invocationData.adapter;
+			var procedureName=invocationData.procedure;
+			var parameters =invocationData.parameters;
+			var invocationContext=invocationData.invocationContext?invocationData.invocationContext:null;
+			var timeout=invocationData.timeout?invocationData.timeout:null;
+			var method=invocationData.method?invocationData.method:"GET";
+			var scope=invocationData.scope?invocationData.scope:null;
+			// for testing oonly
+			//var WLResourceRequest={};
+
+
+			var options={
+					timeout:timeout,
+					scope :scope};
+			var url="/adapters/"+adapterName+"/"+procedureName;
+			//TODO WLResourceRequest.GET  check is enum
+			var request = new WLResourceRequest(url, WLResourceRequest.GET,options);
+
+			request.setQueryParameter('params',parameters );
+			request.send().then(
+					function(response) {
+						// success flow, the result can be found in response.responseJSON
+						successCallback(response);
+					},
+					function(response) {
+						failureCallBack(response);
+						// failure flow
+						/*setTimeout(	function()
+							{
+						if(trialNo == undefined)
+							trialNo = 0;
+						trialNo++;
+						if(trialNo <= numOfInvocationTrials)
+							invokeWLResourceRequest(invocationData, successCallback, failureCallBack, trialNo);
+						else
+							failureCallBack(error);
+							}, 5000);*/
+					}
+			);
+
+		}
+
+	}
+	catch(ex)
+	{
+		console.log(ex);
+		/*setTimeout(	function()
+				{
+			if(trialNo == undefined)
+				trialNo = 0;
+			trialNo++;
+			if(trialNo <= numOfInvocationTrials)
+				invokeWLResourceRequest(invocationData, successCallback, failureCallBack, trialNo);
+			else
+				failureCallBack();
+				}, 5000);*/
+	}
+}
+
+
+
+
+
 function localize(key){
 	if (isUndefinedOrNullOrBlank(key))
 		return '';
@@ -1216,7 +1290,8 @@ function sendEmail()
 	var mail = localize("ask@rta.ae");
 	var winMail='';
 
-	if(env == WL.Environment.BLACKBERRY10|| env == WL.Environment.WINDOWS_PHONE_8) {
+		//if(env == WL.Environment.BLACKBERRY10|| env == WL.Environment.WINDOWS_PHONE_8) {
+ if(env == "BlackBerry 10"|| env == "Win32NT") {
 		winMail = window.location.href = 'mailto:' + mail;
 	} else {
 		winMail = window.open("mailto:" + mail+"?subject="+emailSubject+"&body="+emailDetails+"&content='text/plain'&charset='UTF-8'", '_system');

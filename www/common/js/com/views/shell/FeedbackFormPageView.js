@@ -15,7 +15,7 @@ define(["com/views/PageView",
 		events: {
 					pageshow: "onPageShow"
 				},
-		initialize: function(options) 
+		initialize: function(options)
 		{
 			feedbackFormPageViewInstance=this;
 			options.phoneTitle = localize("%shell.footer.HelpCenter%");
@@ -24,7 +24,7 @@ define(["com/views/PageView",
 
 			PageView.prototype.initialize.call(this, options);
 
-			
+
 			this.$el.on("change", "#selectFeedbackChoice", function(event) {
 				event.preventDefault();
 				if(document.getElementById('feedbackText').value.length <= 500 && document.getElementById('feedbackText').value.length > 20 && $('#selectFeedbackChoice').val() != "pleaseselect"&& $('#selectFeedbackChoice').val() != null&&feedbackFormPageViewInstance.newCaptch.isValid){
@@ -63,7 +63,7 @@ define(["com/views/PageView",
 					feedbackContent.Name = userInfo.first_name_en + " " + userInfo.last_name_en;
 					feedbackContent.Mobile = userInfo.mobile;
 					feedbackContent.EmailAddress = userInfo.mail;
-					feedbackContent.CaseType = $('#selectFeedbackChoice').val(); 
+					feedbackContent.CaseType = $('#selectFeedbackChoice').val();
 					feedbackContent.Message = $('textarea[id=feedbackText]').val();
 
 					if(typeof device != "undefined" && device){
@@ -71,7 +71,9 @@ define(["com/views/PageView",
 						feedbackContent.DeviceOS = device.platform;
 						feedbackContent.OSVersion = device.version;
 					}
-					feedbackContent.AppVersion = WL.Client.getAppProperty("APP_VERSION");
+					//feedbackContent.AppVersion = WL.Client.getAppProperty("APP_VERSION");
+          feedbackContent.AppVersion = Utils.APP_VERSION;// WL.Client.getAppProperty("APP_VERSION");
+
 
 					feedbackContent.ApplicationID=Constants.APP_ID ;
 					// after press update
@@ -80,10 +82,10 @@ define(["com/views/PageView",
 							"userAnswerId":feedbackFormPageViewInstance.newCaptch.captchaAnswer,
 							"type":feedbackFormPageViewInstance.newCaptch.captchaType,
 					}
-					
+
 					var captchaObject=JSON.stringify(captcha);
-					
-					
+
+
 					FeedbackFormModel.submitFeedback(feedbackContent,captchaObject,feedbackFormPageViewInstance._getdata);
 
 				}catch(e){
@@ -127,7 +129,7 @@ var captchaOptions = {
 			};
 
 			feedbackFormPageViewInstance.newCaptch = new captcha(captchaOptions);
-		
+
 			//End call captcha
 
 		},
@@ -182,9 +184,9 @@ var captchaOptions = {
 				customHomeErrorPopup.options.content=localize("%shell.feedback.UnableToSendFeedback%");
 				customHomeErrorPopup.show();
 			}
-		} 
+		}
 
-	});    
+	});
 
 	// Returns the View class
 	return FeedbackFormPageView;

@@ -1,15 +1,15 @@
-define([ 
-	
-		"jquery", 
+define([
+
+		"jquery",
 		"backbone",
 		"globalize",
 		"com/models/Constants",
 		"com/utils/DataUtils",
-		 
+
 	], function( $, Backbone, G, Constants, DataUtils ) {
 
     var SettingsModel = Backbone.Model.extend({
-		
+
 		initialize: function(attributes, options)
 		{
 			var deviceLanguage = "en";
@@ -17,13 +17,13 @@ define([
 				deviceLanguage = Constants.SETTINGS_DEFAULT_LANGUAGE;
 			}
 			this.set({
-				"language": DataUtils.getLocalStorageData("language") || deviceLanguage, 
+				"language": DataUtils.getLocalStorageData("language") || deviceLanguage,
 			});
-			
+
 			//trigger language change so transition direction is set correctly
 			this.changeLanguage(this.get("language"));
 		},
-        
+
         /**
          * change language
          * also change the the default transition direction
@@ -35,7 +35,7 @@ define([
         	var culture = Globalize.culture(language);
         	$.mobile.changePage.defaults.reverse = culture.isRTL;
         },
-		
+
 		/**
 		 * save settings to localStorage
 		 * remove from localstorage if data is undefined
@@ -47,7 +47,7 @@ define([
 			$(window).trigger(Constants.EVENT_SETTINGS_UPDATE);
 			console.log("Settings saved to localStorage.");
 		},
-		
+
 		/**
 		 * reset settings and save
 		 * @param none
@@ -55,10 +55,17 @@ define([
 		reset: function()
 		{
 			console.log("Settings reset to default");
-			this.set("language", WL.App.getDeviceLanguage()); //use device language on reset
-			this.save();
+			navigator.globalization.getPreferredLanguage(
+						    function (language) {//alert('language: ' + language.value + '\n');
+								this.set("language", language.value.split("-")[0]);
+								this.save();
+							},
+						    function () {/*alert('Error getting language\n');*/}
+						);
+						//	this.set("language", WL.App.getDeviceLanguage()); //use device language on reset
+						//  this.save();
 		}
-		
+
     });
 
     return SettingsModel;
