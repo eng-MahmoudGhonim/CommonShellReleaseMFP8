@@ -137,17 +137,17 @@
 		}
 
 		function enableTextSpeech(){
-			// this flag check if event added or not 
+			// this flag check if event added or not
 			try{
 				if(speakerEnabled){
 					speechControls.getElementsByClassName("speakBtn")[0].style.color = "#f30000";
 					if(!eventAdded){
 						eventAdded=true;
 						document.getElementById("rtaCommonShell").addEventListener("click",function(e){
-							// this is the worst case to close speaker 
-							var disable=setTimeout(function(){ 	
+							// this is the worst case to close speaker
+							var disable=setTimeout(function(){
 								speakerEnabled=false;
-								
+
 								speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
 							}, 20000);
 							if(latestElement&&	latestElement.classList.contains("selectItem")){
@@ -157,7 +157,7 @@
 								e.stopPropagation();
 								e.preventDefault();
 								console.log(e)
-								console.log(e.target);	
+								console.log(e.target);
 								latestElement=e.target;
 								var textValue=readTextFromHtmlTag(e.target);
 								// if no alt get data from parent tag
@@ -180,6 +180,32 @@
 									if(latestElement&&	!latestElement.classList.contains("selectItem"))
 										latestElement.classList.add("selectItem");
 
+										var locale ='en-US' ;
+
+										TTS
+										    .speak({
+										        text: textValue,
+										        locale: locale,
+										        rate: 1.5
+										    }, function () {
+													console.log("sound end ");
+													//stop speaker
+													setTimeout(function(){	speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
+													speakerEnabled=false;
+													if(latestElement&&	latestElement.classList.contains("selectItem")){
+														latestElement.classList.remove("selectItem");
+													}},300);
+													clearTimeout(disable);
+										    }, function (reason) {
+													speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
+													console.log(reason);
+													speakerEnabled=false;
+													if(latestElement&&	latestElement.style){
+														latestElement.style.border="none";
+														clearTimeout(disable);
+													}
+										    });
+/*
 									TTS.checkLanguage().then(function(supportedLocale){
 										var locale ='en-US' ;
 										TTS.speak({
@@ -188,14 +214,14 @@
 											rate: 1
 										}).then(function () {
 											console.log("sound end ");
-											//stop speaker 
+											//stop speaker
 											setTimeout(function(){	speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
 											speakerEnabled=false;
 											if(latestElement&&	latestElement.classList.contains("selectItem")){
 												latestElement.classList.remove("selectItem");
 											}},300);
 											clearTimeout(disable);
-										
+
 										}, function (reason) {
 											speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
 											console.log(reason);
@@ -205,12 +231,12 @@
 												clearTimeout(disable);
 											}
 										});
-									});
+									});*/
 								}
 								else
 								{
 									disableSpeaker();
-									TTS.stop();
+									stop();
 								}
 							}
 						},true);
@@ -219,7 +245,7 @@
 				else
 				{
 					disableSpeaker();
-					TTS.stop();
+					stop();
 				}
 			}catch(e){
 				console.log(e);
@@ -227,10 +253,23 @@
 				speechControls.getElementsByClassName("speakBtn")[0].style.color = "#818181";
 			}
 		}
+		function stop(){
+			var locale ='en-US' ;
+			TTS
+					.speak({
+							text: " ",
+							locale: locale,
+							rate: 1.5
+					}, function () {
+						console.log("sound end ");
+					}, function (reason) {
+						console.log(reason);
+					});
+		}
 
 		function closeSpeech() {
 			try{
-				TTS.stop();
+			stop();
 				if(latestElement&&latestElement.classList.contains("selectItem")){
 					latestElement.classList.remove("selectItem");}
 				speakerEnabled=false;
