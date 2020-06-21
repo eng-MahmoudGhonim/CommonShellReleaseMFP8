@@ -1,7 +1,7 @@
 define([
-		
-        
-		"jquery", 
+
+
+		"jquery",
 		"backbone",
 		"com/models/Constants",
 		"com/utils/Utils",
@@ -10,8 +10,8 @@ define([
 		"com/models/shell/AuthenticationModel",
 		"com/utils/DataUtils",
 		"com/models/shell/HapinessMeterRatingModel"
-		
-	], function($, Backbone, CONSTANTS, Utils, UserProfileModel, ServicesDirectoryModel, AuthenticationModel,DataUtils,HapinessMeterRatingModel) 
+
+	], function($, Backbone, CONSTANTS, Utils, UserProfileModel, ServicesDirectoryModel, AuthenticationModel,DataUtils,HapinessMeterRatingModel)
 	{
 
 	var PaymentModel = Backbone.Model.extend({},
@@ -20,17 +20,18 @@ define([
 			var invocationData = {
 					adapter : "ePayAdapter",
 					procedure : "getTransactionStatus",
-					parameters : [ DSGOptions.SPCODE, DSGOptions.SERVCODE, DSGOptions.SPTRN ]
+					parameters : [ DSGOptions.SPCODE, DSGOptions.SERVCODE, DSGOptions.SPTRN ],
+					invocationContext: this
 			};
 			//Calling adapter
-			WL.Client.invokeProcedure(invocationData,{
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					if(result.invocationResult.isSuccessful && result.invocationResult.result){
 						var data = $.parseXML(result.invocationResult.result);
-						
+
 						var msgCode = $(data).find( "MESSAGECODE" );
 						var msg = $(data).find( "MESSAGE" );
-						
+
 						if(msgCode){
 							console.log(msgCode.text());
 							//isSuccessful means a successful query from DSG and doesn't mean the payment process is completed
@@ -47,48 +48,49 @@ define([
 						callback({isSuccessful: false});
 					}
 				},
-				onFailure : function(result){
+				function(result){
 					callback({isSuccessful: false});
-				},
-				invocationContext: this
-			});
-		}, 
-		
+				}
+
+			);
+		},
+
 		performEPay: function(busyInd , DSGOptions, callbackFunction){
-			
+
 			this.fillDSGOptions(DSGOptions);
-			
+
 			//Register callback
 			var deferred = $.Deferred();
 			if(callbackFunction){
 				deferred.done(function(data){
-					
+
 					//Call callback function
 					callbackFunction(data);
 				});
 			}
 
 			//Display busy indicator
-			 
-			 
-        	
-			
+
+
+
+
 			//ePay Step 1,2 - Generate request token
 			var invocationData = {
 					adapter : "ePayAdapter",
 					procedure : "createEPayRequest",
-					parameters : [ DSGOptions ]
+					parameters : [ DSGOptions ],
+					invocationContext: this
 			};
 			DataUtils.setLocalStorageData("DSGOptions",DSGOptions,false,"shell");
 			//Calling adapter
-			WL.Client.invokeProcedure(invocationData,{
-				onSuccess : function(result){
-					
-					if(result && result.invocationResult 
+			invokeWLResourceRequest(invocationData,{
+				function(result){
+
+					if(result && result.invocationResult
 						&& result.invocationResult.isSuccessful
 						&& result.invocationResult.token
 						&& (result.invocationResult.token.indexOf('http') == 0)){
-						
+
 						var epayPageUrl = result.invocationResult.token;
 						deferred.resolve({ePayComplete:true,URL:epayPageUrl});
 
@@ -100,14 +102,13 @@ define([
 					}
 
 				},
-				onFailure : function(result){
+				function(result){
 					busyInd.hide();
 					deferred.resolve({ePayComplete:false});
-				},
-				invocationContext: this
+				}
 			});
 		},
-		
+
 		fillDSGOptions: function(DSGOptions){
 			if(typeof DSGOptions === 'object'){
 				if(AuthenticationModel.isAuthenticated()){
@@ -152,10 +153,11 @@ define([
 			var invocationData = {
 					adapter : 'mPayAdapter',
 					procedure : 'decryptAmount',
-					parameters : [DSGOptions]
+					parameters : [DSGOptions],
+					invocationContext: this
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(result){
+			invokeWLResourceRequest(invocationData,
+				function(result){
 					var returnedData = {};
 					returnedData.TRX_ID = '';
 					returnedData.TIMESTAMP = '';
@@ -169,36 +171,37 @@ define([
 	            			}else{
 								failureCallback();
 							}
-	            			
+
 						}else{
 							failureCallback(result.invocationResult);
 						}
 					},
-				onFailure : function() {
+				function() {
 					failureCallback();
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 		},
 		mPayRegisterTransaction: function(params, callback){
-			
+
 			params = this.fillDSGOptions(params);
 
 				parameters = params; // no need to stringify... the Adapter accepts it as an object
 				var invocationData = {
 						adapter : 'mPayAdapter',
 						procedure : 'registerTransaction',
-						parameters : [parameters]
+						parameters : [parameters],
+						invocationContext: this
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						var returnedData = {};
 						returnedData.TRX_ID = '';
 						returnedData.TIMESTAMP = '';
 						if(result.invocationResult.output.isSuccessful == true){
-							if(result 
+							if(result
 								&& result.invocationResult
-								&& result.invocationResult.output 
+								&& result.invocationResult.output
 								&& result.invocationResult.output.Envelope
 								&& result.invocationResult.output.Envelope.Body
 								&& result.invocationResult.output.Envelope.Body.registerTransactionResponse
@@ -215,41 +218,42 @@ define([
 		            					returnedData.STATUS_CODE = element.value;
 		            				}
 		            			});
-		            			
+
 		            			// we have to use the same time stamp throughout the transaction
 		            			returnedData.TIMESTAMP = result.invocationResult.TIMESTAMP;
-		            			
+
 		            			// TODO remove the true and change the logic to read from the STATUS_CODE
 		            			callback(returnedData);
-		            			
+
 							}else{
 								console.log("something is missing from DEG response");
 								callback();
 							}
 						}
 					},
-					onFailure : function() {
+					function() {
 						callback(null);
-					},
-					invocationContext: this
-				});
-		}, 
-		
+					}
+
+				);
+		},
+
 		mPayProcessTransaction: function(params, callback){
- 
+
 				parameters = params; // no need to stringify... the Adapter accepts it as an object
 				var invocationData = {
 						adapter : 'mPayAdapter',
 						procedure : 'processTransaction',
-						parameters : [parameters]
+						parameters : [parameters],
+						invocationContext: this
 				};
-				
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						if(result.invocationResult.output.isSuccessful == true){
-							if(result 
+							if(result
 								&& result.invocationResult
-								&& result.invocationResult.output 
+								&& result.invocationResult.output
 								&& result.invocationResult.output.Envelope
 								&& result.invocationResult.output.Envelope.Body
 								&& result.invocationResult.output.Envelope.Body.processTransactionResponse
@@ -263,68 +267,70 @@ define([
 		            					callback({STATUS_CODE: element.value});
 		            				}
 		            			});
-		            			
+
 							}else{
 								callback();
 							}
 						}
 					},
-					onFailure : function() {
+					function() {
 						// result.isAdapterSuccess = false;
 						//Fire callback
 						callback();
-					},
-					invocationContext: this
-				});
-			 
+					}
+
+				);
+
 		},
-		
+
 		mPayInquireTransactionStatus: function(params, callback){
- 
+
 				parameters = JSON.stringify(params);
 				var invocationData = {
 						adapter : 'mPayAdapter',
 						procedure : 'inquireTransactionStatus',
-						parameters : [parameters]
+						parameters : [parameters],
+						invocationContext: this
 				};
-				
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						result.isAdapterSuccess = true;
 						//Fire callback
 						callback(result);
 					},
-					onFailure : function() {
+					function() {
 						result.isAdapterSuccess = false;
 						//Fire callback
-						callback(result);						
-					},
-					invocationContext: this
-				});
-			
+						callback(result);
+					}
+
+				);
+
 		},
 		mPayRegenerateOTP: function(params, callback){
- 
+
 				parameters = params;
 				var invocationData = {
 						adapter : 'mPayAdapter',
 						procedure : 'regenerateOTP',
-						parameters : [parameters]
+						parameters : [parameters],
+						invocationContext: this
 				};
-				
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						result.isAdapterSuccess = true;
 						//Fire callback
 						callback(result);
 					},
-					onFailure : function(result) {
+					function(result) {
 						result.isAdapterSuccess = false;
 						//Fire callback
 						callback(result);
-					},
-					invocationContext: this
-				});
+					}
+
+				);
  		}
 	});
 

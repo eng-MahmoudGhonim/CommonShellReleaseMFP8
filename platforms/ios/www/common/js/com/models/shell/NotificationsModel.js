@@ -4,8 +4,8 @@
 define([
 "jquery",
 "backbone",
-"com/utils/DataUtils", 
-"com/utils/Utils", 
+"com/utils/DataUtils",
+"com/utils/Utils",
 "com/models/Constants"
 ], function($, Backbone, DataUtils, Utils,Constants) {
 	var userNotifications = 'userNotifications';
@@ -59,7 +59,7 @@ define([
 
 		filtercashedNotification:function(){
 			var self= this;
-			//Filter Cashed Data 
+			//Filter Cashed Data
 			var cashedNotifications=self.getUserNotications();
 			var filteredList=[];
 			if(cashedNotifications)
@@ -81,12 +81,12 @@ define([
 				currentApp="Drivers_and_Vehicles";
 			else if(currentApp=="RTA_Corporate_Services")
 				currentApp="RTACorporateMobile";
-			//currentApp="RTA_Common_Shell";// this is for testing 
+			//currentApp="RTA_Common_Shell";// this is for testing
 
 
 			var userId = "";
 			var userProfile = DataUtils.getLocalStorageData("userProfile", "shell");
-			if (userProfile) 
+			if (userProfile)
 			{
 				userProfile = JSON.parse(userProfile);
 				userId = userProfile && userProfile.Users[0] ? userProfile.Users[0].user_id : null;
@@ -94,13 +94,13 @@ define([
 
 			try {
 				var invocationData = {
-						adapter: 'NotificationsAdapter', 
+						adapter: 'NotificationsAdapter',
 						procedure: 'getLast30DaysNotifications',
 						parameters: [currentApp,userId]
 				};
 				var userNotification=[];/* it contains old and new without deleted from User*/
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 					if (result && result.invocationResult.isSuccessful) {
 							var newNotificationsList=[];
 							if(userId){
@@ -117,13 +117,13 @@ define([
 					    			 newNotificationsList.push(generalNotifications[i])
 					    		 }
 					    	 }
-							
+
 							;	 /* come from server contains all notif */
-     
+
 
 							var oldNotification=self.getUserNotications() /* saved notifications */
 
-							if(newNotificationsList&&newNotificationsList.length>0) 
+							if(newNotificationsList&&newNotificationsList.length>0)
 							{
 								//var filteredList=[];
 								if(oldNotification&&newNotificationsList.length>0) /* if we have old data update new data */
@@ -161,21 +161,21 @@ define([
 							else{
 								// Success and empty data from server
 								var noNotification=[];
-								self.setUserNotications(noNotification); 
+								self.setUserNotications(noNotification);
 								if(typeof callback == "function")
-									callback(self.filtercashedNotification()); /* read from cashed */ 
+									callback(self.filtercashedNotification()); /* read from cashed */
 							}
 						}
 						else {
 							if(typeof callback == "function")
-								callback(self.filtercashedNotification()); 
+								callback(self.filtercashedNotification());
 						}
 					},
-					onFailure: function (result) {
+					function (result) {
 						if(typeof callback == "function")
 							callback(self.filtercashedNotification()); /* read from cashed */
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(null);
@@ -186,20 +186,20 @@ define([
 			try{
 				var userId = "";
 				var userProfile = DataUtils.getLocalStorageData("userProfile", "shell");
-				if (userProfile) 
+				if (userProfile)
 				{
 					userProfile = JSON.parse(userProfile);
 					userId = userProfile && userProfile.Users[0] ? userProfile.Users[0].user_id : null;
 
-					//userId="aymannageh";// testing 
+					//userId="aymannageh";// testing
 					var invocationData = {
-							adapter: 'NotificationsAdapter', 
+							adapter: 'NotificationsAdapter',
 							procedure: 'insertUserPreferredLocation',
 							parameters: [userId,northEast,southWest]
 					};
 
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (result) {
+					invokeWLResourceRequest(invocationData,
+						function (result) {
 							if (result && result.invocationResult.isSuccessful) {
 								var userIdRecord = result.invocationResult.result==true;
 								callback(userIdRecord);
@@ -207,12 +207,12 @@ define([
 
 						},
 
-						onFailure: function (result) {
+						function (result) {
 							if(typeof callback == "function")
-								callback(null); 
+								callback(null);
 						}
 
-					});
+					);
 				}
 			}
 			catch (e) {
@@ -232,16 +232,16 @@ define([
 					userProfile = JSON.parse(userProfile);
 					userId = userProfile && userProfile.Users[0] ? userProfile.Users[0].user_id : null;
 
-					//userId="aymannageh";// testing 
+					//userId="aymannageh";// testing
 
 					var invocationData = {
-							adapter: 'NotificationsAdapter', 
+							adapter: 'NotificationsAdapter',
 							procedure: 'SelectByUserId',
 							parameters: [userId]
 					};
 
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (result) {
+					invokeWLResourceRequest(invocationData,
+						function (result) {
 							$(".ui-loader").hide();
 							if (result && result.invocationResult.isSuccessful) {
 								var userIdRecord = result.invocationResult.result;
@@ -251,13 +251,13 @@ define([
 
 						},
 
-						onFailure: function (result) {
+						function (result) {
 							$(".ui-loader").hide();
 							if(typeof callback == "function")
-								callback(null); 
+								callback(null);
 						}
 
-					});
+					);
 				}
 			}
 			catch (e) {
@@ -274,16 +274,16 @@ define([
 					userProfile = JSON.parse(userProfile);
 					userId = userProfile && userProfile.Users[0] ? userProfile.Users[0].user_id : null;
 
-					//userId="aymannageh";// testing 
+					//userId="aymannageh";// testing
 
 					var invocationData = {
-							adapter: 'NotificationsAdapter', 
+							adapter: 'NotificationsAdapter',
 							procedure: 'deletePreferredLocation',
 							parameters: [userId]
 					};
 
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (result) {
+					invokeWLResourceRequest(invocationData,
+						function (result) {
 							$(".ui-loader").hide();
 							if (result && result.invocationResult.isSuccessful) {
 								var userIdRecord = result.invocationResult.result;
@@ -293,13 +293,13 @@ define([
 
 						},
 
-						onFailure: function (result) {
+						function (result) {
 							$(".ui-loader").hide();
 							if(typeof callback == "function")
-								callback(null); 
+								callback(null);
 						}
 
-					});
+					);
 				}
 			}
 			catch (e) {

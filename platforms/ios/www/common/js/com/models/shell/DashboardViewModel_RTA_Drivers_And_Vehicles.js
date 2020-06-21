@@ -264,7 +264,7 @@
 						}
 					},
 					loggedInTFN: {
-						html: '<div class="bulletSlider"><div class="bulletsCont"></div><div class="slidsCont"></div></div>',
+						html: '<div class="bulletSlider" alt="service slider"><div class="bulletsCont"></div><div class="slidsCont"></div></div>',
 						control: DashboardModel.driversLoggedInControl,
 						_reload: null,
 						set reload(value) {
@@ -331,7 +331,7 @@
 						}
 					},
 					loggedInTFN: {
-						html: '<div class="bulletSlider"><div class="bulletsCont"></div><div class="slidsCont"></div></div>',
+						html: '<div class="bulletSlider" alt="service slider"><div class="bulletsCont"></div><div class="slidsCont"></div></div>',
 						control: DashboardModel.vehiclesLoggedInControl,
 						_reload: null,
 						set reload(value) {
@@ -399,7 +399,7 @@
 						}
 					},
 					loggedIn: {
-						html: window.Utils.applyLocalization('<div class="bulletSlider"><div class="bulletsCont"></div><div class="slidsCont"><div id="parkingBalance" class="slide"><div class="currency">%shell.dashboard.general.AED%</div><div id="amount">150</div><div class="accDesc" >%shell.dashboard.parkingtile.parkingaccbalance%</div><div class="clickPark btn waves-effect">%shell.dashboard.parkingtile.clicknpark%</div></div></div></div>'),
+						html: window.Utils.applyLocalization('<div class="bulletSlider" alt="service slider"><div class="bulletsCont"></div><div class="slidsCont"><div id="parkingBalance" class="slide"><div class="currency">%shell.dashboard.general.AED%</div><div id="amount">150</div><div class="accDesc" >%shell.dashboard.parkingtile.parkingaccbalance%</div><div class="clickPark btn waves-effect">%shell.dashboard.parkingtile.clicknpark%</div></div></div></div>'),
 						control: DashboardModel.parkingLoggedInControl,
 						_reload: null,
 						set reload(value) {
@@ -524,7 +524,7 @@
 						}
 					},
 					loggedIn: {
-						html: window.Utils.applyLocalization('<div class="bulletSlider"><div class="bulletsCont"></div><div class="slidsCont"><div id="parkingBalance" class="slide"><div class="currency">%shell.dashboard.general.AED%</div><div id="amount"></div><div class="accDesc" style="display:none">%shell.dashboard.saliktile.accno% <span id="ACNo"></span></div><div class="rechargeBtn btn waves-effect">%shell.dashboard.saliktile.recharge%</div></div></div></div>'),
+						html: window.Utils.applyLocalization('<div class="bulletSlider" alt="service slider"><div class="bulletsCont"></div><div class="slidsCont"><div id="parkingBalance" class="slide"><div class="currency">%shell.dashboard.general.AED%</div><div id="amount"></div><div class="accDesc" style="display:none">%shell.dashboard.saliktile.accno% <span id="ACNo"></span></div><div class="rechargeBtn btn waves-effect">%shell.dashboard.saliktile.recharge%</div></div></div></div>'),
 						control: DashboardModel.salikLoggedInAcc,
 						_reload: null,
 						set reload(value) {
@@ -682,7 +682,7 @@
 			};
 			return new ServiceTileControl(docsOptions);
 		}
-
+//start
 		function initializeTilesState() {
 			try {
 				var isLoggedIn = DashboardModel.isUserLoggedIn();

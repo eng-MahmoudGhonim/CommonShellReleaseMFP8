@@ -270,7 +270,11 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/utils/Utils", "c
 			//set the version number
 			var language = getApplicationLanguage();
 			var txt = language == "en" ? "version" : "اصدار";
-			document.getElementById("versionNumber").innerText = txt + " " + WL.Client.getAppProperty("APP_VERSION");
+			//document.getElementById("versionNumber").innerText = txt + " " + WL.Client.getAppProperty("APP_VERSION");
+
+			var ver=Utils.getAppicationVersion(function callFunction(version) {
+					document.getElementById("versionNumber").innerText = txt + " " + version;
+			 });
 			var data = DataUtils.getLocalStorageData("userProfile", "shell");
 			if (data) {
 				data = JSON.parse(data);
@@ -368,6 +372,11 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/utils/Utils", "c
 						document.querySelector(".ui-loader").innerHTML = loader;
 						$(".ui-loader").hide();
 					}, 500);
+					// Hide Text speech on arabic
+				try{
+					var language = getApplicationLanguage();
+					if(language&&language=='ar'&&window.TextToSpeech&&window.TextToSpeech.isSpeechEnabled()){
+						window.TextToSpeech.toggle();}}catch(e){console.log(e)}
 				} catch (e) {
 					$(".ui-loader").hide();
 				}

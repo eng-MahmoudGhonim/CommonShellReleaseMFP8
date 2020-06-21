@@ -44,6 +44,7 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 			var invocationData = {
 				adapter: "OTPAdapter",
 				procedure: "sendOTP",
+				invocationContext: this,
 				parameters: [
 					Constants.PORTAL_APP_IDs[Constants.APP_ID],
 					userID,
@@ -51,10 +52,11 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 					method,
 					phone,
 					email
+
 				]
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function(result) {
+			invokeWLResourceRequest(invocationData,
+				function(result) {
 					$(".ui-loader").hide();
 					if (result.invocationResult.isSuccessful && !result.invocationResult.failure) {
 						var response = result.invocationResult.response;
@@ -89,7 +91,7 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 						}
 					}
 				},
-				onFailure: function(e) {
+				function(e) {
 					$(".ui-loader").hide();
 					if (errorCallBack) {
 						errorCallBack(response);
@@ -98,9 +100,9 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 						var errorpop = new Popup("generalErrorPopup");
 						errorpop.show();
 					}
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 		},
 		sendOTPbyID: function(userID, method, otpType, callBack, errorCallBack) {
 			var generalErrorPopup = new Popup("customErrorPopup");
@@ -133,16 +135,18 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 			var invocationData = {
 				adapter: "OTPAdapter",
 				procedure: "sendOTPByID",
+				invocationContext: this,
 				parameters: [
 					Constants.PORTAL_APP_IDs[Constants.APP_ID],
 					userID,
 					getApplicationLanguage() == "en" ? "En" : "Ar",
 					method,
 					otpType
+
 				]
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function(result) {
+			invokeWLResourceRequest(invocationData,
+				function(result) {
 					$(".ui-loader").hide();
 					if (result.invocationResult.isSuccessful && !result.invocationResult.failure) {
 						var response = result.invocationResult.response;
@@ -184,15 +188,15 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 						}
 					}
 				},
-				onFailure: function(e) {
+				function(e) {
 					$(".ui-loader").hide();
 					Popup.hide(function() {
 						var errorpop = new Popup("generalErrorPopup");
 						errorpop.show();
 					});
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 		},
 		verifyOTP: function(OTP, userID, callBack, errorCallBack) {
 			$(".ui-loader").show();
@@ -205,15 +209,17 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 			var invocationData = {
 				adapter: "OTPAdapter",
 				procedure: "verifyOTP",
+				invocationContext: this,
 				parameters: [
 					OTP,
 					Constants.PORTAL_APP_IDs[Constants.APP_ID],
 					userID,
 					transRef
+
 				]
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function(result) {
+			invokeWLResourceRequest(invocationData,
+				function(result) {
 					$(".ui-loader").hide();
 					if (result.invocationResult.isSuccessful && !result.invocationResult.failure) {
 						if (callBack) callBack(result.invocationResult.response);
@@ -228,7 +234,7 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 						}
 					}
 				},
-				onFailure: function(e) {
+				function(e) {
 					$(".ui-loader").hide();
 					if (errorCallBack) {
 						errorCallBack();
@@ -238,9 +244,9 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/utils/DataUt
 							errorpop.show();
 						});
 					}
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 		},
 		checkMobileVerification: function() {
 			var self = this;

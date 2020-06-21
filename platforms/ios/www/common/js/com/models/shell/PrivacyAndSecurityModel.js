@@ -34,11 +34,12 @@ define([
 				var invocationData = {
 						adapter : 'WCMAdapter',
 						procedure : 'getNewPrivacyContent',
-						parameters : []
+						parameters : [],
+            invocationContext: this
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						if(result.invocationResult.isSuccessful && result.invocationResult.resultSet
 								&& (result.invocationResult.resultSet instanceof Array) && (result.invocationResult.resultSet.length > 0)){
 
@@ -57,11 +58,11 @@ define([
 						$.getJSON(window.mobile.baseUrl +"/common/data/fallback_rta_privacy_security.json", callback);
 						}
 					},
-					onFailure : function() {
+					function() {
 						$.getJSON(window.mobile.baseUrl +"/common/data/fallback_rta_privacy_security.json", callback);
-					},
-					invocationContext: this
-				});
+					}
+
+				);
 
 			}
 		}

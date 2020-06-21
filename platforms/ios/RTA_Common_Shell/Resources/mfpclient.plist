@@ -5,7 +5,7 @@
 	<key>protocol</key>
 	<string>http</string>
 	<key>host</key>
-	<string>10.0.0.1</string>
+	<string>192.168.1.5</string>
 	<key>port</key>
 	<string>9080</string>
 	<key>wlServerContext</key>
@@ -19,7 +19,7 @@
 	<key>wlSecureDirectUpdatePublicKey</key>
 	<string></string>
 	<key>buildtime</key>
-	<string>1591094144413</string>
+	<string>1592727621193</string>
 	<key>languagePreferences</key>
 	<string>en</string>
 	<key>serverUri</key>

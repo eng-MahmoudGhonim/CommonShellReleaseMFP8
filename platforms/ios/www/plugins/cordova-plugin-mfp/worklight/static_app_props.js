@@ -14,6 +14,6 @@ WL.StaticAppProps = {
   APP_SERVICES_URL: '/apps/services/',
   APP_DISPLAY_NAME: 'RTA_Common_Shell',
   LOGIN_DISPLAY_TYPE: 'embedded',
-  mfpClientCustomInit: false,
+  mfpClientCustomInit: true,
   MESSAGES_DIR: 'plugins\\cordova-plugin-mfp\\worklight\\messages'
 };

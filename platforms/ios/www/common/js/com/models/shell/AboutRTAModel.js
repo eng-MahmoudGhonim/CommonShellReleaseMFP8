@@ -32,11 +32,12 @@ define([
 
 				var invocationData = {
 						adapter : 'WCMAdapter',
-						procedure : 'getAboutRTA'
+						procedure : 'getAboutRTA',
+						invocationContext: this
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						if(result.invocationResult.isSuccessful && result.invocationResult.resultSet
 							&& (result.invocationResult.resultSet instanceof Array) && (result.invocationResult.resultSet.length > 0)){
 
@@ -55,11 +56,11 @@ define([
 //							$.getJSON('../../common/data/fallback_about_rta.json', callback);
 //						}
 					},
-					onFailure : function() {
+					function() {
 //						$.getJSON('../../common/data/fallback_about_rta.json', callback);
-					},
-					invocationContext: this
-				});
+					}
+
+				);
 			}
 		}
 	});

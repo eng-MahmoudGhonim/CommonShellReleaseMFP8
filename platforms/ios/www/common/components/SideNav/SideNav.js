@@ -66,7 +66,7 @@
         }
 
         function ontouchstart(e) {
-        	
+
             startX = endX = e.touches[0].clientX;
             startY = e.touches[0].clientY;
             setTimeout(function(){
@@ -132,6 +132,7 @@
 	            black = document.createElement("div");
 	            var closeIcon = document.createElement("span");
 	            closeIcon.className = "icon icon-cancel";
+              closeIcon.setAttribute("alt", "close menu");
 	            black.appendChild(closeIcon);
 	            black.id = "sideNavBlack";
 	            black.style.position = "absolute";

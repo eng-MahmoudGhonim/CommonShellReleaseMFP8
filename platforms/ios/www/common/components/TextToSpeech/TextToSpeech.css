@@ -1,0 +1,65 @@
+#speechControls * {
+	box-sizing: initial;
+	font-family: rta-regular;
+}
+#speechControls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+#speechPanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 165px;
+    height: 40px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin: auto;
+    pointer-events: all;
+    /* background-color: #eee; */
+    /* border: 1px solid #ee0000; */
+    box-shadow: 0 2px 8px 0 rgba(69, 91, 99, 0.08);
+    border: solid 0.5px #cccccc;
+    background-color: #ffffff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#ffffff, #eeeeee);
+}
+
+
+#speechPanel .closePanel{position: absolute;font-size: 20px;color: #000000 !important;top: 4px;left: 3px;right: 0px;text-align: center;border-right: .5px solid #cccccc;/* padding-right: 9px; */bottom: 4px;padding-top: 6px; font-family: rta-bold; /* font-weight: bold; */width: 52px;}
+
+
+
+
+
+#speechControls .speakBtn{position: absolute;font-size: 26px;color: #818181;text-align: center;top: 6px;left: 56px;right: 0;bottom: 0;width: 50px;}
+
+
+
+#speechPanel .move {
+    position: absolute;
+    font-size: 24px;
+    color: #818181;
+    top: 4px;
+    bottom: 4px;
+    right: -7px;
+    /* left: 116px; */
+    border-left: 0.5px solid #cccccc;
+    padding-left: 6px;
+    padding-top: 4px;
+    width: 52px;
+    /* text-align: center; */
+    padding-left: 11px;
+}
+
+ .selectItem {
+	border:2px solid #0000FF !important;
+}
+

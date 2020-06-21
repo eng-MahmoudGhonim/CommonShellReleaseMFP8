@@ -383,6 +383,10 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/models/shell/Aut
 					}, 300);
 					return;
 				}
+
+				userLoginChallengeHandler.login(username,password,true);
+				return;
+
 				if (scenario != null) {
 					LoginViewInstance.rtaUserName.value = username;
 					LoginViewInstance.rtaPassword.value = password;

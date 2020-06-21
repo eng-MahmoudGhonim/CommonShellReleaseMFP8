@@ -430,7 +430,7 @@ define(["com/views/PageView", "com/views/Header", "com/models/drivers_and_vehicl
 //				procedure: 'getAPIURL',
 //				parameters: [params.appName,params.platform,params.googleAPI,params.query,params.options]
 //				};
-//				WL.Client.invokeProcedure(invocationData, {
+//				invokeWLResourceRequest(invocationData, {
 //				onSuccess: function(result) {
 
 //				$.getScript(result.url);

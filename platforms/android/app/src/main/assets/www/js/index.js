@@ -14,6 +14,19 @@ var PinCodeChallengeHandler;
 function wlCommonInit() {
   initEventListener();
   wlSuccessfullyInitialized();
+  userLoginChallengeHandler=UserLoginChallengeHandler();
+  WLAuthorizationManager.obtainAccessToken(userLoginChallengeHandler.securityCheckName).then(
+     function (accessToken) {
+         WL.Logger.debug("obtainAccessToken onSuccess");
+   console.log("obtainAccessToken onSuccess" +JSON.stringify(accessToken));
+     },
+     function (response) {
+   console.log("obtainAccessToken onFailure");
+         WL.Logger.debug("obtainAccessToken onFailure: " + JSON.stringify(response));
+   console.log("obtainAccessToken onFailure" +JSON.stringify(response));
+   // showLoginDiv();
+ });
+
 //  app.init();
   //document.getElementById("getBalance").addEventListener("click", getBalance, false);
   //  PinCodeChallengeHandler();

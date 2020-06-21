@@ -27,7 +27,7 @@ define([
 					doUnsubscribe();
 				}
 				if (Constants.showLoyalty) {
-					// remove loyalty 
+					// remove loyalty
 					DataUtils.removeFromLocalStorage("niLoyalty", "shell");
 					DataUtils.setLocalStorageData('niLoyalty', "", true, "shell");
 				}
@@ -84,16 +84,16 @@ define([
 				]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function (result) {
+			invokeWLResourceRequest(invocationData,
+				function (result) {
 					callback(self.SUCCESS, result);
 				},
 
-				onFailure: function () {
+				function () {
 					callback(self.FAILED);
 				}
 
-			});
+			);
 		},
 		checkUserIdAvailability: function (userId, callback) {
 			var self = this;
@@ -104,16 +104,16 @@ define([
 				parameters: [userId, Constants.PORTAL_APP_IDs[Constants.APP_ID]]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function (result) {
+			invokeWLResourceRequest(invocationData,
+				function (result) {
 					callback(self.SUCCESS, result.invocationResult);
 				},
 
-				onFailure: function (e) {
+				function (e) {
 					callback(self.FAILED);
 				}
 
-			});
+			);
 		},
 
 
@@ -199,8 +199,9 @@ define([
 
 				//WL.Client.deleteUserPref("activeUserId");
 				//MGRT71
-				WL.Device.getNetworkInfo(function (networkInfo) {
-					if ((networkInfo && networkInfo.isNetworkConnected == "true")) {
+			//	WL.Device.getNetworkInfo(function (networkInfo) {
+			//		if ((networkInfo && networkInfo.isNetworkConnected == "true")) {
+	if (Utils.IS_NETWORK_CONNECTED==true) {
 						self.logutAMAdapterAuthRealm(redirectPage, callback);
 					} else {
 						if (redirectPage) {
@@ -210,7 +211,7 @@ define([
 							callback();
 						}
 					}
-				});
+			//	});
 			}
 			catch (e) {
 				console.log("User was logged out before");
@@ -374,17 +375,17 @@ define([
 				parameters: [Constants.PORTAL_APP_IDs[Constants.APP_ID]]
 			};
 
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess: function (result) {
+			invokeWLResourceRequest(invocationData,
+			function (result) {
 					if (result.invocationResult && result.invocationResult.URL)
 						callback(result.invocationResult.URL);
 				},
 
-				onFailure: function (e) {
+				function (e) {
 					callback();
 				}
 
-			});
+			);
 
 
 		}

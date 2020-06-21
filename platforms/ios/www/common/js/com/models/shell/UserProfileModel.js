@@ -82,18 +82,18 @@ define([
 									parameters: [userId, appName]
 							};
 
-							WL.Client.invokeProcedure(invocationData, {
-								onSuccess: function (response) {
+							invokeWLResourceRequest(invocationData,
+								function (response) {
 									if (response.invocationResult && response.invocationResult.isSuccessful == true) {
 										result = response.IsVIP ? true : false;
 										callback(result);
 									}
 								},
-								onFailure: function (result) {
+								function (result) {
 									result = false;
 									callback(result);
 								}
-							});
+							);
 						}
 						else // get from local storage
 						{
@@ -117,7 +117,7 @@ define([
 
 					var currentUser = this.getUserProfile().VIP_USERS[0];
 					if (currentUser && currentUser.APPNAMES && currentUser.APPNAMES.indexOf(appName) !== -1) {
-						// check if not notified before 
+						// check if not notified before
 						if (currentUser && currentUser.NOTIFIED_ON && currentUser.NOTIFIED_ON.indexOf(appName) == -1) {
 							result = true;
 						}
@@ -131,24 +131,24 @@ define([
 		updateVIPUser: function (user_Id, appName) {
 			var result = false;
 			try {
-				if (user_Id && appName) {	
+				if (user_Id && appName) {
 					var invocationData = {
 							adapter: 'userProfile',
 							procedure: 'updateNotifiedVIPUser',
 							parameters: [user_Id, appName]
 					};
-					WL.Client.invokeProcedure(invocationData, {
-						onSuccess: function (response) {
-							// update local storage  is notified 
+					invokeWLResourceRequest(invocationData,
+						function (response) {
+							// update local storage  is notified
 							DataUtils.setLocalStorageData('VIPUserNotifications', JSON.stringify(true), true, "shell");
 						},
-						onFailure: function (result) {
+						function (result) {
 
 						}
-					});
+					);
 
 				}
-			} catch (e) { 
+			} catch (e) {
 				return false;
 			}
 		},
@@ -265,8 +265,8 @@ define([
 						parameters: [user_id, Constants.PORTAL_APP_IDs[Constants.APP_ID]]
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (response) {
+				invokeWLResourceRequest(invocationData,
+					function (response) {
 						if (response.invocationResult && response.invocationResult.isSuccessful == true) {
 							var profile = response.invocationResult.Envelope.Body.getUserProfileReturn.userProfile;
 							callback(profile);
@@ -275,10 +275,10 @@ define([
 							callback(null);
 						}
 					},
-					onFailure: function (result) {
+					function (result) {
 						callback(null);
 					}
-				});
+				);
 			} catch (e) { callback(null); }
 		},
 
@@ -315,8 +315,8 @@ define([
 						parameters: [user_id]
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result && result.invocationResult) {
 							var profile = result.invocationResult.Users[0];
 							self.setUserProfile(result.invocationResult);
@@ -326,10 +326,10 @@ define([
 							callback(null);
 						}
 					},
-					onFailure: function (result) {
+					function (result) {
 						callback(null);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(null);
@@ -366,8 +366,8 @@ define([
 						             userData.newMobileNo,
 						             Constants.PORTAL_APP_IDs[Constants.APP_ID]]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult && result.invocationResult.isSuccessful == true && result.invocationResult.success == true) {
 							self.updateProfile("Users", "mobile", userData.newMobileNo);
 							self.updateProfile("Users", "user_id", userData.userId);
@@ -384,10 +384,10 @@ define([
 						}
 					},
 
-					onFailure: function () {
+					function () {
 						callback("FAILED");
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback("FAILED");
@@ -404,8 +404,8 @@ define([
 						             userData.mail,
 						             Constants.PORTAL_APP_IDs[Constants.APP_ID]]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult && result.invocationResult.isSuccessful == true && result.invocationResult.success == true) {
 							self.updateProfile("Users", "mail", userData.mail);
 							callback("SUCCESS", result);
@@ -415,10 +415,10 @@ define([
 						}
 					},
 
-					onFailure: function () {
+					function () {
 						callback("FAILED");
 					}
-				});
+				);
 
 			}
 			catch (e) {
@@ -437,8 +437,8 @@ define([
 						             userData.prefLanguage, userData.prefComm,
 						             userData.email, userData.isEmailVerified, userData.isMobileVerified]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult && result.invocationResult.isSuccessful == true) {
 							self.updateProfile("Users", "title_id", userData.title);
 							self.updateProfile("Users", "first_name_en", userData.firstName);
@@ -458,10 +458,10 @@ define([
 						}
 					},
 
-					onFailure: function () {
+					function () {
 						callback("FAILED");
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback("FAILED");
@@ -477,8 +477,8 @@ define([
 						procedure: "getUserFavoriteServices",
 						parameters: [user_id]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.statusCode != "500" && result.invocationResult.resultSet.length > 0) {
 							callback(self.SUCCESS, result.invocationResult.resultSet);
 						}
@@ -487,10 +487,10 @@ define([
 						}
 					},
 
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -506,8 +506,8 @@ define([
 						procedure: "deleteUserFavoriteService",
 						parameters: [userServiceDetails.service_id, userServiceDetails.user_id]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.statusCode != "500" && result.invocationResult.updateStatementResult.updateCount != 0) {
 							callback(self.SUCCESS);
 						}
@@ -517,10 +517,10 @@ define([
 
 					},
 
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -535,8 +535,8 @@ define([
 						procedure: "setUserFavoriteService",
 						parameters: [userServiceDetails.service_id, userServiceDetails.user_id, userServiceDetails.service_title]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.updateStatementResult.updateCount != 0) {
 							callback(self.SUCCESS);
 						}
@@ -546,10 +546,10 @@ define([
 
 					},
 
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -565,8 +565,8 @@ define([
 						parameters: [userId, JSON.stringify(UserProfileModel.getFavFromStack())]
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.statusCode != "500" && result.invocationResult.resultSet.length > 0) {
 							callback(self.SUCCESS, result.invocationResult.resultSet);
 						}
@@ -575,10 +575,10 @@ define([
 						}
 					},
 
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -673,8 +673,8 @@ define([
 						procedure: "changePassword",
 						parameters: [Constants.PORTAL_APP_IDs[Constants.APP_ID], this.getUserProfile().Users[0].user_id, inputParams.currentPassVal, inputParams.newPassVal, inputParams.confirmPassVal, captchaObject]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.statusCode != "500" && result.invocationResult.success == true) {
 							callback(result.invocationResult);
 						}
@@ -684,10 +684,10 @@ define([
 
 					},
 
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -701,8 +701,8 @@ define([
 						procedure: "ForgetPassword",
 						parameters: [Constants.PORTAL_APP_IDs[Constants.APP_ID], inputParams.userID, inputParams.newPassVal, inputParams.confirmPassVal, captchaObject]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 						if (result.invocationResult.isSuccessful && result.invocationResult.statusCode == "200") {
 							callback(self.SUCCESS, result.invocationResult.Envelope.Body.resetPasswordResponse);
 						}
@@ -710,10 +710,10 @@ define([
 							callback(self.FAILED);
 						}
 					},
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -732,22 +732,22 @@ define([
 						procedure: "linkUAEPassId",
 						parameters: [userId, uaepassId, updatedBy, applicationId]
 				};
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess: function (result) {
+				invokeWLResourceRequest(invocationData,
+					function (result) {
 
 						if (result.invocationResult.isSuccessful &&
 								result.invocationResult.result == "true") {
-							// success call and link successfuly 
+							// success call and link successfuly
 							callback(self.SUCCESS);
 						}
 						else {
 							callback(self.FAILED);
 						}
 					},
-					onFailure: function () {
+					function () {
 						callback(self.FAILED);
 					}
-				});
+				);
 			}
 			catch (e) {
 				callback(self.FAILED);
@@ -755,7 +755,7 @@ define([
 		},
 
 		destroyUserProfile: function () {
-			
+
 			DataUtils.removeFromLocalStorage(USER_PROFILE, "shell");
 			//DataUtils.removeFromLocalStorage(USER_SERVICES, "shell");
 		}

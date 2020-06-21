@@ -1,12 +1,12 @@
 define([
 
-        "jquery", 
+        "jquery",
         "backbone",
         "com/utils/DataUtils",
         "com/models/Constants",
 
         ], function($, Backbone, DataUtils, Constants) {
-	var SalikAccountModel = Backbone.Model.extend({},{	    
+	var SalikAccountModel = Backbone.Model.extend({},{
 
 		getSalikAccount:function (user_id,callback){
 			var lastSaveAccount = DataUtils.getLocalStorageData("SavedSalikAccount","shell"+user_id);
@@ -19,14 +19,15 @@ define([
 				var invocationData = {
 						adapter : 'userProfile',
 						procedure : 'getSalikAccount',
-						parameters : [ user_id ]
+						parameters : [ user_id ],
+            invocationContext: this
 
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
-					onSuccess : function(result){
+				invokeWLResourceRequest(invocationData,
+					function(result){
 						if(result.invocationResult.isSuccessful && result.invocationResult.resultSet){
-							var data = result.invocationResult.resultSet; 
+							var data = result.invocationResult.resultSet;
 							if(!isUndefinedOrNullOrBlank(data[0]))
 							{
 								SalikAccountModel.setSalikAccountInLocalStorage(data[0].user_id,data[0].nickname,data[0].account_number,data[0].account_pin,data[0].active);
@@ -37,21 +38,22 @@ define([
 							}
 						}
 					},
-					onFailure : function() {
+					function() {
 						callback(null);
-					},
-					invocationContext: this
-				});
+					}
+
+				);
 			}
 		},
 		saveSalikAccount:function (user_id,nickname,accountnumber,pincode,active,successCallback,failureCallback){
 			var invocationData = {
 					adapter : 'userProfile',
 					procedure : 'setSalikAccount',
-					parameters : [ user_id,nickname,accountnumber,pincode,active ]
+					parameters : [ user_id,nickname,accountnumber,pincode,active ],
+          invocationContext: this
 			};
-			WL.Client.invokeProcedure(invocationData, {
-				onSuccess : function(response) {
+			invokeWLResourceRequest(invocationData,
+				function(response) {
 					if(response.status == 200 && response.invocationResult && response.invocationResult.isSuccessful)
 					{
 						SalikAccountModel.setSalikAccountInLocalStorage(user_id,nickname,accountnumber,pincode,active);
@@ -60,11 +62,11 @@ define([
 						failureCallback(response);
 					}
 				},
-				onFailure : function(response) {
+				function(response) {
 					failureCallback(response);
-				},
-				invocationContext: this
-			});
+				}
+
+			);
 
 
 		},
@@ -104,12 +106,12 @@ define([
 						procedure : 'getAboutRTA'
 				};
 
-				WL.Client.invokeProcedure(invocationData, {
+				invokeWLResourceRequest(invocationData, {
 					onSuccess : function(result){
-						if(result.invocationResult.isSuccessful && result.invocationResult.resultSet 
+						if(result.invocationResult.isSuccessful && result.invocationResult.resultSet
 							&& (result.invocationResult.resultSet instanceof Array) && (result.invocationResult.resultSet.length > 0)){
 
-							var data = result.invocationResult.resultSet; 
+							var data = result.invocationResult.resultSet;
 
 							//Save to local storage
 							DataUtils.setLocalStorageData("rtaAbout",JSON.stringify(data),false,"shell");
