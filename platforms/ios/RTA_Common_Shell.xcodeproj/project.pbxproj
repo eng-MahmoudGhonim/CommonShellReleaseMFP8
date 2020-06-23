@@ -47,9 +47,9 @@
 		A9FA310A7E214C6098503EC4 /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = AA430857317E495F8C689862 /* AppVersion.m */; };
 		CCB15645FB28474FB880BD3B /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3AB64F200849C28A5E7DFE /* CDVSplashScreen.m */; };
 		4AAE59BA5AD7416F9AE980A8 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 107819297B7E4E14BDDD571D /* CDVViewController+SplashScreen.m */; };
-		936CD426E3E643BC8C9C4517 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39265957671411AAB8F72A8 /* IBMMobileFirstPlatformFoundation.framework */; };
-		82E5018210B64DA38B92C246 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F39265957671411AAB8F72A8 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		A988AAF481B342B287581747 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F9E56C7E93415DA51734EB /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
+		55359CDFF896459AAD321811 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA2061B03844B6B96A37C4C /* IBMMobileFirstPlatformFoundation.framework */; };
+		C08194EF8AA5411582379935 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA2061B03844B6B96A37C4C /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7D8B34D7AB464995A5979280 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D92BA19D24C50A23B2DC8 /* IBMMobileFirstPlatformFoundationHybrid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,8 +148,8 @@
 		107819297B7E4E14BDDD571D /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		695B5E6619214973A78A3DBF /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		DF3605A5EC644DD98642AD4B /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		F39265957671411AAB8F72A8 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		B7F9E56C7E93415DA51734EB /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		6EA2061B03844B6B96A37C4C /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundation.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundation.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		452D92BA19D24C50A23B2DC8 /* IBMMobileFirstPlatformFoundationHybrid.framework */ = {isa = PBXFileReference; name = "IBMMobileFirstPlatformFoundationHybrid.framework"; path = "RTA_Common_Shell/Plugins/cordova-plugin-mfp/IBMMobileFirstPlatformFoundationHybrid.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +169,8 @@
 				057ED43F47884D4D8E78A9B5 /* Social.framework in Frameworks */,
 				612AED047EA74ACA88ECE106 /* MessageUI.framework in Frameworks */,
 				EA5C21D2BCC54D0D9441AF44 /* LocalAuthentication.framework in Frameworks */,
-				936CD426E3E643BC8C9C4517 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
-				A988AAF481B342B287581747 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
+				55359CDFF896459AAD321811 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				7D8B34D7AB464995A5979280 /* IBMMobileFirstPlatformFoundationHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +255,8 @@
 				31D39CA4285B4782B5828E65 /* Social.framework */,
 				7B6F7D8DA9FF4A999C19F44F /* MessageUI.framework */,
 				24D2F6CDF7FE44C08D32370B /* LocalAuthentication.framework */,
-				F39265957671411AAB8F72A8 /* IBMMobileFirstPlatformFoundation.framework */,
-				B7F9E56C7E93415DA51734EB /* IBMMobileFirstPlatformFoundationHybrid.framework */,
+				6EA2061B03844B6B96A37C4C /* IBMMobileFirstPlatformFoundation.framework */,
+				452D92BA19D24C50A23B2DC8 /* IBMMobileFirstPlatformFoundationHybrid.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -652,7 +652,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E5018210B64DA38B92C246 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
+				C08194EF8AA5411582379935 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";

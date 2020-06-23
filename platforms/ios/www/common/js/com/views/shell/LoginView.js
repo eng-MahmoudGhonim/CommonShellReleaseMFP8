@@ -384,7 +384,7 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/models/shell/Aut
 					return;
 				}
 
-				userLoginChallengeHandler.login(username,password,true);
+				userLoginChallengeHandler.login(username,password,LoginViewInstance.rememberRTALogin);
 				return;
 
 				if (scenario != null) {

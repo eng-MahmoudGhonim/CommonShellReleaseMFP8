@@ -14,15 +14,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
-<mfp:adapter name="UserLogin"
+<mfp:adapter name="IAMUserLogin"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:mfp="http://www.ibm.com/mfp/integration"
 	xmlns:http="http://www.ibm.com/mfp/integration/http">
 
-	<displayName>UserLogin</displayName>
+	<displayName>IAMUserLogin</displayName>
 	<description>Protect resources using a combination of username and password.</description>
 
-	<securityCheckDefinition name="UserLogin" class="com.sample.UserLogin">
+	<securityCheckDefinition name="IAMUserLogin" class="com.sample.IAMUserLogin">
 		<property name="maxAttempts" defaultValue="3" description="How many attempts are allowed" type="integer"/>
 		<property name="blockedStateExpirationSec" defaultValue="10" description="How long before the client can try again (seconds)" type="integer"/>
 		<property name="successStateExpirationSec" defaultValue="60" description="How long is a successful state valid for (seconds)" type="integer"/>

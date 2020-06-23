@@ -18,10 +18,10 @@ limitations under the License.
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sample</groupId>
-	<artifactId>UserLogin</artifactId>
+	<artifactId>IAMUserLogin</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>adapter</packaging>
-	<name>UserLogin</name>
+	<name>IAMUserLogin</name>
 
 	<dependencies>
 		<dependency>

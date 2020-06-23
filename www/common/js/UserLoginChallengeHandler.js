@@ -15,7 +15,7 @@
 */
 var UserLoginChallengeHandler = function() {
     var isChallenged = false;
-    var securityCheckName = 'UserLogin';
+    var securityCheckName = 'IAMUserLogin';//'UserLogin';
     var userLoginChallengeHandler = WL.Client.createSecurityCheckChallengeHandler(securityCheckName);
 
     //document.getElementById("login").addEventListener("click", login);
