@@ -99,7 +99,7 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/models/shell
 				} catch (e) {}
 			}).on("pagecreate", function() {});
 			$(document).on("backbutton", function() {
-				debugger;
+			//	debugger;
 				if (document.getElementsByClassName("ui-loader")[0].style.display == "block") {
 					return;
 				}
@@ -108,12 +108,12 @@ define(["backbone", "com/models/Constants", "com/utils/Utils", "com/models/shell
 					HappinessMeter.hide();
 					return;
 				  }
-				
+
 				if(window.currentBottonSheet && window.currentBottonSheet.visible()){
 					window.currentBottonSheet.hide();
 					return;
 				  }
-				
+
 				var sidepanel = MobileRouter.getSidePanel();
 				//Close menu if it is open
 				if (sidepanel && sidepanel.isOpened()) {

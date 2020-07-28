@@ -63,7 +63,7 @@
               'SELECT * FROM '+this.dbName+' WHERE KEY = "' + key + '"',
               [],
               function(tx, rs) {
-                debugger;
+              //  debugger;
                 console.log(rs.rows.item(0));
                 if (rs && rs.rows && rs.rows.item(0) && rs.rows.item(0).value)
                   callback(rs.rows.item(0).value);

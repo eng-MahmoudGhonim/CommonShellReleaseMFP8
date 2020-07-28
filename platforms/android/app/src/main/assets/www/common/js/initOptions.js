@@ -11,7 +11,7 @@
 	// onConnectionFailure: function (){},
 
 	// # Worklight server connection timeout
-	timeout: 30000,
+	timeout: 60000,
 
 	// # How often heartbeat request will be sent to Worklight Server
 	heartBeatIntervalInSecs: 20 * 60,

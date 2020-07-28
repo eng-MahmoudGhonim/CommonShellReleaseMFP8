@@ -383,9 +383,9 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/models/shell/Aut
 					}, 300);
 					return;
 				}
-
-				userLoginChallengeHandler.login(username,password,LoginViewInstance.rememberRTALogin);
-				return;
+				//@ghonim test userLoginChallengeHandler.login ver8
+				//userLoginChallengeHandler.login(username,password,LoginViewInstance.rememberRTALogin);
+				//return;
 
 				if (scenario != null) {
 					LoginViewInstance.rtaUserName.value = username;
@@ -571,7 +571,7 @@ define(["com/models/Constants", "com/utils/TemplateUtils", "com/models/shell/Aut
 			}, function () {
 				//alert("Redirected!");
 				console.log("hello")
-				debugger;
+			//	debugger;
 			});
 
 		},

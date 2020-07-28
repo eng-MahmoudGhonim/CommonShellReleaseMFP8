@@ -76,7 +76,7 @@
 
 		function hide(e) {
 			visible = false;
-			debugger;
+			//debugger;
 			$(".ui-loader").hide();
 			if (e) e.preventDefault();
 

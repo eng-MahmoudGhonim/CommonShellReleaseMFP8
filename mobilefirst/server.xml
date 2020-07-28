@@ -1,0 +1,1 @@
+ <jndiEntry jndiName="mfp/mfp.security.refreshtoken.enabled.apps" value="com.RTA_Common_Shell"/>
